@@ -1,0 +1,9 @@
+if status is-interactive
+    # Commands to run in interactive sessions can go here
+    export LESS='-eXRF'
+    export QT_QPA_PLATFORMTHEME=qt5ct
+    if not ps ax | grep picom | grep -v grep >/dev/null
+        and [ $XDG_CURRENT_DESKTOP != KDE ]   # Plasma has its own compositor.
+        picom -f &
+    end
+end

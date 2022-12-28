@@ -1,0 +1,49 @@
+wezterm
+nitrogen
+fish
+polybar
+rofi
+rofi-emoji
+rofi-calc
+exa
+git
+reflector
+terminus-font
+alacritty
+xclip
+firefox
+words
+lua-language-server
+xdg-user-dirs
+xdg-utils
+inetutils
+python-pip
+python-pynvim
+nodejs
+npm
+ruby
+ripgrep-all
+fd
+lua
+rsync
+bat
+
+    ========== MAYBES ==========
+    bluez
+    bluez-utils
+    cups
+    hplip
+    pulseaudio-bluetooth
+    
+    ==== AUR ===
+    yay
+    wezterm-nightly-bin
+    autotiling
+    neovim-nightly-bin
+    nvim-packer-git
+    
+    ========== MANUAL INSTALLS ==========
+    Packer (nvim plugin):-
+        git clone --depth 1 https://github.com/wbthomason/packer.nvim\
+        ~/.local/share/nvim/site/pack/packer/start/packer.nvim
+    NOTE! Can also be installed from AUR (nvim-packer-git)

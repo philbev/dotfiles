@@ -1,0 +1,6 @@
+! Uncomment the 4 lines below for 75% Keychron keyboards (K2 and K3)
+
+!keycode 110 = Next NoSymbol Next NoSymbol Next
+!keycode 112 = Home NoSymbol Home NoSymbol Home
+!keycode 115 = End NoSymbol End NoSymbol End
+!keycode 117 = Prior NoSymbol Prior NoSymbol Prior

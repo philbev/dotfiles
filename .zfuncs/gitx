@@ -1,0 +1,16 @@
+#!/usr/bin/zsh
+
+number_logs=$(git log --oneline | wc -l)
+number_merges=$(git log --oneline | grep Merge | wc -l)
+
+if [[ $1 -gt $number_logs ]]; then
+    echo "Too many! There are only $number_logs entries."
+    return 1
+fi
+
+if [[ $# == 0 ]]; then
+    git log --decorate --oneline --graph
+else
+    git log --decorate --oneline --graph HEAD~${1}..HEAD
+fi
+

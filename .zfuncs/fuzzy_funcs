@@ -1,0 +1,19 @@
+#!/usr/bin/zsh
+
+# vz function opens text files in nvim. Fzf displays a preview window.
+vz (){
+    nvim $(fd -HI --type f  --exclude='.cache' --exclude='.atom' --exclude=aur \
+        --exclude=chromium --exclude='.git' --color=always "$@" . | fzf -e -m --ansi \
+        --preview 'bat --color=always {}')
+}
+
+# gz function  opens graphic files (jpg, png and arw) files in gimp.
+gz (){
+    gimp $(fd -I --type f --exclude=aur --color=always 'png$|jpg$|arw$' $@ | fzf -e -m --ansi)
+}
+
+# cz function to change directory
+cz (){
+    $(fd -IH --type d  --exclude='/run' --exclude='/windata'  --exclude='/media'\
+       --exclude='/mnt' --color=always . / |fzf -e --ansi)
+}

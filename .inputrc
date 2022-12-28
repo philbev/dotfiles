@@ -1,0 +1,58 @@
+# ~/.inputrc
+# This file configures keyboard input for programs using readline.
+# See "man 3 readline" for more examples.
+
+$include /etc/inputrc
+
+############## EMACS FUNCTIONS #####################
+"\eq": character-search             #<Alt>+q
+"\ea": kill-whole-line              #<Alt>+a
+"\es": character-search-backward    #<Alt>+s
+"\e[1;5C": forward-word             #<Ctrl>+<Right>
+"\e[1;5D": backward-word            #<Ctrl>+<Left>
+"\ex": shell-expand-line            #<Alt>+x
+"\e[A": history-search-backward	    #<Up>
+"\e[B": history-search-forward	    #<Down>
+
+############### FUNCTION KEYS ##############################
+"\eOP": "less /home/philbev/.key_bindings.txt"        #<F1>
+"\eOQ": "bind 'set show-all-if-ambiguous on'"         #<F2>
+"\eOR": "bind 'set show-all-if-ambiguous off'"        #<F3>
+"\e[24~": "bind -f /home/philbev/.inputrc"            #<F12>
+
+
+################ COMPLETION FUNCTIONS + VARIABLES ##########
+TAB: menu-complete
+"\e[Z": menu-complete-backward      #<Shift>+<TAB>
+"\e[2~": complete                   #<Insert>
+set disable-completion off
+set show-all-if-ambiguous on
+set visible-stats on
+set colored-stats on
+set skip-completed-text on
+set colored-completion-prefix on
+set colored-stats on
+set completion-ignore-case on
+set completion-map-case on
+set menu-complete-display-prefix on
+
+
+############### MISCELLANEOUS MACROS ##############################
+"\e[1;5A": "cd .."                #<Control>+<Up>
+"`": "$()\eOD"                      #<`>
+#\eg": "\C-e | grep "               #<Alt>+g
+#\em": "\C-e | more"                #<Alt>+m
+#\el": "\C-e | less"                #<Alt>+l
+"\e1": "!:1 "                       #<Alt>+1 - First argument of previous command
+"\e2": "!:2 "                       #<Alt>+2 - Second argument of previous command
+"\e3": "!:3 "                       #<Alt>+3 - Third argument of previous command
+"\e4": "!:4 "                       #<Alt>+4 - Fourth argument of previous command
+"\e5": "!:5 "                       #<Alt>+5 - Fifth argument of previous command
+"\e,": "!^ "                        #<Alt>+^ - First argument of previous command
+
+
+#"@sf": character-search-backward  #<WinKey>+f
+#"đ": character-search-backward      #<AltGr>+f
+#"@s[": character-search-backward  #<Win>+[
+#"@s]": character-search           #<Win>+]
+

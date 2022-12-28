@@ -1,0 +1,51 @@
+#!/usr/bin/zsh
+
+
+if [[ -d .git ]]; then
+    export BRANCH=$(git symbolic-ref --short HEAD 2>/dev/null)
+
+    PS1="($BRANCH)%B%F{51}[%n:%2~]%#%b%f "              # Default prompt without any changes in git repository.
+
+    if [[ $(git status -s) =~ '^ M' ]]; then                            # File(s) modified (yellow).
+        MODIFIED=true
+    else
+        unset MODIFIED
+    fi
+
+    if [[ $(git status -s | grep -v '^ M') =~ '^A' ]]; then     # New file added to staging area (green).
+        ADDED=true
+    else
+        ADDED=""
+        unset ADDED
+    fi
+
+    if [[ $(git status -s) =~ '^M' ]]; then                             # Modified files in staging area (magenta).
+        STAGED=true
+    else
+        unset STAGED
+    fi
+
+    if [[ $(git status -s | grep '^D') ]]; then                         # File(s) removed from repository.
+        DELETED=true
+    else
+        unset DELETED
+    fi
+
+    if [ $MODIFIED ]; then
+        PS1="%B%F{226}(${BRANCH})%F{51}[%n:%2~]%#%b%f "                 # Yellow prompt.
+    fi
+
+    if [[ $ADDED || $STAGED ]]; then
+        PS1="%B%F{46}(${BRANCH})%F{51}[%n:%2~]%#%b%f "                  # Green prompt.
+    fi
+
+
+    if [ $DELETED ]; then
+        PS1="%B%F{196}(${BRANCH})%F{51}[%n:%2~]%#%b%f "                 # Red prompt.
+    fi
+
+    if [[ ($MODIFIED && $ADDED) || ($MODIFIED && $DELETED) ]]; then
+        PS1="%B%F{201}(${BRANCH})%F{51}[%n:%2~]%#%b%f "                 # Magenta prompt.
+    fi
+
+fi

@@ -1,0 +1,91 @@
+
+
+
+
+
+
+
+
+<F12>                   | :edit $MYVIMRC<cr>
+<F24>                   | :source $MYVIMRC<cr>  -- <F24> = <S-F12>
+<F2>                    | :nohl<cr>
+<F3>                    | :set spell! spell?<cr>
+<F4>                    | :set relativenumber! relativenumber?<cr>
+<leader><Del>           | :bdelete!<CR>    -- Delete Buffer
+<leader>fb              | :lua require(telescope.builtin).buffers(require(telescope.themes).get_dropdownpreviewer = false)<cr>  --  Buffers
+<leader>fB              | :Telescope git_branches<cr>  --  Checkout branch
+<leader>fc              | :Telescope colorscheme<cr>  --  Colorscheme
+<leader>fC              | :Telescope commands<cr>  --  Commands
+<leader>fd              | :Gitsigns diffthis HEAD<cr>  --  Diff
+<leader>ff              | :Telescope find_files<cr>  --  Find Files
+<leader>fg              | :Telescope live_grep theme=ivy<cr>  --  Live Grep
+<leader>fh              | :Telescope help_tags<cr>  --  Find Help
+<leader>fk              | :Telescope keymaps<cr>  --  Keymaps
+<leader>fM              | :Telescope man_pages<cr>  --  Man Pages
+<leader>fo              | :Telescope git_status<cr>  --  Open changed file
+<leader>fP              | :lua require(telescope).extensions.projects.projects()<cr>  --  Projects
+<leader>fr              | :Telescope oldfiles<cr>  --  Open Recent File
+<leader>fR              | :Telescope registers<cr>  --  Registers
+<leader>fs              | :Telescope lsp_document_symbols<cr>  --  Document Symbols
+<leader>fS              | :Telescope lsp_dynamic_workspace_symbols<cr>  --  Workspace Symbols
+<leader>fw              | :Telescope lsp_workspace_diagnostics<cr>  --  Workspace Diagnostics
+<leader>gg              | :lua _LAZYGIT_TOGGLE()<CR>  --   Lazygit
+<leader>gj              | :lua require gitsigns.next_hunk()<cr>  --   Next Hunk
+<leader>gk              | :lua require gitsigns.prev_hunk()<cr>  --   Prev Hunk
+<leader>gl              | :lua require gitsigns.blame_line()<cr>  --   Blame
+<leader>gp              | :lua require gitsigns.preview_hunk()<cr>  --   Preview Hunk
+<leader>gR              | :lua require gitsigns.reset_buffer()<cr>  --   Reset Buffer
+<leader>gr              | :lua require gitsigns.reset_hunk()<cr>  --   Reset Hunk
+<leader>gs              | :Git<cr>
+<leader>gs              | :lua require gitsigns.stage_hunk()<cr>  --   Stage Hunk
+<leader>gu              | :lua require gitsigns.undo_stage_hunk()<cr>  --   Undo Stage Hunk
+<leader>la              | :lua vim.lsp.buf.code_action()<cr>  --   Code Action
+<leader>lf              | :lua vim.lsp.buf.formatting()<cr>  --   Format
+<leader>li              | :LspInfo<cr>  --   Info
+<leader>lI              | :LspInstallInfo<cr>  --   Installer Info
+<leader>lj              | :lua vim.lsp.diagnostic.goto_next()<CR>  --   Next Diagnostic
+<leader>lk              | :lua vim.lsp.diagnostic.goto_prev()<cr>  --   Prev Diagnostic
+<leader>ll              | :lua vim.lsp.codelens.run()<cr>  --   CodeLens Action
+<leader>lq              | :lua vim.lsp.diagnostic.set_loclist()<cr>  --   Quickfix
+<leader>lr              | :lua vim.lsp.buf.rename()<cr>  --   Rename
+<leader>n               | :NvimTreeToggle<cr>  --   Toggle Nvim-tree
+<leader>pc              | :PackerCompile<cr>  --   Compile
+<leader>pi              | :PackerInstall<cr>  --   Install
+<leader>pS              | :PackerStatus<cr>  --   Status
+<leader>ps              | :PackerSync<cr>  --   Sync
+<leader>pu              | :PackerUpdate<cr>  --   Update
+<leader>q               | :qa<cr>
+<leader>q               | :qa<CR>   --  Quit all files
+<leader>s               | :w | source %<CR>   --  Write and source current file
+<leader>tf              | :ToggleTerm direction=float<cr>  --   Float
+<leader>th              | :ToggleTerm size=10 direction=horizontal<cr>  --   Horizontal
+<leader>tn              | :lua _NODE_TOGGLE()<cr>  --   Node
+<leader>tp              | :lua _PYTHON_TOGGLE()<cr>  --   Python
+<leader>tt              | :lua _HTOP_TOGGLE()<cr>  --   Htop
+<leader>tu              | :lua _NCDU_TOGGLE()<cr>  --   NCDU
+<leader>tv              | :ToggleTerm size=80 direction=vertical<cr>  --   Vertical
+<leader>vh              | :split<cr>  --   Vertical split
+<leader>vv              | :vsplit<cr>  --   Vertical split
+<leader>w               | :wa<cr>
+<leader>w               | :wa<CR>   --  Save all files
+<leader>x               | :a<CR>   --  Save all files and exit
+<leader>x               | :xa<cr>
+<M-/>                   | :bnext<cr>
+<M-\\>                  | :bprevious<cr>
+<M-c>                   | <C-w>c
+<M-Del>                 | :bdelete<cr>
+<M-d>                   | :lua vim.lsp.diagnostic.goto_next()<cr>)
+<M-Down>                | :m +1<cr>
+<M-Down>                | :m >+1<cr>gv
+<M-l>                   | :set list! list?<cr>
+<M-n>                   | <C-w>w
+<M-o>                   | :only<cr>
+<M-u>                   | :lua vim.lsp.diagnostic.goto_prev()<cr>)
+<M-Up>                  | :m -2<cr>
+<M-Up>                  | :m -2<cr>gv
+<M-w>                   | :set wrap! wrap?<cr>
+-- NORMAL MODE MAPPINGS
+-- TERMINAL COMMANDS
+-- VISUAL MODE MAPPINGS
+-- WHICH-KEY MAPPINGS
+-- WINDOW COMMANDS

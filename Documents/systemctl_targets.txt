@@ -1,0 +1,44 @@
+Get current targets
+The following should be used under systemd instead of running runlevel:
+
+$ systemctl list-units --type=target
+Create custom target
+The runlevels that held a defined meaning under sysvinit (i.e., 0, 1, 3, 5, and 6); have a 1:1 mapping with a specific systemd target. Unfortunately, there is no good way to do the same for the user-defined runlevels like 2 and 4. If you make use of those it is suggested that you make a new named systemd target as /etc/systemd/system/your target that takes one of the existing runlevels as a base (you can look at /usr/lib/systemd/system/graphical.target as an example), make a directory /etc/systemd/system/your target.wants, and then symlink the additional services from /usr/lib/systemd/system/ that you wish to enable.
+
+Mapping between SysV runlevels and systemd targets
+SysV Runlevel	systemd Target	Notes
+0	runlevel0.target, poweroff.target	Halt the system.
+1, s, single	runlevel1.target, rescue.target	Single user mode.
+2, 4	runlevel2.target, runlevel4.target, multi-user.target	User-defined/Site-specific runlevels. By default, identical to 3.
+3	runlevel3.target, multi-user.target	Multi-user, non-graphical. Users can usually login via multiple consoles or via the network.
+5	runlevel5.target, graphical.target	Multi-user, graphical. Usually has all the services of runlevel 3 plus a graphical login.
+6	runlevel6.target, reboot.target	Reboot
+emergency	emergency.target	Emergency shell
+Change current target
+In systemd targets are exposed via target units. You can change them like this:
+
+# systemctl isolate graphical.target
+This will only change the current target, and has no effect on the next boot. This is equivalent to commands such as telinit 3 or telinit 5 in Sysvinit.
+
+Change default target to boot into
+The standard target is default.target, which is a symlink to graphical.target. This roughly corresponds to the old runlevel 5.
+
+To verify the current target with systemctl:
+
+$ systemctl get-default
+To change the default target to boot into, change the default.target symlink. With systemctl:
+
+# systemctl set-default multi-user.target
+Removed /etc/systemd/system/default.target.
+Created symlink /etc/systemd/system/default.target -> /usr/lib/systemd/system/multi-user.target.
+Alternatively, append one of the following kernel parameters to your bootloader:
+
+systemd.unit=multi-user.target (which roughly corresponds to the old runlevel 3),
+systemd.unit=rescue.target (which roughly corresponds to the old runlevel 1).
+Default target order
+Systemd chooses the default.target according to the following order:
+
+Kernel parameter shown above
+Symlink of /etc/systemd/system/default.target
+Symlink of /usr/lib/systemd/system/default.target
+

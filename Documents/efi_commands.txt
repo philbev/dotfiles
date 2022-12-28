@@ -1,0 +1,16 @@
+# Remove boot entry:
+    efibootmgr -q -B -b $(echo $line | cut -b5-8)
+where:
+    -q | --quiet          = Quiet
+    -B | --delete-bootnum = Delete bootnum
+    -b | --bootnum XXXX   = Modify BootXXXX (hex)
+
+# Create boot entry:-
+    efibootmgr -q -c -d $EFI_DEVICE -p $EFI_PARTITION -l "\\EFI\\Slackware\\elilo.efi" -L "Slackware"
+where:
+    -q | --quiet       = Quiet
+    -c | --create      = Create new variable bootnum and add to bootorder
+    -d | --disk disk   = (defaults to /dev/sda) containing loader
+    -p | --part part   = Partition number (defaults to 1) containing loader
+    -l | --loader name = (defaults to "\EFI\/boot/EFI\grub.efi")
+    -L | --label label = Boot manager display label (defaults to "Linux")

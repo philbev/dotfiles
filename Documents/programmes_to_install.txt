@@ -1,0 +1,34 @@
+arandr
+chromium
+conky
+emacs
+fortune-mod
+gimp
+go
+i3-gaps
+inkscape
+libreoffice
+neofetch
+nerd-fonts-hack, AUR
+nerd-fonts-jetbrains-mono, AUR
+nitrogen
+ntfs-3g
+os-prober-btrfs, AUR
+picom
+polybar, AUR
+python
+python-pip
+python2
+python2-pip
+qt5ct
+reflector
+xorg
+xorg-xinit
+xorg-xrandr
+zsh-autosuggestions
+zsh-completions
+zsh-doc
+zsh-lovers
+zsh-syntax-highlighting
+zsh-theme-powerlevel10k
+zsh-z-git, AUR
