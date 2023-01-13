@@ -237,12 +237,13 @@ exec_always --no-startup-id xrandr --output DP-1 --primary --mode 1920x1080 --po
 #exec_always --no-startup-id feh --bg-fill ~/Pictures/backgrounds/beautiful-library-wallpaper-44313-45432-hd-wallpapers.jpg
 exec_always --no-startup-id ~/.fehbg
 exec_always --no-startup-id autotiling
+exec --no-startup-id emacs --daemon
 exec --no-startup-id ~/.dropbox-dist/dropboxd
 exec --no-startup-id xset -dpms s 7200
 exec --no-startup-id thunderbird
 exec --no-startup-id picom -f
 exec_always --no-startup-id setxkbmap us
-exec picom -f
+exec --no-startup-idpicom -f
 exec_always --no-startup-id flameshot
 exec --no-startup-id /usr/lib/polkit-kde-authentication-agent-1
 
@@ -255,8 +256,9 @@ bindsym Ctrl+Shift+l exec libreoffice
 bindsym mod1+Ctrl+a exec alacritty
 bindsym mod1+Ctrl+c exec chromium
 bindsym mod1+Ctrl+d exec dolphin
-bindsym mod1+Ctrl+e exec konsole -e emacs -nw
+bindsym mod1+Ctrl+e exec emacsclient -c
 bindsym mod1+Ctrl+f exec --no-startup-id firefox; focus
+bindsym mod1+Ctrl+k exec konsole
 bindsym mod1+Ctrl+p exec pcmanfm
 bindsym mod1+Ctrl+t exec thunderbird
 bindsym mod1+Ctrl+v exec code
