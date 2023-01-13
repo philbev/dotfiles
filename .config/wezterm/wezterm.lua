@@ -8,7 +8,7 @@ return {
     default_prog = { '/usr/bin/fish'},
     font = wezterm.font('JetBrains Mono', { weight = 'Regular', italic = false }),
     --harfbuzz_features = { 'calt=0', 'clig=0', 'liga=0' },  -- Disables ligatures <= >= ->
-    font_size = 13.0,
+    font_size = 12.0,
     color_scheme = 'Gruvbox dark, pale (base16)',
     hide_tab_bar_if_only_one_tab = true,
     use_fancy_tab_bar = true,
