@@ -1,9 +1,12 @@
 # This file contains fish universal variable definitions.
 # VERSION: 3.0
+SETUVAR EDITOR:/usr/bin/nvim
+SETUVAR VISUAL:/usr/bin/nvim
 SETUVAR __fish_initialized:3400
+SETUVAR _fish_abbr_em:emacsclient\x20\x2dc
 SETUVAR _fish_abbr_gca:git\x20clone\x20https\x3a//aur\x2earchlinux\x2eorg/
 SETUVAR _fish_abbr_gcg:git\x20clone\x20https\x3a//github\x2ecom/
-SETUVAR _fish_abbr_gcp:git\x20clone\x20https\x3a//github\x2ecom/philbev
+SETUVAR _fish_abbr_gcp:git\x20clone\x20https\x3a//github\x2ecom/philbev/
 SETUVAR _fish_abbr_gitx:git\x20log\x20\x2d\x2doneline\x20\x2d\x2dgraph\x20\x2d\x2dcolor\x3dalways\x20\x2d\x2ddecorate\x20\x7c\x20head
 SETUVAR _fish_abbr_lk:lsblk\x20\x2do\x20model\x2ctype\x2cname\x2cfstype\x2csize\x2clabel\x2cmountpoints\x2cpartlabel
 SETUVAR _fish_abbr_lku:lsblk\x20\x2do\x20model\x2ctype\x2cname\x2cfstype\x2csize\x2clabel\x2cmountpoints\x2cpartlabel\x2cuuid
