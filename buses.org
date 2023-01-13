@@ -1,0 +1,59 @@
+* NCT BUS TIMETABLES
+** Weekdays
+*** Walcote Drive
+**** 10
+	2, 17, 32 & 47 mins after the hour
+*** Rushcliffe Arena
+**** 8
+	12 mins after the hour
+**** 9
+	29 mins after the hour
+**** 10
+	3, 18, 33 & 48 mins after the hour
+*** Co-op
+**** 8
+	53 mins after the hour
+**** 9
+	23 mins after the hour
+*** County Hall
+**** 10
+	11, 26, 41 & 56 after the hour
+** Saturdays
+*** Walcote Drive
+**** 10
+	2, 17, 32 & 47mins after the hour
+*** Rushcliffe Arena
+**** 8
+	12 mins after the hour
+**** 9
+	29 mins after the hour
+**** 10
+	3, 18, 33 & 48 mins after the hour
+*** Co-op
+**** 8
+	53 mins after the hour
+**** 9
+	23 mins after the hour
+*** County Hall
+**** 10
+	11, 26, 41 & 56 after the hour
+** Sundays
+*** Walcote Drive
+**** 10
+	12 & 42 mins after the hour
+*** Rushcliffe Arena
+**** 8
+	16 mins after the hour
+**** 9
+	31 mins after the hour
+**** 10
+	12 & 43 mins after the hour
+*** Co-op
+**** 8
+	55 mins after the hour
+**** 9
+	25 mins after the hour
+*** County Hall
+**** 10
+	17 & 47 mins after the hour
+

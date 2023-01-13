@@ -1,0 +1,13 @@
+* LUA PROGRAMMING CHEATSHEET
+
+** Variables
+A variable ia a label for the value stored in a memory location.
+
+** Creating Variables
+For example assigning the string "bar' to the variable foo.
+    foo = "bar"
+     #+NAME: var
+     #+BEGIN_SRC lua
+	foo = "bar"
+	print(foo)
+     #+END_SRC

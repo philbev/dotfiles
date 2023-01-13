@@ -1,0 +1,18 @@
+* Packages
+** Installing packages
+alt-x list-packages
+| Command | Action                                    |
+|---------+-------------------------------------------|
+| i       | Mark for installation                     |
+| x       | Install, delete or update marked packages |
+| h       | Help                                      |
+| d       | Mark for deletion                         |
+| w       | Open website for package                  |
+| u       | Remove mark from current line             |
+| U       | Mark all newer packages for upgrading     |
+| / n     | Filter package list by name               |
+|---------+-------------------------------------------|
+
+* Org Mode
+* Dired
+* E-lisp

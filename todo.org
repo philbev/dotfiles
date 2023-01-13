@@ -1,0 +1,8 @@
+#+SEQ_TODO: TODO(t) APPOINTMENT(a) BIRTHDAY(b) EVENT(e) PENDING(p) REMINDER(r) | DONE(d) CANCELLED(c)
+* Things todo
+** Computer
+*** TODO Bluetooth
+Configure with bluetoothctl.
+*** TODO Superuser
+Configure neovim and dotfiles.
+** Personal
