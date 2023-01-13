@@ -1,0 +1,82 @@
+* DONE Copy "Intuitive Eating" to Nexus.
+CLOSED: [2017-12-18 Mon 13:04]
+
+* TODO Copy "Duelling Banjos" to Nexus.
+* TODO Write a small bash script to update Dropbox with org files.
+* New Capture
+** DONE 
+CLOSED: [2021-10-02 Sat 19:56]
+
+   - New stuff :-)
+
+* Printing
+** HP printer not showing in LibreOffice and Okular
+
+   This could also occur in other applications as well.
+   Solution:
+   1. As root run 'hp-setup'.
+   2. In KDE 'System Settings' set the printer as default.
+
+* Bash
+** Command line corrupted
+
+   Sometimes following a command the command-line would still display the previous command. This had no effect
+   on the the current command but could be very off-putting.
+
+*** Solution
+
+     Enter the following command into ~/.bashrc
+     shopt -s checkwinsize
+
+** True colour in terminal emulators
+
+   printf "\x1b[${bg};2;${red};${green};${blue}m\n"
+   where bg = 38
+   red green and blue values in the range 0 to 255
+   E.g.
+        print "\x1b[38;2;255;0;0m\n" would print in red
+
+** List open files
+
+   The 'lsof' command is very useful for listing files that are open
+   by what processes. Examples:
+        * lsof -i                  # lists all internet processes on all ports.
+        * lsof -i :80              # lists all internet processes on port 80.
+
+* Arch Linux Tips
+** Windows NTFS partition
+
+   To mount an NTFS partition with read-write permissions ntfs-3g package needs to be installed:
+       # pacman -s ntfs-3g
+   Then to mount:
+       # mount -t ntfs-3g <device> <mountpoint>
+
+* Manjaro Tips
+** Installation
+
+   Choose 'no-free' on installation as this will use Nvidia proprietary drivers instead of Nouveau.
+
+** Comic strip
+
+   Not on Manjaro install.
+       sudo pacman -S kross
+   should do the trick.
+
+* Chromium (Enabling cast to TV)
+
+  To enable casting on chromium web browser enter the the URL below into chromium:
+      chrome://flags/#load-media-router-component-extension
+  then change value to 'enable'
+
+* Chromium (Make default browser)
+
+  On new installation of Chromium along with Google-chrome will always
+  complain about not being the default browser. To cure this take the
+  2 following actions:-
+    1. Open 'System Settings' and in the 'Personisation' section, select
+	'Applications/Web Browser' and ensure the correct browser is
+	selected.
+    2. On opening Chromium or Google-chrome, if the 'Set as Default'
+	button appears, do not click on it. Click on the 'X' (close)
+	icon at the right hand side.
+

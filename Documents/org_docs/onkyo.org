@@ -1,0 +1,19 @@
+* Speaker Setup
+  
+| Front-L        | 11ft |
+| Front-R        | 6ft  |
+| Surround-L     | 14ft |
+| Surround-R     | 8ft  |
+| Centre	 | 6ft  |
+* HDMI Configuration
+  
+  | No. | Button  | Display Name |
+  |-----+---------+--------------|
+  |   1 | BD/DVD  | Blue Ray     |
+  |   2 | CBL/SAT | YouView      |
+  |   3 | GAME    | Fire TV      |
+  |   4 | STRMBOX | Chr Audio    |
+  |   5 | PC      | LG DVD       |
+  |   6 | AUX     | AUX          |
+  |   7 | CD      | Chrm Cast    |
+

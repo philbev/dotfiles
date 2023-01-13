@@ -1,0 +1,415 @@
+#+SEQ_TODO: NEXT(n) TODO(t) WAITING(w) PENDING(P) | DONE(d) CANCELLED(c)
+* Some Essential Basic Commands
+** Searching
+   |-----+------------------------------------+----------------------|
+   | Key | Command                            | Emacs Command        |
+   |-----+------------------------------------+----------------------|
+   | C-s | Search incremently forward         | isearch-forward      |
+   | C-r | Search incremently backward        | isearch-backward     |
+   | M-n | Advance to next search in ring     | isearch-ring-advance |
+   | M-p | Retreat to previous search in ring | isearch-ring-retreat |
+   |     |                                    |                      |
+   |-----+------------------------------------+----------------------|
+
+** Buffer and File Manipulation
+   |---------+-------------------------------+------------------|
+   | Key     | Command                       | Emacs Command    |
+   |---------+-------------------------------+------------------|
+   | C-x C-b | Display buffers [fn:1]        | list-buffers     |
+   | C-x C-s | Save buffer to disk           | save-buffer      |
+   | C-x C-w | Save to                       | write-file       |
+   | C-x C-f | Open a file (existing or new) | find-file        |
+   | C-x b   | Switch between buffers        | switch-to-buffer |
+   | C-x i   | Insert file into buffer       | insert-file      |
+   |---------+-------------------------------+------------------|
+
+[fn:1] To change buffer move into the other window (C-x o) and select the desired buffer.
+
+** Window Commands
+   
+|---------+-----------------------------+----------------------|
+| Key     | Description                 | Emacs Command        |
+|---------+-----------------------------+----------------------|
+| C-x 0   | Deletes current window      | delete-window        |
+| C-x 1   | Deletes other windows       | delete-other-window  |
+| C-x 2   | Splits windows horizontally | split-window-below   |
+| C-x 3   | Splits windows vertically   | split-window-right   |
+| C-x o   | Selects another window      | other-window         |
+| C-w C-o | Deletes other windows       | delete-other-windows |
+| C-w o   | Deletes other windows       | delete-other-windows |
+| C-M-v   | Scrolls the other window    | scroll-other-window  |
+|---------+-----------------------------+----------------------|
+** Moving Around
+
+   |-----+----------------------|
+   | Key | Command              |
+   |-----+----------------------|
+   | C-v | Scroll one page down |
+   | M-v | Scroll one page up   |
+   | C-n | Cursor down 1 line   |
+   | C-p | Cursor up 1 line     |
+   |-----+----------------------|
+
+** Editing
+*** Deleting (Killing)
+    'Delete' and 'paste' in emacs are known as 'kill' and 'yank' respectively.
+    To delete and paste a region of text has to be selected. To select text, 
+    mark the start of the region with C-Spc, C-@ or set-mark-command.
+**** Deletion
+     12.1.1 Deletion
+     
+     Deletion means erasing text and not saving it in the kill ring.  For the
+     most part, the Emacs commands that delete text are those that erase just
+     one character or only whitespace.
+     |-------------+--------------------------------------------------+-------------------------|
+     | Key         | Description                                      | Emacs Command           |
+     |-------------+--------------------------------------------------+-------------------------|
+     | <BACKSPACE> | Delete previous character, or text in region     | delete-backward-char    |
+     | <Delete>    | Delete next character, or text in region         | delete-forward-char     |
+     | C-d         | Delete the next character                        | delete-char             |
+     | M-\         | Delete spaces and tabs around point              | delete-horizontal-space |
+     | M-<SPC>     | Delete spaces and tabs around point,             | just-one-space          |
+     |             | leaving one space                                |                         |
+     | C-x C-o     | Delete blank lines around the current line       | delete-blank-lines      |
+     | M-^         | Join two lines by deleting the intervening       | delete-indentation      |
+     |             | newline, along with any indentation following it |                         |
+     |-------------+--------------------------------------------------+-------------------------|
+     
+**** 12.1.2 Killing by Lines
+    |---------------+----------------------------------------+-----------------|
+    | Key           | Description                            | Emacs Command   |
+    |---------------+----------------------------------------+-----------------|
+    | C-k           | Kill rest of line or one or more lines | kill-line       |
+    | C-S-backspace | Kill an entire line at once            | kill-whole-line |
+    |---------------+----------------------------------------+-----------------|
+
+**** 12.1.3 Other Kill Commands
+    |-----------+------------------------------------------+------------------------|
+    | Key       | Description                              | Emacs Command          |
+    |-----------+------------------------------------------+------------------------|
+    | C-w       | Kill the region                          | kill-region            |
+    | M-w       | Copy the region into the kill ring       | kill-ring-save         |
+    | M-d       | Kill the next word                       | kill-word              |
+    | M-<DEL>   | Kill one word backwards                  | backward-kill-word     |
+    | C-x <DEL> | Kill back to beginning of sentence       | backward-kill-sentence |
+    | M-k       | Kill to the end of the sentence          | kill-sentence          |
+    | C-M-k     | Kill the following balanced expression   | kill-sexp              |
+    | M-z CHAR  | Kill through the next occurrence of CHAR | zap-to-char            |
+    |-----------+------------------------------------------+------------------------|
+
+*** Copying and Pasting (Yanking)
+    |------------+------------------------------------+----------------|
+    | Key        | Description                        | Emacs Command  |
+    |------------+------------------------------------+----------------|
+    | M-w        | Copy the region into the kill ring | kill-ring-save |
+    | C-y        | Paste (Yank) text                  | yank           |
+    | S-<Insert> | Paste (Yank) text                  | yank           |
+    |------------+------------------------------------+----------------|
+*** Saving Text in Registers
+   |-----------+---------------------------------------+---------------------|
+   | Key       | Description                           | Emacs Command       |
+   |-----------+---------------------------------------+---------------------|
+   | C-x r s R | Copy region into register R           | copy-to-register    |
+   | C-x r i R | Insert text from register R           | insert-register     |
+   | C-x r +   | Append region to text in register R.  | append-to-register  |
+   |           | Prepend region to text in register R. | prepend-to-register |
+   |-----------+---------------------------------------+---------------------|
+   :NOTES:
+    When register R contains text, you can use ‘C-x r +’
+    (‘increment-register’) to append to that register.  Note that
+    command ‘C-x r +’ behaves differently if R contains a number.
+    *Note Number Registers::.
+     
+
+    ‘C-x r s R’ stores a copy of the text of the region into the register
+    named R.  If the mark is inactive, Emacs first reactivates the mark
+    where it was last set.  The mark is deactivated at the end of this
+    command.  *Note Mark::.  ‘C-u C-x r s R’, the same command with a prefix
+    argument, copies the text into register R and deletes the text from the
+    buffer as well; you can think of this as moving the region text into the
+    register.
+
+    ‘M-x append-to-register <RET> R’ appends the copy of the text in the
+    region to the text already stored in the register named R.  If invoked
+    with a prefix argument, it deletes the region after appending it to the
+    register.  The command ‘prepend-to-register’ is similar, except that it
+    _prepends_ the region text to the text in the register instead of
+    _appending_ it.
+
+    When you are collecting text using ‘append-to-register’ and
+    ‘prepend-to-register’, you may want to separate individual collected
+    pieces using a separator.  In that case, configure a
+    ‘register-separator’ and store the separator text in to that register.
+    For example, to get double newlines as text separator during the
+    collection process, you can use the following setting.
+
+    (setq register-separator ?+)
+    (set-register register-separator "\n\n")
+
+    ‘C-x r i R’ inserts in the buffer the text from register R.  Normally
+    it leaves point after the text and sets the mark before, without
+    activating it.  With a numeric argument, it instead puts point before
+    the text and the mark after.
+    :END:
+*** Formatting text (Filling)
+    |-------------------------------+--------------------------------------------------+--------------------------|
+    | Key                           | Description                                      | Emacs Command            |
+    |-------------------------------+--------------------------------------------------+--------------------------|
+    | ‘M-q’                         | Fill current paragraph                           | fill-paragraph           |
+    | ‘C-x f’                       | Set the fill column                              | set-fill-column          |
+    | ‘M-x fill-region’             | Fill each paragraph in the region                | fill-region              |
+    | ‘M-x fill-region-as-paragraph | Fill the region considering it as one paragraph. | fill-region-as-paragraph |
+    | ‘M-o M-s’                     | Center a line.                                   | center-line              |
+    |-------------------------------+--------------------------------------------------+--------------------------|
+    :NOTES:
+    The command ‘M-q’ (‘fill-paragraph’) “fills” the current paragraph.
+    It redistributes the line breaks within the paragraph, and deletes any
+    excess space and tab characters occurring within the paragraph, in such
+    a way that the lines end up fitting within a certain maximum width.
+
+    Normally, ‘M-q’ acts on the paragraph where point is, but if point is
+    between paragraphs, it acts on the paragraph after point.  If the region
+    is active, it acts instead on the text in the region.  You can also call
+    ‘M-x fill-region’ to specifically fill the text in the region.
+
+    ‘M-q’ and ‘fill-region’ use the usual Emacs criteria for finding
+    paragraph boundaries (*note Paragraphs::).  For more control, you can
+    use ‘M-x fill-region-as-paragraph’, which refills everything between
+    point and mark as a single paragraph.  This command deletes any blank
+    lines within the region, so separate blocks of text end up combined into
+    one block.
+
+    A numeric argument to ‘M-q’ tells it to “justify” the text as well as
+    filling it.  This means that extra spaces are inserted to make the right
+    margin line up exactly at the fill column.  To remove the extra spaces,
+    use ‘M-q’ with no argument.  (Likewise for ‘fill-region’.)
+
+    The maximum line width for filling is specified by the buffer-local
+    variable ‘fill-column’.  The default value (*note Locals::) is 70.  The
+    easiest way to set ‘fill-column’ in the current buffer is to use the
+    command ‘C-x f’ (‘set-fill-column’).  With a numeric argument, it uses
+    that as the new fill column.  With just ‘C-u’ as argument, it sets
+    ‘fill-column’ to the current horizontal position of point.
+    
+    The command ‘M-o M-s’ (‘center-line’) centers the current line within
+    the current fill column.  With an argument N, it centers N lines
+    individually and moves past them.  This binding is made by Text mode and
+    is available only in that and related modes (*note Text Mode::).
+    :END:
+*** Undoing and Redoing
+    |-------+-------------+---------------|
+    | Key   | Description | Emacs Command |
+    |-------+-------------+---------------|
+    | C-/   | Undo        | undo          |
+    | C-_   | Undo        | undo          |
+    | C-x u | Undo        | undo          |
+    | C-?   | Redo        | redo          |
+    | M-_   | Redo        | redo          |
+    |-------+-------------+---------------|
+*** Blank Lines
+    |---------+------------------------------+--------------------|
+    | Key     | Description                  | Emacs Command      |
+    |---------+------------------------------+--------------------|
+    | C-o     | Insert new line after cursor | opem-line          |
+    | C-x C-o | Delete all but 1 blank line  | delete-blank-lines |
+    |---------+------------------------------+--------------------|
+
+** Viewing info files with .info extension filename.
+   When opening a file with .info extension to the filename
+   emacs does not display the file as an info file. Beggars
+   me to why it doesn't :-( To view such a file, open it 
+   with emacs as normal then:-
+   C-u C-h i
+
+** Macros
+
+   |-------------+--------------------------+---------------------------------|
+   | Key         | command                  | Emacs Command                   |
+   |-------------+--------------------------+---------------------------------|
+   | <f3>        | Start recording macro    | kmacro-start-or-insert-counter  |
+   | <f4>        | End recording macro or   | kmacro-end-or-call-macro        |
+   |             | call the last macro      |                                 |
+   | C-x e       | Call last keyboard macro | kmacro-end-and-call-macro       |
+   | C-x C-k C-k | Call last macro in ring  | kmacro-end-or-call-macro-repeat |
+   | C-x C-k C-n | Next macro in ring       | kmacro-cycle-ring-next          |
+   | C-x C-k C-p | Previous macro in ring   | kmacro-cycle-ring-previous      |
+   |-------------+--------------------------+---------------------------------|
+
+** Comments
+|---------+--------------------------------------------------------------------------+-------------------------|
+| Key     | Description                                                              | Emacs Command           |
+|---------+--------------------------------------------------------------------------+-------------------------|
+| M-;     | Insert or realign comment on current line                                | comment-dwim            |
+| C-x C-; | Comment or uncomment the current line                                    | comment-line            |
+| C-u M-; | Kill comment on current line                                             | comment-kill            |
+| C-x ;   | Set comment column                                                       | comment-set-column      |
+| C-M-j   |                                                                          |                         |
+| M-j     | Like <RET> followed by inserting and aligning a comment                  | comment-indent-new-line |
+|         |                                                                          | M-x comment-region      |
+| C-c C-c | (in C-like modes) Add comment delimiters to all the lines in the region. |                         |
+|---------+--------------------------------------------------------------------------+-------------------------|
+|         |                                                                          |                         |
+|         |                                                                          |                         |
+* Org Mode
+** Installation
+*** Tab key not cycling through hierarchy in 'Normal' mode (Evil mode)
+       Insert the following line into ~/.emacs :-
+	    (define-key org-mode-map (kbd "C-i") 'org-cycle)
+	This line should be inserted before the line (require 'evil-mode)
+** Global and Local Cycling
+   
+   |---------+-------------------------+------------------|
+   | Key     | Command                 | Emacs Command    |
+   |---------+-------------------------+------------------|
+   | <Tab>   | Open/close section      | org-cycle        |
+   | <S-Tab> | Open/close all sections | org-global-cycle |
+   |---------+-------------------------+------------------|
+
+   The following commands jump to other headlines in the buffer.
+   
+   |---------+----------------------------------------------------------------+----------------------------------------|
+   | Key     | Command                                                        | Emacs Command                          |
+   |---------+----------------------------------------------------------------+----------------------------------------|
+   | C-c C-n | Next heading.                                                  | (`outline-next-visible-heading')       |
+   | C-c C-p | Previous heading.                                              | (`outline-previous-visible-heading')   |
+   | C-c C-f | Next heading same level                                        | (`org-forward-same-level')             |
+   | C-c C-b | Previous heading same level                                    | (`org-backward-same-level')            |
+   | C-c C-u | Backward to higher level heading                               | (`outline-up-heading')                 |
+   | C-c C-j | Jump to a different place without changing the current outline | (`org-goto')                  [fn:vis] |
+   |---------+----------------------------------------------------------------+----------------------------------------|
+     
+[fn:vis]  Visibility.  Shows the document structure in a temporary buffer,
+where you can use the following keys to find your destination: 
+** Tables
+| Key       | command                              | Emacs Command                |
+|-----------+--------------------------------------+------------------------------|
+| TAB       | Next cell and re-align table[fn:tab] |                              |
+| C-c -     | Insert seperator line                | org-ctrl-c-minus             |
+| C-u C-c - | Insert seperator above line          |                              |
+| M-a       | Move to first character in cell      | org-table-beginning-of-field |
+| M-e       | Move to last character in field      | org-table-end-of-field       |
+|-----------+--------------------------------------+------------------------------|
+
+[fn:tab] Moves to next cell in row and re-aligns. If last cell in row, then creates a new row and re-aligns.
+
+** Todos
+*** Schedules and Deadlines
+    |---------+-------------+---------------|
+    | Key     | Description | Emacs Command |
+    |---------+-------------+---------------|
+    | C-c C-s | Schedule    | org-schedule  |
+    | C-c C-d | Deadline    | org-deadline  |
+    |---------+-------------+---------------|
+
+** Time + Date stamps
+   |-----------+--------------------------------------------------------------------------+-------------------------|
+   | Key       | Description                                                              | Emacs Command           |
+   |-----------+--------------------------------------------------------------------------+-------------------------|
+   | C-c .     | Prompt for a date and insert a corresponding timestamp. When the cursor  | org-time-stamp          |
+   |           | is at an existing timestamp in the buffer, the command is used to modify |                         |
+   |           | this timestamp instead of inserting a new one.When this command is used  |                         |
+   |           | twice in succession/ a time range is inserted.                           |                         |
+   |-----------+--------------------------------------------------------------------------+-------------------------|
+   | C-c !     | Like `C-c .', but insert an inactive timestamp that will not cause       | org-time-stamp-inactive |
+   |           | an agenda entry.                                                         |                         |
+   |-----------+--------------------------------------------------------------------------+-------------------------|
+   | C-u C-c . |                                                                          |                         |
+   | C-u C-c ! | Like `C-c .' and `C-c !', but use the alternative format which           |                         |
+   |           | contains date and time.  The default time can be rounded to              |                         |
+   |           | multiples of 5 minutes, see the option                                   |                         |
+   |           | `org-time-stamp-rounding-minutes'.                                       |                         |
+   |-----------+--------------------------------------------------------------------------+-------------------------|
+   | C-c C-c   | Normalize timestamp, insert/fix day name if missing or wrong.            |                         |
+   |-----------+--------------------------------------------------------------------------+-------------------------|
+   | C-c <     | Insert a timestamp corresponding to the cursor date in the Calendar.     | org-date-from-calendar  |
+   |-----------+--------------------------------------------------------------------------+-------------------------|
+   | C-c >     | Access the Emacs calendar for the current date.  If there is a           | org-goto-calendar       |
+   |           | timestamp in the current line, go to the corresponding date instead.     |                         |
+   |-----------+--------------------------------------------------------------------------+-------------------------|
+   | C-c C-o   | Access the agenda for the date given by the timestamp or -range at       | org-open-at-point       |
+   |           | point (*note Weekly/daily agenda::).                                     |                         |
+   |-----------+--------------------------------------------------------------------------+-------------------------|
+   | S-<left>  | Change date at cursor by one day.  These key bindings conflict with      | org-timestamp-down-day  |
+   | S-<right> | shift-selection and related modes (*note Conflicts::).                   | org-timestamp-up-day    |
+   |-----------+--------------------------------------------------------------------------+-------------------------|
+   | S-<up>    | Change the item under the cursor in a timestamp.  The cursor can         | org-timestamp-up        |
+   | S-<down>  | be on a year, month, day, hour or minute.  When the timestamp            | org-timestamp-down      |
+   |           | contains a time range like `15:30-16:30', modifying the first time       |                         |
+   |           | will also shift the second, shifting the time block with constant        |                         |
+   |           | length.  To change the length, modify the second time.  Note that        |                         |
+   |           | if the cursor is in a headline and not at a timestamp, these same        |                         |
+   |           | keys modify the priority of an item.  (*note Priorities::).  The         |                         |
+   |           | key bindings also conflict with shift-selection and related modes        |                         |
+   |           | (*note Conflicts::).                                                     |                         |
+   |-----------+--------------------------------------------------------------------------+-------------------------|
+   | C-c C-y   | Evaluate a time range by computing the difference between start          | org-evaluate-time-range |
+   |           | and end.  With a prefix argument, insert result after the time           |                         |
+   |           | range (in a table: into the following column).                           |                         |
+   |-----------+--------------------------------------------------------------------------+-------------------------|
+
+** Footnotes
+   Footnotes must start at the very beginning of a line (column 0) and have the form
+   [fn:2]. The number after the colon can also be a name, e.g [fn:first] [fn:2].
+   Inline refererences to the footnote can start anywhere on the line. To cycle between
+   footnote and inline reference usw 'C-c C-c' or 'C-c C-x f'.
+[fn:2] This is the actual footnote.
+[fn:first] This is the actual footnote.
+
+** Formatting Characters
+*** 
+  You can make words *bold*, /italic/, _underlined_, `=verbatim=' and
+  `~code~', and, if you must, `+strike-through+'.  Text in the code and
+  verbatim string is not processed for Org mode specific syntax, it is
+  exported verbatim.
+
+** Org-bullets mode
+*** Installation
+    Copy the file somewhere in your load-path, then add to your .emacs:
+
+    (require 'org-bullets)
+    (add-hook 'org-mode-hook (lambda () (org-bullets-mode 1)))
+    
+    select, do [M-x eval-region]. The *s will be replaced with utf-8 bullets next time you open an org file   
+
+** Exporting
+   
+   |---------+------------------------+---------------------|
+   | command | Description            | Emacs Command       |
+   |---------+------------------------+---------------------|
+   | C-c C-e | Export to HTML/PDF/... | org-export-dispatch |
+   |---------+------------------------+---------------------|
+   
+* Elisp
+** Commonly used functions
+*** buffer-name
+    Returns the buffer name (no path information)
+    (buffer-name)
+*** buffer-file-name
+    Returns the actual file name incuding the full path
+    (buffer-file-name)
+*** current-buffer
+    Returns the actual buffer (not its name).
+    Note: When (current-buffer) is evaluated with C-u a special syntax in the form #<buffer buffer-name> is returned. 
+    This is a printed representation of the actual buffer.
+    (current-buffer)
+*** other-buffer
+    Returns the buffer of the most recently edited buffer other than the one that is currently being edited.
+    (other-buffer)
+*** switch-to-buffer
+    Switches to buffer supplied as an argument. This is assigned to C-x b.
+    (switch-to-buffer (other-buffer))
+* Evil
+  An emacs mode that simulates vim :-)
+** Installation
+** Configuration
+   
+* Powerline
+  A fork of vim powerline
+** Installation
+** Configuration
+   
+* Airline-themes
+  Extra themes for Powerline.
+** Installation
+** Configuratioon
+

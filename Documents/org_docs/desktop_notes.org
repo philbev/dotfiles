@@ -1,0 +1,152 @@
+* Italian
+** Essere - to be
+
+   io sono noi siamo
+   tu sei  voi siete
+   lui/lei è   loro sono
+
+** Avere - to have
+
+   io ho   noi abbiamo
+   tu hai  voi avete
+   lui/lei ha  loro hanno
+
+
+** Amare - to love
+
+   io amo  noi amiamo
+   tu ami  voi amate
+   lui/lei ama loro amano
+
+** Scrivere - to write
+
+   io scrivo   noi scriviamo
+   tu scrivi   voi scrivete
+   lui/lei scriveloro scrivono
+
+** Sentire - to hear, feel, smell
+
+   io sento    noi sentiamo
+   tu senti    voi sentite
+   lui/lei sente  loro sentono
+
+** Capire - to understand
+
+   io capisco   noi capiamo
+   tu capisci   voi capite
+   lui/lei capisce   loro capiscono
+
+* German
+
+  Ɛ - open like get (è)
+  e - closed like late
+  Ɔ - open like got (ò)
+  o - closed like goat
+
+
+
+  Alt-Gr+A = ä
+  Alt-Gr+= = ö
+  Alt-Gr+[ = ü
+
+
+  ich bin                I am
+  du bist               you are
+  er, sie, es ist      he,she, it is
+  wir sind              we are
+  ihr seid               you are
+  sie sind               they are
+
+* Useful Bash Command-line Shortcuts
+  ==================================
+
+|-------------------+-------------------------------------------------------|
+| Command           | Description                                           |
+|-------------------+-------------------------------------------------------|
+| Ctrl-], Alt-S     | Character search                                      |
+| Alt-Ctrl-], Alt-Q | Character search backward                             |
+| Ctrl-X Ctrl-U     | undo                                                  |
+| Ctr--             | undo                                                  |
+| Ctrl-T            | Transpose characters                                  |
+| Alt-T             | Transpose words                                       |
+| Alt-R, Ctrl-Alt-R | Revert line                                           |
+| Alt-B             | Backward word                                         |
+| Alt-F             | Forward word                                          |
+| Alt-n             | (n = digit) Digit argument (minus reverses direction) |
+| Ctrl-Y            | Yank                                                  |
+| Alt-.             | Yank last argument                                    |
+| Alt-Ctrl-Y        | Yank nth argument                                     |
+| Ctrl-K            | Kill from cursor to end of line                       |
+| Ctrl-U            | Kill backward from cursor to beginning of line        |
+| Alt-D             | Kill from point to end of current word                |
+| Alt-BackSpace     | Kill the word behind point                            |
+| Ctrl-W            | Kill the word behind point (white space as boundary)  |
+| Alt-A             | Kill whole line                                       |
+
+* Gdb Cheatsheet
+  ==============
+
+  For gdb to run correctly the compiler g++ must be run with the -g option to
+  include gdb debugging symbols.E.g.
+	g++ -g -o <progname> <progname>.cpp
+
+  To use the debugger
+	gdb <progname>
+
+  Basic commands from within gdb:
+|--------------------+---------------------------------------------------------------|
+| Key                | Action                                                        |
+|--------------------+---------------------------------------------------------------|
+| [q]uit             | Quit gdb.                                                     |
+| [r]un              | Run the programme from the start. Runs to completion          |
+|                    | or to the next breakpoint or watch. Programme                 |
+|                    | arguments can be appended to the "run" command.               |
+| [star]t            | Run the programme to start of main(). Programme               |
+|                    | arguments can be appended to the "start" command.             |
+| [p]rint            | Displays the variable specified. Also sets a variable's       |
+|                    | value. E.g. "p var = 1" sets var to 1.                        |
+| [b]reak            | Sets breakpoint at a line number or function name. With       |
+|                    | multiple source files it is advisable to specify the          |
+|                    | filename to prevent confusion. E.g.                           |
+|                    | b <filename.cpp>:13                                           |
+| [dis]able          | Disable breakpoints. With no breakpoint number,               |
+|                    | disables all.                                                 |
+| [en]able           | Enable breakpoints.                                           |
+|                    | Where 13 is the line number.                                  |
+| [s]tep             | Step into function.                                           |
+| [n]ext             | Next line of code (steps over functions)                      |
+| [fin]ish           | Run untilut fo function (step out)                            |
+| [u]ntil            | When in loop run until loop finishes.                         |
+| [u]ntil line       | Run until line number is reached. Useful to get out of loops. |
+| [c]ontinue         | Run to next breakpoint or end of programme.                   |
+| [l]ist             | List 10 lines of source code.                                 |
+| x                  | examine memory directly                                       |
+| [wa]tch            | set a watch for when a variable is written.: return           |
+|                    | to the debugger once this happens                             |
+| [r]watch           | set a watch for when a variable is read: return to            |
+|                    | the debugger once this happens                                |
+| [i]nfo [wat]ch     | show info on watchpoints                                      |
+| [i]nfo [b]reak     | show info on breakpoints                                      |
+| [d]elete #         | delete watchpoint or breakpoint "#"                           |
+| set var name=value | set the value of variable "name" to "value"                   |
+| [f]rame #          | set the current frame to #. Variables you reference           |
+|                    | etc. will be those within that context.                       |
+| [i]nfo [lo]cals    | Prints all the variables incurrent frame (scope).             |
+| info functions     | Prints all functions                                          |
+| bt                 | show the call frames for your program. Useful to see          |
+|                    | the arguments of current function.                            |
+|--------------------+---------------------------------------------------------------|
+
+	Hitting "Enter" repeats the previous command.
+
+
+USEFUL VIM HELP PAGES
+=====================
+
+:h - ins-completion
+:h - key-notation
+:h - \%V
+:h - cmdline-special
+:h - :let-environment
+
+* New Capture

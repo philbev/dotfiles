@@ -1,0 +1,75 @@
+* Printing
+** General format
+   print("<string>")
+   
+** Formatted output
+*** Old (printf style) method.
+    print("Item No: %5d, Price per Unit: %8.2f" % (453, 59.058))
+        1. The text inside the inverted commas is known as  the "format string".
+	2. %5d and %8.2f inside the format string are placeholders.
+	3. The % symbol between the format string and tuple is called the "String Modulo Operator"
+    The general syntax of placeholder is:
+        %[flags][width][.precision]type.
+	|------------+-----------------------------------------------------------------------------------|
+	| Conversion | Meaning                                                                           |
+	|------------+-----------------------------------------------------------------------------------|
+	| d          | Signed integer decimal.                                                           |
+	| i          | Signed integer decimal.                                                           |
+	| o          | Unsigned octal.                                                                   |
+	| u          | Obsolete and equivalent to 'd', i.e. signed integer decimal.                      |
+	| x          | Unsigned hexadecimal (lowercase).                                                 |
+	| X          | Unsigned hexadecimal (uppercase).                                                 |
+	| e          | Floating point exponential format (lowercase).                                    |
+	| E          | Floating point exponential format (uppercase).                                    |
+	| f          | Floating point decimal format.                                                    |
+	| F          | Floating point decimal format.                                                    |
+	| g          | Same as "e" if exponent is greater than -4 or less than precision, "f" otherwise. |
+	| G          | Same as "E" if exponent is greater than -4 or less than precision, "F" otherwise. |
+	| c          | Single character (accepts integer or single character string).                    |
+	| r          | String (converts any python object using repr()).                                 |
+	| s          | String (converts any python object using str()).                                  |
+	| %          | No argument is converted, results in a "%" character in the result.               |
+	|------------+-----------------------------------------------------------------------------------|
+
+	|------+--------------------------------------------------------------------------------------------------|
+	| Flag | Meaning                                                                                          |
+	| #    | Used with o, x or X specifiers the value is preceded with 0, 0o, 0O, 0x or 0X respectively.      |
+	| 0    | The conversion result will be zero padded for numeric values.                                    |
+	| -    | The converted value is left adjusted                                                             |
+	|      | If no sign (minus sign e.g.) is going to be written, a blank space is inserted before the value. |
+	| +    | A sign character ("+" or "-") will precede the conversion (overrides a "space" flag).            |
+	|------+--------------------------------------------------------------------------------------------------|
+	
+	See https://python-course.eu/python3_formatted_output.php for examples.
+*** The Pythonic Way: The string method "format"
+    print("Art: {a:5d}, Price: {p:8.2f}".format(a=453, p=59.058))
+
+*** fstring method
+  s
+
+* Data Types
+  |------+-------------+------------|
+  | Base | Type        | Conversion |
+  |------+-------------+------------|
+  |    2 | binary      | 0b or 0B   |
+  |    8 | octal       | 0o or 0O   |
+  |   16 | hexadecimal | 0x or 0X   |
+  |------+-------------+------------|
+
+  The print() function always outputs in decimal.
+  E.g.
+      print(0xff)
+      would output 255
+
+** Converting data types
+   Use the hex(), oct() and bin() functions. E.g.
+       print(hex(255))
+       prints ff
+
+      
+* The 'string' class (str)
+**  str.replace()
+** str.split()
+** str.join()
+** reversed()
+
