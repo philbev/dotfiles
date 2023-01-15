@@ -1,0 +1,8 @@
+#.gitignore
+#init.el
+.emacs.desktop
+auto-save-list
+bookmarks
+bookmarks~
+elpa
+history

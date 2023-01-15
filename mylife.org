@@ -12,10 +12,12 @@ SCHEDULED: <2023-01-13 Fri>
 *** TODO Order repeat presciption (Tamsulosin)
 *** TODO Order repeat presciption (elasticated stockings)
 *** TODO - Hearing aid weekly maintenance.
-    SCHEDULED: <2023-01-15 Sun ++1w>
+    SCHEDULED: <2023-01-29 Sun ++1w>
     :PROPERTIES:
-    :LAST_REPEAT: [2022-08-28 Sun 07:13]
+    :LAST_REPEAT: [2023-01-15 Sun 13:35]
     :END:
+    - State "DONE"       from "TODO"       [2023-01-15 Sun 13:35]
+    - State "DONE"       from "TODO"       [2023-01-15 Sun 13:35]
     :LOGBOOK:
     - State "CANCELLED"  from "TODO"       [2022-08-28 Sun 07:13]
     - State "CANCELLED"  from "TODO"       [2022-08-28 Sun 07:13]
@@ -478,9 +480,11 @@ SCHEDULED: <2023-01-13 Fri>
     SCHEDULED: <2021-11-10 Wed 13:25>
 *** DONE - Eye test at Visual Express
     SCHEDULED: <2022-02-01 Tue 13:40>
+*** APPOINTMENT - Eye test at Visual Express
+    SCHEDULED: <2023-01-16 Mon 13:40>
 * PERSONAL :PERSONAL
 ** REPEAT EVENTS :repeat:
-*** TODO - Grey bin collection tomorrow
+*** REMINDER - Grey bin collection tomorrow
     SCHEDULED: <2023-01-22 Sun ++2w>
     :PROPERTIES:
     :LAST_REPEAT: [2023-01-11 Wed 17:37]
@@ -505,7 +509,7 @@ SCHEDULED: <2023-01-13 Fri>
     - State "DONE"       from "TODO"       [2022-02-06 Sun 08:02]
     :END:
 
-*** TODO - Blue bin collection day tomorrow.
+*** REMINDER - Blue bin collection day tomorrow.
 SCHEDULED: <2023-01-29 Sun ++2w>
     :PROPERTIES:
     :LAST_REPEAT: [2023-01-11 Wed 17:33]
@@ -592,7 +596,7 @@ SCHEDULED: <2023-01-29 Sun ++2w>
     - State "DONE"       from "TODO"       [2022-03-28 Mon 07:34]
     :END:
 
-*** TODO - Pat's birthday.a
+*** BIRTHDAY - Pat's birthday.a
     SCHEDULED: <2023-08-08 Tue ++1y>
     :PROPERTIES:
     :LAST_REPEAT: [2022-08-11 Thu 12:03]
@@ -612,7 +616,7 @@ SCHEDULED: <2023-01-29 Sun ++2w>
     - State "DONE"       from "TODO"       [2021-10-18 Mon 07:09]
     - State "DONE"       from "BIRTHDAY"   [2020-10-18 Sun 07:45]
     :END:
-*** TODO - My birthday :-)
+*** BIRTHDAY - My birthday :-)
     SCHEDULED: <2023-10-18 Wed ++1y>
     :PROPERTIES:
     :LAST_REPEAT: [2023-01-11 Wed 17:37]

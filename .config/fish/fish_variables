@@ -10,6 +10,7 @@ SETUVAR _fish_abbr_gcp:git\x20clone\x20https\x3a//github\x2ecom/philbev/
 SETUVAR _fish_abbr_gitx:git\x20log\x20\x2d\x2doneline\x20\x2d\x2dgraph\x20\x2d\x2dcolor\x3dalways\x20\x2d\x2ddecorate\x20\x7c\x20head
 SETUVAR _fish_abbr_lk:lsblk\x20\x2do\x20model\x2ctype\x2cname\x2cfstype\x2csize\x2clabel\x2cmountpoints\x2cpartlabel
 SETUVAR _fish_abbr_lku:lsblk\x20\x2do\x20model\x2ctype\x2cname\x2cfstype\x2csize\x2clabel\x2cmountpoints\x2cpartlabel\x2cuuid
+SETUVAR _fish_abbr_rv:rm\x20\x2dv
 SETUVAR _fish_abbr_sn:sudo\x20nvim
 SETUVAR _fish_abbr_spq:sudo\x20pacman\x20\x2dQ
 SETUVAR _fish_abbr_spr:sudo\x20pacman\x20\x2dR
