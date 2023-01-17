@@ -1,6 +1,9 @@
 #+SEQ_TODO: TODO(t) APPOINTMENT(a) BIRTHDAY(b) EVENT(e) PENDING(p) REMINDER(r) | DONE(d) CANCELLED(c)
 * Things todo
 ** Computer
+:PROPERTIES:
+:Phil: Computer
+:END:
 *** TODO Bluetooth
 Configure with bluetoothctl.
 *** TODO Superuser
