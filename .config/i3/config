@@ -215,7 +215,7 @@ workspace 10 output HDMI-1
 default_border pixel 2
 gaps outer 8
 gaps inner 8
-assign [class="thunderbird"] 3
+#assign [class="thunderbird"] 3
 assign [instance="Navigator"] 9
 assign [class="Chromium"] 10
 for_window [class="Nitrogen"] floating enable
@@ -237,17 +237,17 @@ exec_always --no-startup-id xrandr --output DP-1 --primary --mode 1920x1080 --po
 #exec_always --no-startup-id feh --bg-fill ~/Pictures/backgrounds/beautiful-library-wallpaper-44313-45432-hd-wallpapers.jpg
 exec_always --no-startup-id ~/.fehbg
 exec_always --no-startup-id autotiling
-exec --no-startup-id emacs --daemon
+#exec_always --no-startup-id emacs --daemon
 exec --no-startup-id ~/.dropbox-dist/dropboxd
 exec --no-startup-id xset -dpms s 7200
-exec --no-startup-id thunderbird
+#exec --no-startup-id thunderbird
 exec --no-startup-id picom -f
 exec_always --no-startup-id setxkbmap us
-exec --no-startup-idpicom -f
 exec_always --no-startup-id flameshot
 exec --no-startup-id /usr/lib/polkit-kde-authentication-agent-1
 
 #################### KEYMAPS ####################
+bindsym $mod+Ctrl+e exec emacsclient -c -n
 bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+Shift+v exec virt-manager
 bindsym $mod+equal floating toggle
@@ -256,7 +256,6 @@ bindsym Ctrl+Shift+l exec libreoffice
 bindsym mod1+Ctrl+a exec alacritty
 bindsym mod1+Ctrl+c exec chromium
 bindsym mod1+Ctrl+d exec dolphin
-bindsym mod1+Ctrl+e exec emacsclient -c
 bindsym mod1+Ctrl+f exec --no-startup-id firefox; focus
 bindsym mod1+Ctrl+k exec konsole
 bindsym mod1+Ctrl+p exec pcmanfm

@@ -1,5 +1,6 @@
 #+SEQ_TODO: TODO(t) APPOINTMENT(a) BIRTHDAY(b) EVENT(e) PENDING(p) REMINDER(r) | DONE(d) CANCELLED(c)
 #+TAGS: health dentist chemist home ropewalk birthday personal opticians on_line chore
+#+STARTUP: overview
 * HEALTH                                                             :health:
   :DETAILS:
    NHS Number: 460 339 9170
@@ -115,10 +116,11 @@ SCHEDULED: <2023-01-13 Fri>
      - State "DONE"       from "TODO"       [2018-12-17 Mon 15:19]
      :END:
 **** TODO - Take blood pressure reading.                                  :q:
-     SCHEDULED: <2023-01-23 Mon ++1w>
+     SCHEDULED: <2023-01-30 Mon ++1w>
      :PROPERTIES:
-     :LAST_REPEAT: [2023-01-16 Mon 10:36]
+     :LAST_REPEAT: [2023-01-23 Mon 09:34]
      :END:
+     - State "CANCELLED"  from "TODO"       [2023-01-23 Mon 09:34]
      - State "CANCELLED"  from "TODO"       [2023-01-16 Mon 10:36]
      - State "DONE"       from "TODO"       [2023-01-11 Wed 17:34]
      :LOGBOOK:
@@ -487,11 +489,12 @@ SCHEDULED: <2023-01-13 Fri>
 SCHEDULED: <2023-01-30 Mon 13:40>
 * PERSONAL :PERSONAL
 ** REPEAT EVENTS :repeat:
-*** REMINDER - Grey bin collection tomorrow
-    SCHEDULED: <2023-01-22 Sun ++2w>
+*** TODO - Grey bin collection tomorrow
+    SCHEDULED: <2023-02-05 Sun ++2w>
     :PROPERTIES:
-    :LAST_REPEAT: [2023-01-11 Wed 17:37]
+    :LAST_REPEAT: [2023-01-22 Sun 12:22]
     :END:
+    - State "DONE"       from "REMINDER"   [2023-01-22 Sun 12:22]
     - State "DONE"       from "TODO"       [2023-01-11 Wed 17:37]
     :LOGBOOK:
     - State "DONE"       from "TODO"       [2022-09-04 Sun 08:25]
@@ -537,10 +540,11 @@ SCHEDULED: <2023-01-29 Sun ++2w>
     :END:
 
 *** TODO - Water spider plant
-    SCHEDULED: <2023-01-23 Mon ++1w>
+    SCHEDULED: <2023-01-30 Mon ++1w>
     :PROPERTIES:
-    :LAST_REPEAT: [2023-01-16 Mon 10:36]
+    :LAST_REPEAT: [2023-01-23 Mon 09:34]
     :END:
+    - State "CANCELLED"  from "TODO"       [2023-01-23 Mon 09:34]
     - State "DONE"       from "TODO"       [2023-01-16 Mon 10:36]
     - State "DONE"       from "TODO"       [2023-01-11 Wed 17:35]
     :LOGBOOK:
@@ -570,10 +574,11 @@ SCHEDULED: <2023-01-29 Sun ++2w>
     :END:
 
 *** TODO - Recharge toothbrush
-    SCHEDULED: <2023-01-23 Mon ++1w>
+    SCHEDULED: <2023-01-30 Mon ++1w>
     :PROPERTIES:
-    :LAST_REPEAT: [2023-01-16 Mon 10:36]
+    :LAST_REPEAT: [2023-01-23 Mon 09:34]
     :END:
+    - State "DONE"       from "TODO"       [2023-01-23 Mon 09:34]
     - State "DONE"       from "TODO"       [2023-01-16 Mon 10:36]
     - State "DONE"       from "TODO"       [2023-01-11 Wed 17:36]
     :LOGBOOK:

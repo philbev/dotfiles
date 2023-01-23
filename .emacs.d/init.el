@@ -3,10 +3,12 @@
  ;; If you edit it by hand, you could mess it up, so be careful.
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
- '(custom-enabled-themes '(tango-dark))
+ '(custom-enabled-themes '(atom-one-dark tango-dark))
+ '(custom-safe-themes
+   '("d80952c58cf1b06d936b1392c38230b74ae1a2a6729594770762dc0779ac66b7" "b1a691bb67bd8bd85b76998caf2386c9a7b2ac98a116534071364ed6489b695d" "171d1ae90e46978eb9c342be6658d937a83aaa45997b1d7af7657546cae5985b" "9b4ae6aa7581d529e20e5e503208316c5ef4c7005be49fdb06e5d07160b67adc" default))
  '(org-agenda-files '("/home/phil/mylife.org" "~/todo.org"))
  '(package-selected-packages
-   '(which-key linum-relative markdown-mode org-superstar evil))
+   '(gruvbox-theme atom-dark-theme atom-one-dark-theme which-key linum-relative markdown-mode org-superstar evil))
  '(scroll-bar-mode nil)
  '(tool-bar-mode nil))
 (custom-set-faces
@@ -25,7 +27,7 @@
   (add-to-list 'package-archives '("melpa" . "https://melpa.org/packages/"))
 (package-initialize)
 
-(package-refresh-contents)
+;;(package-refresh-contents)
 
 ;; Download Evil
 (unless (package-installed-p 'evil)(require 'org-superstar)
@@ -55,6 +57,18 @@
 
 ;; Which-key
 ;;(add-to-list 'load-path "path/to/which-key.el")
-(add-to-list 'load-path "~/.emacs.d/elpa/which-key-3.6.0/which-key.el")
-(require 'which-key)
+;;(add-to-list 'load-path "~/.emacs.d/elpa/which-key-3.6.0/which-key.el")
+;;(require 'which-key)
 (which-key-mode)
+
+(setq org-startup-folded t)
+
+(hl-line-mode)
+(setq inhibit-startup-message t ; Two variables in one call
+      visible-bell nil)
+
+;;(load-theme 'atom-one-dark)
+(load-theme 'tango-dark)
+;;(load-theme 'gruvbox)
+
+(hl-line-mode 1)

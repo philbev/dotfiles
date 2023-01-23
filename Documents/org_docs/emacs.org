@@ -407,7 +407,7 @@ where you can use the following keys to find your destination:
   A fork of vim powerline
 ** Installation
 ** Configuration
-   
+
 * Airline-themes
   Extra themes for Powerline.
 ** Installation
