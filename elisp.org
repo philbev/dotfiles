@@ -1,0 +1,55 @@
+* Elisp Tutorial
+** Variables
+1. set - sets variable but needs apostrophe in front of variable name.
+2. setq - Also sets variable but no need for apostrophe.
+
+   (setq inhibit-startup-message t) ;a list expression.
+   a list is an ordered collection of expressions, in this case 'setq', 'inhibit-startup-message' and 't'.
+   
+   t = true
+   nil = false
+
+   
+More than 1 variable can be set in a setq call:
+(setq inhibit-startup-message t
+visible-bell t)
+
+To execute (evaluate) an expression from within emacs:
+    C-M-x
+
+** Modes
+Can be applied to 1 single buffer or the entire editor.
+    1 enables the mode
+    -1 disables the mode
+|--------------------+---------------------|
+| Mode               | Description         |
+|--------------------+---------------------|
+| menu-bar-mode 1    | Enables menu bar    |
+| tool-bar-mode -1   | Disables toolbar    |
+| scroll-bar-mode -1 | Disables scroll bar |
+|--------------------+---------------------|
+
+** Themes
+Themes need to be installed previously
+Some examples:-
+(load-theme 'modus-vivendi)
+(load-theme 'deeper-blue)
+
+** Help
+|-------+-------------------|
+| Key   | Function          |
+|-------+-------------------|
+| C-h v | describe-variable |
+| C-h f | describe-function |
+| C-h o | describe-symbol   |
+|-------+-------------------|
+
+** Completion
+When typing completion can also be used:-
+
+|-------+----------------|
+| Key   | Function       |
+|-------+----------------|
+| C-M-i | completesymbol |
+|-------+----------------|
+

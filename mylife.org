@@ -7,75 +7,6 @@
    Hospital Number: K1124417
   :END:
 ** REPEAT EVENTS :repeat:
-*** CANCELLED Eye drops need to be replaced.
-SCHEDULED: <2023-01-13 Fri>
-*** TODO Order repeat prescription (eye drops)
-*** TODO Order repeat presciption (Tamsulosin)
-*** TODO Order repeat presciption (elasticated stockings)
-*** TODO - Hearing aid weekly maintenance.
-    SCHEDULED: <2023-01-29 Sun ++1w>
-    :PROPERTIES:
-    :LAST_REPEAT: [2023-01-15 Sun 13:35]
-    :END:
-    - State "DONE"       from "TODO"       [2023-01-15 Sun 13:35]
-    - State "DONE"       from "TODO"       [2023-01-15 Sun 13:35]
-    :LOGBOOK:
-    - State "CANCELLED"  from "TODO"       [2022-08-28 Sun 07:13]
-    - State "CANCELLED"  from "TODO"       [2022-08-28 Sun 07:13]
-    - State "CANCELLED"  from "TODO"       [2022-08-22 Mon 08:08]
-    - State "DONE"       from "TODO"       [2022-08-14 Sun 07:25]
-    - State "DONE"       from "TODO"       [2022-08-11 Thu 12:03]
-    - State "CANCELLED"  from "TODO"       [2022-07-31 Sun 07:16]
-    - State "DONE"       from "TODO"       [2022-07-24 Sun 07:18]
-    - State "DONE"       from "TODO"       [2022-07-18 Mon 07:43]
-    - State "DONE"       from "TODO"       [2022-07-11 Mon 07:14]
-    - State "DONE"       from "TODO"       [2022-07-03 Sun 06:59]
-    - State "DONE"       from "TODO"       [2022-06-26 Sun 07:38]
-    - State "CANCELLED"  from "TODO"       [2022-06-19 Sun 07:18]
-    - State "DONE"       from "TODO"       [2022-06-12 Sun 06:27]
-    - State "DONE"       from "TODO"       [2022-06-05 Sun 07:05]
-    - State "DONE"       from "TODO"       [2022-05-29 Sun 08:14]
-    - State "DONE"       from "TODO"       [2022-05-25 Wed 13:53]
-    - State "DONE"       from "TODO"       [2022-05-15 Sun 07:40]
-    - State "DONE"       from "TODO"       [2022-05-08 Sun 07:04]
-    - State "DONE"       from "TODO"       [2022-05-01 Sun 07:08]
-    - State "DONE"       from "TODO"       [2022-04-24 Sun 06:59]
-    - State "DONE"       from "TODO"       [2022-04-17 Sun 07:20]
-    - State "DONE"       from "TODO"       [2022-04-10 Sun 06:55]
-    - State "DONE"       from "TODO"       [2022-04-03 Sun 06:54]
-    - State "DONE"       from "TODO"       [2022-03-27 Sun 08:01]
-    - State "DONE"       from "TODO"       [2022-03-20 Sun 07:10]
-    - State "DONE"       from "TODO"       [2022-03-13 Sun 07:12]
-    - State "DONE"       from "TODO"       [2022-03-06 Sun 07:48]
-    - State "DONE"       from "TODO"       [2022-02-27 Sun 08:20]
-    - State "DONE"       from "TODO"       [2022-02-20 Sun 07:05]
-    - State "DONE"       from "TODO"       [2022-02-13 Sun 07:26]
-    - State "DONE"       from "TODO"       [2022-02-06 Sun 08:02]
-    - State "DONE"       from "TODO"       [2022-01-30 Sun 07:00]
-    - State "DONE"       from "TODO"       [2022-01-23 Sun 07:20]
-    - State "DONE"       from "TODO"       [2022-01-16 Sun 07:00]
-    - State "DONE"       from "TODO"       [2022-01-09 Sun 06:58]
-    - State "DONE"       from "TODO"       [2022-01-02 Sun 09:26]
-    - State "DONE"       from "TODO"       [2021-12-26 Sun 07:11]
-    - State "DONE"       from "TODO"       [2021-12-19 Sun 06:50]
-    - State "DONE"       from "TODO"       [2021-12-12 Sun 07:10]
-    - State "DONE"       from "TODO"       [2021-12-05 Sun 06:57]
-    - State "DONE"       from "TODO"       [2021-11-28 Sun 07:02]
-    - State "DONE"       from "TODO"       [2021-11-21 Sun 07:27]
-    - State "DONE"       from "TODO"       [2021-11-14 Sun 06:51]
-    - State "DONE"       from "TODO"       [2021-11-07 Sun 06:50]
-    - State "DONE"       from "TODO"       [2021-10-31 Sun 06:50]
-    - State "DONE"       from "TODO"       [2021-10-24 Sun 06:56]
-    - State "DONE"       from "TODO"       [2021-10-17 Sun 07:05]
-    - State "DONE"       from "TODO"       [2021-10-10 Sun 06:57]
-    - State "DONE"       from "TODO"       [2021-10-03 Sun 07:00]
-    - State "DONE"       from "TODO"       [2021-09-26 Sun 07:13]
-    - State "DONE"       from "TODO"       [2021-09-19 Sun 07:05]
-    - State "DONE"       from "TODO"       [2021-09-12 Sun 07:10]
-    - State "DONE"       from "TODO"       [2021-09-05 Sun 07:00]
-    - State "DONE"       from "TODO"       [2021-08-29 Sun 06:43]
-    - State "DONE"       from "TODO"       [2021-08-22 Sun 07:15]
-    :END:
 *** TODO - Change domes on hearing aids.
     SCHEDULED: <2023-03-17 Fri ++3m>
     :PROPERTIES:
@@ -116,10 +47,11 @@ SCHEDULED: <2023-01-13 Fri>
      - State "DONE"       from "TODO"       [2018-12-17 Mon 15:19]
      :END:
 **** TODO - Take blood pressure reading.                                  :q:
-     SCHEDULED: <2023-01-30 Mon ++1w>
+     SCHEDULED: <2023-02-06 Mon ++1w>
      :PROPERTIES:
-     :LAST_REPEAT: [2023-01-23 Mon 09:34]
+     :LAST_REPEAT: [2023-01-30 Mon 10:43]
      :END:
+     - State "CANCELLED"  from "TODO"       [2023-01-30 Mon 10:43]
      - State "CANCELLED"  from "TODO"       [2023-01-23 Mon 09:34]
      - State "CANCELLED"  from "TODO"       [2023-01-16 Mon 10:36]
      - State "DONE"       from "TODO"       [2023-01-11 Wed 17:34]
@@ -180,313 +112,16 @@ SCHEDULED: <2023-01-13 Fri>
 **** CANCELLED - Dentist
      SCHEDULED: <2020-05-05 Tue 11:15>
 ** ONE-OFF EVENTS                                                   :one_off:
-*** DONE - Collect prescription from chemist
-    SCHEDULED: <2019-10-31 Thu>
-*** DONE Dentist :dentist:
-    SCHEDULED: <2017-07-11 Mon 14:30>
-
- :DETAILS:
-  - Checkup and possible clean of the teeth.
-  - Mrs Sonal Arora
-  - Oasis Dental Care
-    29, Musters Road
-    West Bridgford
-    Nottingham
-    NG2 7PQ
- :END:
-
-*** REMINDER Eye test - Vision Express
-*** DONE Hearing test at Ropewalk House :ropewalk:
-    SCHEDULED: <2016-11-30 Wed 10:30-23:00>
-
-*** DONE Collect elasticated stockings from chemist :chemist:
-    SCHEDULED: <2016-10-19 Wed>
-
-*** DONE Welcome meeting to the Weight Loss Clinic.
-    SCHEDULED: <2016-10-24 Mon 09:30>
-
-*** DONE Phone Changepoint to book onto programme :phone:
-    SCHEDULED: <2016-10-25 Tue>
-
-*** DONE Collect prescription from surgery (Tamsulosin)
-    DEADLINE: <2016-11-11 Fri> SCHEDULED: <2016-11-08 Tue>
-
-*** DONE Hearing aids to be fitted. :ropewalk:
-    SCHEDULED: <2016-11-17 Thu 13:45>
-
-    :DETAILS:
-    Where: Ropewalk House
-    Questions:-
-       1. How bad will my hearing get?
-       2. One or two ears?
-       3. Will I have to come back periodically for assessment?
-       4. Will I have the same audiologist on every visit?
-       5. Was it really the fractured skull that caused the problem?
-       6. Is the tinnitus in one year a sign of potential hearing loss?
-       7. What's the procedure for reprograming the HAs?
-       8. Are HAs bluetooth enabled?
-    :END:
-
-*** DONE Collect eye drops from chemist.
-*** DONE ENT Queens Medical Centre
-    SCHEDULED: <2017-02-01 Wed 09:20>
-
-    :DETAILS:
-    Appointment to try and find why I get occasional bouts of lack of balance.
-
-        Consultant - Prof G M O'Donoghue (or one of his team)
-	Location - ENT Reception, A-floor, EENT, East QMC
-    :END:
-
-*** CANCELLED Audiology
-    SCHEDULED: <2017-02-13 Mon 17:00>
-
-    Right hearing aid not working. To be repaired/replaced.
-
-*** DONE Collect elasticated stockings from chemist.
-    SCHEDULED: <2017-02-14 Tue>
-
-*** DONE New hearing aid batteries from Health Centre.
-    SCHEDULED: <2017-07-03 Mon>
-
-*** DONE Collect Tamsulosin from Green Cross pharmacy
-    SCHEDULED: <2017-03-06 Mon>
-
-*** DONE Telephone appointment with Dr. Griffiths
-    SCHEDULED: <2021-10-14 Thu 10:30>
-
-*** DONE Make appointment for pneumonia vaccination
-    SCHEDULED: <2017-03-15 Wed>
-
-*** DONE NHS Heart Check and pneumonia jab at Castle Healthcare
-    SCHEDULED: <2017-03-15 Wed 11:20>
-
-*** DONE Take urine sample to Castle Healthcare surgery
-    DEADLINE: <2017-03-17 Fri> SCHEDULED: <2017-03-15 Wed>
-
-*** DONE MRI scan at Queens Medical Centre
-    SCHEDULED: <2017-03-11 Sat 14:40>
-
-*** DONE Ring Castlehealth surgery for cholesterol result
-    SCHEDULED: <2017-03-22 Wed>
-
-*** DONE One month since MRI scan
-    SCHEDULED: <2017-04-11 Tue>
-
-    Should have received an appointment for ENT. Ring them
-    if not received yet.
-
-*** DONE Ring Castle Healthcare for appointment for cholesterol check.
-    SCHEDULED: <2017-09-27 Wed>
-
-    While at it make appointment for blood sugar (glucose) test as well.
-
-*** DONE Changepoint - initial assessment.
-    SCHEDULED: <2017-04-10 Mon 09:30-10:00>
-
- - Initial assessment followed by first full session
-
-*** DONE Weight loss programme with Changepoint
-    SCHEDULED: <2017-04-10 Mon 10:15-12:00>
-
-*** DONE Weight loss programme with Changepoint
-    SCHEDULED: <2017-04-24 Mon 10:15-12:00>
-
-*** CANCELLED Weight loss programme with Changepoint
-    SCHEDULED: <2017-05-01 Mon 10:15-12:00>
-
-*** DONE Weight loss programme with Changepoint
-    SCHEDULED: <2017-05-08 Mon 10:15-12:00>
-
-*** DONE Weight loss programme with Changepoint
-    SCHEDULED: <2017-05-15 Mon 10:15-12:00>
-
-*** DONE Dr Griffiths at Castle Healthcare surgery
-    SCHEDULED: <2017-05-16 Tue 15:40>
-
-*** DONE Weight loss programme with Changepoint
-    SCHEDULED: <2017-05-22 Mon 10:15-12:00>
-
-*** CANCELLED Weight loss programme with Changepoint
-    SCHEDULED: <2017-05-29 Mon 10:15-12:00>
-
-*** DONE Weight loss programme with Changepoint
-    SCHEDULED: <2017-06-05 Mon 10:15-12:00>
-
-*** DONE Weight loss programme with Changepoint
-    SCHEDULED: <2017-06-12 Mon 10:15-12:00>
-
-*** DONE Weight loss programme with Changepoint
-    SCHEDULED: <2017-06-19 Mon 10:15-12:00>
-
-*** DONE Weight loss programme with Changepoint
-    SCHEDULED: <2017-06-26 Mon 10:15-12:00>
-
-    *** APPOINTMENT Weight loss programme with Changepoint
-    SCHEDULED: <2017-07-03 Mon 10:15-12:00>
-
-*** DONE Weight loss programme with Changepoint
-    SCHEDULED: <2017-07-10 Mon 10:15-12:00>
-
-*** DONE Weight loss programme with Changepoint
-    SCHEDULED: <2017-07-17 Mon 10:15-12:00>
-
-*** DONE - Eye clinic QMC Mr. Orr
-    SCHEDULED: <2017-07-24 Mon 16:35>
-
-*** DONE - ENT QMC Prof. G M O'Donoghue
-    SCHEDULED: <2017-08-01 Tue>
-
-*** DONE Complete Everyone Health Review Pack
-    SCHEDULED: <2017-07-12 Wed>
-
-*** DONE - Flu vaccination at Castle Healthcare surgery.
-    SCHEDULED: <2020-09-26 Sat 12:00>
-*** DONE - Cholesterol check at Castle Healthcare surgery (Tracey).
-    SCHEDULED: <2017-10-03 Tue 13:30>
-
-*** DONE - Changepoint maintenance.
-    SCHEDULED: <2017-09-25 Mon 14:00>
-
-*** DONE - Audiology. Hearing aids reconfigured for volume control.
-    SCHEDULED: <2017-10-02 Mon 15:15>
-
-*** CANCELLED - Laser surgery at QMC
-    SCHEDULED: <2017-10-07 Sat 14:30>
-
-*** DONE - Discuss test results with Dr. Griffiths.
-    SCHEDULED: <2017-10-12 Thu 10:40>
-
-*** DONE - Visual fields test at QMC.
-    SCHEDULED: <2017-10-26 Thu 15:40>
-
-*** DONE - Eye Outpatients wi:th Mr. Orr at QMC.
-    SCHEDULED: <2017-10-28 Sat 12:25>
-
-*** CANCELLED - Changepoint maintenance.
-    SCHEDULED: <2017-10-30 Mon 14:00>
-
-*** DONE - Eye laser surgery.
-    SCHEDULED: <2017-11-10 Fri 17:30>
-
-*** DONE - Liquid nitrogen surgery.
-    CLOSED: [2017-11-17 Fri 18:43] SCHEDULED: <2017-11-08 Wed 14:40>
-
-    Sun spot to be removed by freezing. Surgical 
-    procedure to be carried out by Dr. Hutchinson.
-
-*** CANCELLED - 6 weeks since eye laser surgery
-    SCHEDULED: <2017-12-22 Fri>
-
-*** DONE - Specsavers. Eye test for varifocal glasses.
-    SCHEDULED: <2017-12-01 Fri 13:30>
-
-*** DONE - Specsavers - Fitting of new glasses.
-    SCHEDULED: <2017-12-08 Fri 13:25>
-
-*** REMINDER - 3 months since glasses bought from Specsavers.
-    Can be replaced or money refunded within this period if unhappy with the varifocals.
-
-*** DONE - Collect new hearing aid batteries from Bridgford Health Centre
-    SCHEDULED: <2020-09-14 Mon>
-*** DONE - Dentist: 6 monthly check-up.
-    SCHEDULED: <2018-01-11 Thu 14:00>
-    
-*** DONE - Dentist: Follow-up from dental appointment (Hygienist).
-    SCHEDULED: <2018-01-12 Fri 14:00>
-
-*** DONE - Dentist: Check-up
-    SCHEDULED: <2018-07-24 Tue 14:45>
-
-*** DONE - Pick up Tamsulosin from chemist
-    DEADLINE: <2018-02-20 Tue> SCHEDULED: <2018-02-16 Fri>
-
-*** DONE - Dr. Griffiths
-    SCHEDULED: <2018-04-20 Fri 10:40>
-    Prescription review + advice on fatigue/tiredness etc.
-
-*** DONE - Blood test
-    SCHEDULED: <2018-04-23 Mon 11:07>
-    Blood test for prostate cancer and hbaic etc.
-
-*** DONE - Health coaching with Kelly at Rushcliffe Arena.
-    SCHEDULED: <2018-05-04 Fri 14:00>
-*** CANCELLED - Health coaching with Kelly at Rushcliffe Arena.
-    SCHEDULED: <2018-06-14 Thu 11:30>
-*** DONE - Review with Changepoint at Keyworth (Ben)
-    SCHEDULED: <2018-05-21 Mon 14:00>
-*** DONE - Abdominal aortic screening at Lings Bar hospital
-    SCHEDULED: <2018-08-07 Tue 15:30>
-*** DONE - Visual fields test at QMC.
-    SCHEDULED: <2018-07-14 Sat 11:20>
-
-*** DONE - Eye Outpatients with Mr. Orr at QMC.
-    SCHEDULED: <2018-07-14 Sat 12:45>
-
-*** DONE - Measurement of elasticated stockings at chemist.
-    SCHEDULED: <2018-09-17 Mon 08:30>
-*** DONE - Dentist: Check-up
-    SCHEDULED: <2019-04-25 Thu 14:15>
-*** DONE - Audiology: Hearing test.
-    SCHEDULED: <2018-11-30 Fri 12:30>
-*** DONE - Order eye drops and Tamsulosin from surgery.
-    SCHEDULED: <2018-12-06 Thu>
-*** DONE - Audiology - Right hearing aid not functioning.
-    SCHEDULED: <2018-12-20 Thu 11:15>
-*** DONE - Visual fields test at QMC.
-    SCHEDULED: <2019-01-21 Mon 16:15>
-
-*** DONE - Eye Outpatients wi:th Mr. Orr at QMC.
-    SCHEDULED: <2019-01-21 Mon 16:50>
-
-*** DONE - Eye test with Vision Express.
-    SCHEDULED: <2019-01-28 Mon 13:10>
-*** DONE - Ear wax removal at Castlehealth surgery.
-    SCHEDULED: <2019-02-18 Mon 12:20>
-*** DONE - Book prostate blood test with Castle Healthcare.
-    SCHEDULED: <2020-09-14 Mon>
-*** DONE - Prescription Review.
-    SCHEDULED: <2020-09-11 Fri 16:00>
-*** DONE - Blood test at Castlehealth surgery....
-    SCHEDULED: <2019-08-08 Thu 08:00-11:30>
-*** DONE - DVLA eye test at Specsavers, Wheeler Gate.
-    SCHEDULED: <2019-08-21 Wed 14:10>
-*** DONE - Collect prescription from chemist
-    SCHEDULED: <2020-08-28 Fri>
-*** DONE - Health check at Castlehealth surgery.
-    SCHEDULED: <2019-08-29 Thu 10:05>
-*** DONE - Collect hearing aid supplies from audiology.
-    SCHEDULED: <2019-12-18 Wed>
-*** DONE - Eye test with Vision Express.
-    SCHEDULED: <2021-01-18 Mon 12:35>
-*** DONE - Cholesterol check at Castle Healthcare.
-    SCHEDULED: <2020-05-15 Fri 11:20>
-*** DONE - Contact surgery about prescription review.
-    SCHEDULED: <2020-07-27 Mon>
-*** DONE - Prostate blood test at Castle Healthcare surgery.
-    SCHEDULED: <2020-09-18 Fri 11:40>
-*** DONE - Visual Fields test at Queen's Medical.
-    SCHEDULED: <2020-10-07 Wed 11:10>
-*** DONE - Eye test at 'Eye Outpatients', QMC.
-    SCHEDULED: <2020-10-12 Mon 14:00>
-*** DONE - 1st covid-19 vaccination at Gamston Community Hall.
-    SCHEDULED: <2021-02-12 Fri 12:30>
-*** DONE - 2nd covid-19 vaccination at Gamston Community Hall.
-    SCHEDULED: <2021-05-01 Sat 12:30>
-*** DONE - Visual Fields test at Queen's Medical.
-    SCHEDULED: <2021-10-15 Fri 10:30>
-*** DONE - Eye test at 'Eye Outpatients', QMC.
-    SCHEDULED: <2021-10-15 Fri 10:45>
-*** DONE - Blood test (prostate) at Castlehealtcare surgery.
-    SCHEDULED: <2021-10-21 Thu 09:40>
-*** DONE - Covid booster + flu vaccinations
-    SCHEDULED: <2021-11-10 Wed 13:25>
-*** DONE - Eye test at Visual Express
-    SCHEDULED: <2022-02-01 Tue 13:40>
 *** DONE - Eye test at Visual Express
     SCHEDULED: <2023-01-16 Mon 13:40>
-*** APPOINTMENT - Assessmant at Visual Express.
+*** CANCELLED - Assessmant at Visual Express.
 SCHEDULED: <2023-01-30 Mon 13:40>
+*** REMINDER - Visual Express to contact me.
+SCHEDULED: <2023-02-03 Fri>
+To see if I have adjusted to my new glasses.
+*** APPOINTMENT - Re-test eyes at Visual Express
+SCHEDULED: <2023-02-07 Tue 13:40>
+    If I have not adjusted to new glasses, otherwise the appointment will be cancelled.
 * PERSONAL :PERSONAL
 ** REPEAT EVENTS :repeat:
 *** TODO - Grey bin collection tomorrow
@@ -515,11 +150,12 @@ SCHEDULED: <2023-01-30 Mon 13:40>
     - State "DONE"       from "TODO"       [2022-02-06 Sun 08:02]
     :END:
 
-*** REMINDER - Blue bin collection day tomorrow.
-SCHEDULED: <2023-01-29 Sun ++2w>
+*** TODO - Blue bin collection day tomorrow.
+SCHEDULED: <2023-02-12 Sun ++2w>
     :PROPERTIES:
-    :LAST_REPEAT: [2023-01-11 Wed 17:33]
+    :LAST_REPEAT: [2023-01-29 Sun 10:10]
     :END:
+    - State "DONE"       from "REMINDER"   [2023-01-29 Sun 10:10]
     - State "DONE"       from "TODO"       [2023-01-11 Wed 17:33]
     - State "DONE"       from "TODO"       [2023-01-11 Wed 17:32]
     :LOGBOOK:
@@ -540,10 +176,11 @@ SCHEDULED: <2023-01-29 Sun ++2w>
     :END:
 
 *** TODO - Water spider plant
-    SCHEDULED: <2023-01-30 Mon ++1w>
+    SCHEDULED: <2023-02-06 Mon ++1w>
     :PROPERTIES:
-    :LAST_REPEAT: [2023-01-23 Mon 09:34]
+    :LAST_REPEAT: [2023-01-30 Mon 10:43]
     :END:
+    - State "DONE"       from "TODO"       [2023-01-30 Mon 10:43]
     - State "CANCELLED"  from "TODO"       [2023-01-23 Mon 09:34]
     - State "DONE"       from "TODO"       [2023-01-16 Mon 10:36]
     - State "DONE"       from "TODO"       [2023-01-11 Wed 17:35]
@@ -574,10 +211,11 @@ SCHEDULED: <2023-01-29 Sun ++2w>
     :END:
 
 *** TODO - Recharge toothbrush
-    SCHEDULED: <2023-01-30 Mon ++1w>
+    SCHEDULED: <2023-02-06 Mon ++1w>
     :PROPERTIES:
-    :LAST_REPEAT: [2023-01-23 Mon 09:34]
+    :LAST_REPEAT: [2023-01-30 Mon 10:43]
     :END:
+    - State "DONE"       from "TODO"       [2023-01-30 Mon 10:43]
     - State "DONE"       from "TODO"       [2023-01-23 Mon 09:34]
     - State "DONE"       from "TODO"       [2023-01-16 Mon 10:36]
     - State "DONE"       from "TODO"       [2023-01-11 Wed 17:36]
