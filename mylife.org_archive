@@ -1301,3 +1301,181 @@ SCHEDULED: <2023-01-13 Fri>
 :ARCHIVE_TODO: DONE
 :ARCHIVE_ITAGS: health one_off
 :END:
+
+* DONE - Visual Express to contact me.
+SCHEDULED: <2023-02-03 Fri>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-02-07 Tue 16:11
+:ARCHIVE_FILE: ~/mylife.org
+:ARCHIVE_OLPATH: HEALTH/ONE-OFF EVENTS
+:ARCHIVE_CATEGORY: mylife
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: health one_off
+:END:
+To see if I have adjusted to my new glasses.
+
+* DONE - Re-test eyes at Visual Express
+SCHEDULED: <2023-02-07 Tue 13:40>
+:PROPERTIES:
+:ARCHIVE_TIME: 2023-02-07 Tue 16:12
+:ARCHIVE_FILE: ~/mylife.org
+:ARCHIVE_OLPATH: HEALTH/ONE-OFF EVENTS
+:ARCHIVE_CATEGORY: mylife
+:ARCHIVE_TODO: DONE
+:ARCHIVE_ITAGS: health one_off
+:END:
+    If I have not adjusted to new glasses, otherwise the appointment will be cancelled.
+
+* TODO - Take blood pressure reading.                                     :q:
+     SCHEDULED: <2023-02-13 Mon ++1w>
+     :PROPERTIES:
+     :LAST_REPEAT: [2023-02-07 Tue 16:13]
+     :ARCHIVE_TIME: 2023-02-07 Tue 16:13
+     :ARCHIVE_FILE: ~/mylife.org
+     :ARCHIVE_OLPATH: HEALTH/REPEAT EVENTS/- Change tubes on hearing aids.
+     :ARCHIVE_CATEGORY: mylife
+     :ARCHIVE_TODO: TODO
+     :ARCHIVE_ITAGS: health repeat
+     :END:
+     - State "CANCELLED"  from "TODO"       [2023-02-07 Tue 16:13]
+     - State "CANCELLED"  from "TODO"       [2023-01-30 Mon 10:43]
+     - State "CANCELLED"  from "TODO"       [2023-01-23 Mon 09:34]
+     - State "CANCELLED"  from "TODO"       [2023-01-16 Mon 10:36]
+     - State "DONE"       from "TODO"       [2023-01-11 Wed 17:34]
+     :LOGBOOK:
+     - State "CANCELLED"  from "TODO"       [2022-09-08 Thu 07:30]
+     - State "CANCELLED"  from "TODO"       [2022-09-02 Fri 07:12]
+     - State "CANCELLED"  from "TODO"       [2022-08-22 Mon 08:08]
+     - State "CANCELLED"  from "TODO"       [2022-08-15 Mon 08:01]
+     - State "DONE"       from "TODO"       [2022-08-11 Thu 12:03]
+     - State "CANCELLED"  from "TODO"       [2022-08-01 Mon 07:44]
+     - State "CANCELLED"  from "TODO"       [2022-07-25 Mon 07:32]
+     - State "CANCELLED"  from "TODO"       [2022-07-18 Mon 07:43]
+     - State "CANCELLED"  from "TODO"       [2022-07-11 Mon 07:14]
+     - State "CANCELLED"  from "TODO"       [2022-06-27 Mon 07:07]
+     - State "CANCELLED"  from "TODO"       [2022-06-27 Mon 07:07]
+     - State "CANCELLED"  from "TODO"       [2022-06-25 Sat 07:14]
+     - State "DONE"       from "TODO"       [2022-06-16 Thu 07:59]
+     - State "CANCELLED"  from "TODO"       [2022-06-06 Mon 07:36]
+     - State "CANCELLED"  from "TODO"       [2022-05-25 Wed 13:52]
+     - State "CANCELLED"  from "TODO"       [2022-05-25 Wed 13:52]
+     - State "DONE"       from "TODO"       [2022-05-09 Mon 07:40]
+     - State "DONE"       from "TODO"       [2022-05-02 Mon 07:11]
+     - State "CANCELLED"  from "TODO"       [2022-04-25 Mon 07:07]
+     - State "CANCELLED"  from "TODO"       [2022-04-18 Mon 07:29]
+     - State "DONE"       from "TODO"       [2022-04-11 Mon 07:32]
+     - State "CANCELLED"  from "TODO"       [2022-04-04 Mon 07:22]
+     - State "CANCELLED"  from "TODO"       [2022-03-28 Mon 07:34]
+     - State "CANCELLED"  from "TODO"       [2022-03-21 Mon 07:43]
+     - State "CANCELLED"  from "TODO"       [2022-03-14 Mon 07:47]
+     - State "CANCELLED"  from "TODO"       [2022-03-07 Mon 08:04]
+     - State "CANCELLED"  from "TODO"       [2022-02-28 Mon 07:36]
+     - State "CANCELLED"  from "TODO"       [2022-02-21 Mon 09:14]
+     - State "CANCELLED"  from "TODO"       [2022-02-14 Mon 07:18]
+     - State "CANCELLED"  from "TODO"       [2022-02-07 Mon 09:27]
+     - State "CANCELLED"  from "TODO"       [2022-01-31 Mon 07:08]
+     - State "CANCELLED"  from "TODO"       [2022-01-24 Mon 07:17]
+     - State "CANCELLED"  from "TODO"       [2022-01-17 Mon 07:33]
+     - State "CANCELLED"  from "TODO"       [2022-01-10 Mon 07:14]
+     - State "CANCELLED"  from "TODO"       [2022-01-03 Mon 07:21]
+     - State "CANCELLED"  from "TODO"       [2021-12-27 Mon 07:45]
+     - State "CANCELLED"  from "TODO"       [2021-12-20 Mon 07:28]
+     - State "CANCELLED"  from "TODO"       [2021-12-13 Mon 07:07]
+     - State "CANCELLED"  from "TODO"       [2021-12-06 Mon 07:15]
+     - State "CANCELLED"  from "TODO"       [2021-11-29 Mon 07:30]
+     - State "CANCELLED"  from "TODO"       [2021-11-22 Mon 07:41]
+     - State "CANCELLED"  from "TODO"       [2021-11-15 Mon 07:15]
+     - State "CANCELLED"  from "TODO"       [2021-11-08 Mon 07:06]
+     - State "CANCELLED"  from "TODO"       [2021-11-01 Mon 07:03]
+     - State "CANCELLED"  from "TODO"       [2021-10-25 Mon 07:20]
+     - State "CANCELLED"  from "TODO"       [2021-10-18 Mon 07:08]
+     - State "CANCELLED"  from "TODO"       [2021-10-11 Mon 07:18]
+     - State "CANCELLED"  from "TODO"       [2021-10-04 Mon 07:10]
+     - State "CANCELLED"  from "TODO"       [2021-09-27 Mon 07:49]
+     - State "CANCELLED"  from "TODO"       [2021-09-20 Mon 07:18]
+     :END:
+
+* TODO - Water spider plant
+    SCHEDULED: <2023-02-13 Mon ++1w>
+    :PROPERTIES:
+    :LAST_REPEAT: [2023-02-07 Tue 16:13]
+    :ARCHIVE_TIME: 2023-02-07 Tue 16:13
+    :ARCHIVE_FILE: ~/mylife.org
+    :ARCHIVE_OLPATH: PERSONAL :PERSONAL/REPEAT EVENTS
+    :ARCHIVE_CATEGORY: mylife
+    :ARCHIVE_TODO: TODO
+    :ARCHIVE_ITAGS: repeat
+    :END:
+    - State "CANCELLED"  from "TODO"       [2023-02-07 Tue 16:13]
+    - State "DONE"       from "TODO"       [2023-01-30 Mon 10:43]
+    - State "CANCELLED"  from "TODO"       [2023-01-23 Mon 09:34]
+    - State "DONE"       from "TODO"       [2023-01-16 Mon 10:36]
+    - State "DONE"       from "TODO"       [2023-01-11 Wed 17:35]
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2022-09-08 Thu 07:30]
+    - State "DONE"       from "TODO"       [2022-09-02 Fri 07:12]
+    - State "DONE"       from "TODO"       [2022-08-22 Mon 08:08]
+    - State "DONE"       from "TODO"       [2022-08-15 Mon 08:01]
+    - State "DONE"       from "TODO"       [2022-08-11 Thu 12:03]
+    - State "DONE"       from "TODO"       [2022-08-01 Mon 07:44]
+    - State "DONE"       from "TODO"       [2022-07-18 Mon 07:43]
+    - State "DONE"       from "TODO"       [2022-07-18 Mon 07:43]
+    - State "DONE"       from "TODO"       [2022-07-11 Mon 07:16]
+    - State "CANCELLED"  from "TODO"       [2022-06-27 Mon 07:07]
+    - State "DONE"       from "TODO"       [2022-06-25 Sat 07:15]
+    - State "DONE"       from "TODO"       [2022-06-16 Thu 07:58]
+    - State "DONE"       from "TODO"       [2022-06-06 Mon 07:36]
+    - State "DONE"       from "TODO"       [2022-06-01 Wed 07:24]
+    - State "DONE"       from "TODO"       [2022-05-25 Wed 13:53]
+    - State "DONE"       from "TODO"       [2022-05-09 Mon 07:40]
+    - State "DONE"       from "TODO"       [2022-05-02 Mon 07:12]
+    - State "DONE"       from "TODO"       [2022-04-25 Mon 07:07]
+    - State "DONE"       from "TODO"       [2022-04-18 Mon 07:29]
+    - State "DONE"       from "TODO"       [2022-04-11 Mon 07:32]
+    - State "DONE"       from "TODO"       [2022-04-04 Mon 07:22]
+    - State "DONE"       from "TODO"       [2022-03-28 Mon 07:34]
+    - State "DONE"       from "TODO"       [2022-03-21 Mon 07:43]
+    :END:
+
+
+* TODO - Recharge toothbrush
+    SCHEDULED: <2023-02-13 Mon ++1w>
+    :PROPERTIES:
+    :LAST_REPEAT: [2023-02-07 Tue 16:13]
+    :ARCHIVE_TIME: 2023-02-07 Tue 16:14
+    :ARCHIVE_FILE: ~/mylife.org
+    :ARCHIVE_OLPATH: PERSONAL :PERSONAL/REPEAT EVENTS
+    :ARCHIVE_CATEGORY: mylife
+    :ARCHIVE_TODO: TODO
+    :ARCHIVE_ITAGS: repeat
+    :END:
+    - State "DONE"       from "TODO"       [2023-02-07 Tue 16:13]
+    - State "DONE"       from "TODO"       [2023-01-30 Mon 10:43]
+    - State "DONE"       from "TODO"       [2023-01-23 Mon 09:34]
+    - State "DONE"       from "TODO"       [2023-01-16 Mon 10:36]
+    - State "DONE"       from "TODO"       [2023-01-11 Wed 17:36]
+    :LOGBOOK:
+    - State "DONE"       from "TODO"       [2022-09-08 Thu 07:30]
+    - State "DONE"       from "TODO"       [2022-09-02 Fri 07:12]
+    - State "DONE"       from "TODO"       [2022-08-22 Mon 08:08]
+    - State "DONE"       from "TODO"       [2022-08-15 Mon 08:01]
+    - State "DONE"       from "TODO"       [2022-08-11 Thu 12:03]
+    - State "DONE"       from "TODO"       [2022-08-01 Mon 07:44]
+    - State "DONE"       from "TODO"       [2022-07-25 Mon 07:32]
+    - State "DONE"       from "TODO"       [2022-07-18 Mon 07:43]
+    - State "DONE"       from "TODO"       [2022-07-11 Mon 07:14]
+    - State "DONE"       from "TODO"       [2022-06-27 Mon 07:07]
+    - State "DONE"       from "TODO"       [2022-06-25 Sat 07:15]
+    - State "DONE"       from "TODO"       [2022-06-16 Thu 07:58]
+    - State "DONE"       from "TODO"       [2022-06-06 Mon 07:36]
+    - State "DONE"       from "TODO"       [2022-06-01 Wed 07:24]
+    - State "DONE"       from "TODO"       [2022-05-25 Wed 13:53]
+    - State "DONE"       from "TODO"       [2022-05-09 Mon 07:40]
+    - State "DONE"       from "TODO"       [2022-05-02 Mon 07:12]
+    - State "DONE"       from "TODO"       [2022-04-25 Mon 07:07]
+    - State "DONE"       from "TODO"       [2022-04-18 Mon 07:29]
+    - State "DONE"       from "TODO"       [2022-04-11 Mon 07:33]
+    - State "DONE"       from "TODO"       [2022-04-04 Mon 07:22]
+    - State "DONE"       from "TODO"       [2022-03-28 Mon 07:34]
+    :END:
+
