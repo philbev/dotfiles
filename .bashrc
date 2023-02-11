@@ -150,12 +150,12 @@ gh () {
 
 ### l ()
 l () {
-    ls -lF --color --group-directories-first "$@" | less
+    exa -lgh --icons --git --color=always --group-directories-first "$@" | less
 }
 
 ### la ()
 la () {
-    ls -alF --color=auto  --group-directories-first  "$@" | less
+    exa -algh --color=always --icons --git  --group-directories-first  "$@" | less
 }
 
 ### ll ()
