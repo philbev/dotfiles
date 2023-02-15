@@ -247,7 +247,7 @@ exec_always --no-startup-id flameshot
 exec --no-startup-id /usr/lib/polkit-kde-authentication-agent-1
 
 #################### KEYMAPS ####################
-bindsym $mod+Ctrl+e exec emacsclient -c -n
+bindsym mod1+Ctrl+e exec emacsclient -c -n
 bindsym $mod+Shift+minus move scratchpad
 bindsym $mod+Shift+v exec virt-manager
 bindsym $mod+equal floating toggle

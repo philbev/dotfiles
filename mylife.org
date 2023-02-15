@@ -1,6 +1,13 @@
 #+SEQ_TODO: TODO(t) APPOINTMENT(a) BIRTHDAY(b) EVENT(e) PENDING(p) REMINDER(r) | DONE(d) CANCELLED(c)
 #+TAGS: health dentist chemist home ropewalk birthday personal opticians on_line chore
 #+STARTUP: overview
+
+* CHEATSHEET
+** Archiving
+To archive 'C-c C-x C-a' ('org-archive-subtree-default')
+
+
+
 * HEALTH                                                             :health:
   :DETAILS:
    NHS Number: 460 339 9170
@@ -51,16 +58,33 @@
 **** CANCELLED - Dentist
      SCHEDULED: <2020-05-05 Tue 11:15>
 *** TODO - Heat treatment for eyes
-SCHEDULED: <2023-02-11 Sat ++2d>
+SCHEDULED: <2023-02-15 Wed ++2d>
+:PROPERTIES:
+:LAST_REPEAT: [2023-02-13 Mon 11:11]
+:END:
+- State "DONE"       from "TODO"       [2023-02-13 Mon 11:11]
+- State "DONE"       from "TODO"       [2023-02-11 Sat 10:41]
 *** TODO - Clean hearing aids
-SCHEDULED: <2023-02-12 Sun +1w>
+SCHEDULED: <2023-02-19 Sun +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-02-12 Sun 10:30]
+:END:
+- State "CANCELLED"  from "TODO"       [2023-02-12 Sun 10:30]
 ** ONE-OFF EVENTS
 * PERSONAL :PERSONAL                                               :personal:
 ** REPEAT EVENTS
 *** TODO - Water spider plant (Mr. Johnstone :-))
-SCHEDULED: <2023-02-13 Mon +1w>
+SCHEDULED: <2023-02-20 Mon +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-02-13 Mon 10:49]
+:END:
+- State "DONE"       from "TODO"       [2023-02-13 Mon 10:49]
 *** TODO - Recharge toothbrush
-SCHEDULED: <2023-02-13 Mon +1w>
+SCHEDULED: <2023-02-20 Mon +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-02-13 Mon 10:49]
+:END:
+- State "DONE"       from "TODO"       [2023-02-13 Mon 10:49]
 *** TODO - Grey bin collection tomorrow
     SCHEDULED: <2023-02-19 Sun ++2w>
     :PROPERTIES:
@@ -89,10 +113,11 @@ SCHEDULED: <2023-02-13 Mon +1w>
     :END:
 
 *** TODO - Blue bin collection day tomorrow.
-SCHEDULED: <2023-02-12 Sun ++2w>
+SCHEDULED: <2023-02-26 Sun ++2w>
     :PROPERTIES:
-    :LAST_REPEAT: [2023-01-29 Sun 10:10]
+    :LAST_REPEAT: [2023-02-12 Sun 10:30]
     :END:
+    - State "DONE"       from "TODO"       [2023-02-12 Sun 10:30]
     - State "DONE"       from "REMINDER"   [2023-01-29 Sun 10:10]
     - State "DONE"       from "TODO"       [2023-01-11 Wed 17:33]
     - State "DONE"       from "TODO"       [2023-01-11 Wed 17:32]

@@ -16,7 +16,6 @@ SETUVAR _fish_abbr_spq:sudo\x20pacman\x20\x2dQ
 SETUVAR _fish_abbr_spr:sudo\x20pacman\x20\x2dR
 SETUVAR _fish_abbr_sps:sudo\x20pacman\x20\x2dS
 SETUVAR _fish_abbr_spy:sudo\x20pacman\x20\x2dSyyu
-SETUVAR _fish_abbr_sv:sudo\x20nvim
 SETUVAR _fish_abbr_sy:sudo\x20systemctl
 SETUVAR _fish_abbr_via:nvim\x20/home/phil/\x2econfig/alacritty/alacritty\x2eyml
 SETUVAR _fish_abbr_vifm:vifmrun
