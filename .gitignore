@@ -96,3 +96,4 @@ Videos
 .zcompdump
 .git.old/
 .dotfiles/
+.emacs.d.bak/
