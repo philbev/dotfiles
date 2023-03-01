@@ -255,9 +255,12 @@ bindsym Ctrl+Shift+l exec libreoffice
 bindsym mod1+Ctrl+a exec alacritty
 bindsym mod1+Ctrl+c exec chromium
 bindsym mod1+Ctrl+d exec dolphin
-bindsym mod1+Ctrl+e exec emacsclient -c -n
-bindsym mod1+Ctrl+j exec emacsclient -c -n ~/journal.org
-bindsym mod1+Ctrl+m exec emacsclient -c -n ~/mylife.org
+#bindsym mod1+Ctrl+e exec emacsclient -c -n
+#bindsym mod1+Ctrl+j exec emacsclient -c -n ~/journal.org
+#bindsym mod1+Ctrl+m exec emacsclient -c -n ~/mylife.org
+bindsym mod1+Ctrl+e exec emacs
+bindsym mod1+Ctrl+j exec emacs ~/journal.org
+bindsym mod1+Ctrl+m exec emacs ~/mylife.org
 bindsym mod1+Ctrl+f exec --no-startup-id firefox; focus
 bindsym mod1+Ctrl+k exec konsole
 bindsym mod1+Ctrl+p exec pcmanfm

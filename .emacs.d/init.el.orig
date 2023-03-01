@@ -147,3 +147,8 @@
 (setq evil-want-C-i-jump nil)
 (require 'evil)
 (evil-mode t)
+
+;; Some nice bullets for org mode.
+(require 'org-superstar)
+  │ (add-hook 'org-mode-hook (lambda () (org-superstar-mode 1)))
+
