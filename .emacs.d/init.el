@@ -145,7 +145,8 @@
 
 (linum-mode t)
 (require 'linum-relative)
-(linum-relative-mode t)
+(setq display-line-numbers-type 'relative) 
+(global-display-line-numbers-mode)
 
 (add-hook 'prog-mode-hook 'display-line-numbers-mode)
 

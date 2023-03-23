@@ -1,12 +1,14 @@
 #+TITLE: EMACS INITIALISATION FILE
-#+PROPERTIES:
+#+PROPERTY: header-args :tangle init.test
+#+OPTIONS:toc: nil
+* TABLE OF CONTENTS :toc:nil
 
 * My Emacs Initialisation File
  custom-set-variables was added by Custom. If you edit it by hand, you
 could mess it up, so be careful. Your init file should contain only
 one such instance. If there is more than one, they won't work right.
 (custom-set-variables
- #+begin_src elisp
+ #+BEGIN_SRC lisp
  '(custom-enabled-themes '(tango-dark))
  '(org-agenda-files '("/home/phil/mylife.org"))
  '(package-selected-packages
@@ -14,8 +16,9 @@ one such instance. If there is more than one, they won't work right.
 (custom-set-faces
  '(default ((t (:family "JetBrainsMono Nerd Font Mono" :foundry "JB" :slant normal :weight normal :height 128 :width normal))))
  '(region ((t (:extend t :background "#CCCCCC")))))
- #+end_src
+ #+END_SRC
 
+* Next Heading
 ;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
 ;; Emacs Elements
 ;; URL: https://youtu.be/eRHLGWajcTk

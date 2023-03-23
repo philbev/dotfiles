@@ -97,3 +97,5 @@ Videos
 .git.old/
 .dotfiles/
 .emacs.d.bak/
+.MakeMKV/
+.dvdcss/
