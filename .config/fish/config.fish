@@ -5,8 +5,10 @@ if status is-interactive
     export QT_QPA_PLATFORMTHEME=qt5ct
     abbr -a em emacsclient -c -n
     abbr -a sv sudoedit
+    abbr -a vih nvim ~/.config/hypr/hyprland.conf
     if not ps ax | grep picom | grep -v grep >/dev/null
         and [ $XDG_CURRENT_DESKTOP != KDE ]   # Plasma has its own compositor.
+        and [ $WAYLAND_DISPLAY != wayland-1 ]
         picom -f &
     end
 end
