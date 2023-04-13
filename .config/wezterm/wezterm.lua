@@ -1,9 +1,18 @@
 -- For full configuration details see:-
 --      https://wezfurlong.org/wezterm/config/files.html
 
+
+
 local wezterm = require 'wezterm'
 local act = wezterm.action
 local config = {}
+
+-- In newer versions of wezterm, use the config_builder which will
+-- help provide clearer error messages
+if wezterm.config_builder then
+  config = wezterm.config_builder()
+end
+
 
     config.default_prog = { '/usr/bin/fish'}
     config.font = wezterm.font('JetBrains Mono', { weight = 'Regular', italic = false })
