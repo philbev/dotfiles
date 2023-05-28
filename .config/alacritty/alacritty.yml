@@ -434,7 +434,8 @@ font:
 #   - (Linux/BSD) user login shell
 #   - (Windows) powershell
 shell:
-  program: /bin/fish
+    program: /usr/bin/fish
+#    program: /usr/bin/zsh
 #  args:
 #    - --login
 
