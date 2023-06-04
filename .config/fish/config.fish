@@ -3,6 +3,7 @@ if status is-interactive
     export LESS='-eXRF'
     export LC_ALL='en_GB.UTF-8'
     export QT_QPA_PLATFORMTHEME=qt5ct
+    export NVIM_APPNAME=lazy
     abbr -a em emacsclient -c -n
     abbr -a sv sudoedit
     abbr -a vih nvim ~/.config/hypr/hyprland.conf ~/.config/waybar/config ~/.config/waybar/style.css
