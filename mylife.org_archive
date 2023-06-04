@@ -2343,3 +2343,35 @@ SCHEDULED: <2023-02-07 Tue 13:40>
 :ARCHIVE_TODO: DONE
 :ARCHIVE_ITAGS: personal one off
 :END:
+
+* TODO - Heat treatment for eyes
+SCHEDULED: <2023-06-06 Tue ++1w>
+:PROPERTIES:
+:LAST_REPEAT: [2023-05-30 Tue 09:34]
+:ARCHIVE_TIME: 2023-05-30 Tue 10:51
+:ARCHIVE_FILE: ~/mylife.org
+:ARCHIVE_OLPATH: HEALTH/REPEAT EVENTS
+:ARCHIVE_CATEGORY: mylife
+:ARCHIVE_TODO: TODO
+:ARCHIVE_ITAGS: health
+:END:
+- State "DONE"       from "TODO"       [2023-05-30 Tue 09:34]
+- State "DONE"       from "TODO"       [2023-05-23 Tue 09:41]
+- State "DONE"       from "TODO"       [2023-05-17 Wed 15:02]
+- State "DONE"       from "TODO"       [2023-05-09 Tue 11:06]
+- State "DONE"       from "TODO"       [2023-05-02 Tue 11:17]
+- State "DONE"       from "TODO"       [2023-04-26 Wed 07:21]
+- State "DONE"       from "TODO"       [2023-04-19 Wed 07:13]
+- State "DONE"       from "TODO"       [2023-04-11 Tue 10:09]
+- State "DONE"       from "TODO"       [2023-04-04 Tue 08:42]
+- State "DONE"       from "TODO"       [2023-03-30 Thu 07:52]
+- State "DONE"       from "TODO"       [2023-03-21 Tue 10:55]
+- State "DONE"       from "TODO"       [2023-03-17 Fri 08:39]
+- State "DONE"       from "TODO"       [2023-03-08 Wed 10:19]
+- State "DONE"       from "TODO"       [2023-02-28 Tue 10:43]
+- State "DONE"       from "TODO"       [2023-02-22 Wed 10:50]
+- State "DONE"       from "TODO"       [2023-02-19 Sun 17:31]
+- State "DONE"       from "TODO"       [2023-02-17 Fri 09:34]
+- State "DONE"       from "TODO"       [2023-02-16 Thu 11:14]
+- State "DONE"       from "TODO"       [2023-02-13 Mon 11:11]
+- State "DONE"       from "TODO"       [2023-02-11 Sat 10:41]
