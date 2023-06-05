@@ -1,26 +1,15 @@
-adduser
-autokey-common
-autokey-qt
-autotiling-git
-google-chrome
-mailspring
-nerd-fonts-cascadia-code
-nerd-fonts-hack
-nerd-fonts-jetbrains-mono
-nerd-fonts-meslo
-nerd-fonts-mononoki
-osysinfo
-paru-bin
-ptpython
-ruby-colorls
-sddm-sugar-dark
-spacefm
-termite
-timeshift
-ulauncher
-ventoy-bin
-via-appimage
-visual-studio-code-bin
-xfce4-sysinfo
-zsh-theme-powerlevel10k-git
-zsh-z-git
+autotiling 1.8-3
+downgrade 11.3.0-1
+grub-theme-tela-color-1080p-git 2022.10.30.r7.gc106dfb-1
+grub2-theme-arch-suse 3.1-1
+grub2-theme-archlinux 1.0-4
+jellyfin-ffmpeg5-bin 5.1.3-1
+makemkv 1.17.3-2
+makemkv-libaacs 1:1-3
+nb 7.5.1-1
+neovim-nightly-bin 0.10.0+dev+449+gcc4169777-1
+qsync 1:1.0.9.1627-1
+vial-appimage v0.6-2
+waybar-hyprland-git 0.9.17.r159.ga9a22234-1
+wl-clipboard-git 2.1.0+8.g7463d266cc-1
+yay-bin 12.0.5-1

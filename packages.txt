@@ -1,197 +1,124 @@
-alacritty
-apache
-arandr
-archinstall
-archiso
-archlinux-wallpaper
-autoconf
-automake
-awesome
-base
-bash-completion
-bash-language-server
-bat
-binutils
-bison
-bitwarden
-blueman
-bluez-utils
-bridge-utils
-calibre
-chromium
-conky
-cups
-darktable
-dialog
-digikam
-dmenu
-dmidecode
-dnsmasq
-dosfstools
-ed
-edk2-ovmf
-edk2-shell
-efibootmgr
-emacs
-exa
-extra-cmake-modules
-fakeroot
-fd
-feh
-figlet
-firefox
-fish
-flameshot
-flex
-fortune-mod
-fzf
-gcc
-gimp
-gimp-help-en_gb
-git
-gnome-characters
-gnome-keyring
-go
-gparted
-groff
-grub
-grub-btrfs
-grub-customizer
-gvfs-google
-gvim
-htop
-i3-gaps
-i3blocks
-i3lock
-i3status
-inkscape
-intel-ucode
-iptables-nft
-jq
-kde-applications-meta
-kitty
-kvantum
-lazygit
-libhandy
-libreoffice-fresh-en-gb
-libtool
-linux
-linux-firmware
-linux-headers
-linux-lts
-linux-lts-docs
-linux-lts-headers
-lolcat
-lsd
-lua-language-server
-luarocks
-lxappearance
-m4
-make
-mlocate
-mtools
-nano
-neofetch
-network-manager-applet
-networkmanager
-nitrogen
-nmap
-npm
-ntfs-3g
-obs-studio
-openbsd-netcat
-os-prober
-pacman-contrib
-patch
-pavucontrol
-pcmanfm
-perl-image-exiftool
-pkgconf
-plasma-wayland-protocols
-pulseaudio
-pulseaudio-alsa
-pulseaudio-bluetooth
-pulsemixer
-python-pip
-qemu
-qemu-arch-extra
-qt5ct
-qtile
-ranger
-reflector
-ripgrep
-rofi
-rofi-emoji
-rsync
-ruby
-scummvm
-sddm
-shellcheck
-starship
-stow
-sudo
-sxiv
-terminus-font
-texinfo
-thunderbird
-thunderbird-i18n-en-gb
-tree
-ueberzug
-unzip
-vde2
-vifm
-vim-jedi
-virt-manager
-wget
-which
-words
-xbindkeys
-xclip
-xcolor
-xdg-user-dirs
-xf86-video-intel
-xf86-video-vesa
-xorg-bdftopcf
-xorg-docs
-xorg-font-util
-xorg-fonts-100dpi
-xorg-fonts-75dpi
-xorg-iceauth
-xorg-server-devel
-xorg-server-xephyr
-xorg-server-xnest
-xorg-server-xvfb
-xorg-sessreg
-xorg-smproxy
-xorg-x11perf
-xorg-xbacklight
-xorg-xcmsdb
-xorg-xcursorgen
-xorg-xdpyinfo
-xorg-xdriinfo
-xorg-xev
-xorg-xgamma
-xorg-xhost
-xorg-xinput
-xorg-xkbevd
-xorg-xkbutils
-xorg-xkill
-xorg-xlsatoms
-xorg-xlsclients
-xorg-xmodmap
-xorg-xpr
-xorg-xrandr
-xorg-xrefresh
-xorg-xvinfo
-xorg-xwayland
-xorg-xwd
-xorg-xwininfo
-xorg-xwud
-xterm
-yad
-yarn
-youtube-dl
-zsh
-zsh-autosuggestions
-zsh-completions
-zsh-syntax-highlighting
+alacritty 0.12.1-1
+archinstall 2.5.6-1
+autoconf 2.71-4
+automake 1.16.5-2
+base 3-1
+base-devel 1-1
+bash-completion 2.11-3
+bat 0.23.0-3
+bison 3.8.2-5
+bitwarden 2023.5.0-1
+bluez 5.66-1
+bluez-utils 5.66-1
+calibre 6.17.0-3
+cdrdao 1.2.5-1
+chromium 114.0.5735.90-1
+cups 1:2.4.3-1
+debugedit 5.0-5
+dialog 1:1.3_20230209-1
+dnsmasq 2.89-1
+dosfstools 4.2-3
+dvd+rw-tools 7.1-9
+easytag 2.4.3-6
+efibootmgr 18-2
+emacs 28.2-2
+exa 0.10.1-7
+fakeroot 1.31-2
+fd 8.7.0-1
+feh 3.10-1
+firefox 113.0.2-1
+fish 3.6.1-1
+flameshot 12.1.0-1
+flex 2.6.4-5
+gcc 13.1.1-1
+gimp 2.10.34-2
+git 2.41.0-1
+go 2:1.20.4-2
+gparted 1.5.0-1
+groff 1.22.4-10
+grub 2:2.06.r499.ge67a551a4-1
+gvim 9.0.1572-1
+handbrake 1.6.1-2
+hplip 1:3.23.3-3
+htop 3.2.2-1
+hyprland 0.26.0-1
+hyprpaper 0.3.0-1
+i3-wm 4.22-4
+inetutils 2.4-1
+intel-ucode 20230516.a-1
+iptables-nft 1:1.8.9-1
+kde-applications-meta 23.04-1
+kitty 0.28.1-2
+libdvdcss 1.4.3-1
+libreoffice-fresh 7.5.3-2
+libreoffice-fresh-en-gb 7.5.3-1
+lightdm 1:1.32.0-4
+lightdm-gtk-greeter 1:2.0.8-3
+linux 6.3.5.arch1-1
+linux-firmware 20230404.2e92a49f-1
+linux-headers 6.3.5.arch1-1
+lsd 0.23.1-2
+luarocks 3.9.2-1
+m4 1.4.19-3
+make 4.4.1-2
+man-db 2.11.2-1
+micro 2.0.11-4
+minidlna 1.3.2-3
+mtools 1:4.0.43-1
+neofetch 7.1.0-2
+network-manager-applet 1.32.0-2
+networkmanager 1.42.6-1
+nmap 7.94-1
+nodejs 20.2.0-1
+npm 8.19.2-2
+os-prober 1.81-1
+otf-font-awesome 6.4.0-1
+pacman-contrib 1.9.0-1
+patch 2.7.6-10
+pavucontrol 1:5.0+r61+gee77d86-2
+pcmanfm 1.3.2-1
+picom 10.2-1
+pipewire-alsa 1:0.3.71-2
+pipewire-pulse 1:0.3.71-2
+pkgconf 1.8.1-1
+plasma-meta 5.27-3
+polybar 3.6.3-3
+python-pip 23.1.2-1
+python-pynvim 0.4.3-3
+qemu-desktop 8.0.2-1
+qnapi 0.2.3-6
+reflector 2021.11-7
+ripgrep 13.0.0-3
+rofi 1.7.5-1
+rofi-calc 2.2.0-1
+rofi-emoji 3.2.0-1
+rsync 3.2.7-4
+ruby 3.0.5-1
+scummvm 2.7.0-1
+snapper 0.10.4-2
+starship 1.14.2-1
+sudo 1.9.13.p3-1
+terminus-font 4.49.1-5
+texinfo 7.0.3-1
+thunderbird 102.11.2-1
+thunderbird-i18n-en-gb 102.11.2-1
+transcode 1.1.7-41
+tree 2.1.0-1
+tree-sitter 0.20.8-3
+ttf-jetbrains-mono-nerd 3.0.1-1
+ttf-joypixels 7.0.0-1
+ttf-mononoki-nerd 3.0.1-1
+ueberzug 18.2.0-2
+vifm 0.13-1
+virt-manager 4.1.0-2
+wezterm 20230408.112425.69ae8472-1
+wget 1.21.4-1
+which 2.21-6
+wofi 1.3-2
+words 2.1-7
+wpa_supplicant 2:2.10-8
+xclip 0.13-3
+xdg-user-dirs 0.18-1
+xdg-utils 1.1.3+25+g8ae0263-1
+zsh 5.9-3
+zsh-autosuggestions 0.7.0-2
