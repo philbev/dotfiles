@@ -91,10 +91,11 @@ SCHEDULED: <2023-06-01 Thu 09:00>
 * PERSONAL :PERSONAL                                               :personal:
 ** REPEAT EVENTS
 *** TODO - Water spider plant (Mr. Johnstone :-))
-SCHEDULED: <2023-06-05 Mon +1w>
+SCHEDULED: <2023-06-12 Mon +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-05-29 Mon 07:21]
+:LAST_REPEAT: [2023-06-05 Mon 06:41]
 :END:
+- State "DONE"       from "TODO"       [2023-06-05 Mon 06:41]
 - State "DONE"       from "TODO"       [2023-05-29 Mon 07:21]
 - State "DONE"       from "TODO"       [2023-05-22 Mon 08:15]
 - State "CANCELLED"  from "TODO"       [2023-05-15 Mon 12:17]
@@ -112,10 +113,11 @@ SCHEDULED: <2023-06-05 Mon +1w>
 - State "DONE"       from "TODO"       [2023-02-20 Mon 09:57]
 - State "DONE"       from "TODO"       [2023-02-13 Mon 10:49]
 *** TODO - Recharge toothbrush
-SCHEDULED: <2023-06-05 Mon +1w>
+SCHEDULED: <2023-06-12 Mon +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2023-05-29 Mon 07:21]
+:LAST_REPEAT: [2023-06-05 Mon 06:41]
 :END:
+- State "DONE"       from "TODO"       [2023-06-05 Mon 06:41]
 - State "DONE"       from "TODO"       [2023-05-29 Mon 07:21]
 - State "DONE"       from "TODO"       [2023-05-22 Mon 08:15]
 - State "DONE"       from "TODO"       [2023-05-15 Mon 12:17]
