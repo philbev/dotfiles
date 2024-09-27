@@ -1,0 +1,1473 @@
+WIDGETS
+       All actions in the editor are performed by 'widgets'.  A widgets job is simply to
+       perform  some small  action.   The ZLE commands that key sequences in keymaps are
+       bound to are in fact widgets.  Widgets can be user-defined or built in.
+
+       The standard widgets built into ZLE are listed in Standard Widgets below.  Other
+       built-in widgets can  be  defined  by  other modules (see zshmodules(1)).  Each
+       built-in widget has two names: its normal canonical name, and the same name
+       preceded by a '.'.  The '.' name is special: it cant be rebound to a different
+       widget.  This makes the widget available even when its usual name has been
+       redefined.
+
+       User-defined widgets are defined using 'zle -N', and implemented as shell
+       functions.   When  the widget  is  executed,  the  corresponding shell function is
+       executed, and can perform editing (or other) actions.  It is recommended that
+       user-defined widgets should not have names starting  with '.'.
+
+USER-DEFINED WIDGETS
+       User-defined widgets, being implemented as shell functions, can execute any normal
+       shell command.
+       They can also run other widgets (whether built-in or user-defined) using the zle
+       'builtin' command.
+       The standard input of the function is redirected from /dev/null to prevent external
+       commands from unintentionally blocking ZLE by reading from the terminal, but read
+       -k or read -q can be used  to read  characters.   Finally, they can examine and
+       edit the ZLE buffer being edited by reading and setting the special parameters
+       described below.
+
+       These special parameters are always available in widget functions, but are not in
+       any way special outside ZLE.  If they have some normal value outside ZLE, that
+       value is temporarily inaccessible, but will return when the widget function exits.
+       These special  parameters  in  fact  have  local scope, like parameters created in
+       a function using local.
+
+       Inside  completion  widgets  and traps called while ZLE is active, these parameters
+       are available read-only.
+
+       Note that the parameters appear as local to any ZLE widget in which they appear.
+       Hence if it  is desired to override them this needs to be done within a nested
+       function:
+
+              widget-function() {
+                # $WIDGET here refers to the special variable
+                # that is local inside widget-function
+                () {
+                   # This anonymous nested function allows WIDGET
+                   # to be used as a local variable.  The -h
+                   # removes the special status of the variable.
+                   local -h WIDGET
+                }
+              }
+
+       BUFFER (scalar)
+              The  entire  contents  of the edit buffer.  If it is written to, the cursor
+              remains at the same offset, unless that would put it outside the buffer.
+
+       BUFFERLINES (integer)
+              The number of screen lines needed for the edit buffer currently displayed on
+              screen  (i.e.  without any changes to the preceding parameters done after
+              the last redisplay); read-only.
+
+       CONTEXT (scalar)
+              The context in which zle was called to read a line; read-only.  One of the
+              values:
+
+              start  The start of a command line (at prompt PS1).
+
+              cont   A continuation to a command line (at prompt PS2).
+
+              select In a select loop (at prompt PS3).
+
+              vared  Editing a variable in vared.
+
+       CURSOR (integer)
+              The offset of the cursor, within the edit buffer.  This is in the range 0 to
+              $#BUFFER, and is by definition equal to $#LBUFFER.  Attempts to move the
+              cursor outside the buffer  will result in the cursor being moved to the
+              appropriate end of the buffer.
+
+       CUTBUFFER (scalar)
+              The  last item cut using one of the 'kill-' commands; the string which the
+              next yank would insert in the line.  Later entries in the kill ring are in
+              the array killring.  Note  that the command 'zle copy-region-as-kill string'
+              can be used to set the text of the cut buffer from a shell function and
+              cycle the kill ring in the same  way  as  interactively  killing text.
+
+       HISTNO (integer)
+              The  current history number.  Setting this has the same effect as moving up
+              or down in the history to the corresponding history line.  An attempt to set
+              it is ignored if the line is not  stored in the history.  Note this is not
+              the same as the parameter HISTCMD, which al‐ ways gives the number of the
+              history line being added to the main shells history.  HISTNO refers to the
+              line being retrieved within zle.
+
+       ISEARCHMATCH_ACTIVE (integer)
+       ISEARCHMATCH_START (integer)
+       ISEARCHMATCH_END (integer)
+              ISEARCHMATCH_ACTIVE  indicates whether a part of the BUFFER is currently
+              matched by an in‐ cremental search pattern. ISEARCHMATCH_START and
+              ISEARCHMATCH_END give the location of the matched  part  and  are  in the
+              same units as CURSOR. They are only valid for reading when
+              ISEARCHMATCH_ACTIVE is non-zero.
+
+              All parameters are read-only.
+
+       KEYMAP (scalar)
+              The name of the currently selected keymap; read-only.
+
+       KEYS (scalar)
+              The keys typed to invoke this widget, as a literal string; read-only.
+
+       KEYS_QUEUED_COUNT (integer)
+              The number of bytes pushed back to the input queue and therefore available
+              for reading im‐ mediately  before  any  I/O is done; read-only.  See also
+                  PENDING; the two values are dis‐ tinct.
+
+       killring (array)
+              The array of previously killed items, with the most recently killed first.
+              This gives the items  that  would  be retrieved by a yank-pop in the same
+              order.  Note, however, that the most recently killed item is in $CUTBUFFER;
+              $killring shows the array of previous entries.  The default size for the
+              kill ring is eight, however the length may be changed  by  normal array
+              operations.   Any empty string in the kill ring is ignored by the yank-pop
+              command, hence the size of the array effectively sets the maximum length of
+              the  kill  ring,  while the  number  of non-zero strings gives the current
+              length, both as seen by the user at the
+              command line.
+
+       LASTABORTEDSEARCH (scalar)
+              The last search string used by an interactive search that was aborted by the
+              user  (status 3 returned by the search widget).
+
+       LASTSEARCH (scalar)
+              The  last search string used by an interactive search; read-only.  This is
+              set even if the search failed (status 0, 1 or 2 returned by the search
+              widget), but not if it was  aborted by the user.
+
+       LASTWIDGET (scalar)
+              The name of the last widget that was executed; read-only.
+
+       LBUFFER (scalar)
+              The  part  of  the buffer that lies to the left of the cursor position.  If
+              it is assigned to, only that part of the buffer is replaced, and  the
+              cursor  remains  between  the  new $LBUFFER and the old $RBUFFER.
+
+       MARK (integer)
+              Like  CURSOR, but for the mark. With vi-mode operators that wait for a
+              movement command to select a region of text, setting MARK allows the
+              selection to extend  in  both  directions from the initial cursor position.
+
+       NUMERIC (integer)
+              The numeric argument. If no numeric argument was given, this parameter is
+              unset. When this is set inside a widget function, builtin widgets called
+              with the zle builtin command  will use  the  value  assigned. If it is unset
+              inside a widget function, builtin widgets called behave as if no numeric
+              argument was given.
+
+       PENDING (integer)
+              The number of bytes pending for input, i.e. the number of bytes which  have
+              already  been typed  and can immediately be read. On systems where the shell
+              is not able to get this in‐ formation, this parameter will  always  have  a
+              value  of  zero.   Read-only.   See  also KEYS_QUEUED_COUNT; the two values
+              are distinct.
+
+       PREBUFFER (scalar)
+              In  a multi-line input at the secondary prompt, this read-only parameter
+              contains the con‐ tents of the lines before the one the cursor is currently
+              in.
+
+       PREDISPLAY (scalar)
+              Text to be displayed before the start of the editable text buffer.  This
+              does not have  to be  a  complete  line;  to display a complete line, a
+              newline must be appended explicitly.  The text is reset on each new
+              invocation (but not recursive invocation) of zle.
+
+       POSTDISPLAY (scalar)
+              Text to be displayed after the end of the editable text buffer.  This does
+              not have to  be a  complete line; to display a complete line, a newline must
+              be prepended explicitly.  The text is reset on each new invocation (but not
+              recursive invocation) of zle.
+
+       RBUFFER (scalar)
+              The part of the buffer that lies to the right of the cursor position.  If it
+              is  assigned to,  only  that  part  of  the  buffer is replaced, and the
+              cursor remains between the old $LBUFFER and the new $RBUFFER.
+
+       REGION_ACTIVE (integer)
+              Indicates if the region is currently active.  It can be assigned 0 or 1 to
+              deactivate  and activate the region respectively. A value of 2 activates the
+              region in line-wise mode with the highlighted text extending for whole lines
+              only; see Character Highlighting below.
+
+       region_highlight (array)
+              Each element of this array may be set to a string that describes
+              highlighting for an arbi‐ trary  region  of the command line that will take
+              effect the next time the command line is redisplayed.  Highlighting of the
+              non-editable parts of the command line in PREDISPLAY and POSTDISPLAY are
+              possible, but note that the P flag is needed for character indexing to in‐
+              clude PREDISPLAY.
+
+              Each string consists of the following parts:
+
+              •      Optionally, a 'P' to signify that the start and end offset that
+              follow include  any string  set  by  the PREDISPLAY special parameter; this
+              is needed if the predisplay string itself is to be highlighted.  Whitespace
+              may follow the 'P'.
+
+              •      A start offset in the same units as CURSOR, terminated by whitespace.
+
+              •      An end offset in the same units as CURSOR, terminated by whitespace.
+
+              •      A highlight specification in the same format as used for contexts in
+                     the  parameter zle_highlight,  see the section 'Character
+                     Highlighting' below, for example, stand‐ out or fg=red,bold
+
+              For example,
+
+                     region_highlight=("P0 20 bold")
+
+              specifies that the first twenty characters of the text  including  any
+              predisplay  string should be highlighted in bold.
+
+              Note  that  the effect of region_highlight is not saved and disappears as
+              soon as the line is accepted.
+
+              The final highlighting on the command line depends on both region_highlight
+              and  zle_high‐ light; see the section CHARACTER HIGHLIGHTING below for
+              details.
+
+       registers (associative array)
+              The contents of each of the vi register buffers. These are typically set
+              using vi-set-buffer followed by a delete, change or yank command.
+
+       SUFFIX_ACTIVE (integer)
+       SUFFIX_START (integer)
+       SUFFIX_END (integer)
+              SUFFIX_ACTIVE indicates whether an auto-removable completion suffix is
+              currently  active.  SUFFIX_START  and  SUFFIX_END give the location of the
+              suffix and are in the same units as CURSOR. They are only valid for reading
+              when SUFFIX_ACTIVE is non-zero.
+
+              All parameters are read-only.
+
+       UNDO_CHANGE_NO (integer)
+              A number representing the state of the undo history.  The only use of this
+              is  passing  as an argument to the undo widget in order to undo back to the
+              recorded point.  Read-only.
+
+       UNDO_LIMIT_NO (integer)
+              A  number corresponding to an existing change in the undo history; compare
+              UNDO_CHANGE_NO.  If this is set to a value greater than zero, the undo
+              command will not allow the  line  to be  undone  beyond the given change
+              number.  It is still possible to use 'zle undo change' in a widget to undo
+              beyond that point; in that case, it will not be possible  to  undo  at all
+              until UNDO_LIMIT_NO is reduced.  Set to 0 to disable the limit.
+
+              A  typical  use  of  this variable in a widget function is as follows (note
+              the additional function scope is required):
+
+                     () {
+                       local UNDO_LIMIT_NO=$UNDO_CHANGE_NO
+                       # Perform some form of recursive edit.
+                     }
+
+       WIDGET (scalar)
+              The name of the widget currently being executed; read-only.
+
+       WIDGETFUNC (scalar)
+              The name of the shell function that implements a widget defined with either
+              zle -N or  zle -C.   In  the  former case, this is the second argument to
+              the zle -N command that defined the widget, or the first argument if there
+              was no second argument.   In  the  latter  case this is the third argument
+              to the zle -C command that defined the widget.  Read-only.
+
+       WIDGETSTYLE (scalar)
+              Describes  the  implementation  behind the completion widget currently being
+              executed; the second argument that followed zle -C when the widget was
+              defined.  This is the name  of  a builtin  completion  widget.   For
+              widgets  defined  with zle -N this is set to the empty string.  Read-only.
+
+       YANK_ACTIVE (integer)
+       YANK_START (integer)
+       YANK_END (integer)
+              YANK_ACTIVE indicates whether  text  has  just  been  yanked  (pasted)  into
+              the  buffer.  YANK_START  and YANK_END give the location of the pasted text
+              and are in the same units as CURSOR.  They are only valid for reading when
+              YANK_ACTIVE is non-zero.  They can  also  be assigned  by  widgets  that
+              insert  text  in a yank-like fashion, for example wrappers of
+              bracketed-paste.  See also zle -f.
+
+              YANK_ACTIVE is read-only.
+
+       ZLE_RECURSIVE (integer)
+              Usually zero, but incremented inside any instance of recursive-edit.  Hence
+              indicates  the current recursion level.
+
+              ZLE_RECURSIVE is read-only.
+
+       ZLE_STATE (scalar)
+              Contains a set of space-separated words that describe the current zle state.
+
+              Currently, the states shown are the insert mode as set by the overwrite-mode
+              or vi-replace widgets and whether history commands will visit imported
+              entries  as  controlled  by  the set-local-history  widget.   The  string
+              contains 'insert' if characters to be inserted on the command line move
+              existing characters to the right or 'overwrite' if characters to  be
+              inserted  overwrite  existing characters. It contains 'localhistory' if only
+              local history commands will be visited or 'globalhistory' if imported
+              history commands will also be vis‐ ited.
+
+              The  substrings  are sorted in alphabetical order so that if you want to
+              test for two spe‐ cific substrings in a future-proof way, you can do match
+              by doing:
+
+                     if [[ $ZLE_STATE == *globalhistory*insert* ]]; then ...; fi
+
+   Special Widgets
+       There are a few user-defined widgets which are special to the shell.  If they do
+       not  exist,  no special  action  is  taken.   The environment provided is identical
+       to that for any other editing widget.
+
+       zle-isearch-exit
+              Executed at the end of incremental search at the point where the isearch
+              prompt is removed from the display.  See zle-isearch-update for an example.
+
+       zle-isearch-update
+              Executed  within  incremental  search when the display is about to be
+              redrawn.  Additional output below the incremental search prompt can be
+              generated by using 'zle -M'  within  the widget.  For example,
+
+                     zle-isearch-update() { zle -M "Line $HISTNO"; }
+                     zle -N zle-isearch-update
+
+              Note the line output by 'zle -M' is not deleted on exit from incremental
+              search.  This can be done from a zle-isearch-exit widget:
+
+                     zle-isearch-exit() { zle -M ""; }
+                     zle -N zle-isearch-exit
+
+       zle-line-pre-redraw
+              Executed whenever the input line is about to be redrawn, providing an
+              opportunity  to  update the region_highlight array.
+
+       zle-line-init
+              Executed every time the line editor is started to read a new line of input.
+              The following example puts the line editor into vi command mode when it
+              starts up.
+
+                     zle-line-init() { zle -K vicmd; }
+                     zle -N zle-line-init
+
+              (The command inside the function sets  the  keymap  directly;  it  is
+              equivalent  to  zle vi-cmd-mode.)
+
+       zle-line-finish
+              This  is  similar to zle-line-init but is executed every time the line
+              editor has finished reading a line of input.
+
+       zle-history-line-set
+              Executed when the history line changes.
+
+       zle-keymap-select
+              Executed every time the keymap changes, i.e. the special parameter KEYMAP is
+              set to a dif‐ ferent value, while the line editor is active.  Initialising
+              the keymap when the line edi‐ tor starts does not cause the widget to be
+              called.
+
+              The value $KEYMAP within the function reflects the new keymap.  The old
+              keymap  is  passed as the sole argument.
+
+              This can be used for detecting switches between the vi command (vicmd) and
+              insert (usually main) keymaps.
+
+STANDARD WIDGETS
+       The following is a list of all the standard widgets, and their default bindings in
+       emacs mode, vi command mode and vi insert mode (the 'emacs', 'vicmd' and 'viins'
+       keymaps, respectively).
+
+       Note that cursor keys are bound to movement keys in all three keymaps; the shell
+       assumes that the cursor keys send the key sequences reported by the
+       terminal-handling  library  (termcap  or  ter‐ minfo).   The key sequences shown in
+       the list are those based on the VT100, common on many modern terminals, but in fact
+       these are not necessarily bound.  In the case of  the  viins  keymap,  the initial
+       escape character of the sequences serves also to return to the vicmd keymap:
+       whether this happens is determined by the KEYTIMEOUT parameter, see zshparam(1).
+
+   Movement
+       vi-backward-blank-word (unbound) (B) (unbound)
+              Move backward one word, where a word is defined as a series of non-blank
+              characters.
+
+       vi-backward-blank-word-end (unbound) (gE) (unbound)
+              Move to the end of the previous word, where a word is defined as  a  series
+              of  non-blank characters.
+
+       backward-char (^B ESC-[D) (unbound) (unbound)
+              Move backward one character.
+
+       vi-backward-char (unbound) (^H h ^?) (ESC-[D)
+              Move backward one character, without changing lines.
+
+       backward-word (ESC-B ESC-b) (unbound) (unbound)
+              Move to the beginning of the previous word.
+
+       emacs-backward-word
+              Move to the beginning of the previous word.
+
+       vi-backward-word (unbound) (b) (unbound)
+              Move to the beginning of the previous word, vi-style.
+
+       vi-backward-word-end (unbound) (ge) (unbound)
+              Move to the end of the previous word, vi-style.
+
+       beginning-of-line (^A) (unbound) (unbound)
+              Move  to  the beginning of the line.  If already at the beginning of the
+              line, move to the beginning of the previous line, if any.
+
+       vi-beginning-of-line
+              Move to the beginning of the line, without changing lines.
+
+       down-line (unbound) (unbound) (unbound)
+              Move down a line in the buffer.
+
+       end-of-line (^E) (unbound) (unbound)
+              Move to the end of the line.  If already at the end of the line, move to the
+              end  of  the next line, if any.
+
+       vi-end-of-line (unbound) ($) (unbound)
+              Move  to the end of the line.  If an argument is given to this command, the
+              cursor will be moved to the end of the line (argument - 1) lines down.
+
+       vi-forward-blank-word (unbound) (W) (unbound)
+              Move forward one word, where a word is defined as a series of non-blank
+              characters.
+
+       vi-forward-blank-word-end (unbound) (E) (unbound)
+              Move to the end of the current word, or, if at the end of the current word,
+              to the end  of the next word, where a word is defined as a series of
+              non-blank characters.
+
+       forward-char (^F ESC-[C) (unbound) (unbound)
+              Move forward one character.
+
+       vi-forward-char (unbound) (space l) (ESC-[C)
+              Move forward one character.
+
+       vi-find-next-char (^X^F) (f) (unbound)
+              Read a character from the keyboard, and move to the next occurrence of it in
+              the line.
+
+       vi-find-next-char-skip (unbound) (t) (unbound)
+              Read  a  character from the keyboard, and move to the position just before
+              the next occur‐ rence of it in the line.
+
+       vi-find-prev-char (unbound) (F) (unbound)
+              Read a character from the keyboard, and move to the previous occurrence of
+              it in the line.
+
+       vi-find-prev-char-skip (unbound) (T) (unbound)
+              Read a character from the keyboard, and move to the position just after the
+              previous  occurrence of it in the line.
+
+       vi-first-non-blank (unbound) (^) (unbound)
+              Move to the first non-blank character in the line.
+
+       vi-forward-word (unbound) (w) (unbound)
+              Move forward one word, vi-style.
+
+       forward-word (ESC-F ESC-f) (unbound) (unbound)
+              Move to the beginning of the next word.  The editors idea of a word is
+              specified with the WORDCHARS parameter.
+
+       emacs-forward-word
+              Move to the end of the next word.
+
+       vi-forward-word-end (unbound) (e) (unbound)
+              Move to the end of the next word.
+
+       vi-goto-column (ESC-|) (|) (unbound)
+              Move to the column specified by the numeric argument.
+
+       vi-goto-mark (unbound) (') (unbound)
+              Move to the specified mark.
+
+       vi-goto-mark-line (unbound) (') (unbound)
+              Move to beginning of the line containing the specified mark.
+
+       vi-repeat-find (unbound) (;) (unbound)
+              Repeat the last vi-find command.
+
+       vi-rev-repeat-find (unbound) (,) (unbound)
+              Repeat the last vi-find command in the opposite direction.
+
+       up-line (unbound) (unbound) (unbound)
+              Move up a line in the buffer.
+
+   History Control
+       beginning-of-buffer-or-history (ESC-<) (gg) (unbound) Move to the beginning of the
+       buffer, or if already there, move to the first event  in  the history list.
+
+       beginning-of-line-hist
+              Move to the beginning of the line.  If already at the beginning of the
+              buffer, move to the previous history line.
+
+       beginning-of-history
+              Move to the first event in the history list.
+
+       down-line-or-history (^N ESC-[B) (j) (ESC-[B)
+              Move down a line in the buffer, or if already at the bottom line, move to
+              the  next  event in the history list.
+
+       vi-down-line-or-history (unbound) (+) (unbound)
+              Move  down  a line in the buffer, or if already at the bottom line, move to
+              the next event in the history list.  Then move to the first non-blank
+              character on the line.
+
+       down-line-or-search
+              Move down a line in the buffer, or if already at the bottom line, search
+              forward  in  the history for a line beginning with the first word in the
+              buffer.
+
+              If  called  from a function by the zle command with arguments, the first
+              argument is taken as the string for which to search, rather than the first
+              word in the buffer.
+
+       down-history (unbound) (^N) (unbound)
+              Move to the next event in the history list.
+
+       history-beginning-search-backward
+              Search backward in the history for a line beginning with the current line up
+              to  the  cur‐ sor.  This leaves the cursor in its original position.
+
+       end-of-buffer-or-history (ESC->) (unbound) (unbound)
+              Move  to the end of the buffer, or if already there, move to the last event
+              in the history list.
+
+       end-of-line-hist
+              Move to the end of the line.  If already at the end of the buffer, move to
+              the  next  his‐ tory line.
+
+       end-of-history
+              Move to the last event in the history list.
+
+       vi-fetch-history (unbound) (G) (unbound)
+              Fetch  the  history  line specified by the numeric argument.  This defaults
+              to the current history line (i.e. the one that is not history yet).
+
+       history-incremental-search-backward (^R ^Xr) (unbound) (unbound)
+              Search backward incrementally for a specified string.  The search is
+              case-insensitive  if the  search string does not have uppercase letters and
+              no numeric argument was given.  The string may begin with '^' to anchor
+              the search to the beginning of the line.  When  called from  a
+              user-defined function returns the following statuses: 0, if the search
+              succeeded; 1, if the search failed; 2, if the search term was a bad
+              pattern; 3,  if  the  search  was aborted by the send-break command.
+
+              A restricted set of editing functions is available in the mini-buffer.  Keys
+              are looked up in the special isearch keymap, and if not found there in the
+              main keymap (note that by de‐ fault  the isearch keymap is empty).  An
+              interrupt signal, as defined by the stty setting, will stop the search and
+              go back to the original line.  An undefined  key  will  have  the same
+              effect.   Note  that  the  following always perform the same task within
+              incremental searches and cannot be replaced by user defined widgets, nor can
+              the set of  functions  be extended.  The supported functions are:
+
+              accept-and-hold
+              accept-and-infer-next-history
+              accept-line
+              accept-line-and-down-history
+                     Perform the usual function after exiting incremental search.  The
+                     command line displayed is executed.
+
+              backward-delete-char
+              vi-backward-delete-char
+                     Back up one place in the search history.  If the search has been
+                     repeated this does not immediately erase a character in the
+                     minibuffer.
+
+              accept-search
+                     Exit  incremental  search, retaining the command line but performing
+                     no further action.  Note that this function is not bound by default
+                     and has  no  effect  outside incremental search.
+
+              backward-delete-word
+              backward-kill-word
+              vi-backward-kill-word Back  up  one character in the minibuffer; if multiple
+              searches have been performed since the character was inserted the search
+              history is rewound to  the  point  just before  the  character  was
+              entered.  Hence this has the effect of repeating back‐ ward-delete-char.
+
+              clear-screen
+                     Clear the screen, remaining in incremental search mode.
+
+              history-incremental-search-backward
+                     Find the next occurrence of the contents of the mini-buffer. If the
+                     mini-buffer  is empty, the most recent previously used search string
+                     is reinstated.
+
+              history-incremental-search-forward
+                     Invert the sense of the search.
+
+              magic-space
+                     Inserts a non-magical space.
+
+              quoted-insert
+              vi-quoted-insert
+                     Quote the character to insert into the minibuffer.
+
+              redisplay
+                     Redisplay the command line, remaining in incremental search mode.
+
+              vi-cmd-mode
+                     Select  the  'vicmd'  keymap; the 'main' keymap (insert mode) will be
+                         selected ini‐ tially.
+
+                     In addition, the modifications that were made while in vi insert mode
+                     are merged to form a single undo event.
+
+              vi-repeat-search
+              vi-rev-repeat-search
+                     Repeat the search.  The direction of the search is indicated in the
+                     mini-buffer.
+
+              Any  character that is not bound to one of the above functions, or
+              self-insert or self-in‐ sert-unmeta, will cause the mode to be exited.  The
+              character is then looked up  and  exe‐ cuted in the keymap in effect at that
+              point.
+
+              When called from a widget function by the zle command, the incremental
+              search commands can take a string argument.  This will be treated as a
+              string of keys, as for arguments to the bindkey  command, and used as
+              initial input for the command.  Any characters in the string which are
+              unused by the incremental search will be silently ignored.  For example,
+
+                     zle history-incremental-search-backward forceps
+
+              will search backwards for forceps, leaving the minibuffer containing the
+              string 'forceps'.
+
+       history-incremental-search-forward (^S ^Xs) (unbound) (unbound)
+              Search forward incrementally for a specified string.  The search  is
+              case-insensitive  if the  search string does not have uppercase letters and
+              no numeric argument was given.  The string may begin with '^' to anchor
+              the search to the beginning of the  line.   The  func‐ tions  available
+              in  the mini-buffer are the same as for history-incremental-search-back‐
+              ward.
+
+       history-incremental-pattern-search-backward
+       history-incremental-pattern-search-forward
+              These widgets behave similarly to the corresponding widgets  with  no
+              -pattern,  but  the search  string  typed by the user is treated as a
+              pattern, respecting the current settings of the various options affecting
+              pattern matching.  See FILENAME GENERATION in  zshexpn(1) for  a description
+              of patterns.  If no numeric argument was given lowercase letters in the
+              search string may match uppercase letters in the history.  The string may
+              begin  with  '^' to anchor the search to the beginning of the line.
+
+              The prompt changes to indicate an invalid pattern; this may simply indicate
+              the pattern is not yet complete.
+
+              Note that only non-overlapping matches are reported, so an expression with
+              wildcards  may return fewer matches on a line than are visible by
+              inspection.
+
+       history-search-backward (ESC-P ESC-p) (unbound) (unbound)
+              Search backward in the history for a line beginning with the first word in
+              the buffer.
+
+              If  called  from a function by the zle command with arguments, the first
+                  argument is taken as the string for which to search, rather than the
+                  first word in the buffer.
+
+       vi-history-search-backward (unbound) (/) (unbound)
+              Search backward in the history for a specified string.  The string may begin
+              with  '^'  to anchor the search to the beginning of the line.
+
+              A  restricted set of editing functions is available in the mini-buffer.  An
+              interrupt sig‐ nal, as defined by the stty setting,  will stop the search.
+              The  functions  available  in the  mini-buffer  are:  accept-line,
+              backward-delete-char, vi-backward-delete-char, back‐ ward-kill-word,
+              vi-backward-kill-word,   clear-screen,   redisplay,   quoted-insert   and
+              vi-quoted-insert.
+
+              vi-cmd-mode  is  treated  the  same as accept-line, and magic-space is
+              treated as a space.  Any other character that is not bound to self-insert or
+              self-insert-unmeta will  beep  and be  ignored.  If  the function is called
+              from vi command mode, the bindings of the current insert mode will be used.
+
+              If called from a function by the zle command with arguments, the first
+              argument  is  taken as the string for which to search, rather than the
+              first word in the buffer.
+
+       history-search-forward (ESC-N ESC-n) (unbound) (unbound)
+              Search forward in the history for a line beginning with the first word in
+              the buffer.
+
+              If  called  from a function by the zle command with arguments, the first
+                  argument is taken as the string for which to search, rather than the
+                  first word in the buffer.
+
+       vi-history-search-forward (unbound) (?) (unbound)
+              Search forward in the history for a specified string.  The string may begin
+              with  '^'  to anchor the search to the beginning of the line. The functions
+              available in the mini-buffer are the same as for vi-history-search-backward.
+              Argument handling is also the same as for that command.
+
+       infer-next-history (^X^N) (unbound) (unbound)
+              Search in the history list for a line matching the current one and fetch the
+              event follow‐ ing it.
+
+       insert-last-word (ESC-_ ESC-.) (unbound) (unbound)
+              Insert the last word from the previous history event at the cursor position.
+              If  a  posi‐ tive  numeric  argument  is  given,  insert that word from the
+              end of the previous history event.  If the argument is zero or negative
+              insert that word from the left  (zero  inserts the  previous  command word).
+              Repeating this command replaces the word just inserted with the last word
+              from the history event prior to the one just used; numeric arguments can  be
+              used in the same way to pick a word from that event.
+
+              When called from a shell function invoked from a user-defined widget, the
+              command can take one to three arguments.  The first argument specifies a
+              history offset  which  applies  to successive  calls  to this widget: if it
+              is -1, the default behaviour is used, while if it is 1, successive calls
+              will move forwards through the history.  The value 0 can be used to indicate
+              that  the history line examined by the previous execution of the command
+              will be reexamined.  Note that negative numbers should be preceded by a
+              '--'  argument  to  avoid confusing them with options.
+
+              If  two  arguments  are given, the second specifies the word on the command
+                  line in normal array index notation (as a more natural alternative to
+                  the numeric argument).  Hence 1  is the first word, and -1 (the default)
+                  is the last word.
+
+              If  a  third  argument  is given, its value is ignored, but it is used to
+                  signify that the history offset is relative to the current history line,
+                  rather than the one remembered after the previous invocations of
+                  insert-last-word.
+
+              For example, the default behaviour of the command corresponds to
+
+                     zle insert-last-word -- -1 -1
+
+              while the command
+
+                     zle insert-last-word -- -1 1 -
+
+              always  copies the first word of the line in the history immediately before
+              the line being edited.  This has the side effect that later invocations of
+              the widget will be relative to that line.
+
+       vi-repeat-search (unbound) (n) (unbound)
+              Repeat the last vi history search.
+
+       vi-rev-repeat-search (unbound) (N) (unbound)
+              Repeat the last vi history search, but in reverse.
+
+       up-line-or-history (^P ESC-[A) (k) (ESC-[A)
+              Move up a line in the buffer, or if already at the top line, move to the
+              previous event in the history list.
+
+       vi-up-line-or-history (unbound) (-) (unbound)
+              Move up a line in the buffer, or if already at the top line, move to the
+              previous event in the history list.  Then move to the first non-blank
+              character on the line.
+
+       up-line-or-search
+              Move  up  a line in the buffer, or if already at the top line, search
+              backward in the his‐ tory for a line beginning with the first word in the
+              buffer.
+
+              If called from a function by the zle command with arguments, the first
+                  argument  is  taken as the string for which to search, rather than the
+                  first word in the buffer.
+
+       up-history (unbound) (^P) (unbound)
+              Move to the previous event in the history list.
+
+       history-beginning-search-forward
+              Search forward in the history for a line beginning with the current line up
+              to the cursor.  This leaves the cursor in its original position.
+
+       set-local-history
+              By default, history movement commands visit the imported lines as well as
+              the local lines.  This widget lets you toggle this on and off, or set it
+              with the numeric argument. Zero for both local and imported lines and
+              nonzero for only local lines.
+
+   Modifying Text
+       vi-add-eol (unbound) (A) (unbound)
+              Move to the end of the line and enter insert mode.
+
+       vi-add-next (unbound) (a) (unbound)
+              Enter insert mode after the current cursor position, without changing lines.
+
+       backward-delete-char (^H ^?) (unbound) (unbound)
+              Delete the character behind the cursor.
+
+       vi-backward-delete-char (unbound) (X) (^H)
+              Delete the character behind the cursor, without changing lines.  If in
+              insert  mode,  this will not delete past the point where insert mode was
+              last entered.
+
+       backward-delete-word
+              Delete the word behind the cursor.
+
+       backward-kill-line
+              Kill from the beginning of the line to the cursor position.
+
+       backward-kill-word (^W ESC-^H ESC-^?) (unbound) (unbound)
+              Kill the word behind the cursor.
+
+       vi-backward-kill-word (unbound) (unbound) (^W)
+              Kill  the  word behind the cursor, without going past the point where insert
+              mode was last entered.
+
+       capitalize-word (ESC-C ESC-c) (unbound) (unbound)
+              Capitalize the current word and move past it.
+
+       vi-change (unbound) (c) (unbound)
+              Read a movement command from the keyboard, and kill from the cursor position
+              to  the  end‐ point  of  the movement.  Then enter insert mode.  If the
+              command is vi-change, change the current line.
+
+              For compatibility with vi, if the command is vi-forward-word or
+              vi-forward-blank-word, the whitespace  after  the  word  is not
+              included. If you prefer the more consistent behaviour with the
+              whitespace included use the following key binding:
+
+                     bindkey -a -s cw dwi
+
+       vi-change-eol (unbound) (C) (unbound)
+              Kill to the end of the line and enter insert mode.
+
+       vi-change-whole-line (unbound) (S) (unbound)
+              Kill the current line and enter insert mode.
+
+       copy-region-as-kill (ESC-W ESC-w) (unbound) (unbound)
+              Copy the area from the cursor to the mark to the kill buffer.
+              If called from a ZLE widget function in the form  'zle  copy-region-as-kill
+              string'  then string will be taken as the text to copy to the kill buffer.
+              The cursor, the mark and the
+              text on the command line are not used in this case.
+
+       copy-prev-word (ESC-^_) (unbound) (unbound)
+              Duplicate the word to the left of the cursor.
+
+       copy-prev-shell-word
+              Like copy-prev-word, but the word is found by using shell parsing, whereas
+              copy-prev-word looks for blanks. This makes a difference when the word is
+              quoted and contains spaces.
+
+       vi-delete (unbound) (d) (unbound)
+              Read  a  movement command from the keyboard, and kill from the cursor
+              position to the end‐ point of the movement.  If the command is vi-delete,
+              kill the current line.
+
+       delete-char
+              Delete the character under the cursor.
+
+       vi-delete-char (unbound) (x) (unbound)
+              Delete the character under the cursor, without going past the end of the line.
+
+       delete-word
+              Delete the current word.
+
+       down-case-word (ESC-L ESC-l) (unbound) (unbound)
+              Convert the current word to all lowercase and move past it.
+
+       vi-down-case (unbound) (gu) (unbound)
+              Read a movement command from the keyboard, and convert all characters from
+              the cursor  po‐ sition  to  the  endpoint  of  the  movement  to  lowercase.
+              If  the movement command is vi-down-case, swap the case of all characters on
+              the current line.
+
+       kill-word (ESC-D ESC-d) (unbound) (unbound)
+              Kill the current word.
+
+       gosmacs-transpose-chars
+              Exchange the two characters behind the cursor.
+
+       vi-indent (unbound) (>) (unbound)
+              Indent a number of lines.
+
+       vi-insert (unbound) (i) (unbound)
+              Enter insert mode.
+
+       vi-insert-bol (unbound) (I) (unbound)
+              Move to the first non-blank character on the line and enter insert mode.
+
+       vi-join (^X^J) (J) (unbound)
+              Join the current line with the next one.
+
+       kill-line (^K) (unbound) (unbound)
+              Kill from the cursor to the end of the line.  If already on the end of the
+              line, kill  the newline character.
+
+       vi-kill-line (unbound) (unbound) (^U)
+              Kill from the cursor back to wherever insert mode was last entered.
+
+       vi-kill-eol (unbound) (D) (unbound)
+              Kill from the cursor to the end of the line.
+
+       kill-region
+              Kill from the cursor to the mark.
+
+       kill-buffer (^X^K) (unbound) (unbound)
+              Kill the entire buffer.
+
+       kill-whole-line (^U) (unbound) (unbound)
+              Kill the current line.
+
+       vi-match-bracket (^X^B) (%) (unbound)
+              Move to the bracket character (one of {}, () or []) that matches the one
+              under the cursor.  If the cursor is not on a bracket character, move forward
+              without going past  the  end  of the line to find one, and then go to the
+              matching bracket.
+
+       vi-open-line-above (unbound) (O) (unbound)
+              Open a line above the cursor and enter insert mode.
+
+       vi-open-line-below (unbound) (o) (unbound)
+              Open a line below the cursor and enter insert mode.
+
+       vi-oper-swap-case (unbound) (g~) (unbound)
+              Read  a  movement  command from the keyboard, and swap the case of all
+              characters from the cursor  position  to  the  endpoint  of  the  movement.
+              If  the  movement   command   is vi-oper-swap-case, swap the case of all
+              characters on the current line.
+
+       overwrite-mode (^X^O) (unbound) (unbound)
+              Toggle between overwrite mode and insert mode.
+
+       vi-put-before (unbound) (P) (unbound)
+              Insert  the  contents of the kill buffer before the cursor.  If the kill
+              buffer contains a sequence of lines (as opposed to characters), paste it
+              above the current line.
+
+       vi-put-after (unbound) (p) (unbound)
+              Insert the contents of the kill buffer after the cursor.  If the kill
+              buffer  contains  a sequence of lines (as opposed to characters), paste it
+              below the current line.
+
+       put-replace-selection (unbound) (unbound) (unbound)
+              Replace the contents of the current region or selection with the contents of
+              the kill buf‐ fer. If the kill buffer contains a sequence of lines (as
+              opposed to characters), the  cur‐ rent line will be split by the pasted
+              lines.
+
+       quoted-insert (^V) (unbound) (unbound)
+              Insert  the  next  character typed into the buffer literally.  An interrupt
+              character will not be inserted.
+
+       vi-quoted-insert (unbound) (unbound) (^Q ^V)
+              Display a '^' at the cursor position, and insert the next character typed
+              into the  buffer literally.  An interrupt character will not be inserted.
+
+       quote-line (ESC-')' (unbound) (unbound)
+              Quote  the  current  line;  that is, put a ''' character at the beginning
+              and the end, and convert all ''' characters to ''\'''.
+
+       quote-region (ESC-")" (unbound) (unbound)
+              Quote the region from the cursor to the mark.
+
+       vi-replace (unbound) (R) (unbound)
+              Enter overwrite mode.
+
+       vi-repeat-change (unbound) (.) (unbound)
+              Repeat the last vi mode text modification.  If a count was used with the
+              modification,  it is  remembered.   If  a count is given to this command, it
+              overrides the remembered count, and is remembered for future uses of this
+              command.  The cut buffer specification is  similarly remembered.
+
+       vi-replace-chars (unbound) (r) (unbound)
+              Replace the character under the cursor with a character read from the
+              keyboard.
+
+       self-insert (printable characters) (unbound) (printable characters and some control
+       characters)
+              Insert a character into the buffer at the cursor position.
+
+       self-insert-unmeta (ESC-^I ESC-^J ESC-^M) (unbound) (unbound)
+              Insert a character into the buffer after stripping the meta bit and
+              converting ^M to ^J.
+
+       vi-substitute (unbound) (s) (unbound)
+              Substitute the next character(s).
+
+       vi-swap-case (unbound) (~) (unbound)
+              Swap the case of the character under the cursor and move past it.
+
+       transpose-chars (^T) (unbound) (unbound)
+          Exchange the two characters to the left of the cursor if at end of line,
+          else exchange the character under the cursor with the character to the left.
+
+       transpose-words (ESC-T ESC-t) (unbound) (unbound)
+              Exchange the current word with the one before it.
+
+              With a positive numeric argument N, the word around the cursor, or
+              following  it  if  the cursor  is  between words, is transposed with the
+              preceding N words.  The cursor is put at the end of the resulting group of
+              words.
+
+              With a negative numeric argument -N, the effect is the same as using a
+              positive argument N except  that the original cursor position is retained,
+              regardless of how the words are re‐ arranged.
+
+       vi-unindent (unbound) (<) (unbound)
+              Unindent a number of lines.
+
+       vi-up-case (unbound) (gU) (unbound)
+              Read a movement command from the keyboard, and convert all characters from
+              the cursor  po‐ sition  to  the  endpoint  of  the  movement  to  lowercase.
+              If  the movement command is vi-up-case, swap the case of all characters on
+              the current line.
+
+       up-case-word (ESC-U ESC-u) (unbound) (unbound)
+              Convert the current word to all caps and move past it.
+
+       yank (^Y) (unbound) (unbound)
+              Insert the contents of the kill buffer at the cursor position.
+
+       yank-pop (ESC-y) (unbound) (unbound)
+              Remove the text just yanked, rotate the kill-ring (the history of previously
+              killed  text) and yank the new top.  Only works following yank,
+              vi-put-before, vi-put-after or yank-pop.
+
+       vi-yank (unbound) (y) (unbound)
+              Read a movement command from the keyboard, and copy the region from the
+              cursor position to the endpoint of the movement into the kill buffer.  If
+              the command is  vi-yank,  copy  the current line.
+
+       vi-yank-whole-line (unbound) (Y) (unbound)
+              Copy the current line into the kill buffer.
+
+       vi-yank-eol
+              Copy the region from the cursor position to the end of the line into the
+              kill buffer.  Ar‐ guably, this is what Y should do in vi, but it is not what
+              it actually does.
+
+   Arguments
+       digit-argument (ESC-0..ESC-9) (1-9) (unbound)
+              Start a new numeric argument, or add to the  current  one.   See  also
+              vi-digit-or-begin‐ ning-of-line.  This only works if bound to a key sequence
+              ending in a decimal digit.
+
+              Inside  a widget function, a call to this function treats the last key of
+              the key sequence which called the widget as the digit.
+
+       neg-argument (ESC--) (unbound) (unbound)
+              Changes the sign of the following argument.
+
+       universal-argument
+              Multiply the argument of the next command by 4.  Alternatively, if this
+              command  is  fol‐ lowed by an integer (positive or negative), use that as
+              the argument for the next command.  Thus digits cannot be repeated using
+              this command.  For example, if  this  command  occurs twice, followed
+              immediately by forward-char, move forward sixteen spaces; if instead it is
+              followed by -2, then forward-char, move backward two spaces.
+
+              Inside a widget function, if passed an argument, i.e. 'zle
+              universal-argument  num',  the numeric argument will be set to num; this is
+              equivalent to 'NUMERIC=num'.
+
+       argument-base
+              Use  the  existing  numeric argument as a numeric base, which must be in the
+              range 2 to 36 inclusive.  Subsequent use of digit-argument and
+              universal-argument will input a  new  nu‐ meric  argument in the given base.
+              The usual hexadecimal convention is used: the letter a or A corresponds to
+              10, and so on.  Arguments in bases requiring digits  from  10  upwards are
+              more  conveniently  input  with  universal-argument, since ESC-a etc. are
+              not usually bound to digit-argument.
+
+              The function can be used with a command argument inside a user-defined
+              widget.   The  fol‐ lowing code sets the base to 16 and lets the user input
+              a hexadecimal argument until a key out of the digit range is typed:
+
+                     zle argument-base 16
+                     zle universal-argument
+
+   Completion
+       accept-and-menu-complete
+              In a menu completion, insert the current completion into the buffer, and
+              advance  to  the next possible completion.
+
+       complete-word
+              Attempt completion on the current word.
+
+       delete-char-or-list (^D) (unbound) (unbound)
+              Delete the character under the cursor.  If the cursor is at the end of the
+              line, list pos‐ sible completions for the current word.
+
+       expand-cmd-path
+              Expand the current command to its full pathname.
+
+       expand-or-complete (TAB) (unbound) (TAB)
+              Attempt shell expansion on the current word.  If that fails, attempt
+              completion.
+
+       expand-or-complete-prefix
+              Attempt shell expansion on the current word up to cursor.
+
+       expand-history (ESC-space ESC-!) (unbound) (unbound)
+              Perform history expansion on the edit buffer.
+
+       expand-word (^X*) (unbound) (unbound)
+              Attempt shell expansion on the current word.
+
+       list-choices (ESC-^D) (^D =) (^D)
+              List possible completions for the current word.
+
+       list-expand (^Xg ^XG) (^G) (^G)
+              List the expansion of the current word.
+
+       magic-space
+              Perform history expansion and insert a space into the buffer.   This  is
+              intended  to  be bound to space.
+
+       menu-complete
+              Like complete-word, except that menu completion is used.  See the
+              MENU_COMPLETE option.
+
+       menu-expand-or-complete
+              Like expand-or-complete, except that menu completion is used.
+
+       reverse-menu-complete
+              Perform  menu  completion, like menu-complete, except that if a menu
+              completion is already in progress, move to the previous completion rather
+              than the next.
+
+       end-of-list
+              When a previous completion displayed a list below the prompt, this widget
+              can be  used  to move the prompt below the list.
+
+   Miscellaneous
+       accept-and-hold (ESC-A ESC-a) (unbound) (unbound)
+              Push the contents of the buffer on the buffer stack and execute it.
+
+       accept-and-infer-next-history
+              Execute  the contents of the buffer.  Then search the history list for a
+              line matching the current one and push the event following onto the buffer
+              stack.
+
+       accept-line (^J ^M) (^J ^M) (^J ^M)
+              Finish editing the buffer.  Normally this causes the buffer to be executed
+              as a shell com‐ mand.
+
+       accept-line-and-down-history (^O) (unbound) (unbound)
+              Execute the current line, and push the next history event on the buffer stack.
+
+       auto-suffix-remove
+              If  the  previous  action  added  a suffix (space, slash, etc.) to the word
+                  on the command line, remove it.  Otherwise do nothing.  Removing the
+                  suffix ends any active menu  comple‐ tion or menu selection.
+
+              This  widget  is intended to be called from user-defined widgets to enforce
+              a desired suf‐ fix-removal behavior.
+
+       auto-suffix-retain
+              If the previous action added a suffix (space, slash, etc.) to  the  word  on
+              the  command line,  force it to be preserved.  Otherwise do nothing.
+              Retaining the suffix ends any active menu completion or menu selection.
+
+              This widget is intended to be called from user-defined widgets to enforce a
+              desired  suf‐ fix-preservation behavior.
+
+       beep   Beep, unless the BEEP option is unset.
+
+       bracketed-paste
+              This widget is invoked when text is pasted to the terminal emulator. It is
+              not intended to be bound to actual keys but instead to the special sequence
+              generated by the terminal emu‐ lator when text is pasted.
+
+              When  invoked  interactively,  the pasted text is inserted to the buffer and
+              placed in the cutbuffer.  If a numeric argument is given, shell quoting will
+              be applied  to  the  pasted text before it is inserted.
+
+              When  a  named  buffer  is specified with vi-set-buffer ("x)", the pasted
+              text is stored in that named buffer but not inserted.
+
+              When called from a widget function as 'bracketed-paste name', the pasted
+              text is  assigned to the variable name and no other processing is done.
+
+              See also the zle_bracketed_paste parameter.
+
+       vi-cmd-mode (^X^V) (unbound) (^[)
+              Enter  command mode; that is, select the 'vicmd' keymap.  Yes, this is bound
+              by default in emacs mode.
+
+       vi-caps-lock-panic
+              Hang until any lowercase key is pressed.  This is for vi users without the
+              mental capacity to keep track of their caps lock key (like the author).
+
+       clear-screen (^L ESC-^L) (^L) (^L)
+              Clear the screen and redraw the prompt.
+
+       deactivate-region
+              Make  the  current region inactive. This disables vim-style visual selection
+              mode if it is active.
+
+       describe-key-briefly
+              Reads a key sequence, then prints the function bound to that sequence.
+
+       exchange-point-and-mark (^X^X) (unbound) (unbound)
+              Exchange the cursor position (point) with the position of the mark.  Unless
+              a negative nu‐ meric  argument is given, the region between point and mark
+              is activated so that it can be highlighted.  If a zero numeric argument is
+              given, the region is activated but  point  and mark are not swapped.
+
+       execute-named-cmd (ESC-x) (:) (unbound)
+              Read  the name of an editor command and execute it.  Aliasing this widget
+              with 'zle -A' or replacing it with 'zle -N' has no effect when interpreting
+              key  bindings,  but  'zle  exe‐ cute-named-cmd' will invoke such an alias or
+              replacement.
+
+              A restricted set of editing functions is available in the mini-buffer.  Keys
+              are looked up in the special command keymap, and if not found there in the
+              main  keymap.   An  interrupt signal,  as defined by the stty setting, will
+              abort the function.  Note that the following always perform the same task
+              within the executed-named-cmd environment and cannot  be  re‐
+              placed  by  user  defined  widgets, nor can the set of functions be
+              extended.  The allowed functions are:  backward-delete-char,
+              vi-backward-delete-char,  clear-screen,  redisplay, quoted-insert,
+              vi-quoted-insert,      backward-kill-word,      vi-backward-kill-word,
+              kill-whole-line, vi-kill-line, backward-kill-line, list-choices,
+              delete-char-or-list, com‐ plete-word, accept-line, expand-or-complete and
+              expand-or-complete-prefix.
+
+              kill-region  kills the last word, and vi-cmd-mode is treated the same as
+              accept-line.  The space and tab characters, if not bound to one of these
+              functions, will complete  the  name and  then list the possibilities if the
+              AUTO_LIST option is set.  Any other character that is not bound to
+              self-insert or self-insert-unmeta will beep and be ignored.  The  bindings
+              of the current insert mode will be used.
+
+              Currently this command may not be redefined or called by name.
+
+       execute-last-named-cmd (ESC-z) (unbound) (unbound)
+              Redo the last function executed with execute-named-cmd.
+
+              Like execute-named-cmd, this command may not be redefined, but it may be
+              called by name.
+
+       get-line (ESC-G ESC-g) (unbound) (unbound)
+              Pop the top line off the buffer stack and insert it at the cursor position.
+
+       pound-insert (unbound) (#) (unbound)
+              If  there  is  no  # character at the beginning of the buffer, add one to
+              the beginning of each line.  If there is one, remove a # from each line that
+              has one.  In either case,  ac‐ cept  the  current line.  The
+              INTERACTIVE_COMMENTS option must be set for this to have any usefulness.
+
+       vi-pound-insert
+              If there is no # character at the beginning of the current line, add  one.
+                  If  there  is one,  remove it.  The INTERACTIVE_COMMENTS option must be
+                  set for this to have any usefulness.
+
+       push-input
+              Push the entire current multiline construct onto  the  buffer  stack  and
+              return  to  the top-level  (PS1)  prompt.   If the current parser construct
+              is only a single line, this is exactly like push-line.  Next time the editor
+              starts up or is popped  with  get-line,  the construct  will be popped off
+              the top of the buffer stack and loaded into the editing buffer.
+
+       push-line (^Q ESC-Q ESC-q) (unbound) (unbound)
+              Push the current buffer onto the buffer stack and clear the buffer.  Next
+              time the  editor starts  up,  the buffer will be popped off the top of the
+              buffer stack and loaded into the editing buffer.
+
+       push-line-or-edit
+              At the top-level (PS1) prompt, equivalent to push-line.  At a secondary
+              (PS2) prompt, move the  entire  current multiline construct into the editor
+              buffer.  The latter is equivalent to push-input followed by get-line.
+
+       read-command
+              Only useful from a user-defined widget.  A keystroke is read just as in
+              normal  operation, but  instead  of the command being executed the name of
+              the command that would be executed is stored in the shell parameter REPLY.
+              This can be used as the argument of a future  zle command.   If the key
+              sequence is not bound, status 1 is returned; typically, however, REPLY is
+              set to undefined-key to indicate a useless key sequence.
+
+       recursive-edit
+              Only useful from a user-defined widget.  At this point in the function, the
+              editor regains control  until  one  of the standard widgets which would
+              normally cause zle to exit (typi‐ cally an accept-line caused by hitting the
+              return key) is executed.  Instead, control  re‐ turns  to  the  user-defined
+              widget.   The  status returned is non-zero if the return was caused by an
+              error, but the function still continues executing  and  hence  may  tidy
+              up.  This  makes  it safe for the user-defined widget to alter the command
+              line or key bindings temporarily.
+
+              The following widget, caps-lock, serves as an example.
+
+                     self-insert-ucase() {
+                       LBUFFER+=${(U)KEYS[-1]}
+                     }
+
+                     integer stat
+
+                     zle -N self-insert self-insert-ucase
+                     zle -A caps-lock save-caps-lock
+                     zle -A accept-line caps-lock
+
+                     zle recursive-edit
+                     stat=$?
+
+                     zle -A .self-insert self-insert
+                     zle -A save-caps-lock caps-lock
+                     zle -D save-caps-lock
+
+                     (( stat )) && zle send-break
+
+                     return $stat
+
+              This causes typed letters to be inserted capitalised until either
+              accept-line (i.e.  typi‐ cally the return key) is typed or the caps-lock
+              widget is invoked again; the later is han‐ dled by saving the old definition
+              of caps-lock as save-caps-lock and then rebinding it  to invoke
+              accept-line.  Note that an error from the recursive edit is detected as a
+              non-zero return status and propagated by using the send-break widget.
+
+       redisplay (unbound) (^R) (^R)
+              Redisplays the edit buffer.
+
+       reset-prompt (unbound) (unbound) (unbound)
+              Force the prompts on both the left and right of the screen to be
+              re-expanded, then  redis‐ play  the  edit buffer.  This reflects changes
+              both to the prompt variables themselves and changes in the expansion of the
+              values (for example, changes  in  time  or  directory,  or changes to the
+              value of variables referred to by the prompt).
+
+              Otherwise,  the prompt is only expanded each time zle starts, and when the
+              display as been interrupted by output from another part of the shell (such
+              as a  job  notification)  which causes the command line to be reprinted.
+
+       send-break (^G ESC-^G) (unbound) (unbound)
+              Abort  the current editor function, e.g. execute-named-command, or the
+              editor itself, e.g.  if you are in vared. Otherwise abort the parsing of the
+              current line;  in  this  case  the aborted  line  is  available  in  the
+              shell  variable ZLE_LINE_ABORTED.  If the editor is aborted from within
+              vared, the variable ZLE_VARED_ABORTED is set.
+
+       run-help (ESC-H ESC-h) (unbound) (unbound)
+              Push the buffer onto the buffer stack, and execute the command 'run-help
+              cmd',  where  cmd is the current command.  run-help is normally aliased to
+              man.
+
+       vi-set-buffer (unbound) (")" (unbound)
+              Specify  a  buffer  to be used in the following command.  There are 37
+              buffers that can be specified: the 26 'named' buffers "a to "z, the 'yank'
+              buffer "0, the nine  'queued'  buf‐ fers  "1 to "9 and the 'black hole'
+              buffer "_.  The named buffers can also be specified as "A to "Z.
+
+              When a buffer is specified for a cut, change or yank command, the text
+              concerned  replaces the previous contents of the specified buffer. If a
+              named buffer is specified using a cap‐ ital, the newly cut text is appended
+              to the buffer instead of overwriting it.  When  using the "_ buffer, nothing
+              happens. This can be useful for deleting text without affecting any buffers.
+
+              If no buffer is specified for a cut or change command, "1 is used, and the
+              contents of  "1 to "8 are each shifted along one buffer; the contents of "9
+              is lost. If no buffer is spec‐ ified for a yank command, "0 is used.
+              Finally, a paste command without a specified  buffer will  paste the text
+              from the most recent command regardless of any buffer that might have been
+              used with that command.
+
+              When called from a widget function by the zle command, the buffer can
+              optionally be speci‐ fied with an argument. For example,
+
+                     zle vi-set-buffer A
+
+       vi-set-mark (unbound) (m) (unbound)
+              Set the specified mark at the cursor position.
+
+       set-mark-command (^@) (unbound) (unbound)
+              Set  the  mark at the cursor position.  If called with a negative numeric
+              argument, do not set the mark but deactivate the region so that it is no
+              longer highlighted  (it  is  still usable for other purposes).  Otherwise
+              the region is marked as active.
+
+       spell-word (ESC-$ ESC-S ESC-s) (unbound) (unbound)
+              Attempt spelling correction on the current word.
+
+       split-undo
+              Breaks the undo sequence at the current change.  This is useful in vi mode
+              as changes made in insert mode are coalesced on entering command mode.
+              Similarly, undo will normally  revert as one all the changes made by a
+              user-defined widget.
+
+       undefined-key
+              This  command  is  executed when a key sequence that is not bound to any command is typed.
+              By default it beeps.
+
+       undo (^_ ^Xu ^X^U) (u) (unbound)
+              Incrementally undo the last text modification.  When called from  a
+              user-defined  widget, takes  an optional argument indicating a previous
+              state of the undo history as returned by the UNDO_CHANGE_NO variable;
+              modifications are undone until that state is reached, subject to any limit
+              imposed by the UNDO_LIMIT_NO variable.
+
+              Note  that when invoked from vi command mode, the full prior change made in
+              insert mode is reverted, the changes having been merged when command mode
+              was selected.
+
+       redo (unbound) (^R) (unbound)
+              Incrementally redo undone text modifications.
+
+       vi-undo-change (unbound) (unbound) (unbound)
+              Undo the last text modification.  If repeated, redo the modification.
+
+       visual-mode (unbound) (v) (unbound)
+              Toggle vim-style visual selection mode. If line-wise visual mode is
+              currently enabled then it is changed to being character-wise. If used
+              following an operator, it forces the subse‐
+              quent movement command to be treated as a character-wise movement.
+
+       visual-line-mode (unbound) (V) (unbound)
+              Toggle vim-style line-wise visual selection mode. If character-wise visual
+              mode  is  cur‐ rently  enabled  then  it is changed to being line-wise. If
+              used following an operator, it forces the subsequent movement command to be
+              treated as a line-wise movement.
+
+       what-cursor-position (^X=) (ga) (unbound)
+              Print the character under the cursor, its code as an octal, decimal and
+              hexadecimal  num‐ ber,  the  current  cursor  position within the buffer and
+              the column of the cursor in the current line.
+
+       where-is
+              Read the name of an editor command and print the listing of key sequences
+              that invoke  the specified command.  A restricted set of editing functions
+              is available in the mini-buffer.  Keys are looked up in the special command
+              keymap, and if  not  found  there  in  the  main keymap.
+
+       which-command (ESC-?) (unbound) (unbound)
+              Push  the buffer onto the buffer stack, and execute the command
+              'which-command cmd'. where cmd is the current command.  which-command is
+              normally aliased to whence.
+
+       vi-digit-or-beginning-of-line (unbound) (0) (unbound)
+              If the last command executed was a digit as part of an argument,  continue
+              the  argument.  Otherwise, execute vi-beginning-of-line.
+
+   Text Objects
+       Text  objects are commands that can be used to select a block of text according to
+       some criteria.  They are a feature of the vim text editor and so are primarily
+       intended for use with vi operators or  from  visual selection mode. However, they
+       can also be used from vi-insert or emacs mode. Key bindings listed below apply to
+       the viopp and visual keymaps.
+
+       select-a-blank-word (aW)
+              Select a word including adjacent blanks, where a word is defined as a series
+                  of  non-blank characters. With a numeric argument, multiple words will
+                  be selected.
+
+       select-a-shell-word (aa)
+              Select the current command argument applying the normal rules for quoting.
+
+       select-a-word (aw)
+              Select a word including adjacent blanks, using the normal vi-style word
+              definition. With a numeric argument, multiple words will be selected.
+
+       select-in-blank-word (iW)
+              Select a word, where a word is defined as a series of non-blank characters.
+              With a numeric argument, multiple words will be selected.
+
+       select-in-shell-word (ia)
+              Select the current command argument applying the normal rules for quoting.
+              If the argument begins and ends with matching quote characters, these are
+              not included in the selection.
+
+       select-in-word (iw)
+              Select a word, using the normal vi-style word definition. With a numeric
+              argument,  multi‐ ple words will be selected.

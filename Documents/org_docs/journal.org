@@ -1,0 +1,1873 @@
+#+STARTUP: overview
+* 2016
+** 2016-11 November
+*** 2016-11-30 Wednesday
+**** - Journal started
+
+   Entered on [2016-11-30 Wed 16:41]
+
+** 2016-12 December
+*** 2016-12-01 Thursday
+**** 
+
+     - This is the serious start of my journal.
+   Entered on [2016-12-01 Thu 15:41]
+
+*** 2016-12-05 Monday
+**** 
+
+     - Bought new glasses (2 pairs) from Vision Express.
+       Should arrive within 2 weeks.
+       They will contact me via SMS.
+   Entered on [2016-12-05 Mon 14:58]
+
+*** 2016-12-07 Wednesday
+**** 
+
+     - Hearing aid batteries need replacing.
+   Entered on [2016-12-07 Wed 15:30]
+
+*** 2016-12-15 Thursday
+**** 
+
+       - Ordered new Co-op membership card : membership number -
+         633174913212184941
+       - Collected new glasses (reading and intermediate) from Vision
+         Express.
+
+       Entered on [2016-12-15 Thu 14:40]
+
+*** 2016-12-18 Monday
+** 
+
+      - Hearing aid batteries changed.
+    Entered on [2016-12-19 Mon 09:59]
+
+*** 2016-12-23 Friday
+**** 
+
+     - Went to Vision Express to replace my new glasses. I'm not
+       getting on with them.
+     - Hinges too stiff and now starting to creak.
+     - Lenses too big and heavy. It's like looking through a shop
+       window.
+     - Lenses steam up too often. Need to to be cleaned 3 times on a
+       cold morning.
+
+   Entered on [2016-12-24 Sat 12:13]
+
+*** 2016-12-28 Wednesday
+**** 
+
+     - Hearing aid batteries changed.
+
+   Entered on [2016-12-28 Wed 14:02]
+
+**** 
+
+     - Collected replacement glasses from Vision Express - Much better
+       :-)
+
+     Entered on [2016-12-28 Wed 14:04]
+
+* 2017
+** 2017-01 January
+*** 2017-01-07 Saturday
+**** 
+
+     - Hearing aid batteries changed.
+   Entered on [2017-01-07 Sat 16:23]
+
+*** 2017-01-08 Sunday
+**** 
+
+     - Bought new AVR (Onkyo TX-NR656) and desktop mount from Richer
+       Sounds on Mansfield road. Also bought 6 year extended warranty
+       for the Onkyo.
+   Entered on [2017-01-09 Mon 10:17]
+
+*** 2017-01-11 Wednesday
+**** 
+
+     - New Onkyo TX-NR656 and stand arrived. Separated Samsung TV with
+       its own stand.  Took longer than expected. Removing the screws
+       from within the recesses was hell of job :-( Terminated some
+       speaker cables with banana plugs. Couldn't do them all as extra
+       cable wasn't arriving until the following day. AV receiver
+       would not fit into hifi cabinet slot so had to rearrange
+       Youview and Amazon Fire TV. Cabinet adjusted to accept the
+       receiver.
+   Entered on [2017-01-13 Fri 13:10]
+
+*** 2017-01-12 Thursday
+**** 
+
+     - New speaker cables arrived from Amazon. All speaker cables
+       installed as well as Ethernet cable. Everything connected and
+       Onkyo configured temporarily as final configuration was not
+       decided on. Most thins seemed to be working including the
+       connection to the internet.
+   Entered on [2017-01-13 Fri 13:20]
+
+*** 2017-01-13 Friday
+**** 
+
+     - Eye examination at Eye Outpatients, QMC. Saw new doctor. Was
+       told vision in my right eye is very slowly deteriorating. Will
+       now have to attend clinic twice yearly to monitor the
+       situation. Possibly more eye drops and maybe even an operation.
+     - Onkyo receiver now not able to connect to the internet. Cannot
+       see Onkyo:o on the router.
+   Entered on [2017-01-13 Fri 13:27]
+
+*** 2017-01-17 Tuesday
+**** 
+
+     - Hearing aid batteries changed.
+   Entered on [2017-01-17 Tue 15:38]
+
+*** 2017-01-19 Thursday
+**** 
+
+     - Ordered New sub-woofer (Cambridge Audio MINX X201) from Richer
+       Sounds. Also headphone extension lead and sub-woofer cable from
+       Amazon.
+   Entered on [2017-01-19 Thu 10:00]
+
+*** 2017-01-20 Friday
+**** 
+
+     - Cambridge Audio sub-woofer delivered by DPD.
+     Entered on [2017-01-20 Fri 11:36]
+
+**** 
+
+     - Headphone extension and sub-woofer cables collected from the Co-op.
+   Entered on [2017-01-20 Fri 15:36]
+
+*** 2017-01-25 Wednesday
+**** 
+
+     - Gas inspection by Angelo (plumber).
+   Entered on [2017-01-25 Wed 12:22]
+
+*** 2017-01-27 Friday
+**** 
+
+     - Battery for right hearing aid changed.
+   Entered on [2017-01-27 Fri 14:51]
+
+*** 2017-01-28 Saturday
+**** 
+
+     - Battery for left hearing aid changed.
+   Entered on [2017-01-28 Sat 15:39]
+
+*** 2017-01-29 Sunday
+**** 
+
+     - Plasma 5 updated to version 5_17.01. Everything working except
+       for hp-lip. Apparently sip package needs recompiling. Using the 
+       version from Slackware current at the moment.
+   Entered on [2017-01-29 Sun 15:00]
+
+** 2017-02 February
+*** 2017-02-01 Wednesday
+**** 
+
+     - Attended ENT appointment at Queen's Medical Centre. Was told by
+       doctor that there was a remote possibility of a benign tumour
+       which could be the cause of my hearing loss. The tinnitus was
+       due to difference in hearing between the two ears. Will need an
+       MRI scan to detect if there is a tumour. Possibly no action to
+       be taken even if a tumour is found.
+   Entered on [2017-02-01 Wed 12:05]
+
+*** 2017-02-07 Tuesday
+**** 
+
+     - Hearing aid batteries changed.
+   Entered on [2017-02-07 Tue 12:43]
+
+**** 
+
+     - Plusnet Mobile sim arrived and activated today. Also initiated
+       the porting procedure so as I can still use my old
+       number. Apparently takes 1 or 2 days.
+   Entered on [2017-02-07 Tue 15:30]
+
+**** 
+
+     - Prescription for elasticated stockings dropped into
+       chemist. Will need to be picked up sometime next week. Usually
+       takes one week for them to be delivered.
+   Entered on [2017-02-07 Tue 15:33]
+
+*** 2017-02-09 Thursday
+**** 
+
+	- Duncan coming today. Will probably pop over to the Strat for a
+	  drink - We usually do :-)
+      Entered on [2017-02-09 Thu 10:06]
+
+*** 2017-02-10 Friday
+**** 
+
+     - Right hearing aid stopped working. There's no start-up jingle
+       when switched on. Jingle has been quiet for the last 2 days. No
+       difference in hearing when switched on. Contacted Audiology
+       have an appointment for 5pm next Monday.
+   Entered on [2017-02-10 Fri 11:17]
+
+*** 2017-02-13 Monday
+**** 
+
+	- Cancelled appointment with audiology as hearing aid now
+	  working. Started working following weekly maintenance. Go
+	  figure :-)
+      Entered on [2017-02-13 Mon 12:17]
+
+*** 2017-02-15 Wednesday
+**** 
+
+     - Foot rest delivered by Amazon Logistics.
+   Entered on [2017-02-15 Wed 15:31]
+
+*** 2017-02-16 Thursday
+**** 
+
+     Installed AlienBob's KDE 5_17.02 with Plasma 5.9. Wouldn't start
+     with SDDM but would from the command-line with startx. No icons
+     for applications on task bar. Had to remove directories ~/.kde
+     and ~/.config/kde. KDE had then to be reconfigured from scratch
+     :-( 
+     Entered on [2017-02-16 Thu 13:25]
+
+*** 2017-02-19 Sunday
+**** 
+
+     - Hearing aid batteries replaced. Right aid not working with new
+       battery. Replaced dome as it looked out of shape, but it was no
+       go.  Cleaning tube with cleaning rod seemed to do the trick
+       (once again).
+   Entered on [2017-02-19 Sun 12:51]
+
+*** 2017-02-21 Tuesday
+**** 
+
+	- Collected mini toslink from Post Office and then installed to
+	  replace 3.5mm to RCA connector. sounds so much better. Sound
+	  has a lot more depth. A pretty god upgrade for 6 quid :-)
+      Entered on [2017-02-23 Thu 12:12]
+
+*** 2017-02-25 Saturday
+**** 
+
+     - Duncan came over to fit new shelves and replace old chipboard
+       shelves with wood with wood ones. Got loads of room now for
+       books, CDs DVDs and blue rays :-)
+   Entered on [2017-02-27 Mon 11:03]
+
+** 2017-03 March
+*** 2017-03-02 Thursday
+**** 
+
+     - Hearing aid batteries replaced.
+   Entered on [2017-03-02 Thu 13:50]
+
+*** 2017-03-03 Friday
+****** 
+
+	   - Won £150 on the premium bonds today, 2 £25s and 1 £100 :-). Just
+	     text-ed Duncan I'm sure he was delighted to receive the good news.
+	 Entered on [2017-03-03 Fri 15:16]
+
+****** 
+
+       - Ordered Tamsulosin on my Android app today. Wonder if it will
+	 get through to Green Cross pharmacy.
+     Entered on [2017-03-03 Fri 15:25]
+
+*** 2017-03-11 Saturday
+**** 
+
+     - Went for MRI scan at QMC. Not sure if there was a metal plate
+     in my head so had to go for an X-ray first just to make sure -
+     none there. Finally went for a scan.  Will never go for another
+     one. It was awful - so claustrophobic! Will get results in a few
+     weeks time from ENT.
+     Entered on [2017-03-11 Sat 19:01]
+
+*** 2017-03-12 Sunday
+**** 
+
+     - Hearing aid batteries changed.
+   Entered on [2017-03-12 Sun 14:37]
+
+*** 2017-03-15 Wednesday
+**** 
+
+	- Went for pneumonia vaccination and heart health check at Castle
+	  Healthcare surgery. Didn't go to badly. Was advised that I was
+	  eating too much red meat and cheese. Will have to try just egg
+	  on toast in the morning and find something else to put in my
+	  sandwiches. My cheese on my biscuits will have to go as well
+	  :-(. Must remember to ring next week for the result of the
+	  cholesterol test.
+      Entered on [2017-03-15 Wed 12:50]
+
+*** 2017-03-17 Friday
+**** 
+
+     - Paul came back from Prague today. He also visited Berlin the
+       lucky guy. Will see him tonight at the Vat.
+   Entered on [2017-03-17 Fri 10:48]
+
+*** 2017-03-23 Thursday
+**** 
+
+     - Hearing aid batteries changed.
+   Entered on [2017-03-23 Thu 16:21]
+
+*** 2017-03-24 Friday
+**** 
+
+     - Nurse rang from Castle Healthcare to say the results of my
+       health check weren't too bad. Cholesterol level a bit over what
+       they would like but my blood sugar levels have come down to an
+       acceptable level and am now not prediabetic. Really pleased
+       with that. Will have to do something about cholesterol
+       though. Will have to have another check in 6 months time.
+   Entered on [2017-03-24 Fri 11:13]
+
+*** 2017-03-27 Monday
+**** 
+
+     - Yearly subscriptions for Microsoft Mahjong and Minesweeper paid
+   Entered on [2017-03-28 Tue 13:46]
+  
+     [[file:~/Dropbox/Apps/Emacs/mylife.org::*Subscription%20for%20Microsoft%20Mahjong%20and%20Minesweeper%20needs%20renewal][Subscription for Microsoft Mahjong and Minesweeper needs renewal]]
+
+** 2017-04 April
+*** 2017-04-03 Monday
+**** 
+
+     - Tubes and domes changed on hearing aids.
+   Entered on [2017-04-03 Mon 08:15]
+
+**** 
+
+     - British gas engineers fitted new electric smart meter as old
+       one was not working. It wasn't even metering the electricity
+       for the last 4 months. Now got a monitor and all seems to be
+       working.  
+   Entered on [2017-04-03 Mon 16:03]
+
+*** 2017-04-10 Monday
+**** 
+
+     - Attended Changepoint in Keyworth this morning. First of all was
+       the initial assessment which seemed to go OK. Then went to the
+       programme proper starting with the exercises. Didn't go too
+       bad, in fact it could have been a lot worse. Feeling the
+       effects now though! Finished off with a talk on sugar in the
+       diet. Very informative as I knew next to absolutely nothing on
+       this subject. Will be looking out for the 'free sugars' from
+       now on. No more than 7 teaspoons a day. What that is in grams I
+       haven't a clue :-(
+   Entered on [2017-04-10 Mon 14:48]
+
+*** 2017-04-13 Thursday
+**** 
+
+     - Duncan visited today. Investigated blackout blinds on blinds2go
+       website but found ridiculous prices. In one instance £107 :-(
+       Look a lot cheaper at Ikea. Duncan will have a look the next
+       time he goes.
+     - Told Dunc about my Compilot disconnecting issues but later on
+       go an update to Android 7.1.2 on my Nexus 6P. Seems to be
+       working fine now :-) Will give it a good test tomorrow.
+   Entered on [2017-04-14 Fri 12:05]
+
+*** 2017-04-14 Friday
+**** 
+
+     - Upgraded Pixel C to Android 7.1.2
+   Entered on [2017-04-14 Fri 12:11]
+
+**** 
+
+     - Hearing aid batteries changed.
+   Entered on [2017-04-14 Fri 14:42]
+
+*** 2017-04-15 Saturday
+**** - Ordered new mattress from Ikea.
+
+     Ordered medium instead of firm, will have to change.
+     Order No. 843543639. To be delivered [2017-04-25 Tue].
+
+*** 2017-04-16 Sunday
+**** 
+
+     - Rang Ikea to see if I could change from medium to firm for my
+       mattress but will have to wait for the original one to be
+       delivered and the ring back for Ikea to change.
+   Entered on [2017-04-16 Sun 12:38]
+
+*** 2017-04-27 Thursday
+**** 
+
+     - Went with Duncan and Jane to swap my mattress for a firm
+       one. Ikea exchanged it no problem at all. Also while we were
+       there bought a new pillow with protector. The old one was
+       getting really manky and needed replacing.
+   Entered on [2017-04-28 Fri 11:32]
+
+*** 2017-04-28 Friday
+**** 
+
+     - Contacted Rushciffe Borough council to coma and pick up my old
+       mattress. Will be picked up next Tuesday [2017-05-02 Tue] after
+       7 o'clock.
+   Entered on [2017-04-28 Fri 11:37]
+
+*** 2017-04-30 Sunday
+
+    Ordered Chromecast Ultra from Google
+    Order No.GS.9651-9047-3301
+
+** 2017-05 May
+*** 2017-05-05 Friday
+**** 
+
+     - Chromecast Ultra delivered 1 day late but working very
+       well. Faster and smoother than the old one.
+     Entered on [2017-05-09 Tue 10:42]
+
+*** 2017-05-08 Monday
+**** 
+
+     - Changepoint - Subject this week was eating out. As I rarely
+       eat out there is no real need to take that much care as a one
+       off will cause no long term damage. Should be more aware though
+       if eating out regularly.
+     Entered on [2017-05-09 Tue 10:46]
+
+*** 2017-05-13 Saturday
+**** - Contacted by Maggie via twitter
+
+     - Maggie contacted me today via twitter. Alun wants to contact me
+       and has lost my number. Rang Al, him and a friend are coming to
+       Nottingham on Tuesday so we'll meet at the railway station at 6
+       o'clock. Looking forward to seeing him as we haven't seen each
+       other for a number of years now.
+   Entered on [2017-05-14 Sun 14:14]
+
+*** 2017-05-15 Monday
+**** 
+
+     - Changepoint - The usual exercises and then a talk on
+       snacks. Snacks can be good if you are hungry and there's not
+       too much sugar or saturated fat.
+     Entered on [2017-05-15 Mon 13:20]
+
+*** 2017-05-16 Tuesday
+**** 
+
+     - Alun and his buddy Hubert arrived in Nottingham today. Met them
+       at the railway station and then went to Vat + Fiddle for a few
+       drinks. Alun seems to be healthy for his age and I was well
+       pleased to see him with such a nice friend. Must try and go
+       back to Bridgend for a visit could also see Maggie as well. Pat
+       is still not happy with me :-( Would have thought she would
+       have got over it by now. I live in hope.
+   Entered on [2017-05-17 Wed 12:56]
+
+*** 2017-05-16 Tuesday
+**** 
+
+     - Went to see Dr. Griffiths about my left leg. Just gave me some
+       cream to put on for a fortnight. Had to persuade him to
+       prescribe me elasticated stockings :-)
+   Entered on [2017-05-19 Fri 15:27]
+
+*** 2017-05-22 Monday
+**** 
+
+     - 5th week of programme. Learned nothing new nutritionally as
+       Imogen wasn't there. Had a session about fitness sessions
+       availble in Notts/Rushcliffe area.
+   Entered on [2017-05-22 Mon 12:59]
+
+*** 2017-05-27 Saturday
+**** 
+
+     - Today stopped taking Tamsulosin as I'm not going to the toilet
+       so frequently. Most probably due to more healthy
+       eating. According to information on the internet increased
+       blood sugar can cause more frequent urination. Hopefully this is
+       a sign that my blood sugar levels are going down. Will monitor
+       over the next few weeks.
+     Entered on [2017-05-27 Sat 11:08]
+
+** 2017-06 June
+*** 2017-06-01 Thursday
+**** 
+
+     - Started back on Tamsulosin. Was hoping to dome off them
+       permanently but proved otherwise :-(
+   Entered on [2017-06-01 Thu 16:14]
+
+*** 2017-06-03 Saturday
+**** 
+
+     - Hearing aid batteries changed.
+   Entered on [2017-06-03 Sat 13:43]
+
+*** 2017-06-04 Sunday
+**** 
+
+     - 10000 steps today. First time for quite a number of years :-)
+   Entered on [2017-06-04 Sun 15:59]
+
+*** 2017-06-09 Friday
+**** 
+
+     - Duncan came today and paid £80 for my Yamaha keyboard. Also
+       took my old Onkyo AVR.
+   Entered on [2017-06-09 Fri 16:14]
+
+*** 2017-06-20 Tuesday
+**** 
+
+     - Got an invitation for Pat & Alan's 50th wedding
+       anniversary. Well pleased as it seems she has forgiven me. Will
+       try to get in touch with Alun to see if he can put me up for a
+       couple of nights.
+   Entered on [2017-06-20 Tue 11:37]
+
+*** 2017-06-22 Thursday
+**** 
+
+     - Changed hearing aids batteries.
+   Entered on [2017-06-22 Thu 16:10]
+
+**** 
+
+     - Rang anchor to see if any flats to rent in Miriam Court. None
+       in there or Peveril Court but put on waiting list for both
+       places. Only studio flats for singles but if no couples apply
+       then I could be offered one. All flats have separate storage
+       areas so that could be a solution.
+     Entered on [2017-06-22 Thu 16:13]
+
+** 2017-07 July
+*** 2017-07-01 Saturday
+**** 
+
+     - Changed hearing aids batteries.
+     Entered on [2017-07-01 Sat 13:03]
+
+*** 2017-07-02 Sunday
+*** 2017-07-10 Monday
+**** 
+
+     - Changed hearing aids batteries.
+   Entered on [2017-07-10 Mon 13:46]
+
+**** 
+
+     - Last but one session with Changepoint. Given a form to fill in
+       for next week for assessment. This week discussed food
+       labelling - very interesting.
+     Entered on [2017-07-10 Mon 13:46]
+
+*** 2017-07-15 Saturday
+**** 
+
+     - Bought new bike from Valecycles on Boundary road. Got a real
+       good deal for £350. Original price was £500. Rode it back to my
+       place and I was very nervous indeed. Methinks saddle will need
+       adjusting. Will take it down to the embankment tomorrow to try
+       and get used to it.
+     Entered on [2017-07-16 Sun 13:40]
+
+*** 2017-07-16 Sunday
+**** 
+
+     - Rode my new bike (Ridgeback Velocity - 15") as far as the
+       Environmental Agency by the river. The thumb shifters are
+       superb, much better than the twist grips I've had
+       previously. Couldn't go too far as I'm gonna have to get used
+       to the saddle :-) The saddle heght definitely needs adjusting
+       but I'll leave that for a few days as I need to get used to
+       mounting the bike.
+     Entered on [2017-07-16 Sun 13:45]
+
+*** 2017-07-20 Thursday
+**** 
+
+     - Changed hearing aids batteries.
+     Entered on [2017-07-20 Thu 13:48]
+
+*** 2017-07-24 Monday
+**** 
+
+     - Attended eye clinic with Mr. Orr. Will now need laser surgery
+       to correct reduced vision in my right eye. Not 100% if this
+       will work as this is a process of elimination.
+     Entered on [2017-07-25 Tue 12:59]
+
+*** 2017-07-27 Thursday
+**** 
+
+     - Hearing aid batteries changed.
+   Entered on [2017-07-27 Thu 10:21]
+
+*** 2017-07-31 Monday
+**** 
+
+     - 3 Monthly review with Changepoint. Went from 108.2 to 98.8 kg -
+       that's a loss just shy of 21lbs, a stone and a half :-) Imogen
+       seemed pleased with the result and told me now there will be
+       monthly maintenances for the rest of the 12 months.
+   Entered on [2017-07-31 Mon 17:03]
+
+** 2017-08 August
+*** 2017-08-05 Saturday
+**** 
+
+     - Hearing aid batteries changed.
+   Entered on [2017-08-05 Sat 15:40]
+
+*** 2017-08-13 Sunday
+
+  
+
+*** 2017-08-15 Tuesday
+
+     - Start of 21 day carbohydrate detox - Weight 14st 13.75lbs.
+     Entered on [2017-08-13 Sun 10:52]
+
+**** 
+
+     - Hearing aid batteries replaced.
+   Entered on [2017-08-15 Tue 15:17]
+
+*** 2017-08-16 Wednesday
+
+     - Signed rental agreement with Metropolitan and received keys for
+       flat at Boxley Drive :-)
+
+*** 2017-08-21 Monday
+**** 
+
+     - Engineer visit to Boxley Drive to tighten radiator valve.
+     Entered on [2017-08-21 Mon 12:47]
+
+**** 
+
+     - Rang Metropolitan to organise an engineer to uncap gas to flat
+       and test boiler. Aaron Services to attend Wednesday 23rd
+       September 08:00 to 12:00 - Metropolitan Reference : 6341134-1
+     Entered on [2017-08-21 Mon 12:48]
+
+** 2017-10 October
+*** 2017-10-04 Wednesday
+
+     - Hearing aid batteries changed.
+   Entered on [2017-10-04 Wed 15:30]
+
+*** 2017-10-12 Thursday
+
+     - Hearing aid batteries changed.
+   Entered on [2017-10-12 Thu 22:25]
+
+*** 2017-10-20 Friday
+
+     - Hearing aid batteries changed.
+   Entered on [2017-10-20 Fri 14:32]
+
+*** 2017-10-27 Friday
+
+     - Hearing aid batteries changed.
+   Entered on [2017-10-27 Fri 15:16]
+
+** 2017-11 November
+*** 2017-11-03 Friday
+
+     - Hearing aid batteries changed.
+   Entered on [2017-11-03 Fri 19:43]
+
+*** 2017-11-06 Monday
+
+     - Contacted Metropolitan about faulty timer switch on central
+       heating boiler and broken thermostat radiator valve in
+       bedroom. Faults to be passed on to Aaron Services.
+   Entered on [2017-11-06 Mon 19:43]
+
+*** 2017-11-06 Monday
+**** 
+
+     - Contacted Metropolitan with 4 faults.
+       1. Thermostat radiator valve in bedroom.
+       2. Timer switch on central heating boiler.
+       3. Continuous dripping in toilet cistern.
+       4. Door entry buzzer far too quiet.
+     Entered on [2017-11-06 Mon 12:32]
+
+**** 
+
+     - Contacted British Gas as they were still billing me for
+       Loughborough Road. They also required initial readings for
+       Boxley Drive.
+   Entered on [2017-11-06 Mon 12:37]
+
+*** 2017-11-10 Friday
+
+     - Hearing aid batteries changed.
+   Entered on [2017-11-10 Fri 14:10]
+
+*** 2017-11-10 Friday
+
+     - Laser surgery on eye went well. According to the doctor
+       operating the laser i can have an eye test in a couple of
+       weeks. According to Specsavers it should be 6 weeks  and by the
+       consultant at my biannual check-up 4 weeks. Go figure :-)
+   Entered on [2017-11-12 Sun 11:20]
+
+*** 2017-11-11 Saturday
+
+     - Booked eye test for 3 weeks at Specsavers. Appointment now for
+       Friday 1st December at 13:30.
+   Entered on [2017-11-12 Sun 11:24]
+
+*** 2017-11-12 Sunday
+
+     - Weighed myself this morning and am now 14st 2lbs a drop of over
+       5 and a half pounds from last week :-) But there again
+       according to the weighing scales I had put on a pound a weekk
+       before. Still well chuffed though. Am typing this with a smile
+       on my face. :-)
+   Entered on [2017-11-12 Sun 11:29]
+
+*** 2017-11-17 Friday
+**** - Delivery of new Google Pixel 2 XL.
+
+     - New Google Pixel 2 arrived 5 days earlier than expected. Very
+       nice! Had a little fright though as there was no receiving or
+       transmitting of audio on making calls. After searching Google
+       product forums found the answer. In the phone app in
+       settings->Accessibility the hearing aid compatibility was
+       turned 'on'. Turning off cured the problem. I think think this
+       may have been turned on when I paired it with my compilot.
+   Entered on [2017-11-19 Sun 12:12]
+
+**** - Hearing aid batteries.
+
+     - Hearing aid batteries changed.
+   Entered on [2017-11-19 Sun 12:21]
+
+*** 2017-11-21 Tuesday
+
+     - Aaron Services engineer arrived to look at central heating
+       boiler and thermostat valve in bedroom. Didn't have any spares
+       and they have to be ordered. Hopefully they will arrive in
+       about a week. They will contact me for new appointment.
+   Entered on [2017-11-21 Tue 14:57]
+
+*** 2017-11-27 Monday
+**** 
+
+     - Metroworks came to fix the toilet from dripping and continuous
+       flushing. Was here at quarter to 9. Finished and out before 9
+       o'clock. Very pleased with the service as engineer was a very
+       friendly Yorkshire man.
+   Entered on [2017-11-27 Mon 09:04]
+
+**** 
+
+     - Duncan coming for a visit today. Bringing his new PC with
+       him - sounds a real cracker with a new AMD Ryzen microprocessor.
+   Entered on [2017-11-27 Mon 09:08]
+
+*** 2017-11-28 Tuesday
+**** 
+
+     - First day with magnesium supplement tablets.
+   Entered on [2017-11-28 Tue 22:11]
+
+**** 
+
+     - Google Mini delivered today. Worked straight off :-)
+   Entered on [2017-11-28 Tue 22:12]
+
+*** 2017-11-30 Thursday
+**** 
+
+     - Registered with the online mailing preferential service. Should
+       take 4 months max to stop unwanted mail.
+       https://www.mpsonline.org.uk
+     Entered on [2017-11-30 Thu 16:42]
+
+** 2017-12 December
+*** 2017-12-01 Friday
+**** 
+
+     - Went to Specsavers to have my eyes retested. Was examined by a
+       student optician for over an hour. By the time the examination
+       was over I could hardly see. The visual fields test was failed
+       miserably as I couldn't see the lines on the screen. I also
+       think the background of the fields test was too bright as on
+       times everything went dark. Will try again when I go back to
+       get my glasses fitted. Am not looking forward to it :-( In the
+       end I was there for 2 hours! Gonna cost me an arm and a leg -
+       costing me £253.
+   Entered on [2017-12-01 Fri 18:03]
+
+*** 2017-12-03 Sunday
+**** 
+
+     - Weighed this morning. Now under 14 stone :-) The firs time I've
+       seen my weight in the 13 stone region for many a long
+       year. Next target is to get my BMI below 30 as then I will not
+       be classed as obese. Only 8 or 9 lbs to reach that.
+   Entered on [2017-12-03 Sun 09:42]
+
+*** 2017-12-04 Monday
+
+     - Hearing aid batteries changed.
+   Entered on [2017-12-04 Mon 15:51]
+
+*** 2017-12-08 Friday
+
+     - Collected new glasses (varifocals) from Specsavers. Thought
+       they would take quite a bit of time to get used to but there
+       does not seem to be any major difficulties. In fact I'm really
+       pleased with them, the optician, a student, got the
+       prescription spot on. Varifocals have come on so much since I
+       bought my last pair. I don't even have trouble on steps or
+       stairs. The previous ones were a nightmare. Only 1 problem, the
+       bridge of my nose gets quite sore after wearing them for a long
+       period of time. Will take them back to Specsavers to see if
+       they can make some kind of adjustment. Most probably I will
+       have to get used to them :-()
+   Entered on [2017-12-09 Sat 09:53]
+
+*** 2017-12-12 Tuesday
+
+     - Hearing aid batteries changed.
+   Entered on [2017-12-12 Tue 10:46]
+
+*** 2017-12-19 Tuesday
+
+     - Emma contacted Metropolitan about my intercom not
+       Emma contacted Metropolitan as my intercom was not 
+       sounding. Hopefully will get repaired in the near future. The
+       service company (Openview) will contact me for date and time.
+   Entered on [2017-12-19 Tue 16:04]
+
+*** 2017-12-20 Wednesday
+
+     - Hearing aid batteries changed.
+     Entered on [2017-12-20 Wed 08:46]
+
+*** 2017-12-27 Wednesday
+
+     - Hearing aid batteries changed.
+   Entered on [2017-12-27 Wed 17:41]
+
+* 2018
+** 2018-01 January
+*** 2018-01-04 Thursday
+
+     - Hearing aid batteries changed
+   Entered on [2018-01-04 Thu 14:46]
+
+*** 2018-01-03 Wednesday
+
+     - Aaron Services didn't turn up! Contacted them and now arranged
+       for next Tuesday the 9th.
+     Entered on [2018-01-03 Wed 14:24]
+
+*** 2018-01-09 Tuesday
+
+     - Aaron Services didn't turn up again! . Will ring them tomorrow.
+     Entered on [2018-01-10 Wed 14:24]
+
+*** 2018-01-10 Wednesday
+
+     - Rang Aaron Services. They reckoned the Engineer had turned up
+       but could not change my lounge radiator. Informed them that
+       this was not the fault I reported and there was definitely no
+       engineer as I was waiting for him all day. Awaiting reply while
+       they investigate.
+   Entered on [2018-01-10 Wed 14:28]
+
+*** 2018-01-12 Friday
+**** Dentist Appoinment
+
+     - Appointment with therapist at dentist. Informed I had to take
+       more care when brushing my lower left teeth as there is
+       inflammation. 
+   Entered on [2018-01-12 Fri 15:14]
+
+**** Hearing aids batteries
+
+     - Hearing aid batteries changed.
+   Entered on [2018-01-12 Fri 15:16]
+
+*** 2018-01-15 Monday
+
+     - Contacted Aaron Services again as they had not got back to
+       me. Engineer to visit on Wednesday morning.
+   Entered on [2018-01-15 Mon 10:11]
+
+*** 2018-01-17 Wednesday
+
+     - Aaron Services arrived in afternoon instead of this
+       morning. When he hadn't arrived by noon I contacted them but
+       they reckoned the appointment was for the afternoon :-( Must
+       admit I got a bit shirty with them :-( Engineer arrived not
+       long after midday with spares but noticed incorrect fitting of
+       the boiler flue. Have no heating or water or heating until
+       ordered parts arrive. Was left with 2 heaters until flue
+       repaired/corrected. Had a moan to Emma and she will get in
+       touch with whoever to ascertain whats going on. Emma also
+       contacted the relative agents to find out about repair to
+       intercom. Less than 10 minutes later I was contacted and
+       advised that the intercom was to be repaired on Friday
+       afternoon. Well done Emma :-)
+     Entered on [2018-01-17 Wed 16:28]
+
+*** 2018-01-18 Thursday
+
+     - Engineer arrived 1 day early to fix the intercom. Replaced
+       intercom door push and power supply in store room to no
+       avail. Eventually turned out to be a wiring fault in the
+       outside box.
+     Entered on [2018-01-18 Thu 17:39]
+
+*** 2018-01-19 Friday
+
+     - Not only is there no heating now the toilet will not flush :-(
+       Contacted Metropolitan who booked a provisional date for 8th of
+       February. Nobody available there to arrange a nearer
+       date. Advised to to ring Monday morning to possibly arrange an
+       earlier appointment.
+     Entered on [2018-01-20 Sat 11:58]
+
+*** 2018-01-21 Sunday
+
+     - Hearing aid batteries changed.
+     Entered on [2018-01-21 Sun 09:50]
+
+*** 2018-01-22 Monday
+
+     - Rang Metropolitan about toilet not flushing. They forwarded the
+       problem to this morning. Engineer arrived 30 mins after phone
+       call and fixed an half an hour after that. Excellent service
+       Metworks. 
+     Entered on [2018-01-22 Mon 10:35]
+
+*** 2018-01-25 Thursday
+
+     - Aaron Services engineer arrive a tad late and when he sussed
+       out what was to be done he needed a builder with ladders to
+       complete the job. Previous engineer (Rick) documented that two
+       people were needed. Rescheduled for tomorrow morning. I will
+       believe it when I see it, I was half surprised he turned up
+       today.  Keep reading folks for this ongoing saga :-)
+     Entered on [2018-01-25 Thu 16:28]
+
+*** 2018-01-26 Friday
+
+     - Aaron Services contacted me to inform that the builder had rang
+       in sick and they would attempt to get another one. They rang
+       back later to say they could not get a builder for that day so
+       would try to arrange for next Monday 29th Jan. Complained to
+       Emma once again :-( She rang one of her contacts and eventually
+       discovered that it would be arranged for Monday. Informed Emma
+       I would collate all the information I had and document it so we
+       could put in a complaint when the work is completed. If it ever
+       will :-( I'm beginning to doubt it now.
+   Entered on [2018-01-26 Fri 17:23]
+     - Aaron Services confirmed by text message engineer visit next Monday.
+     Entered on [2018-01-26 Fri 18:03]
+
+*** 2018-01-28 Sunday
+
+     - Hearing aid batteries changed.
+   Entered on [2018-01-28 Sun 12:40]
+
+*** 2018-01-29 Monday
+
+     - Aaron Services engineers arrived at 10:00 and finished the job
+       just after 12:00. Now warm and cosy with plenty of hot water
+       :-)
+   Entered on [2018-01-29 Mon 13:20]
+
+** 2018-02 February
+*** 2018-02-02 Friday
+**** Central heating boiler leak
+
+     - Small leak from boiler following repairs to the flue. Maybe
+       something dislodged during repair? Reported to Metropolitan who
+       will pass on to Aaron Services. Metropolitan Reference:
+       6424587-1. Aaron Services to contact me next Tuesday or
+       Wednesday. 
+   Entered on [2018-02-02 Fri 10:14]
+
+**** Permission to fit smat thermostat
+
+     - Whilst reporting boiler leak to Metropolitan enquired if it was
+       possibe to have a smart thermostat such as Nest installed by
+       professional fitter. Will have to fill in a 'Request
+       Permission" form. Metrropolitan to post it to me. Will not be
+       installed untill the leak is repaired.
+   Entered on [2018-02-02 Fri 10:20]
+
+*** 2018-02-06 Tuesday
+**** - Hearing aid batteries
+
+     - Hearing aid batteries changed.
+   Entered on [2018-02-07 Wed 09:00]
+
+*** 2018-02-12 Monday
+**** - Tamsulosin prescription
+
+     - Ordered prescription for Tamsulosin (10 capsules remaining)
+   Entered on [2018-02-12 Mon 12:07]
+
+*** 2018-02-12 Monday
+**** - Nokia Body+ back to Amazon
+
+     - Returned Nokia Body+ to Amazon. Unfortunately it was quite
+       inconsistent in its measurements and the carpet feet didn't
+       seem to work. Not sure if was a faulty piece of kit. Don't know
+       whether to order another one or not :-(. It didn't help that my
+       Netgear router was slowly dying a death at the time. Have now
+       reverted to Plusnet's supplied router.
+   Entered on [2018-02-13 Tue 11:50]
+
+*** 2018-02-13 Tuesday
+**** - Nokia Body+
+
+       Bought today from Argos. I must say I was impressed with their
+       ame day service. Will probably use them again.
+   Entered on [2018-02-14 Wed 09:23]
+   
+*** 2018-02-15 Wednesday
+**** - Hearing aid batteries
+     Hearing aid batteries changed
+   Entered on [2018-02-16 Fri 09:23]
+*** 2018-02-16 Friday
+**** - Phoenix Life
+     - Phoenix Life: Updated address (Peterborough + Glasgow)
+   Entered on [2018-02-16 Fri 15:28]
+*** 2018-02-20 Tuesday
+**** British Gas smart meters.
+     - Failed to make their appointment after repeatedly reminding me
+       by e-mail that they were coming. Didn't even notify me. Very
+       dissappointed. Wil consider another energy provider.
+   Entered on [2018-02-21 Wed 15:16]
+*** 2018-02-23 Friday
+**** Hearing aid batteries.
+     - Changed.
+   Entered on [2018-02-24 Sat 15:09]
+** 2018-03 March
+*** 2018-03-01 Thursday
+**** Snowy cold weather
+     Woke up to a couple of inches of now this morning. Looks awfully
+     cold out there so will do my shopping tomorrow. Hopefully things
+     will be better as NCT buses have been diverted up Loughborough
+     Road, missing out Rugby Road and Greythorne Drive.
+     - 
+   Entered on [2018-03-01 Thu 12:10]
+*** 2018-03-02 Friday
+**** Boiler leak
+     - The darned thing started to leak again and it's much worese
+       now. Aaron Services stated I had to go back to Metropolitan to
+       get it re-instated or for a new call.
+     Entered on [2018-03-02 Fri 10:30]
+**** Boiler leak
+     Saw Emma at the bus stop and she reckoned that leak was caused by
+     a frozen condensation pipe. She had cured two already that
+     morning by pouring hot water over the pipes. When I got back from
+     shopping the leak had stopped. Well done Emma!
+*** 2018-03-05 Monday
+**** Hearing aid batteries.
+     - Changed.
+   Entered on [2018-03-05 Mon 15:23]
+*** 2018-03-11 Sunday
+**** Amazon Basics microcut shredder
+     - Delivered today at 11:15. Early enough for me to go out
+       shopping. Tried ii out on a few sheets - Seems to do a very
+       good job.
+   Entered on [2018-03-11 Sun 15:57]
+*** 2018-03-13 Tuesday
+**** Hearing aid batteries.
+     - Changed.
+
+   Entered on [2018-03-13 Tue 20:37]
+*** 2018-03-14 Wednesday
+**** Requested Tamsulosin from surgery.
+     - Next request in 30 days.
+   Entered on [2018-03-14 Wed 11:37]
+*** 2018-03-23 Friday
+**** Hearing aid batteries.
+     - Changed.
+       
+Entered on [2018-03-23 Fri 14:45]
+** 2018-04 April
+*** 2018-04-02 Monday
+**** Hearing aid batteries.
+     - Changed.
+
+     Entered on [2018-04-02 Mon 08:54]
+*** 2018-04-10 Tuesday
+**** Hearing aid batteries.
+     - Changed.
+   
+Entered on [2018-04-10 Tue 14:26]
+*** 2018-04-12 Thursday
+    Bought new Sony a6000 mirrorless DSLR camera from John Lewis. Very
+    pleased with it so far as it's quite compact and easier to carry
+    around. Also love the electronic viewfinder, it's justs as good,
+    if not better, than the optical one on my Nikon.
+*** 2018-04-17 Tuesday
+    Smart meters fitted today. Seem to be working OK. Time will tell :-)
+   Entered on [2018-04-17 Tue 16:24]
+*** 2018-04-18 Wedneday
+    Duncan came over for a visit today and took me to Wollaton Park
+    so I could use my new camera. It was really good of him. It was a
+    beautiful sunny day and I took loads of photos, especially around
+    the lake. Will have to go there again probably by myself to have a
+    photo shoot around the botanical gardens.
+Entered on [2018-04-19 Thu 14:50]
+*** 2018-04-19 Thursday
+**** Hearing aid batteries.
+     - Changed.
+   
+Entered on [2018-04-19 Thu 21:01]
+*** 2018-04-21 Saturday
+    Appointment with Dr. Griffiths about prescription review and
+    general health. Seems my tiredness and sleepiness is about average so
+    no need to worry.
+Entered on [2018-04-21 Sat 10:49]
+*** 2018-04-28 Saturday
+**** Hearing aid batteries.
+     - Changed.
+   
+Entered on [2018-04-28 Sat 13:46]
+** 2018-05 May
+*** 2018-05-06 Sunday
+**** Hearing aid batteries.
+     - Changed.
+   
+Entered on [2018-05-06 Sun 09:02]
+*** 2018-05-15 Tuesday
+**** Hearing aid batteries.
+     - Changed.
+   
+     Entered on [2018-05-15 Tue 09:27]
+**** New Samsung 55 inch TV
+     - Bought new 55" TV from Richer Sounds. Model Samsung
+       UE55MU7000. By the time I'd got back they had texted me to say
+       it will be delivered on Thursday. Will contact me with 3 hr
+       time slot before delivering. Saw it in the showroom, looks
+       pretty smart. Can't wait to get it :-)
+   Entered on [2018-05-15 Tue 15:38]
+  
+     [[file:~/Dropbox/Apps/Emacs/journal.org::*2018][2018]]
+*** 2018-05-22 Tuesday
+**** Hearing aid batteries.
+     - Changed.
+   
+Entered on [2018-05-22 Tue 14:23]
+** 2018-06 June
+*** 2018-06-07 Thursday
+**** Hearing aid batteries.
+     - Changed.
+   
+Entered on [2018-06-07 Thu 15:01]
+*** 2018-06-16 Saturday
+**** Hearing aid batteries.
+     - Changed.
+   
+Entered on [2018-06-16 Sat 08:35]
+*** 2018-06-25 Monday
+**** Hearing aid batteries.
+     - Changed.
+   
+Entered on [2018-06-25 Mon 12:59]
+** 2018-07 July
+*** 2018-07-02 Monday
+**** Hearing aid batteries.
+     - Changed.
+   
+Entered on [2018-07-02 Mon 17:10]
+*** 2018-07-12 Thursday
+**** Hearing aid batteries.
+     - Changed.
+       
+     Entered on [2018-07-12 Thu 13:02]
+*** 2018-07-16 Monday
+    Tube broken on left hearing aid. Tube and domes replaced left and
+    right hearing aids.   
+    Entered on [2018-07-16 Mon 14:14]
+  
+*** 2018-07-19 Thursday
+**** Hearing aid batteries.
+     - Changed.
+       
+     Entered on [2018-07-19 Thu 18:02]
+*** 2018-07-29 Sunday
+**** Hearing aid batteries.
+     - Changed.
+   
+Entered on [2018-07-29 Sun 17:24]
+** 2018-08 August
+*** 2018-08-07 Tuesday
+**** Hearing aid batteries.
+     - Changed.
+   
+Entered on [2018-08-07 Tue 17:43]
+**** Abdominal Aortic aneurism screening
+  Travelled to Lings Bar Hospital for an abdominal aorta aneurism screen
+  check (ultrasound scan). Tested OK. No furthe worries :-)   
+
+  Entered on [2018-08-07 Tue 17:45]
+*** 2018-08-16 Thursday
+**** Hearing aid batteries.
+     - Changed.
+   
+Entered on [2018-08-16 Thu 16:16]
+*** 2018-08-24 Friday
+**** Hearing aid batteries.
+     - Changed.
+   
+Entered on [2018-08-25 Sat 07:52]
+** 2018-09 September
+*** 2018-09-03 Monday
+**** Hearing aid batteries.
+     - Changed.
+   
+Entered on [2018-09-03 Mon 08:26]
+*** 2018-09-11 Tuesday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2018-09-11 Tue 17:06]
+*** 2018-09-21 Friday
+**** Hearing aid batteries.
+     - Changed.
+   
+Entered on [2018-09-21 Fri 09:29]
+*** 2018-09-30 Sunday
+**** Hearing aid batteries.
+     - Changed.
+   
+Entered on [2018-09-30 Sun 08:36]
+** 2018-10 October
+*** 2018-10-08 Monday
+**** Hearing aid batteries.
+     - Changed.
+   
+Entered on [2018-10-08 Mon 08:27]
+*** 2018-10-15 Monday
+**** Hearing aid batteries.
+     - Changed.
+
+   Entered on [2018-10-15 Mon 14:23]
+*** 2018-10-24 Wednesday
+**** Hearing aid batteries.
+     - Changed.
+   
+Entered on [2018-10-24 Wed 20:51]
+** 2018-11 November
+*** 2018-11-03 Saturday
+**** Hearing aid batteries.
+     - Changed.
+   
+Entered on [2018-11-03 Sat 14:23]
+*** 2018-11-23 Friday
+**** Hearing aid batteries.
+     - Changed.
+
+   Entered on [2018-11-23 Fri 17:08]
+*** 2018-11-28 Wednesday
+**** - Timer on boiler repair
+     - Contacted Metropolitan about timer on boiler not working. Aaron Services to contact me within 1 or 2 workinng days.
+       Monday at the latest. If not contact Metropolitan with reference number: 6569867/1
+   Entered on [2018-11-28 Wed 09:55]
+*** 2018-11-28 Wednesday
+**** - Application for Nest thermostat.
+     Posted today :-)
+ 
+   Entered on [2018-11-29 Thu 13:41]
+*** 2018-11-30 Friday
+**** - Aaron Services - 1
+     Letter arrived today with an appointment for engineer to attend
+     on Monday 10th December 08:00 to 12:00.
+   Entered on [2018-11-30 Fri 15:07]
+**** - Aaron Services - 2
+     Rang me to say engineer to arrive Monday between 11:00 and 13:00
+     in order to take survey for installation of new boiler. New
+     boiler! Wow :-)
+
+   Entered on [2018-11-30 Fri 15:11]
+**** - Hearing test with audiology.
+     Had my hearing tested and looks like there has been no further
+   deterioration though my right ear was full of wax. Will have to
+   make an appointment with Castlehealth Surgery.
+   Entered on [2018-11-30 Fri 15:16]
+** 2018-12 December
+*** 2018-12-02 Sunday
+**** Hearing aid batteries.
+     - Changed.
+   
+Entered on [2018-12-02 Sun 14:55]
+*** 2018-12-03 Monday
+****  - Survey for new boiler.
+     Engineer advised to be installed a week on Thursday
+   (13/12/2018). Engineers to arrive at 08:00 and hopefully finished
+   for 14:30. New boiler model Valan ecostat 28. Surveyor to enquire
+   if I can have a wireless thermostat.
+   Entered on [2018-12-03 Mon 11:23]
+*** 2018-12-10 Monday
+**** - Scaffolding installed.
+     Scaffolders turned up in preparationfor boiler installation on
+     Thursday. Looks like everything is on schedule :-)
+   Entered on [2018-12-10 Mon 10:07]
+*** 2018-12-12 Wednesday
+**** Hearing aid batteries.
+     - Changed.
+   
+Entered on [2018-12-12 Wed 12:21]
+*** 2018-12-31 Monday
+**** Hearing aid batteries.
+     - Changed.
+   
+Entered on [2018-12-31 Mon 12:28]
+* 2019
+** 2019-01 January
+*** 2019-01-04 Friday
+    Rang Notts County Council to renew bus pass. Should be with me in 7 to 21 days.   
+    Entered on [2019-01-04 Fri 11:11]
+*** 2019-01-08 Tuesday
+**** Hearing aid batteries.
+     - Changed.
+   
+Entered on [2019-01-08 Tue 13:34]
+*** 2019-01-16 Wednesday
+**** Hearing aid batteries.
+     - Changed.
+   
+     Entered on [2019-01-16 Wed 17:20]
+*** 2019-01-24 Thursday
+**** Hearing aid batteries.
+     - Changed.
+   
+Entered on [2019-01-24 Thu 13:36]
+** 2019-02 February
+*** 2019-02-03 Sunday
+**** Hearing aid batteries.
+     - Changed.
+   
+Entered on [2019-02-03 Sun 09:14]
+*** 2019-02-11 Monday
+**** Hearing aid batteries.
+     - Changed.
+
+Entered on [2019-02-11 Mon 14:12]
+*** 2019-02-14 Thursday
+**** - Requested Tamsulosin from Castlehealth surgery.
+Entered on [2019-02-14 Thu 10:02]
+*** 2019-02-18 Wednesday
+**** - Ear wax removal
+Proved to be very difficult as the wax had been impacted by hearing
+aids. Nurse gave me some recommendations:
+    1. Periodically use olive oil to remove/reduce wax.
+    2. Tilt head, lie on bed and for 10 minutes.
+    3. Massage ear lobe to help oil mix with wax.
+    4. Do not use cotton wool in ears as this will absorb the oil.
+    5. Use cotton wool to wipe ears to remove excess oil only.
+
+Entered on [2019-02-19 Tue 11:43]
+*** 2019-02-20 Wednesday
+**** Hearing aid batteries.
+     - Changed.
+
+Entered on [2019-02-20 Wed 17:08]
+** 2019-03 March
+*** 2019-03-01 Friday
+**** Hearing aid batteries.
+     - Changed.
+
+Entered on [2019-03-01 Fri 12:15]
+*** 2019-03-02 Saturday
+**** - New Sony 18 105 lens arrived today.
+Took a few test pictures and it looks pretty impressive. It's a lot
+bigger and heavier than the kit lens though. Hopefully this will be
+the only lens I will need.
+Entered on [2019-03-02 Sat 15:53]
+*** 2019-03-09 Saturday
+**** Hearing aid batteries.
+     - Changed.
+
+Entered on [2019-03-11 Mon 08:48]
+*** 2019-03-18 Monday
+**** Hearing aid batteries.
+     - Changed.
+
+Entered on [2019-03-18 Mon 22:05]
+*** 2019-03-26 Tuesday
+**** Started intermittent fasting.
+Tried a 24 hour fast for the first time. Wasn't too bad, just had to
+persevere with waves of hunger. Coffee and salt were a great
+help. Felt weak and a little dizzy when out walking. Went for a pretty
+log walk though.
+Entered on [2019-03-29 Fri 08:59]
+*** 2019-03-28 Thursday
+**** Second attempt at fasting.
+This time tried a 42 hour fast as the 24 hour one turned out not too
+bad. Was OK up to 24 hours then the hunger really kicked in. Got over
+it though and by bedtime things were much easier. Also went for a long
+walk and the weakness and dizziness were far less than the first
+time.Hopefully the hunger will get easier the more I fast.
+
+Entered on [2019-03-29 Fri 09:10]
+** 2019-04 April
+*** 2019-04-02 Tuesday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2019-04-02 Tue 11:12]
+*** 2019-04-09 Tuesday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2019-04-09 Tue 08:52]
+*** 2019-04-16 Tuesday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2019-04-16 Tue 14:58]
+*** 2019-04-24 Wednesday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2019-04-24 Wed 08:53]
+** 2019-05 May
+*** 2019-05-02 Thursday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2019-05-02 Thu 08:19]
+*** 2019-05-17 Friday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2019-05-17 Fri 08:27]
+** 2019-06 June
+*** 2019-06-01 Saturday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2019-06-01 Sat 14:41]
+*** 2019-06-10 Monday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2019-06-10 Mon 14:18]
+*** 2019-06-18 Tuesday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2019-06-18 Tue 16:29]
+*** 2019-06-27 Thursday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2019-06-27 Thu 17:04]
+** 2019-07 July
+*** 2019-07-18 Thursday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2019-07-18 Thu 08:09]
+** 2019-08 August
+*** 2019-08-07 Wednesday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2019-08-07 Wed 12:16]
+*** 2019-08-08 Thursday
+****  Blood Test
+  - Went to Castlehealth sugery for blood test in preparation for health
+check on the 29th of August.
+Entered on [2019-08-09 Fri 17:02]
+*** 2019-08-09 Friday
+****  Blood Test Results
+Received telephone call from Dr. Griffiths who was concerned about
+my LDL cholesterol being much higher than previous ones. Advised to
+take another blood test for thyroid and also to attend a lipid panel.
+Will go to surgery next week for blood sample to be taken, attendance
+for lipid panel to be advised at later date.
+Entered on [2019-08-09 Fri 17:05]
+*** 2019-08-12 Monday
+**** - Thyroid blood test at Castlehealth surgery.
+  - Sample taken.
+Entered on [2019-08-12 Mon 11:59]
+*** 2019-08-15 Thursday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2019-08-15 Thu 18:41]
+*** 2019-08-26 Monday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2019-08-26 Mon 09:37]
+** 2019-09 September
+*** 2019-09-06 Friday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2019-09-06 Fri 08:03]
+*** 2019-09-14 Saturday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2019-09-14 Sat 16:42]
+*** 2019-09-23 Monday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2019-09-23 Mon 16:48]
+** 2019-10 October
+*** 2019-10-03 Thursday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2019-10-03 Thu 08:42]
+*** 2019-10-12 Saturday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2019-10-12 Sat 11:29]
+*** 2019-10-21 Monday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2019-10-21 Mon 14:51]
+*** 2019-10-30 Wednesday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2019-10-30 Wed 07:48]
+** 2019-11 November
+*** 2019-11-07 Thursday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2019-11-07 Thu 08:39]
+*** 2019-11-15 Friday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2019-11-15 Fri 07:49]
+*** 2019-11-22 Friday
+**** Hearing aid batteries.
+  - Changed
+Entered on [2019-11-22 Fri 07:58]
+*** 2019-11-28 Thursday
+**** - Google Nest Hub
+  - Arrived today at 7:45 by DSL. Very early :-). Very happy with it so will
+ buy another from Carphone Warehouse today.
+Entered on [2019-11-28 Thu 12:45]
+**** - Google nest hub 2 
+  - Not prepared to wait that long in Carphone Warehouse so gonna order it
+    from Google. 
+Entered on [2019-11-28 Thu 14:16]
+*** 2019-11-29 Friday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2019-11-29 Fri 14:22]
+** 2019-12 December
+*** 2019-12-07 Saturday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2019-12-07 Sat 14:47]
+*** 2019-12-16 Monday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2019-12-16 Mon 14:06]
+*** 2019-12-23 Monday
+**** Wall clock batteries.
+     - Changed. Clock was stopping for some time, then resetting itself.
+       Maybe change of battery was needed.
+Entered on [2019-12-23 Mon 09:48]
+*** 2019-12-26 Thursday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2019-12-26 Thu 14:23]
+* 2020
+** 2020-01 January
+*** 2020-01-05 Sunday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2020-01-05 Sun 14:29]
+*** 2020-01-28 Tuesday
+
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2020-01-28 Tue 15:48]
+** 2020-02 February
+*** 2020-02-08 Saturday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2020-02-08 Sat 10:30]
+*** 2020-02-17 Monday
+**** Hearing aid batteries.
+     - Changed
+   Entered on [2020-02-17 Mon 08:45]
+*** 2020-02-26 Wednesday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2020-02-26 Wed 15:19]
+** 2020-03 March
+*** 2020-03-08 Sunday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2020-03-08 Sun 14:53]
+*** 2020-03-17 Tuesday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2020-03-17 Tue 14:04]
+*** 2020-03-29 Sunday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2020-03-29 Sun 12:05]
+** 2020-04 April
+*** 2020-04-06 Monday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2020-04-06 Mon 15:20]
+*** 2020-04-18 Saturday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2020-04-18 Sat 13:51]
+*** 2020-04-30 Thursday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2020-04-30 Thu 13:24]
+** 2020-05 May
+*** 2020-05-10 Sunday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2020-05-10 Sun 17:43]
+*** 2020-05-18 Monday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2020-05-18 Mon 14:18]
+*** 2020-05-31 Sunday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2020-05-31 Sun 07:56]
+** 2020-06 June
+*** 2020-06-11 Thursday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2020-06-11 Thu 21:45]
+*** 2020-06-28 Sunday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2020-06-28 Sun 17:43]
+** 2020-07 July
+*** 2020-07-13 Monday
+**** Hearing aid batteries.
+     - Changed.
+     Entered on [2020-07-13 Mon 17:29]
+*** 2020-07-29 Wednesday
+**** Hearing aid batteries.
+     - Changed.
+     Entered on [2020-07-29 Wed 14:41]
+** 2020-08 August
+*** 2020-08-16 Sunday
+**** Hearing aid batteries.
+     - Changed.
+     Entered on [2020-08-16 Sun 15:38]
+*** 2020-08-30 Sunday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2020-08-30 Sun 14:35]
+** 2020-09 September
+*** 2020-09-12 Saturday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2020-09-12 Sat 14:04]
+** 2020-10 October
+*** 2020-10-07 Wednesday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2020-10-07 Wed 14:42]
+*** 2020-10-23 Friday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2020-10-23 Fri 12:46]
+** 2020-11 November
+*** 2020-11-19 Thursday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2020-11-19 Thu 19:17]
+** 2020-12 December
+*** 2020-12-03 Thursday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2020-12-03 Thu 12:33]
+*** 2020-12-15 Tuesday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2020-12-15 Tue 07:48]
+* 2021
+** 2021-01 January
+*** 2021-01-06 Wednesday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2021-01-06 Wed 14:15]
+*** 2021-01-15 Friday
+**** 
+  - 
+Entered on [2021-01-15 Fri 12:49]
+  
+  [[file:~/Dropbox/Apps/Emacs/mylife.org::*- Change tubes on hearing aids.][- Change tubes on hearing aids.]]
+*** 2021-01-31 Sunday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2021-01-31 Sun 12:20]
+** 2021-03 March
+*** 2021-03-06 Saturday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2021-03-06 Sat 13:11]
+*** 2021-03-25 Thursday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2021-03-25 Thu 16:10]
+** 2021-04 April
+*** 2021-04-05 Monday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2021-04-05 Mon 12:43]
+
+*** 2021-04-15 Thursday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2021-04-15 Thu 17:01]
+
+*** 2021-04-29 Thursday
+**** Hearing aid batteries.
+     - Changed.
+Entered on [2021-04-29 Thu 07:58]
+
+*** 2021-06-02 Wednesday
+**** Hearing aid batteries.
+  - Changed.
+Entered on [2021-06-02 Wed 16:28]
+
+* 2022
+
+** 2022-03 March
+
+*** 2022-03-29 Tuesday
+
+** 2022-04 April
+
+*** 2022-04-13 Wednesday
+**** Boiler service cancellation.
+  - Aaron Services rang at approximately 12:20 to
+    cancel appointment for next day (14th)
+Entered on [2022-04-13 Wed 12:30]
+
+* 2023
+
+** January
+
+*** 16th
+
+**** Eye test at Visual Express.
+Eyes have got worse so need new glasses. Also informed I have an
+infection of my eyelashes and will have to be treated twice a day for
+the next fortnight. Will thrn go back to Visual Express for an
+assessment to see how the treatment is getting on.  Also my retina is
+getting worse. Photographed the back of my eyes and if bad enough will
+be referred to the hospital.
+
+*** 21st
+Visual Express rang to say my assessmnt could not be done om Monday,
+so rearranged for the same day as the retest on the 7th Feb.
+
+** February
+*** 7th
+    Went for re-assessment at Visual Express. Little sign of eyelash
+virus to continue every other day for 2 weeks and then one or twice a
+week from then on.
+    Also photographed the retinas and optician will contact Dr
+Griffiths for referal to Hospital. If I don't hear anything within 10
+days contact Dr. Griffiths or Macular Dept at Quenns Medical.
+    As for my glasses they will replace my lenses. If I need treatment
+from hospital they will replace the lenses as long as treatment is
+within 100 days. Should get new glasses within 1 to 2 weeks.
+*** 13th
+Contacted by Kingmill hospital to say that I had been referred there
+for eye examination and if I wanted to be seen at QMC instead. They
+will contact Vision Express so that they can send my referral to QMC.
+
+** March
+*** 7th - Eye assement at Queen's Med
+Slight macular degeneratio, but has been there for years and no sign
+of deteriorating. Crumpled retina has no sign of water but will be
+re-assessed in 3 months time. No case for worrying :-)
+** June
+*** [2023-06-01 Thu]
+Secondary examination at Macular Clinic.
+All results as expected; no further deterioration of macular degeneration or epiretinal membrane.
+Advised regular self monitoring with Amsler chart.
+*** [2023-06-22 Thu]
+Started magnesium malate supplements.
+
+** August
+*** [2023-08-22 Tue] 
+   Appointment at Specsavers to get wax removed from my right
+    ear. According to audiologist there was none :-(. That was a waste
+    of 55 quid. Contacted NHS audiology for an appontment with them to
+    get my ears tested and to see if I have a problem with my right
+    hearing aid (power on jingle quiet and cutting off). Appointment
+    set for September 1st - 9:30.
+    
+** September
+[2023-09-01 Fri] - Appointment at audiology to get hearing aids fixed
+and possible hearing test. It was most likely that my left tube was
+faulty but audiologist replaced it and there is no jingle and no audio
+from the aid. Did not get a hearing test but I will be informed by
+post when it will be. According to audiologist that will be in 4 or 5
+months time. Meantime I have to out up with 1 working hearing aid :-(
+[2023-09-26 Tue] - Attended eye clinic at Queens Medical. Visual
+fields test seemed ok but when I saw the consultant he advised me I
+needed an operation on my right eye. The membrane over my retina is
+now much worse :-(. My eyesight isn't that bad at the moment but
+things will only get worse. so I decided to go ahead with the op which
+should take around 40 minutes under local asthetic. Operation will be
+performed approximately end of December beginning of December.
+
+** October
+[2023-10-23 Mon] - Hearing test at Boots Hearingcare. Tests revealed a
+moderate loss in mid frequencies and a severe loss at high
+frequencies - not far from what I was thinking beforehand. I wasn't
+surprised by the amount of hearing loss, but what surprised me that it
+was mostly conductive. I.e a middle ear problem. Audiologist has now
+referred me to ENT. Have now postponed my decision on buying hearing
+aids until after hearing test with NHS and examination by ENT.
+
+* 2024
+** March ...
+[2024-03-05 Tue] - Rang Metropolitan at 09:30 about my shower not
+working. Shower replaced and working by 11:00. Well done Metropolitan!
+
+** September
+*** [2024-09-02 Mon] - British Gas installed new smart meter and
+    monitor. When completed the display was still not working.
+    According to the installer it shoud take 48 hours for it to start
+    working properly. If not contact British Gas at end of week. 
+*** [2024-09-06 Fri] - Smart meter still not working. Contacted BG and
+    was told to wait up to a fortnight for the meter to start working.
+    If not contact them again. Was compensated $30.
+
+*** [2024-09-20 Fri] - Received e-mail from BG to contact them in
+       order to have theu monitor hard reset. Will be given
+       instructions.
+*** [2024-09-20 Fri] - Samsung telly now virtually impossible to
+    watch. After a period of time (5 to 45 minutes) the screen goes
+    blank or displays static screen. Then needs 1 or more power
+    recycles to get going again. Have ordered new telly from Amazon
+    which was charged at the old discounted price which save me $105.
+    I think this was because I had put in in my wishlist when the
+    discount still applied :-) Telly to be delivered on Tuesday.

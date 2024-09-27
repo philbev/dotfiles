@@ -1,0 +1,34 @@
+#+SEQ_TODO: TODO(t) APPOINTMENT(a) BIRTHDAY(b) EVENT(e) PENDING(p) REMINDER(r) | DONE(d) CANCELLED(c)
+#+STARTUP: overview
+
+* Things todo
+** Computer
+:PROPERTIES:
+:Phil: Computer
+:END:
+*** TODO Bluetooth
+Configure with bluetoothctl.
+*** DONE - Timeshift
+*** TODO - Configure lightdm
+*** DONE - Calibre
+*** TODO - Distrobox
+Learn, install and configure distrobox. Maybe containers in general :-)
+*** TODO - Restore all backups
+partially done
+*** TODO - Configure emacs ala Distrotube.
+See https://www.youtube.com/watch?v=d1fgypEiQkE&list=LL&index=3&t=1506s
+
+THE CONFIGS FROM THIS VIDEO SERIES:
+► https://gitlab.com/dwt1/configuring-e...
+
+PACKAGES INSTALLED:
+► https://github.com/progfolio/elpaca
+► https://github.com/emacs-evil/evil
+► https://github.com/emacs-evil/evil-co...
+► https://github.com/noctuid/general.el
+► https://github.com/justbur/emacs-whic...
+
+*** TODO - Setup git
+Dotfiles, lazy and nvim.
+
+** Personal

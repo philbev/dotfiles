@@ -1,0 +1,15 @@
+Dolphin File Manager
+Select network then enter:
+    smb://192.168.1.203/movies
+
+Connecting Via Command Line
+smbclient //192.168.1.203 -U phil 
+
+Mounting Shares
+ From Command Line:
+ sudo mkdir /mnt/qnap
+ sudo mount -t cifs //192.168.1.203/Multimedia /mn/qnap -o username=phil,password=<password>
+
+Mounting Share automatically on boot:
+sudoedit /etc/fstab
+//192.168.1.203/Multimedia/ /mnt/qnap	cifs	username=phil,password=mark3taPB	0  0

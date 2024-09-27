@@ -1,0 +1,26 @@
+[user]
+	name = philbev
+	email = phil@philbev.co.uk
+[alias]
+	st = status
+	l = log --decorate
+	ci = commit
+	br = branch
+	co = checkout
+[color "status"]
+	added = green
+	changed = red bold
+	untracked = magenta bold
+[color "diff"]
+	old = magenta bold
+	new = green bold
+[merge]
+	tool = vimdiff
+[mergetool]
+	prompt = false
+[credential]
+	helper = store
+[core]
+	editor = nvim
+[init]
+	defaultBranch = main

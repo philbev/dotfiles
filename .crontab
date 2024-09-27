@@ -1,0 +1,25 @@
+MAILTO="phil@philbev.co.uk"
+# ┌───────────── minute (0 - 59)
+# │ ┌───────────── hour (0 - 23)
+# │ │ ┌───────────── day of month (1 - 31)
+# │ │ │ ┌───────────── month (1 - 12)
+# │ │ │ │ ┌───────────── day of week (0 - 6) (Sunday to Saturday; 7 is also Sunday on some systems)
+# │ │ │ │ │
+# │ │ │ │ │
+# │ │ │ │ │
+# * * * * *  command_to_execute
+#*/1 * * * * echo -e "Hi there Phil :-)" | mail -s "Testing" phil@philbev.co.uk
+#*/1 * * * * echo -e "Hi there Phil :-)"
+#*/1 * * * * echo "Hi there Phil :-)" | msmtp -a default phil@philbev.co.uk
+
+#Reminder for putting the bin out
+0 12-20 * * Mon [ $((`date +%-V` % 2)) -ne 0 ] || echo -e 'Put the blue bin out' | mail -s "Blue bin day" phil@philbev.co.uk
+0 12-20 * * Mon [ $((`date +%-V` % 2)) -ne 1 ] || echo -e 'Put the grey bin out' | mail -s "Grey bin day" phil@philbev.co.uk
+
+# Reminder for farmer's market
+0 12-18 8-14,22-28 * * [ `date +%a` = Fri ] &&  echo 'Farmers Market Tomorrow :-)' | mail -s "Farmers Market" phil
+
+# Reminders for putting the clocks on or back
+0 12-20 25-31 mar * [ `date +%a` = Sat ] && echo 'Put the clocks on tomorrow :-)' | mail -s 'Clocks on tomorrow' phil
+0 12-20 25-31 oct * [ `date +%a` = Sat ] && echo 'Put the clocks back tomorrow :-)' | mail -s 'Clocks back tomorrow' phil
+

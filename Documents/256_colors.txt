@@ -1,0 +1,9 @@
+00-00-00   = 16  = black
+00-00-ff   = 21  = blue
+00-ff-ff   = 51  = cyan
+00-ff-00   = 46  = green
+ff-00-00   = 196 = red
+ff-ff-00   = 226 = yellow
+ff-ff-ff   = 231 = white
+ff-00-ff   = 201 = magenta
+

@@ -1,0 +1,10 @@
+From Rich:
+>What I do is instead define an alias for "del" ... to be "rm -i" ....
+
+That's a good idea, but 'del' is an awful lot to type. I use 'a' for 'asm'
+(historically), 'c' for 'cc ...' (historically), 'k' for 'clear', 'l' for 'ls
+-l', and 'x' for 'exit', so I'll adopt 'r' for 'rm -i'. Now that you got me
+thinking about it I might also adopt 'f' for 'find', 'g' for 'grep', and 'm'
+for 'mount'.
+
+Frank 

@@ -1,0 +1,8 @@
++-----------------------+---------------+-----------------------------+-------------------------------------------------+
+| Target Levels by Type | Upon waking   | Before meals (pre prandial) | At least 90 minutes after meals (post prandial)	|
++-----------------------+---------------+-----------------------------+-------------------------------------------------+
+| Non-diabetic*         |               | 4.0 to 5.9 mmol/L           | under 7.8 mmol/L				|
+| Type 2 diabetes       |               | 4 to 7 mmol/L               | under 8.5 mmol/L				|
+| Type 1 diabetes       | 5 to 7 mmol/L | 4 to 7 mmol/L               | 5 to 9 mmol/L					|
+| Children type 1       | 4 to 7 mmol/L | 4 to 7 mmol/L               | 5 to 9 mmol/L					|
++-----------------------+---------------+-----------------------------+-------------------------------------------------+

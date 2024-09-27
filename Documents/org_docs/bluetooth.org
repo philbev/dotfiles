@@ -1,0 +1,19 @@
+* Bluetooth on Linux (CLI - bluetoothctl)
+Thanks tp Krezzlu on Youtube see:-
+    https://www.youtube.com/watch?v=OZKjSkk_BfY&list=PLviChriUxW1PT8nmGGnr3FT7jSSsSMDJH&index=1
+    
+Ensure bluez, bluez-utils and pipewire-pulse packages are installed. Note! pipewire-pulse replaces pulseaudio and pulseaudio-bluetooth.
+sudo pacman -S bluez bluez-utils pipewire pulse.
+
+** Enable Bluetooth service
+sudo systemctl enable --now bluetooth.service
+
+** Bluetoothctl
+[bluetooth] power on
+[bluetooth] scan on
+[bluetooth] pair <device mac address>
+[bluetooth] trust <device mac address>
+[bluetooth] connect <device mac address>
+If receive error message then from command line:-
+    pactl load-module module-bluetooth-discover
+

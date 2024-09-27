@@ -1,0 +1,75 @@
+Super+Return       exec alacritty
+Super+q            kill
+Super+d            exec --no-startup-id rofi -show run
+Super+m            exec --no-startup-id i3_keys.sh
+Super+h            focus left
+Super+j            focus down
+Super+k            focus up
+Super+l            focus right
+Super+Left         focus left
+Super+Down         focus down
+Super+Up           focus up
+Super+Right        focus right
+Super+Shift+h      move left
+Super+Shift+j      move down
+Super+Shift+k      move up
+Super+Shift+l      move right
+Super+Shift+Left   move left
+Super+Shift+Down   move down
+Super+Shift+Up     move up
+Super+Shift+Right  move right
+Super+semicolon    split h
+Super+v            split v
+Super+f            fullscreen toggle
+Super+s            layout stacking
+Super+w            layout tabbed
+Super+e            layout toggle split
+Super+Shift+space  floating toggle
+Super+space        focus mode_toggle
+Super+a            focus parent
+Super+1            workspace number $ws1
+Super+2            workspace number $ws2
+Super+3            workspace number $ws3
+Super+4            workspace number $ws4
+Super+5            workspace number $ws5
+Super+6            workspace number $ws6
+Super+7            workspace number $ws7
+Super+8            workspace number $ws8
+Super+9            workspace number $ws9
+Super+0            workspace number $ws10
+Super+Shift+1      move container to workspace number $ws1
+Super+Shift+2      move container to workspace number $ws2
+Super+Shift+3      move container to workspace number $ws3
+Super+Shift+4      move container to workspace number $ws4
+Super+Shift+5      move container to workspace number $ws5
+Super+Shift+6      move container to workspace number $ws6
+Super+Shift+7      move container to workspace number $ws7
+Super+Shift+8      move container to workspace number $ws8
+Super+Shift+9      move container to workspace number $ws9
+Super+Shift+0      move container to workspace number $ws10
+Super+Shift+c      reload
+Super+Shift+r      restart
+Super+Shift+e      exit
+h                  resize shrink width 10 px or 10 ppt
+j                  resize grow height 10 px or 10 ppt
+k                  resize shrink height 10 px or 10 ppt
+l                  resize grow width 10 px or 10 ppt
+Left               resize shrink width 10 px or 10 ppt
+Down               resize grow height 10 px or 10 ppt
+Up                 resize shrink height 10 px or 10 ppt
+Right              resize grow width 10 px or 10 ppt
+Return             mode "default"
+Escape             mode "default"
+Super+r            mode "default"
+Super+r            mode "resize"
+Alt+Control+t      exec thunderbird
+Alt+Control+c      exec chromium
+Alt+Control+f      exec firefox
+Alt+Control+k      exec konsole
+Alt+Control+m      exec emacs -g 120x100+100+200
+Control+Shift+l    exec libreoffice
+Alt+g              exec gimp
+Alt+d              exec dolphin
+Alt+Control+v      exec code
+Super+Control+v    exec code
+Super+Shift+v      exec sudo virt-manager

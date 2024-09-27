@@ -1,0 +1,942 @@
+#+SEQ_TODO: TODO(t) APPOINTMENT(a) BIRTHDAY(b) EVENT(e) PENDING(p) REMINDER(r) | DONE(d) CANCELLED(c)
+#+TAGS: health dentist chemist home ropewalk birthday personal opticians on_line chore
+#+STARTUP: overview
+
+* CHEATSHEET
+** Archiving
+To archive 'C-c C-x C-a' ('org-archive-subtree-default')
+
+
+* HEALTH                                                        :health: 
+:DETAILS: 
+  NHS Number: 460 339 9170 
+  Hospital Number: K1124417 
+:END: 
+** REPEAT EVENTS 
+*** TODO - Change domes on hearing aids. 
+SCHEDULED: <2024-12-01 Sun ++3m>
+:PROPERTIES: 
+:LAST_REPEAT: [2024-09-01 Sun 09:02]
+:END: 
+- State "CANCELLED"  from "TODO"       [2024-09-01 Sun 09:02]
+- State "CANCELLED"  from "TODO"       [2024-06-02 Sun 09:24]
+- State "DONE"       from "TODO"       [2024-03-01 Fri 09:47]
+- State "CANCELLED"  from "TODO"       [2023-09-17 Sun 08:32]
+- State "CANCELLED"  from "TODO"       [2023-06-17 Sat 07:26] 
+- State "CANCELLED"  from "TODO"       [2023-03-17 Fri 08:40] 
+- State "DONE"       from "TODO"       [2023-01-11 Wed 17:36] 
+:LOGBOOK: 
+- State "CANCELLED"  from "TODO"       [2022-06-19 Sun 07:17] 
+- State "DONE"       from "TODO"       [2022-03-17 Thu 07:42] 
+- State "DONE"       from "TODO"       [2021-12-17 Fri 07:05] 
+- State "DONE"       from "TODO"       [2021-09-18 Sat 06:53] 
+- State "DONE"       from "TODO"       [2021-08-15 Sun 07:35] 
+- State "DONE"       from "TODO"       [2021-03-17 Wed 08:20] 
+- State "DONE"       from "TODO"       [2020-12-17 Thu 08:23] 
+- State "DONE"       from "TODO"       [2020-09-17 Thu 12:53] 
+- State "DONE"       from "TODO"       [2020-06-17 Wed 09:00] 
+- State "DONE"       from "TODO"       [2020-03-17 Tue 08:53] 
+- State "DONE"       from "TODO"       [2019-12-17 Tue 08:00] 
+- State "DONE"       from "TODO"       [2019-09-18 Wed 09:54] 
+- State "DONE"       from "TODO"       [2019-06-17 Mon 09:00] 
+- State "DONE"       from "TODO"       [2019-03-17 Sun 08:07] 
+- State "DONE"       from "TODO"       [2018-12-17 Mon 15:18] 
+:END: 
+*** TODO - Change tubes on hearing aids. 
+SCHEDULED: <2025-03-01 Sat ++6m> :PROPERTIES:
+:PROPERTIES:
+:LAST_REPEAT: [2024-09-01 Sun 09:02]
+:END:
+- State "CANCELLED"  from "TODO"       [2024-09-01 Sun 09:02]
+- State "DONE"       from "TODO"       [2024-03-01 Fri 09:47]
+:LAST_REPEAT: [2023-06-17 Sat 07:26] 
+:END: 
+- State "CANCELLED"  from "TODO"       [2023-06-17 Sat 07:26] 
+- State "DONE"       from "TODO"       [2023-01-11 Wed 17:37] 
+:LOGBOOK: 
+- State "CANCELLED"  from "TODO"       [2022-06-19 Sun 07:18] 
+- State "DONE"       from "TODO"       [2021-12-17 Fri 07:05] 
+- State "DONE"       from "TODO"       [2021-08-15 Sun 07:35] 
+- State "DONE"       from "TODO"       [2020-12-17 Thu 08:23] 
+- State "DONE"       from "TODO"       [2020-06-17 Wed 09:00] 
+- State "DONE"       from "TODO"       [2019-12-17 Tue 08:00] 
+- State "DONE"       from "TODO"       [2019-06-17 Mon 09:00] 
+- State "DONE"       from "TODO"       [2018-12-17 Mon 15:19] 
+:END: 
+*** DONE - Collect prescription from chemist. SCHEDULED: <2019-11-28 Thu> 
+*** CANCELLED - Dentist SCHEDULED: <2020-05-05 Tue 11:15> 
+*** TODO - Clean hearing aids 
+SCHEDULED: <2024-09-29 Sun +1w>
+:PROPERTIES: 
+:LAST_REPEAT: [2024-09-22 Sun 09:38]
+:END: 
+- State "DONE"       from "TODO"       [2024-09-22 Sun 09:38]
+- State "DONE"       from "TODO"       [2024-09-15 Sun 09:51]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:58]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:58]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:58]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:58]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:58]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:58]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:56]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:55]
+- State "DONE"       from "TODO"       [2024-07-14 Sun 08:45]
+- State "DONE"       from "TODO"       [2024-07-07 Sun 10:12]
+- State "DONE"       from "TODO"       [2024-06-30 Sun 10:13]
+- State "DONE"       from "TODO"       [2024-06-23 Sun 09:28]
+- State "DONE"       from "TODO"       [2024-06-16 Sun 10:20]
+- State "DONE"       from "TODO"       [2024-06-09 Sun 10:11]
+- State "DONE"       from "TODO"       [2024-06-02 Sun 09:32]
+- State "DONE"       from "TODO"       [2024-05-26 Sun 10:32]
+- State "DONE"       from "TODO"       [2024-05-19 Sun 09:50]
+- State "DONE"       from "TODO"       [2024-05-12 Sun 10:29]
+- State "DONE"       from "TODO"       [2024-05-05 Sun 10:30]
+- State "DONE"       from "TODO"       [2024-04-28 Sun 10:09]
+- State "DONE"       from "TODO"       [2024-04-21 Sun 09:21]
+- State "DONE"       from "TODO"       [2024-04-14 Sun 10:45]
+- State "DONE"       from "TODO"       [2024-04-07 Sun 10:05]
+- State "DONE"       from "TODO"       [2024-03-31 Sun 11:10]
+- State "DONE"       from "TODO"       [2024-03-24 Sun 09:39]
+- State "DONE"       from "TODO"       [2024-03-17 Sun 09:25]
+- State "DONE"       from "TODO"       [2024-03-10 Sun 09:32]
+- State "DONE"       from "TODO"       [2024-03-03 Sun 10:05]
+- State "DONE"       from "TODO"       [2024-02-25 Sun 09:49]
+- State "DONE"       from "TODO"       [2024-02-18 Sun 08:57]
+- State "DONE"       from "TODO"       [2024-02-11 Sun 09:43]
+- State "DONE"       from "TODO"       [2024-02-04 Sun 09:31]
+- State "DONE"       from "TODO"       [2024-01-28 Sun 08:49]
+- State "DONE"       from "TODO"       [2024-01-22 Mon 09:59]
+- State "DONE"       from "TODO"       [2024-01-14 Sun 10:17]
+- State "DONE"       from "TODO"       [2024-01-07 Sun 09:26]
+- State "DONE"       from "TODO"       [2023-12-31 Sun 08:55]
+- State "DONE"       from "TODO"       [2023-12-24 Sun 08:55]
+- State "DONE"       from "TODO"       [2023-12-17 Sun 09:14]
+- State "DONE"       from "TODO"       [2023-12-10 Sun 09:25]
+- State "DONE"       from "TODO"       [2023-12-03 Sun 09:14]
+- State "DONE"       from "TODO"       [2023-11-28 Tue 10:32]
+- State "DONE"       from "TODO"       [2023-11-19 Sun 09:53]
+- State "DONE"       from "TODO"       [2023-11-12 Sun 09:52]
+- State "DONE"       from "TODO"       [2023-11-05 Sun 10:28]
+- State "DONE"       from "TODO"       [2023-10-29 Sun 09:19]
+- State "DONE"       from "TODO"       [2023-10-22 Sun 09:05]
+- State "DONE"       from "TODO"       [2023-10-15 Sun 09:37]
+- State "DONE"       from "TODO"       [2023-10-08 Sun 08:14]
+- State "DONE"       from "TODO"       [2023-10-01 Sun 07:52]
+- State "DONE"       from "TODO"       [2023-09-24 Sun 08:57]
+- State "DONE"       from "TODO"       [2023-09-17 Sun 08:40]
+- State "DONE"       from "TODO"       [2023-09-10 Sun 08:16]
+- State "DONE"       from "TODO"       [2023-09-03 Sun 08:32]
+- State "DONE"       from "TODO"       [2023-08-27 Sun 07:21]
+- State "DONE"       from "TODO"       [2023-08-20 Sun 07:41]
+- State "CANCELLED"  from "TODO"       [2023-08-13 Sun 07:50]
+- State "CANCELLED"  from "TODO"       [2023-08-06 Sun 07:17]
+- State "CANCELLED"  from "TODO"       [2023-07-30 Sun 06:55]
+- State "CANCELLED"  from "TODO"       [2023-07-23 Sun 07:40]
+- State "CANCELLED"  from "TODO"       [2023-07-16 Sun 07:53]
+- State "CANCELLED"  from "TODO"       [2023-07-09 Sun 07:05]
+- State "CANCELLED"  from "TODO"       [2023-07-02 Sun 07:39]
+- State "DONE"       from "TODO"       [2023-06-27 Tue 11:15]
+- State "CANCELLED"  from "TODO"       [2023-06-18 Sun 07:38] 
+- State "DONE"       from "TODO"       [2023-06-11 Sun 07:26] 
+- State "CANCELLED"  from "TODO"       [2023-06-04 Sun 07:26] 
+- State "DONE"       from "TODO"       [2023-05-28 Sun 07:23] 
+- State "DONE"       from "TODO"       [2023-05-21 Sun 09:07] 
+- State "DONE"       from "TODO"       [2023-05-14 Sun 07:20] 
+- State "DONE"       from "TODO"       [2023-05-07 Sun 09:32] 
+- State "CANCELLED"  from "TODO"       [2023-04-30 Sun 07:24] 
+- State "DONE"       from "TODO"       [2023-04-23 Sun 09:01] 
+- State "CANCELLED"  from "TODO"       [2023-04-17 Mon 07:42] 
+- State "CANCELLED"  from "TODO"       [2023-04-10 Mon 13:13] 
+- State "CANCELLED"  from "TODO"       [2023-04-03 Mon 08:22] 
+- State "CANCELLED"  from "TODO"       [2023-03-26 Sun 11:42] 
+- State "CANCELLED"  from "TODO"       [2023-03-20 Mon 07:28] 
+- State "CANCELLED"  from "TODO"       [2023-03-14 Tue 09:15] 
+- State "CANCELLED"  from "TODO"       [2023-03-05 Sun 13:26] 
+- State "CANCELLED"  from "TODO"       [2023-02-26 Sun 12:41] 
+- State "CANCELLED"  from "TODO"       [2023-02-19 Sun 17:31] 
+- State "CANCELLED"  from "TODO"       [2023-02-12 Sun 10:30] 
+*** TODO - Eye pad treatment. 
+SCHEDULED: <2024-10-01 Tue +1w>
+:PROPERTIES: 
+:LAST_REPEAT: [2024-09-24 Tue 06:53]
+:END: 
+- State "DONE"       from "TODO"       [2024-09-24 Tue 06:53]
+- State "DONE"       from "TODO"       [2024-09-17 Tue 09:52]
+- State "DONE"       from "TODO"       [2024-09-10 Tue 09:54]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 11:00]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 11:00]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 11:00]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:59]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:58]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:57]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:56]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:55]
+- State "DONE"       from "TODO"       [2024-07-09 Tue 09:44]
+- State "DONE"       from "TODO"       [2024-07-02 Tue 09:32]
+- State "DONE"       from "TODO"       [2024-06-25 Tue 09:55]
+- State "DONE"       from "TODO"       [2024-06-18 Tue 09:56]
+- State "DONE"       from "TODO"       [2024-06-11 Tue 09:32]
+- State "DONE"       from "TODO"       [2024-06-04 Tue 10:03]
+- State "DONE"       from "TODO"       [2024-05-28 Tue 09:59]
+- State "DONE"       from "TODO"       [2024-05-21 Tue 09:01]
+- State "DONE"       from "TODO"       [2024-05-15 Wed 09:07]
+- State "DONE"       from "TODO"       [2024-05-07 Tue 10:22]
+- State "DONE"       from "TODO"       [2024-04-30 Tue 09:52]
+- State "DONE"       from "TODO"       [2024-04-23 Tue 09:39]
+- State "DONE"       from "TODO"       [2024-04-16 Tue 09:45]
+- State "DONE"       from "TODO"       [2024-04-09 Tue 09:59]
+- State "DONE"       from "TODO"       [2024-04-02 Tue 11:00]
+- State "DONE"       from "TODO"       [2024-03-26 Tue 09:57]
+- State "DONE"       from "TODO"       [2024-03-19 Tue 09:26]
+- State "DONE"       from "TODO"       [2024-03-13 Wed 09:23]
+- State "DONE"       from "TODO"       [2024-03-05 Tue 09:26]
+- State "DONE"       from "TODO"       [2024-02-27 Tue 09:47]
+- State "DONE"       from "TODO"       [2024-02-20 Tue 09:18]
+- State "CANCELLED"  from "TODO"       [2024-02-13 Tue 09:02]
+- State "CANCELLED"  from "TODO"       [2024-02-06 Tue 09:37]
+- State "CANCELLED"  from "TODO"       [2024-01-31 Wed 09:09]
+- State "CANCELLED"  from "TODO"       [2024-01-23 Tue 10:17]
+- State "DONE"       from "TODO"       [2024-01-16 Tue 10:19]
+- State "DONE"       from "TODO"       [2024-01-10 Wed 09:11]
+- State "DONE"       from "TODO"       [2024-01-02 Tue 08:15]
+- State "DONE"       from "TODO"       [2023-12-26 Tue 10:01]
+- State "DONE"       from "TODO"       [2023-12-19 Tue 09:14]
+- State "DONE"       from "TODO"       [2023-12-12 Tue 09:45]
+- State "DONE"       from "TODO"       [2023-12-06 Wed 10:09]
+- State "DONE"       from "TODO"       [2023-11-28 Tue 10:33]
+- State "DONE"       from "TODO"       [2023-11-22 Wed 09:01]
+- State "DONE"       from "TODO"       [2023-11-14 Tue 09:55]
+- State "DONE"       from "TODO"       [2023-11-07 Tue 09:14]
+- State "DONE"       from "TODO"       [2023-10-31 Tue 09:47]
+- State "DONE"       from "TODO"       [2023-10-25 Wed 08:38]
+- State "DONE"       from "TODO"       [2023-10-18 Wed 07:27]
+- State "DONE"       from "TODO"       [2023-10-11 Wed 08:08]
+- State "DONE"       from "TODO"       [2023-10-04 Wed 08:44]
+- State "DONE"       from "TODO"       [2023-09-26 Tue 17:34]
+- State "DONE"       from "TODO"       [2023-09-20 Wed 07:39]
+- State "DONE"       from "TODO"       [2023-09-13 Wed 07:38]
+- State "DONE"       from "TODO"       [2023-09-06 Wed 07:55]
+- State "DONE"       from "TODO"       [2023-08-30 Wed 07:11]
+- State "DONE"       from "TODO"       [2023-08-22 Tue 17:24]
+- State "DONE"       from "TODO"       [2023-08-16 Wed 07:06]
+- State "DONE"       from "TODO"       [2023-08-08 Tue 14:35]
+- State "DONE"       from "TODO"       [2023-08-02 Wed 06:58]
+- State "DONE"       from "TODO"       [2023-07-27 Thu 07:32]
+- State "DONE"       from "TODO"       [2023-07-19 Wed 07:15]
+- State "DONE"       from "TODO"       [2023-07-12 Wed 07:07]
+- State "DONE"       from "TODO"       [2023-07-04 Tue 09:31]
+- State "DONE"       from "TODO"       [2023-06-27 Tue 11:12]
+- State "DONE"       from "TODO"       [2023-06-21 Wed 07:05] 
+- State "DONE"       from "TODO"       [2023-06-14 Wed 09:41] 
+- State "DONE"       from "TODO"       [2023-06-06 Tue 14:42] 
+*** DONE - Apply olive oil for ears (am).
+SCHEDULED: <2023-08-22 Tue>
+:PROPERTIES:
+:LAST_REPEAT: [2023-08-22 Tue 07:10]
+:END:
+- State "DONE"       from "TODO"       [2023-08-22 Tue 07:10]
+- State "DONE"       from "TODO"       [2023-08-21 Mon 07:27]
+- State "DONE"       from "TODO"       [2023-08-20 Sun 07:26]
+- State "DONE"       from "TODO"       [2023-08-19 Sat 07:12]
+- State "DONE"       from "TODO"       [2023-08-18 Fri 07:32]
+- State "DONE"       from "TODO"       [2023-08-17 Thu 07:40]
+- State "DONE"       from "TODO"       [2023-08-16 Wed 07:06]
+- State "DONE"       from "TODO"       [2023-08-15 Tue 07:45]
+- State "DONE"       from "TODO"       [2023-08-13 Sun 14:01]
+- State "DONE"       from "TODO"       [2023-08-12 Sat 09:22]
+- State "DONE"       from "TODO"       [2023-08-12 Sat 07:41]
+- State "DONE"       from "TODO"       [2023-08-11 Fri 07:19]
+- State "DONE"       from "TODO"       [2023-08-09 Wed 09:10]
+*** DONE - Apply olive oil for ears {pm).
+SCHEDULED: <2023-08-22 Tue>
+:PROPERTIES:
+:LAST_REPEAT: [2023-08-22 Tue 07:10]
+:END:
+- State "DONE"       from "TODO"       [2023-08-22 Tue 07:10]
+- State "DONE"       from "TODO"       [2023-08-21 Mon 07:27]
+- State "DONE"       from "TODO"       [2023-08-20 Sun 07:26]
+- State "DONE"       from "TODO"       [2023-08-19 Sat 07:12]
+- State "DONE"       from "TODO"       [2023-08-18 Fri 07:32]
+- State "DONE"       from "TODO"       [2023-08-17 Thu 07:40]
+- State "DONE"       from "TODO"       [2023-08-16 Wed 07:06]
+- State "DONE"       from "TODO"       [2023-08-15 Tue 07:45]
+- State "DONE"       from "TODO"       [2023-08-14 Mon 08:00]
+- State "DONE"       from "TODO"       [2023-08-13 Sun 07:50]
+- State "DONE"       from "TODO"       [2023-08-12 Sat 07:42]
+- State "DONE"       from "TODO"       [2023-08-11 Fri 07:19]
+- State "DONE"       from "TODO"       [2023-08-10 Thu 08:06]
+- State "DONE"       from "REMINDER"   [2023-08-09 Wed 06:55]
+*** TODO - Olive oil in ears
+SCHEDULED: <2024-10-01 Tue +1m>
+:PROPERTIES:
+:LAST_REPEAT: [2024-09-01 Sun 10:28]
+:END:
+- State "DONE"       from "TODO"       [2024-09-01 Sun 10:28]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:55]
+- State "DONE"       from "TODO"       [2024-07-01 Mon 09:36]
+- State "DONE"       from "TODO"       [2024-06-02 Sun 09:24]
+- State "DONE"       from "TODO"       [2024-05-01 Wed 08:53]
+- State "DONE"       from "TODO"       [2024-04-01 Mon 13:19]
+- State "DONE"       from "TODO"       [2024-03-01 Fri 09:47]
+- State "DONE"       from "TODO"       [2024-02-01 Thu 10:04]
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:19]
+- State "DONE"       from "TODO"       [2023-12-01 Fri 08:45]
+- State "DONE"       from "TODO"       [2023-11-02 Thu 09:14]
+*** TODO - Request HbA1c test Castle HealthCare.
+SCHEDULED: <2025-03-01 Sat +1y>
+** ONE-OFF EVENTS 
+*** DONE - Macular Dept at Queens Medical Centre SCHEDULED: <2023-03-07 Tue 10:15> 
+*** DONE - Macular Dept at Queen's Medical. SCHEDULED: <2023-06-01 Thu 09:00> 
+*** DONE - Measure up for elasticated stockings. SCHEDULED: <2023-06-13 Tue 16:40>
+*** DONE - Enquire at Specsavers about ear wax removal.
+SCHEDULED: <2023-08-08 Tue>
+*** DONE - Earwax removal at Specsavers
+SCHEDULED: <2023-08-22 Tue 14:30>
+*** DONE - Hearing test at Ropewalk.
+SCHEDULED: <2023-09-01 Fri 09:30>
+*** DONE - Visual fields test at Queens Med.
+SCHEDULED: <2023-09-26 Tue 13:15>
+*** DONE - Glaucoma clinic.
+SCHEDULED: <2023-09-26 Tue 14:20>
+*** DONE - Hearing test at Boots.
+SCHEDULED: <2023-10-23 Mon 11:15>
+*** DONE - Telephone appointment with clinical pharmacist (prescription review)
+SCHEDULED: <2024-01-09 Tue 08:45-10:45>
+*** DONE - Eye surgery (vitrectomy) at Queens Medical.
+SCHEDULED: <2024-01-19 Fri 07:30>
+To take place at Day Care Unit on floor D. Take lift from ENT (usual
+place). On exiting lift turn right.
+*** DONE - Eye examination at Queens Medical.
+SCHEDULED: <2024-01-29 Mon 09:10>
+*** DONE - Hba1c test at Castle Healthcare surgery.
+SCHEDULED: <2024-02-29 Thu 11:40>
+*** DONE - Hearing test at Ropewalk House.
+SCHEDULED: <2024-03-06 Wed 15:45>
+*** DONE - Eye examination at Queens Medical.
+SCHEDULED: <2024-06-06 Thu 09:30>
+*** CANCELLED - Vision Express.
+Not able to make it due to stomach problems :-(
+SCHEDULED: <2024-06-13 Thu 13:10>
+*** DONE - Vision Express.
+SCHEDULED: <2024-06-20 Thu 13:35>
+* PERSONAL :PERSONAL                                            :personal:
+** REPEAT EVENTS
+*** TODO - Water spider plant (Mr. Johnstone :-))
+SCHEDULED: <2024-10-07 Mon +2w>
+:PROPERTIES:
+:LAST_REPEAT: [2024-09-23 Mon 10:16]
+:END:
+- State "DONE"       from "TODO"       [2024-09-23 Mon 10:16]
+- State "DONE"       from "TODO"       [2024-09-09 Mon 09:47]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:59]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:58]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:56]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:54]
+- State "DONE"       from "TODO"       [2024-07-01 Mon 09:36]
+- State "DONE"       from "TODO"       [2024-06-17 Mon 10:27]
+- State "DONE"       from "TODO"       [2024-06-03 Mon 10:11]
+- State "DONE"       from "TODO"       [2024-05-20 Mon 09:55]
+- State "DONE"       from "TODO"       [2024-05-06 Mon 09:31]
+- State "DONE"       from "TODO"       [2024-04-22 Mon 10:08]
+- State "DONE"       from "TODO"       [2024-04-08 Mon 09:28]
+- State "DONE"       from "TODO"       [2024-03-25 Mon 09:37]
+- State "DONE"       from "TODO"       [2024-03-11 Mon 09:59]
+- State "DONE"       from "TODO"       [2024-02-26 Mon 09:23]
+- State "DONE"       from "TODO"       [2024-02-12 Mon 09:47]
+- State "DONE"       from "TODO"       [2024-01-29 Mon 07:05]
+- State "DONE"       from "TODO"       [2024-01-15 Mon 10:00]
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:06]
+- State "DONE"       from "TODO"       [2023-12-18 Mon 09:57]
+- State "CANCELLED"  from "TODO"       [2023-12-11 Mon 08:41]
+- State "DONE"       from "TODO"       [2023-12-04 Mon 09:14]
+- State "CANCELLED"  from "TODO"       [2023-11-28 Tue 10:32]
+- State "DONE"       from "TODO"       [2023-11-20 Mon 09:33]
+- State "CANCELLED"  from "TODO"       [2023-11-13 Mon 09:23]
+- State "DONE"       from "TODO"       [2023-11-06 Mon 08:49]
+- State "CANCELLED"  from "TODO"       [2023-10-30 Mon 09:12]
+- State "DONE"       from "TODO"       [2023-10-23 Mon 07:34]
+- State "CANCELLED"  from "TODO"       [2023-10-16 Mon 09:07]
+- State "DONE"       from "TODO"       [2023-10-09 Mon 07:21]
+- State "CANCELLED"  from "TODO"       [2023-10-02 Mon 08:50]
+- State "DONE"       from "TODO"       [2023-09-25 Mon 07:32]
+- State "CANCELLED"  from "TODO"       [2023-09-18 Mon 08:42]
+- State "DONE"       from "TODO"       [2023-09-11 Mon 07:49]
+- State "CANCELLED"  from "TODO"       [2023-09-04 Mon 07:44]
+- State "DONE"       from "TODO"       [2023-08-28 Mon 08:27]
+- State "CANCELLED"  from "TODO"       [2023-08-21 Mon 07:28]
+- State "DONE"       from "TODO"       [2023-08-14 Mon 08:01]
+- State "CANCELLED"  from "TODO"       [2023-08-07 Mon 08:30]
+- State "DONE"       from "TODO"       [2023-07-31 Mon 07:22]
+- State "DONE"       from "TODO"       [2023-07-17 Mon 07:17]
+- State "DONE"       from "TODO"       [2023-07-17 Mon 07:17]
+- State "DONE"       from "TODO"       [2023-07-10 Mon 07:43]
+- State "DONE"       from "TODO"       [2023-07-03 Mon 07:45]
+- State "DONE"       from "TODO"       [2023-06-19 Mon 07:29]
+- State "CANCELLED"  from "TODO"       [2023-06-12 Mon 07:31]
+- State "DONE"       from "TODO"       [2023-06-05 Mon 06:41]
+- State "DONE"       from "TODO"       [2023-05-29 Mon 07:21]
+- State "DONE"       from "TODO"       [2023-05-22 Mon 08:15]
+- State "CANCELLED"  from "TODO"       [2023-05-15 Mon 12:17]
+- State "DONE"       from "TODO"       [2023-05-08 Mon 08:11]
+- State "DONE"       from "TODO"       [2023-05-01 Mon 07:38]
+- State "DONE"       from "TODO"       [2023-04-24 Mon 07:40]
+- State "CANCELLED"  from "TODO"       [2023-04-17 Mon 07:42]
+- State "DONE"       from "TODO"       [2023-04-10 Mon 13:13]
+- State "CANCELLED"  from "TODO"       [2023-04-03 Mon 08:22]
+- State "CANCELLED"  from "TODO"       [2023-03-27 Mon 13:03]
+- State "DONE"       from "TODO"       [2023-03-20 Mon 07:29]
+- State "DONE"       from "TODO"       [2023-03-14 Tue 09:15]
+- State "CANCELLED"  from "TODO"       [2023-03-06 Mon 11:12]
+- State "DONE"       from "TODO"       [2023-02-28 Tue 10:23]
+- State "DONE"       from "TODO"       [2023-02-20 Mon 09:57]
+- State "DONE"       from "TODO"       [2023-02-13 Mon 10:49]
+*** TODO - Recharge toothbrush
+SCHEDULED: <2024-09-30 Mon +1w>
+:PROPERTIES:
+:LAST_REPEAT: [2024-09-23 Mon 10:16]
+:END:
+- State "DONE"       from "TODO"       [2024-09-23 Mon 10:16]
+- State "DONE"       from "TODO"       [2024-09-16 Mon 10:04]
+- State "DONE"       from "TODO"       [2024-09-09 Mon 09:47]
+- State "DONE"       from "TODO"       [2024-09-02 Mon 07:34]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 11:00]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 11:00]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:59]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:58]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:57]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:56]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:54]
+- State "DONE"       from "TODO"       [2024-07-08 Mon 10:10]
+- State "DONE"       from "TODO"       [2024-07-01 Mon 09:36]
+- State "DONE"       from "TODO"       [2024-06-24 Mon 10:17]
+- State "DONE"       from "TODO"       [2024-06-17 Mon 10:27]
+- State "DONE"       from "TODO"       [2024-06-10 Mon 09:35]
+- State "DONE"       from "TODO"       [2024-06-03 Mon 10:11]
+- State "DONE"       from "TODO"       [2024-05-27 Mon 09:40]
+- State "DONE"       from "TODO"       [2024-05-20 Mon 09:55]
+- State "DONE"       from "TODO"       [2024-05-13 Mon 09:24]
+- State "DONE"       from "TODO"       [2024-05-06 Mon 09:31]
+- State "DONE"       from "TODO"       [2024-04-29 Mon 10:00]
+- State "DONE"       from "TODO"       [2024-04-22 Mon 10:08]
+- State "DONE"       from "TODO"       [2024-04-15 Mon 09:59]
+- State "DONE"       from "TODO"       [2024-04-08 Mon 09:29]
+- State "DONE"       from "TODO"       [2024-04-01 Mon 13:15]
+- State "DONE"       from "TODO"       [2024-03-25 Mon 09:37]
+- State "DONE"       from "TODO"       [2024-03-18 Mon 09:32]
+- State "DONE"       from "TODO"       [2024-03-11 Mon 09:59]
+- State "DONE"       from "TODO"       [2024-03-04 Mon 09:20]
+- State "DONE"       from "TODO"       [2024-02-26 Mon 09:23]
+- State "DONE"       from "TODO"       [2024-02-19 Mon 09:32]
+- State "DONE"       from "TODO"       [2024-02-12 Mon 09:47]
+- State "DONE"       from "TODO"       [2024-02-05 Mon 09:13]
+- State "DONE"       from "TODO"       [2024-01-29 Mon 07:05]
+- State "DONE"       from "TODO"       [2024-01-22 Mon 09:59]
+- State "DONE"       from "TODO"       [2024-01-15 Mon 10:00]
+- State "DONE"       from "TODO"       [2024-01-08 Mon 09:57]
+- State "DONE"       from "TODO"       [2024-01-01 Mon 09:06]
+- State "DONE"       from "TODO"       [2023-12-25 Mon 09:57]
+- State "DONE"       from "TODO"       [2023-12-18 Mon 09:57]
+- State "DONE"       from "TODO"       [2023-12-11 Mon 08:42]
+- State "DONE"       from "TODO"       [2023-12-04 Mon 09:14]
+- State "DONE"       from "TODO"       [2023-11-28 Tue 10:32]
+- State "DONE"       from "TODO"       [2023-11-20 Mon 09:33]
+- State "DONE"       from "TODO"       [2023-11-13 Mon 09:23]
+- State "DONE"       from "TODO"       [2023-11-06 Mon 08:49]
+- State "DONE"       from "TODO"       [2023-10-30 Mon 09:12]
+- State "DONE"       from "TODO"       [2023-10-23 Mon 07:34]
+- State "DONE"       from "TODO"       [2023-10-16 Mon 09:08]
+- State "DONE"       from "TODO"       [2023-10-09 Mon 07:21]
+- State "DONE"       from "TODO"       [2023-10-02 Mon 08:50]
+- State "DONE"       from "TODO"       [2023-09-25 Mon 07:33]
+- State "DONE"       from "TODO"       [2023-09-18 Mon 08:42]
+- State "DONE"       from "TODO"       [2023-09-11 Mon 07:47]
+- State "DONE"       from "TODO"       [2023-09-04 Mon 07:44]
+- State "DONE"       from "TODO"       [2023-08-28 Mon 08:27]
+- State "DONE"       from "TODO"       [2023-08-21 Mon 07:28]
+- State "DONE"       from "TODO"       [2023-08-14 Mon 08:01]
+- State "DONE"       from "TODO"       [2023-08-07 Mon 08:30]
+- State "DONE"       from "TODO"       [2023-07-31 Mon 07:22]
+- State "DONE"       from "TODO"       [2023-07-24 Mon 07:32]
+- State "DONE"       from "TODO"       [2023-07-17 Mon 07:17]
+- State "DONE"       from "TODO"       [2023-07-10 Mon 07:43]
+- State "DONE"       from "TODO"       [2023-07-03 Mon 07:45]
+- State "DONE"       from "TODO"       [2023-06-27 Tue 11:12]
+- State "DONE"       from "TODO"       [2023-06-12 Mon 07:31]
+- State "DONE"       from "TODO"       [2023-06-12 Mon 07:31]
+- State "DONE"       from "TODO"       [2023-06-05 Mon 06:41]
+- State "DONE"       from "TODO"       [2023-05-29 Mon 07:21]
+- State "DONE"       from "TODO"       [2023-05-22 Mon 08:15]
+- State "DONE"       from "TODO"       [2023-05-15 Mon 12:17]
+- State "DONE"       from "TODO"       [2023-05-08 Mon 08:11]
+- State "DONE"       from "TODO"       [2023-05-01 Mon 07:38]
+- State "DONE"       from "TODO"       [2023-04-24 Mon 07:40]
+- State "DONE"       from "TODO"       [2023-04-17 Mon 07:42]
+- State "DONE"       from "TODO"       [2023-04-10 Mon 13:14]
+- State "DONE"       from "TODO"       [2023-04-03 Mon 08:22]
+- State "DONE"       from "TODO"       [2023-03-27 Mon 13:04]
+- State "DONE"       from "TODO"       [2023-03-20 Mon 07:29]
+- State "DONE"       from "TODO"       [2023-03-14 Tue 09:15]
+- State "DONE"       from "TODO"       [2023-03-06 Mon 11:12]
+- State "DONE"       from "TODO"       [2023-02-28 Tue 10:24]
+- State "DONE"       from "TODO"       [2023-02-20 Mon 09:57]
+- State "DONE"       from "TODO"       [2023-02-13 Mon 10:49]
+*** TODO - Grey bin collection tomorrow
+SCHEDULED: <2024-09-29 Sun ++2w>
+                                                                                          :PROPERTIES:
+											  :LAST_REPEAT: [2024-09-15 Sun 09:51]
+                                                                                                 :END:
+											  - State "DONE"       from "TODO"       [2024-09-15 Sun 09:51]
+											  - State "DONE"       from "TODO"       [2024-09-01 Sun 09:03]
+											  - State "DONE"       from "TODO"       [2024-08-27 Tue 10:55]
+                                                                                          - State "DONE"       from "TODO"       [2024-07-07 Sun 10:12]
+                                                                                          - State "DONE"       from "TODO"       [2024-06-23 Sun 09:28]
+                                                                                          - State "DONE"       from "TODO"       [2024-06-09 Sun 10:11]
+                                                                                          - State "DONE"       from "TODO"       [2024-05-12 Sun 10:20]
+                                                                                          - State "DONE"       from "TODO"       [2024-05-12 Sun 10:20]
+                                                                                          - State "DONE"       from "TODO"       [2024-04-28 Sun 10:09]
+                                                                                          - State "DONE"       from "TODO"       [2024-04-14 Sun 10:46]
+                                                                                          - State "DONE"       from "TODO"       [2024-03-31 Sun 11:10]
+                                                                                          - State "DONE"       from "TODO"       [2024-03-17 Sun 09:26]
+                                                                                          - State "DONE"       from "TODO"       [2024-03-03 Sun 10:05]
+                                                                                          - State "DONE"       from "TODO"       [2024-02-18 Sun 08:57]
+                                                                                          - State "DONE"       from "TODO"       [2024-02-04 Sun 09:31]
+                                                                                          - State "DONE"       from "TODO"       [2024-01-22 Mon 09:59]
+                                                                                          - State "DONE"       from "TODO"       [2024-01-07 Sun 09:26]
+                                                                                          - State "DONE"       from "REMINDER"   [2023-12-24 Sun 08:55]
+                                                                                          - State "DONE"       from "TODO"       [2023-12-10 Sun 09:26]
+                                                                                          - State "DONE"       from "TODO"       [2023-11-28 Tue 10:32]
+                                                                                          - State "DONE"       from "TODO"       [2023-11-12 Sun 09:52]
+                                                                                          - State "DONE"       from "TODO"       [2023-10-29 Sun 09:19]
+                                                                                          - State "DONE"       from "REMINDER"   [2023-10-15 Sun 09:37]
+                                                                                          - State "DONE"       from "REMINDER"   [2023-10-01 Sun 07:52]
+                                                                                          - State "DONE"       from "TODO"       [2023-09-17 Sun 08:32]
+                                                                                          - State "DONE"       from "TODO"       [2023-09-03 Sun 07:55]
+                                                                                          - State "DONE"       from "TODO"       [2023-08-20 Sun 07:27]
+                                                                                          - State "DONE"       from "TODO"       [2023-08-06 Sun 07:17]
+                                                                                          - State "DONE"       from "TODO"       [2023-07-23 Sun 07:40]
+                                                                                          - State "DONE"       from "TODO"       [2023-07-09 Sun 07:05]
+                                                                                          - State "DONE"       from "TODO"       [2023-06-27 Tue 11:11]
+    - State "DONE"       from "TODO"       [2023-06-11 Sun 07:26]
+    - State "DONE"       from "TODO"       [2023-05-28 Sun 07:23]
+    - State "DONE"       from "TODO"       [2023-05-14 Sun 07:20]
+    - State "DONE"       from "TODO"       [2023-04-30 Sun 07:25]
+    - State "DONE"       from "TODO"       [2023-04-17 Mon 07:42]
+    - State "DONE"       from "TODO"       [2023-04-03 Mon 08:22]
+    - State "DONE"       from "TODO"       [2023-03-20 Mon 07:29]
+    - State "DONE"       from "TODO"       [2023-03-05 Sun 13:26]
+    - State "DONE"       from "TODO"       [2023-02-19 Sun 17:31]
+    - State "DONE"       from "TODO"       [2023-02-07 Tue 16:11]
+    - State "DONE"       from "REMINDER"   [2023-01-22 Sun 12:22]
+    - State "DONE"       from "TODO"       [2023-01-11 Wed 17:37]
+                                                                                             :LOGBOOK:
+    - State "DONE"       from "TODO"       [2022-09-04 Sun 08:25]
+    - State "DONE"       from "TODO"       [2022-08-22 Mon 08:08]
+    - State "DONE"       from "TODO"       [2022-08-11 Thu 12:03]
+    - State "DONE"       from "TODO"       [2022-07-24 Sun 07:18]
+    - State "DONE"       from "TODO"       [2022-07-11 Mon 07:14]
+    - State "DONE"       from "TODO"       [2022-06-26 Sun 07:38]
+    - State "DONE"       from "TODO"       [2022-06-12 Sun 06:28]
+    - State "DONE"       from "TODO"       [2022-05-29 Sun 08:14]
+    - State "DONE"       from "TODO"       [2022-05-15 Sun 07:40]
+    - State "DONE"       from "TODO"       [2022-05-01 Sun 07:08]
+    - State "DONE"       from "TODO"       [2022-04-17 Sun 07:20]
+    - State "DONE"       from "TODO"       [2022-04-03 Sun 06:54]
+    - State "DONE"       from "TODO"       [2022-03-20 Sun 07:10]
+    - State "DONE"       from "TODO"       [2022-03-06 Sun 07:48]
+    - State "DONE"       from "TODO"       [2022-02-20 Sun 07:05]
+    - State "DONE"       from "TODO"       [2022-02-06 Sun 08:02]
+                                                                                                 :END:
+
+*** TODO - Blue bin collection day tomorrow.
+SCHEDULED: <2024-10-06 Sun ++2w>a
+                                                                                          :PROPERTIES:
+											  :LAST_REPEAT: [2024-09-22 Sun 09:38]
+                                                                                                 :END:
+											  - State "DONE"       from "TODO"       [2024-09-22 Sun 09:38]
+											  - State "DONE"       from "TODO"       [2024-09-08 Sun 09:15]
+											  - State "DONE"       from "TODO"       [2024-08-27 Tue 10:55]
+                                                                                          - State "DONE"       from "TODO"       [2024-07-14 Sun 08:45]
+                                                                                          - State "DONE"       from "TODO"       [2024-06-30 Sun 10:13]
+                                                                                          - State "DONE"       from "TODO"       [2024-06-16 Sun 10:20]
+                                                                                          - State "DONE"       from "TODO"       [2024-06-02 Sun 09:32]
+                                                                                          - State "DONE"       from "TODO"       [2024-05-19 Sun 09:51]
+                                                                                          - State "DONE"       from "TODO"       [2024-05-05 Sun 10:30]
+                                                                                          - State "DONE"       from "TODO"       [2024-04-21 Sun 09:21]
+                                                                                          - State "DONE"       from "TODO"       [2024-04-07 Sun 10:05]
+                                                                                          - State "DONE"       from "TODO"       [2024-03-24 Sun 09:39]
+                                                                                          - State "DONE"       from "TODO"       [2024-03-10 Sun 09:32]
+                                                                                          - State "DONE"       from "TODO"       [2024-02-25 Sun 09:49]
+                                                                                          - State "DONE"       from "TODO"       [2024-02-11 Sun 09:43]
+                                                                                          - State "DONE"       from "TODO"       [2024-01-28 Sun 08:49]
+                                                                                          - State "DONE"       from "TODO"       [2024-01-14 Sun 10:17]
+                                                                                          - State "DONE"       from "TODO"       [2023-12-31 Sun 08:55]
+                                                                                          - State "DONE"       from "REMINDER"   [2023-12-17 Sun 09:14]
+                                                                                          - State "DONE"       from "TODO"       [2023-12-03 Sun 09:14]
+                                                                                          - State "DONE"       from "TODO"       [2023-11-19 Sun 09:44]
+                                                                                          - State "DONE"       from "TODO"       [2023-11-05 Sun 10:19]
+                                                                                          - State "DONE"       from "REMINDER"   [2023-10-22 Sun 09:05]
+                                                                                          - State "DONE"       from "TODO"       [2023-10-08 Sun 08:15]
+                                                                                          - State "DONE"       from "REMINDER"   [2023-09-24 Sun 08:40]
+                                                                                          - State "DONE"       from "TODO"       [2023-09-10 Sun 08:16]
+                                                                                          - State "DONE"       from "TODO"       [2023-08-27 Sun 07:10]
+                                                                                          - State "DONE"       from "TODO"       [2023-08-13 Sun 07:50]
+                                                                                          - State "DONE"       from "TODO"       [2023-07-30 Sun 06:55]
+                                                                                          - State "DONE"       from "TODO"       [2023-07-16 Sun 07:53]
+                                                                                          - State "CANCELLED"  from "TODO"       [2023-07-02 Sun 07:40]
+    - State "DONE"       from "TODO"       [2023-06-18 Sun 07:38]
+    - State "DONE"       from "TODO"       [2023-06-04 Sun 07:26]
+    - State "DONE"       from "TODO"       [2023-05-21 Sun 09:07]
+    - State "DONE"       from "TODO"       [2023-05-07 Sun 09:32]
+    - State "DONE"       from "TODO"       [2023-04-23 Sun 09:01]
+    - State "DONE"       from "TODO"       [2023-04-10 Mon 13:13]
+    - State "DONE"       from "TODO"       [2023-03-26 Sun 11:42]
+    - State "DONE"       from "TODO"       [2023-03-14 Tue 09:15]
+    - State "DONE"       from "TODO"       [2023-02-26 Sun 12:41]
+    - State "DONE"       from "TODO"       [2023-02-12 Sun 10:30]
+    - State "DONE"       from "REMINDER"   [2023-01-29 Sun 10:10]
+    - State "DONE"       from "TODO"       [2023-01-11 Wed 17:33]
+    - State "DONE"       from "TODO"       [2023-01-11 Wed 17:32]
+                                                                                             :LOGBOOK:
+    - State "DONE"       from "TODO"       [2022-08-28 Sun 07:13]
+    - State "DONE"       from "TODO"       [2022-08-14 Sun 07:25]
+    - State "DONE"       from "TODO"       [2022-07-31 Sun 07:16]
+    - State "DONE"       from "TODO"       [2022-07-18 Mon 07:43]
+    - State "DONE"       from "TODO"       [2022-07-03 Sun 06:59]
+    - State "DONE"       from "TODO"       [2022-06-19 Sun 07:18]
+    - State "DONE"       from "TODO"       [2022-06-05 Sun 07:05]
+    - State "DONE"       from "TODO"       [2022-05-25 Wed 13:53]
+    - State "DONE"       from "TODO"       [2022-05-08 Sun 07:04]
+    - State "DONE"       from "TODO"       [2022-04-24 Sun 06:59]
+    - State "DONE"       from "TODO"       [2022-04-10 Sun 06:55]
+    - State "DONE"       from "TODO"       [2022-03-27 Sun 08:01]
+    - State "DONE"       from "TODO"       [2022-03-13 Sun 07:12]
+    - State "DONE"       from "TODO"       [2022-02-27 Sun 08:20]
+                                                                                                 :END:
+
+*** TODO - Pat's birthday.a
+    SCHEDULED: <2025-08-08 Fri ++1y>
+                                                                                          :PROPERTIES:
+											  :LAST_REPEAT: [2024-08-27 Tue 10:55]
+                                                                                                 :END:
+											  - State "DONE"       from "TODO"       [2024-08-27 Tue 10:55]
+                                                                                          - State "DONE"       from "BIRTHDAY"   [2023-08-08 Tue 14:36]
+                                                                                             :LOGBOOK:
+    - State "DONE"       from "BIRTHDAY"   [2022-08-11 Thu 12:03]
+    - State "DONE"       from "BIRTHDAY"   [2021-08-08 Sun 08:17]
+    - State "DONE"       from "BIRTHDAY"   [2020-08-09 Sun 07:48]
+                                                                                                 :END:
+*** TODO - Maggie's birthday.
+    SCHEDULED: <2024-10-18 Fri ++1y>
+                                                                                          :PROPERTIES:
+                                                                                          :LAST_REPEAT: [2023-10-19 Thu 08:19]
+                                                                                                 :END:
+                                                                                          - State "DONE"       from "BIRTHDAY"   [2023-10-19 Thu 08:19]
+    - State "DONE"       from "BIRTHDAY"   [2023-01-11 Wed 17:37]
+                                                                                             :LOGBOOK:
+    - State "DONE"       from "TODO"       [2021-10-18 Mon 07:09]
+    - State "DONE"       from "BIRTHDAY"   [2020-10-18 Sun 07:45]
+                                                                                                 :END:
+*** TODO - My birthday :-)
+    SCHEDULED: <2024-10-18 Fri ++1y>
+                                                                                          :PROPERTIES:
+                                                                                          :LAST_REPEAT: [2023-10-19 Thu 08:19]
+                                                                                                 :END:
+                                                                                          - State "DONE"       from "BIRTHDAY"   [2023-10-19 Thu 08:19]
+    - State "DONE"       from "BIRTHDAY"   [2023-01-11 Wed 17:37]
+                                                                                             :LOGBOOK:
+    - State "DONE"       from "TODO"       [2021-10-18 Mon 07:09]
+    - State "DONE"       from "BIRTHDAY"   [2020-10-18 Sun 07:45]
+                                                                                                 :END:
+*** TODO - Alun's birthday.
+    SCHEDULED: <2025-08-21 Thu ++1y>
+                                                                                          :PROPERTIES:
+											  :LAST_REPEAT: [2024-08-27 Tue 10:56]
+                                                                                                 :END:
+											  - State "DONE"       from "TODO"       [2024-08-27 Tue 10:56]
+                                                                                          - State "DONE"       from "BIRTHDAY"   [2023-08-22 Tue 07:10]
+                                                                                             :LOGBOOK:
+    - State "DONE"       from "BIRTHDAY"   [2022-08-22 Mon 08:08]
+    - State "DONE"       from "REMINDER"   [2022-01-18 Tue 08:48]
+*** TODO - OKEachDay.
+SCHEDULED: <2024-09-28 Sat +1d>
+:PROPERTIES:
+:LAST_REPEAT: [2024-09-27 Fri 09:49]
+:END:
+- State "DONE"       from "TODO"       [2024-09-27 Fri 09:49]
+- State "DONE"       from "TODO"       [2024-09-26 Thu 09:56]
+- State "DONE"       from "TODO"       [2024-09-25 Wed 09:39]
+- State "DONE"       from "TODO"       [2024-09-24 Tue 06:36]
+- State "DONE"       from "TODO"       [2024-09-23 Mon 10:16]
+- State "DONE"       from "TODO"       [2024-09-22 Sun 09:29]
+- State "DONE"       from "TODO"       [2024-09-21 Sat 09:51]
+- State "DONE"       from "TODO"       [2024-09-20 Fri 09:31]
+- State "DONE"       from "TODO"       [2024-09-19 Thu 09:39]
+- State "DONE"       from "TODO"       [2024-09-18 Wed 09:54]
+- State "DONE"       from "TODO"       [2024-09-17 Tue 09:52]
+- State "DONE"       from "TODO"       [2024-09-16 Mon 10:04]
+- State "DONE"       from "TODO"       [2024-09-15 Sun 09:51]
+- State "DONE"       from "TODO"       [2024-09-14 Sat 10:15]
+- State "DONE"       from "TODO"       [2024-09-13 Fri 10:01]
+- State "DONE"       from "TODO"       [2024-09-12 Thu 10:04]
+- State "DONE"       from "TODO"       [2024-09-11 Wed 08:59]
+- State "DONE"       from "TODO"       [2024-09-10 Tue 08:38]
+- State "DONE"       from "TODO"       [2024-09-09 Mon 09:47]
+- State "DONE"       from "TODO"       [2024-09-08 Sun 09:15]
+- State "DONE"       from "TODO"       [2024-09-07 Sat 09:36]
+- State "DONE"       from "TODO"       [2024-09-06 Fri 09:08]
+- State "DONE"       from "TODO"       [2024-09-05 Thu 10:25]
+- State "DONE"       from "TODO"       [2024-09-04 Wed 09:17]
+- State "DONE"       from "TODO"       [2024-09-03 Tue 09:03]
+- State "DONE"       from "TODO"       [2024-09-02 Mon 07:34]
+- State "DONE"       from "TODO"       [2024-09-01 Sun 09:12]
+- State "DONE"       from "TODO"       [2024-09-01 Sun 09:01]
+- State "DONE"       from "TODO"       [2024-08-30 Fri 09:17]
+- State "DONE"       from "TODO"       [2024-08-29 Thu 09:47]
+- State "DONE"       from "TODO"       [2024-08-28 Wed 09:23]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 11:01]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 11:01]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 11:01]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 11:01]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 11:01]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 11:01]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 11:01]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 11:01]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 11:01]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 11:01]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 11:01]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 11:01]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 11:00]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 11:00]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 11:00]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 11:00]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 11:00]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 11:00]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 11:00]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:59]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:58]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:58]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:58]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:58]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:56]
+- State "DONE"       from "TODO"       [2024-08-27 Tue 10:55]
+- State "DONE"       from "TODO"       [2024-07-14 Sun 08:45]
+- State "DONE"       from "TODO"       [2024-07-13 Sat 09:17]
+- State "DONE"       from "TODO"       [2024-07-12 Fri 10:52]
+- State "DONE"       from "TODO"       [2024-07-11 Thu 09:48]
+- State "DONE"       from "TODO"       [2024-07-10 Wed 08:45]
+- State "DONE"       from "TODO"       [2024-07-09 Tue 09:44]
+- State "DONE"       from "TODO"       [2024-07-08 Mon 10:10]
+- State "DONE"       from "TODO"       [2024-07-07 Sun 10:12]
+- State "DONE"       from "TODO"       [2024-07-06 Sat 09:51]
+- State "DONE"       from "TODO"       [2024-07-05 Fri 09:13]
+- State "DONE"       from "TODO"       [2024-07-04 Thu 09:30]
+- State "DONE"       from "TODO"       [2024-07-03 Wed 09:50]
+- State "DONE"       from "TODO"       [2024-07-02 Tue 09:33]
+- State "DONE"       from "TODO"       [2024-07-01 Mon 09:36]
+- State "DONE"       from "TODO"       [2024-06-30 Sun 10:13]
+- State "DONE"       from "TODO"       [2024-06-29 Sat 09:36]
+- State "DONE"       from "TODO"       [2024-06-28 Fri 10:14]
+- State "DONE"       from "TODO"       [2024-06-27 Thu 10:00]
+- State "DONE"       from "TODO"       [2024-06-26 Wed 09:41]
+- State "DONE"       from "TODO"       [2024-06-25 Tue 09:55]
+- State "DONE"       from "TODO"       [2024-06-24 Mon 10:17]
+- State "DONE"       from "TODO"       [2024-06-23 Sun 09:28]
+- State "DONE"       from "TODO"       [2024-06-22 Sat 10:11]
+- State "DONE"       from "TODO"       [2024-06-21 Fri 09:58]
+- State "DONE"       from "TODO"       [2024-06-20 Thu 09:54]
+- State "DONE"       from "TODO"       [2024-06-19 Wed 09:37]
+- State "DONE"       from "TODO"       [2024-06-18 Tue 09:56]
+- State "DONE"       from "TODO"       [2024-06-17 Mon 10:28]
+- State "DONE"       from "TODO"       [2024-06-16 Sun 10:20]
+- State "DONE"       from "TODO"       [2024-06-15 Sat 10:11]
+- State "DONE"       from "TODO"       [2024-06-14 Fri 09:32]
+- State "DONE"       from "TODO"       [2024-06-13 Thu 09:26]
+- State "DONE"       from "TODO"       [2024-06-12 Wed 09:39]
+- State "DONE"       from "TODO"       [2024-06-11 Tue 09:32]
+- State "DONE"       from "TODO"       [2024-06-10 Mon 09:35]
+- State "DONE"       from "TODO"       [2024-06-09 Sun 10:11]
+- State "DONE"       from "TODO"       [2024-06-08 Sat 09:32]
+- State "DONE"       from "TODO"       [2024-06-07 Fri 09:45]
+- State "DONE"       from "TODO"       [2024-06-06 Thu 06:41]
+- State "DONE"       from "TODO"       [2024-06-05 Wed 10:06]
+- State "DONE"       from "TODO"       [2024-06-04 Tue 10:03]
+- State "DONE"       from "TODO"       [2024-06-03 Mon 10:11]
+- State "DONE"       from "TODO"       [2024-06-02 Sun 09:32]
+- State "DONE"       from "TODO"       [2024-06-02 Sun 09:24]
+- State "DONE"       from "TODO"       [2024-05-31 Fri 09:07]
+- State "DONE"       from "TODO"       [2024-05-30 Thu 10:15]
+- State "DONE"       from "TODO"       [2024-05-29 Wed 10:04]
+- State "DONE"       from "TODO"       [2024-05-28 Tue 09:59]
+- State "DONE"       from "TODO"       [2024-05-27 Mon 09:40]
+- State "DONE"       from "TODO"       [2024-05-26 Sun 10:32]
+- State "DONE"       from "TODO"       [2024-05-25 Sat 09:08]
+- State "DONE"       from "TODO"       [2024-05-24 Fri 09:15]
+- State "DONE"       from "TODO"       [2024-05-23 Thu 09:24]
+- State "DONE"       from "TODO"       [2024-05-22 Wed 10:01]
+- State "DONE"       from "TODO"       [2024-05-21 Tue 09:01]
+- State "DONE"       from "TODO"       [2024-05-20 Mon 09:55]
+- State "DONE"       from "TODO"       [2024-05-19 Sun 09:51]
+- State "DONE"       from "TODO"       [2024-05-18 Sat 09:24]
+- State "DONE"       from "TODO"       [2024-05-17 Fri 09:57]
+- State "DONE"       from "TODO"       [2024-05-16 Thu 09:14]
+- State "DONE"       from "TODO"       [2024-05-15 Wed 09:07]
+- State "DONE"       from "TODO"       [2024-05-14 Tue 07:51]
+- State "DONE"       from "TODO"       [2024-05-13 Mon 09:24]
+- State "DONE"       from "TODO"       [2024-05-12 Sun 10:20]
+- State "DONE"       from "TODO"       [2024-05-11 Sat 10:51]
+- State "DONE"       from "TODO"       [2024-05-10 Fri 07:54]
+- State "DONE"       from "TODO"       [2024-05-09 Thu 09:56]
+- State "DONE"       from "TODO"       [2024-05-08 Wed 10:45]
+- State "DONE"       from "TODO"       [2024-05-07 Tue 10:22]
+- State "DONE"       from "TODO"       [2024-05-06 Mon 09:31]
+- State "DONE"       from "TODO"       [2024-05-05 Sun 10:30]
+- State "DONE"       from "TODO"       [2024-05-04 Sat 09:33]
+- State "DONE"       from "TODO"       [2024-05-03 Fri 09:27]
+- State "DONE"       from "TODO"       [2024-05-02 Thu 08:02]
+- State "DONE"       from "TODO"       [2024-05-01 Wed 08:53]
+- State "DONE"       from "TODO"       [2024-04-30 Tue 09:52]
+- State "DONE"       from "TODO"       [2024-04-29 Mon 10:00]
+- State "DONE"       from "TODO"       [2024-04-28 Sun 10:09]
+- State "DONE"       from "TODO"       [2024-04-27 Sat 10:01]
+- State "DONE"       from "TODO"       [2024-04-26 Fri 09:25]
+- State "DONE"       from "TODO"       [2024-04-25 Thu 10:35]
+- State "DONE"       from "TODO"       [2024-04-24 Wed 09:52]
+- State "DONE"       from "TODO"       [2024-04-23 Tue 09:39]
+- State "DONE"       from "TODO"       [2024-04-22 Mon 10:09]
+- State "DONE"       from "TODO"       [2024-04-21 Sun 09:21]
+- State "DONE"       from "TODO"       [2024-04-20 Sat 10:02]
+- State "DONE"       from "TODO"       [2024-04-19 Fri 09:41]
+- State "DONE"       from "TODO"       [2024-04-18 Thu 09:58]
+- State "DONE"       from "TODO"       [2024-04-17 Wed 09:31]
+- State "DONE"       from "TODO"       [2024-04-16 Tue 09:45]
+- State "DONE"       from "TODO"       [2024-04-15 Mon 10:00]
+- State "DONE"       from "TODO"       [2024-04-14 Sun 10:46]
+- State "DONE"       from "TODO"       [2024-04-13 Sat 10:24]
+- State "DONE"       from "TODO"       [2024-04-12 Fri 09:49]
+- State "DONE"       from "TODO"       [2024-04-11 Thu 10:00]
+- State "DONE"       from "TODO"       [2024-04-10 Wed 09:37]
+- State "DONE"       from "TODO"       [2024-04-09 Tue 09:41]
+- State "DONE"       from "TODO"       [2024-04-08 Mon 09:29]
+- State "DONE"       from "TODO"       [2024-04-07 Sun 10:05]
+- State "DONE"       from "TODO"       [2024-04-06 Sat 09:58]
+- State "DONE"       from "TODO"       [2024-04-05 Fri 09:49]
+- State "DONE"       from "TODO"       [2024-04-04 Thu 10:10]
+- State "DONE"       from "TODO"       [2024-04-03 Wed 09:56]
+- State "DONE"       from "TODO"       [2024-04-02 Tue 11:00]
+- State "DONE"       from "TODO"       [2024-04-01 Mon 13:15]
+- State "DONE"       from "TODO"       [2024-03-31 Sun 11:10]
+- State "DONE"       from "TODO"       [2024-03-30 Sat 09:44]
+- State "DONE"       from "TODO"       [2024-03-29 Fri 09:37]
+- State "DONE"       from "TODO"       [2024-03-28 Thu 10:20]
+- State "DONE"       from "TODO"       [2024-03-27 Wed 09:59]
+- State "DONE"       from "TODO"       [2024-03-26 Tue 09:39]
+- State "DONE"       from "TODO"       [2024-03-25 Mon 09:37]
+- State "DONE"       from "TODO"       [2024-03-24 Sun 09:39]
+- State "DONE"       from "TODO"       [2024-03-23 Sat 09:06]
+- State "DONE"       from "TODO"       [2024-03-22 Fri 09:13]
+- State "DONE"       from "TODO"       [2024-03-21 Thu 09:19]
+- State "DONE"       from "TODO"       [2024-03-20 Wed 09:09]
+- State "DONE"       from "TODO"       [2024-03-19 Tue 09:26]
+- State "DONE"       from "TODO"       [2024-03-18 Mon 09:32]
+- State "DONE"       from "TODO"       [2024-03-17 Sun 09:26]
+- State "DONE"       from "TODO"       [2024-03-16 Sat 09:10]
+- State "DONE"       from "TODO"       [2024-03-15 Fri 09:01]
+- State "DONE"       from "TODO"       [2024-03-14 Thu 09:34]
+- State "DONE"       from "TODO"       [2024-03-13 Wed 09:23]
+- State "DONE"       from "TODO"       [2024-03-12 Tue 07:53]
+- State "DONE"       from "TODO"       [2024-03-11 Mon 09:59]
+- State "DONE"       from "TODO"       [2024-03-10 Sun 09:32]
+- State "DONE"       from "TODO"       [2024-03-09 Sat 09:21]
+- State "DONE"       from "TODO"       [2024-03-08 Fri 09:29]
+- State "DONE"       from "TODO"       [2024-03-07 Thu 10:52]
+- State "DONE"       from "TODO"       [2024-03-06 Wed 08:55]
+- State "DONE"       from "TODO"       [2024-03-05 Tue 09:26]
+- State "DONE"       from "TODO"       [2024-03-04 Mon 09:20]
+- State "DONE"       from "TODO"       [2024-03-03 Sun 10:06]
+- State "DONE"       from "TODO"       [2024-03-02 Sat 09:42]
+- State "DONE"       from "TODO"       [2024-03-01 Fri 09:48]
+- State "DONE"       from "TODO"       [2024-02-29 Thu 08:30]
+- State "DONE"       from "TODO"       [2024-02-28 Wed 09:13]
+- State "DONE"       from "TODO"       [2024-02-27 Tue 09:47]
+- State "DONE"       from "TODO"       [2024-02-26 Mon 09:23]
+- State "DONE"       from "TODO"       [2024-02-25 Sun 09:49]
+- State "DONE"       from "TODO"       [2024-02-24 Sat 10:00]
+** ONE-OFF EVENTS                                                                            :one:off:
+
+*** DONE - Engineer to repair intercomm.
+SCHEDULED: <2023-03-14 Tue 08:30-12:30>
+*** CANCELLED - Metropolitan to fix fan in bathroom
+SCHEDULED: <2023-03-28 Tue 13:00-17:00>
+*** DONE - Council elections.
+SCHEDULED: <2023-05-04 Thu>
+*** DONE - Annual service of boiler
+SCHEDULED: <2023-04-25 Tue 12:00-17:00>
+*** DONE - Gas quality inspection.
+SCHEDULED: <2023-06-15 Thu 08:00-12:00>
+*** DONE -Tenants meeting at community centre
+SCHEDULED: <2023-09-07 Thu 14:00>
+*** DONE -Tenants meeting at community centre
+SCHEDULED: <2024-01-04 Thu 14:00 +1y>
+*** DONE - Paul back from Czech Republic.
+SCHEDULED: <2023-09-14 Thu>
+*** DONE - Meat from butcher (pre-Christmas)
+SCHEDULED: <2023-12-20 Wed>
+*** DONE - Take down Christmas cards.
+SCHEDULED: <2024-01-06 Sat>
+*** CANCELLED - Meeting for OKEachDay device at Walcote Community Centre.
+Unable to attend due posturing following victrectomy :-(
+SCHEDULED: <2024-01-24 Wed 13:00>
+*** DONE - Energy inspection.
+SCHEDULED: <2024-02-02 Fri 13:30-15:30>
+*** DONE - Shower repair.
+SCHEDULED: <2024-02-08 Thu>
+*** DONE - Replacement extractor fan for bathroom to be replaced.
+SCHEDULED: <2024-02-20 Tue 13:00-17:00>
+*** DONE - Shower repair.
+SCHEDULED: <2024-03-05 Tue>
+*** DONE - Annual Service of heating system.
+SCHEDULED: <2024-04-16 Tue 12:00-17:00>
+Tel: Aaron services - 01205 319237
+*** DONE - Paul back from Prague.
+SCHEDULED: <2024-05-10 Fri 16:00>
+Meet up in Cock and Hoop at 4pm ish :-)
+*** DONE - British Gas to replace smart meter and display.
+SCHEDULED: <2024-09-02 Mon 08:00-12:00>
+*** DONE - Contact British Gas if smart meter is still not working.
+SCHEDULED: <2024-09-20 Fri>
+Contact number: 0330 808 3880
+*** DONE - New tely to be delivered :-)
+SCHEDULED: <2024-09-24 Tue>
+* Boxley Drive Move                                             :Boxley:
+** DONE Take documents to Emma Sheffield at the Community Centre.
+   SCHEDULED: <2017-08-16 Wed 11:00>
+
+*** Proof of ID (driving license, bus pass or passport)
+*** Proof of income (printots of statements)
+*** Letter with address
+** DONE Order removal boxes.
+** DONE Order packing tape, bubblewrap and sticky labels.
+** DONE Inform utilities of change of address.
+** DONE Ashley to survey flat.
+   SCHEDULED: <2017-08-17 Thu 10:00>
+
+   
+
+** DONE Aaron services to uncap gas and test boiler.
+   SCHEDULED: <2017-08-23 Wed 08:00-12:00>
+
+** DONE Order Gas cooker from AO
+** DONE Delivery and installation of gas cooker.
+   SCHEDULED: <2017-08-27 Sun>
+
+   
+
+** DONE Visit flat and Ikea with Duncan and Jane
+   SCHEDULED: <2017-08-29 Tue>
+
+** DONE Moving to Boxley Drive :-)
+   SCHEDULED: <2017-09-13 Wed>
+
+** DONE Plusnet to connect landline an internet. Engineer to visit.
+   SCHEDULED: <2017-09-14 Thu>
+

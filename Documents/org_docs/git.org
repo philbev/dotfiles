@@ -1,0 +1,64 @@
+* Initialising git
+** First Time Setup
+
+   git --global user.name "Fred Bloggs"
+   git --global user.email fredbloggs@somewhere.com
+
+   NOTE! --system = system wide configuration in /etc/gitconfig
+         --global = user config in ~/.gitconfig or ~/.config/git/config
+	 --local  = specific to single repository I.e. .git/config
+
+** git init
+
+   Used to initialise an existing directory which already contains files.
+
+** git clone
+
+   Used to create a new repository which has no files or directories.
+
+* Staging (Indexing) and Committing
+** git add
+** git commit
+* Branching
+** git branch
+*** git branch -r
+
+    Display remote branches.
+
+*** git branch -a
+
+    Display all branches, local and remote.
+
+* Checkout
+** git checkout
+* Relative references to commits
+
+  Commits can be referenced to their hashed names (short or full) or
+  relatively to the current commit with the use of the ~ and ^
+  characters.
+  - HEAD~1 refers to the parent of HEAD
+  - HEAD~2 refers to the parent of the parent of HEAD (grandparent)
+  - HEAD~3 refers to the great grandparent of HEAD
+  - HEAD~n and so on
+  - HEAD^1 refers to the first parent of HEAD
+  - HEAD^2 refers to the second parent of HEAD
+  - HEAD^n refers to the nth parent of HEAD .....
+
+    *NOTES*
+    1. ~1 is the same as ^1
+    2. ~ = ~1, ~~ = ~2, ~~~ = ~3 .....
+    3. ^ = ^1, ^^ = ^2, ^^^ = ^3 .....
+    4. Both forms can be chained such as HEAD~3^2~1
+
+    For a fuller explanation see [[http://www.paulboxley.com/blog/2011/06/git-caret-and-tilde][Paul Bloxley's Blog]]
+
+* Remote Repositories
+** Checking status of remote repository
+   To check if the remote repository is ahead of the local one issue
+   the commands: 
+      git remote update 
+      git status
+* Making changes
+** git commit --amend
+** git reset
+** git rebase

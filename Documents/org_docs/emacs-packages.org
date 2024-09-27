@@ -1,0 +1,8 @@
+airline-themes
+evil
+linum-relative
+org-bullets
+org-journal
+powerline
+rainbow-delimiters
+which-key

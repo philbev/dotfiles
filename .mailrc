@@ -1,0 +1,4 @@
+#set sendmail="/usr/bin/msmtp"
+#set message-sendmail-extra-arguments="-a philbev"
+alias phil phil@philbev.co.uk
+alias philg philbevan40@gmail.com

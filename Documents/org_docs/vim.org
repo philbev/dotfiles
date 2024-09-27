@@ -1,0 +1,305 @@
+* VIM TIPS
+** Alt Key Mapping
+
+   That's how I do it on Linux or Cygwin:
+   First check what chars are send by your terminal when you press ALT+J:
+   In order to do this I go to console and run sed -n l (you can also use cat for it). Then I press ALT+J and see that the chars on the screen are ^[j .
+   I replace ^[ with \e (because that's what is sent by my terminal when I press esc) and the final string for me is \ej.
+   Then I write it to my .vimrc:
+
+         execute "set <M-j>=\ej"
+         nnoremap <M-j> j
+
+   And the mapping works.
+   Thanks to Kossak (stackexchange.com)
+
+** Clipboard in terminal vim/neovim.
+
+*** Vim
+    In gvim the clipboard works straight out of the box but vim
+    (terminal version) needs to be rebuilt. The vim.Slackbuild needs
+    to be modified. The line containing:
+        config_vim --without-x --disable-gui
+    should be changed to:
+        config_vim --without-x --disable-gui
+    then rebuilt with the modified slackbuild.
+*** Neovim
+    Just install 'xclip' from Slackbuilds.org. To check if working -
+    inside neovim run command :CheckHealth.
+
+** Debugging
+*** Plugins
+
+    If a plugin is suspected in causing a problem then vim can be started with:-
+        vim -u NONE
+    This causes vim to start without loading plugins.
+
+*** .vimrc and other sourced files
+**** Problems ~/.vimrc or any other sourced files.
+***** :finish comes in useful as this stops vim from processing any lines following it
+***** :echo or :echom in conjunction with :messages.
+
+      Inserting the :echo and :echom commands in a file helps to locate some problems.
+
+** Inserting spaces between operators
+   I want -
+
+   variable++; then variable ++;
+   variable1 + variable2 nothing to do
+   variable1 +variable2 then variable1 + variable2
+   variable1+ variable2 then variable1 + variable2
+   variable1+variable2 then variable1 + variable2
+
+   similarly for -,*,/,>=,<=,!=,==.
+   And if -
+
+    variable1 = variable2 then nothing to do variable1 =variable2 then
+    variable1 = variable2 variable1= variable2 then variable1 =
+    variable2 variable1=variable2 then variable1 = variable2
+
+    I try the search regex as [a-zA-Z]+([-+/*=]|>=|<=|!=|==) although it
+    is not correct fully.
+
+
+    Answer
+
+    One way to do this would be this:
+
+    First change the infix operators:
+
+    :%s/\v(\w) ?(\+|-|\*|\/|\>\=|\<\=|!\=|\=|\=\=) ?(\w|-)/\1 \2 \3/g
+
+    N.B. This also handles the int x=-b case mentioned in the comments.
+
+    Then the postfix ++:
+
+    :%s/\v(\w)\+\+/\1 ++/g
+
+    Broken down, that first regular expression is:
+
+    \v: Turn on "very magic" matching.
+    (\w) ?: Find a "word character" optionally followed by a space, capturing the word character into a group.
+    (\+|-|\*|\/|\>\=|\<\=|!\=|\=|\=\=): Find any of +, -, *, /, >=, <=, !=, =, or ==, capturing it into a second group.
+    _?(\w|-): Find another optional space (represented here as an underscore so you can see it!) followed by another word character (or minus symbol), captured into the third group.
+
+    We then replace the entire match with the contents of the three groups, separated by spaces:
+
+    \1 \2 \3
+
+    For more info, see :help regexp, and specifically:
+
+    :help \magic
+    :help \w
+    :help \?
+    :help \|
+    :help \1
+
+
+
+
+    you can simplify the regex a bit by using [+*/=] instead of alternation.
+
+** Macros
+*** Recursive macros.
+    When defining a macro with q{reg}, at the end of the macro just add
+    j@{reg} to the end. The 'j' ensures one line down.  On completion
+    just call the macro @{reg} abd the macro wil be run on all lines to
+    the end of the file.
+    The following example surronds every line with inverted commas.
+    On the first line:-
+    qaI"<Esc>A"<Esc>j@a
+
+    qa    - Starts recording macro to register 'a'.
+    I"    - Inserts '"' at the start of line.
+    <Esc> - Hit he Escape key
+    A"    - Appends '"' to the end of the line.
+    j     - Moves cursor down one line.
+    @a    - Run macro.
+     The first line is now surrounde by inverted commas.
+    @a    - Runs macro on all lines to the end of file.
+*** Repeat macro with pattern in line.
+    Execute the macro stored in register on all lines matching 'pattern':
+        :gpattern/norm @{reg}
+
+*** Running macros on multiple lines.
+    :[address]normal @{reg}
+     E.g.
+         :3.8 normal @a
+    would run macro in register a on lines 3 to 8.
+
+** Ultisnips
+
+*** Transformations
+    Transformations take the form ${1/pattern/replacement/}
+    where $1 is the placeholder for the snippet.
+    pattern uses python regular expressions.
+    Replacement patterns:
+     4.7.1 Replacement String:                     *UltiSnips-replacement-string*
+
+    The replacement string can contain $no variables, e.g., $1, which reference
+    matched groups in the regular expression. The $0 variable is special and
+    yields the whole match. The replacement string can also contain special escape
+    sequences: >
+    \u   - Uppercase next letter$
+    \l   - Lowercase next letter
+    \U   - Uppercase everything till the next \E
+    \L   - Lowercase everything till the next \E
+    \E   - End upper or lowercase started with \L or \U
+    \n   - A newline
+    \t   - A literal tab
+    Note! \U and \L escape sequences must have an \E.
+
+    Finally, the replacement string can contain conditional replacements using the
+    syntax (?no:text:other text). This reads as follows: if the group $no has
+    matched, insert "text", otherwise insert "other text". "other text" is
+    optional and if not provided defaults to the empty string, "". This feature
+    is very powerful. It allows you to add optional text into snippets.
+
+** View interactive list of ex commands.
+   q: opens a new window with the list.
+
+** Viewing git log from within vim.
+   At bash prompt type
+       git log | vim - -R
+   To display the commit as in git show, pace the cursor on the commit ID
+   and press <K>
+
+* VIM CHEATSHEET
+** Marks
+
+   |--------------------------+------------------------------------------------------------------|
+   | Command                  | Description                                                      |
+   |--------------------------+------------------------------------------------------------------|
+   | ma                       | Set mark at cursor position.                                     |
+   | m`                       | Set previous context mark.                                       |
+   | m[ m]                    | Set `[ or `] mark]                                               |
+   | m< m>                    | Set `< or `> mark.                                               |
+   | :marks                   | List all current marks.                                          |
+   | delm[arks] {marks}       | Delete all specified marks.                                      |
+   | delm[arks]!              | Delete all marks (Not global ones).                              |
+   | :[range]ma[rk] {a-zA-Z'} | Set mark at last line number in [range],column 0                 |
+   | `a 'a                    | Goto mark "a".                                                   |
+   | `A 'A                    | Goto global mark "A" (One mark per file)                         |
+   | `` ''                    | Goto previous mark.                                              |
+   | `[ '[                    | Goto 1st character of previously changed/yanked text.            |
+   | `] `]                    | Goto last character of previously changed/yanked text.           |
+   | `< '<                    | Goto 1st line/character of last selected visual text.            |
+   | `> '>                    | Goto last line/character of last selected visual text.           |
+   | `" '"                    | Goto last cursor position when last exited current buffer.       |
+   | `^ '^                    | Goto end cursor position when Insert mode stopped.               |
+   | `. '.                    | Goto start cursor position when last change made.                |
+   | `( '(                    | Goto start of current sentence.                                  |
+   | `) ')                    | Goto end of current sentence.                                    |
+   | `{ '{                    | Goto start of current paragraph.                                 |
+   | `} '}                    | Goto end of current paragraph.                                   |
+   |--------------------------+------------------------------------------------------------------|
+   | ]'                       | [count] times to next line with lowercase mark below cursor.     |
+   | ]`                       | [count] times to lowercase mark after cursor.                    |
+   | ['                       | [count] times to previous line with lowercase mark above cursor. |
+   | [`                       | [count] times to lowercase mark before cursor.                   |
+   |--------------------------+------------------------------------------------------------------|
+
+** Motion Commands and Text Objects
+*** Left-right Motions
+
+    |------------------------+----------------------------------------------------------------|
+    | Command                | Description                                                    |
+    |------------------------+----------------------------------------------------------------|
+    | h <Left> CTRL-H <BS>   | [count] characters left.                                       |
+    | l <Right> <Space>      | [count] characters right.                                      |
+    | 0                      | To the first character in line.                                |
+    | <Home>                 | To the first character in line.                                |
+    | ^                      | To the first non-blank character in line.                      |
+    | $                      | To the end of the line.                                        |
+    | g_                     | To last non-blank character of line.                           |
+    | g0 g<Home>             | To first character on screen. Depends on 'wrap'                |
+    | g^                     | To first non-blank character on screen.                        |
+    | g$ g<Home>             | To last character on screen.                                   |
+    | <Bar> (pipe character) | To [count] screen column in line.                              |
+    | f{char}                | To [count]'th occurence of {char} to the right.                |
+    | F{char}                | To [count]'th occurence of {char} to the left.                 |
+    | t{char}                | Till before [count]'th occurence of {char} to the right.       |
+    | T{char}                | Till before [count]'th occurence of {char} to the left.        |
+    | ;                      | Repeat last f, t, F, or T [count] times.                       |
+    | ,                      | Repeat last f, t, F, or T [count] times in opposite direction. |
+    |------------------------+----------------------------------------------------------------|
+
+*** Up-down Motions
+
+    |----------------------------+---------------------------------------------------|
+    | Command                    | Description                                       |
+    |----------------------------+---------------------------------------------------|
+    | k, <Up>, CTRL-P            | [count] lines upward.                             |
+    | j, <Down>, CTRL-J, CTRL-N  | [count] lines downward.                           |
+    | g<k>, g<Up>                | [count] screen lines upward.                      |
+    | gj, g<Down>                | [count] screen lines downward.                    |
+    | - <minus>                  | [count] lines up (1st non-blank character).       |
+    | +, CTRL-N, <CR>            | [count] lines down (1st non-blank character).     |
+    | _ <Underscore>             | [count] - 1 lines down (1st non-blank character). |
+    | G                          | Goto first non-blank character on last line.      |
+    | [count]G                   | Goto line [count].                                |
+    | <C-End>                    | Goto last character on last line.                 |
+    | [count]<C-End>             | Goto last character on line [count]               |
+    | gg, <C-Home>               | Goto first character on line 1.                   |
+    | [count]gg, [count]<C-Home> | Goto first non-blank character on line [count].   |
+    | :[range]                   | Goto last line number in [range].                 |
+    |                            | Can also use ":1" or "'m".                        |
+    | [count]%                   | Goto [count] percent in buffer (1st non-blank).   |
+    | go[to] [count]             | Goto byte number [count]. Default [count] = 1.    |
+    |                            | Starts from byte 1.                               |
+    | :[range]go[to] [count]     | Goto byte number [count]. If [range] given, last  |
+    |                            | number is byte count.                             |
+    | [count]go                  | Goto byte number [count].                         |
+    |----------------------------+---------------------------------------------------|
+
+** Operators
+
+   |---------+----------------------------------|
+   | Command | Description                      |
+   |---------+----------------------------------|
+   | c       | Change                           |
+   | d       | Delete                           |
+   | y       | Yank                             |
+   | ~       | Change case                      |
+   | g~      | Change case                      |
+   | gu      | Make lowercase                   |
+   | gU      | Make uppercase                   |
+   | !       | Filter through external command  |
+   | =       | Indent                           |
+   | gq      | Text formatting                  |
+   | g?      | ROT13 encoding                   |
+   | >       | Shift right                      |
+   | <       | Shift left                       |
+   | zf      | Define a fold                    |
+   | g@      | Call function. :h 'operatorfunc' |
+   |---------+----------------------------------|
+   |         |                                  |
+
+** Terminal Mode
+*** Normal Mode (within terminal mode)
+
+    |--------------+------------------------|
+    | Command      | Description            |
+    |--------------+------------------------|
+    | a, A, i or I | Enter 'INSERT' mode    |
+    | gf           | Open file under cursor |
+    |--------------+------------------------|
+
+*** Insert Mode (within terminal mode)
+
+    |------------+-----------------------------------------------|
+    | Command    | Description                                   |
+    |------------+-----------------------------------------------|
+    | <C-\><C-n> | Leave "TERMINAL" mode and go to "INSERT" mode |
+    |------------+-----------------------------------------------|
+
+* Vim Tasks
+** TODO - Vim - Alt Key mappings
+
+- Alt key mapping needs applying to alphabetical characters (upper as well as lower case). Entries in ~/.vimrc. See 'Alt Key
+  Mapping' in Vim Tips
+
+** TODO - Marks
+** TODO - Motion commands and text objects
+
+

@@ -1,0 +1,55 @@
+* GDB CHEATSHEET
+** Compilation with gcc and gdb
+   For gdb to run correctly the compiler g++ must be run with the -g option to
+   include gdb debugging symbols.E.g.
+	g++ -g -o <progname> <progname>.cpp
+
+** To use the debugger
+	 gdb <progname>
+
+** Basic commands from within gdb:
+|--------------------+---------------------------------------------------------------|
+| COMMAND            | ACTION                                                        |
+|--------------------+---------------------------------------------------------------|
+| [q]uit             | Quit gdb.                                                     |
+| [r]un              | Run the programme from the start. Runs to completion          |
+|                    | or to the next breakpoint or watch. Programme                 |
+|                    | arguments can be appended to the "run" command.               |
+| [star]t            | Run the programme to start of main(). Programme               |
+|                    | arguments can be appended to the "start" command.             |
+| [p]rint            | Displays the variable specified. Also sets variables          |
+|                    | values. E.g. "p var = 1" sets var to 1.                       |
+| [b]reak            | Sets breakpoint at a line number or function name. With       |
+|                    | multiple source files it is advisable to specify the          |
+|                    | filename to prevent confusion. E.g.                           |
+|                    | b <filename.cpp>:13                                           |
+| [dis]able          | Disable breakpoints. With no breakpoint number,               |
+|                    | disables all.                                                 |
+| [en]able           | Enable breakpoints.                                           |
+|                    | Where 13 is the line number.                                  |
+| [s]tep             | Step into function.                                           |
+| [n]ext             | Next line of code (steps over functions)                      |
+| [fin]ish           | Run untilut fo function (step out)                            |
+| [u]ntil            | When in loop run until loop finishes.                         |
+| [u]ntil line       | Run until line number is reached. Useful to get out of loops. |
+| [c]ontinue         | Run to next breakpoint or end of programme.                   |
+| [l]ist             | List 10 lines of source code.                                 |
+| x                  | Examine memory directly                                       |
+| [wa]tch            | Set a watch for when a variable is written.: return           |
+|                    | to the debugger once this happens                             |
+| [r]watch           | Set a watch for when a variable is read: return to            |
+|                    | the debugger once this happens                                |
+| [i]nfo [wat]ch     | Show info on watchpoints                                      |
+| [i]nfo [b]reak     | Show info on breakpoints                                      |
+| [d]elete #         | Delete watchpoint or breakpoint "#"                           |
+| set var name=value | Set the value of variable "name" to "value"                   |
+| [f]rame #          | Set the current frame to #. Variables you reference           |
+|                    | etc. will be those within that context.                       |
+| [i]nfo [lo]cals    | Prints all the variables in current frame (scope).            |
+| info functions     | Prints all functions                                          |
+| bt                 | Show the call frames for your program. Useful to see          |
+|                    | the arguments of current function.                            |
+| <Enter>            | Repeat the previous command.                                  |
+|--------------------+---------------------------------------------------------------|
+
+

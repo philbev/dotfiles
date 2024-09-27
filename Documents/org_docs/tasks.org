@@ -1,0 +1,9 @@
+* Tasks
+** TODO 
+
+   - New entry
+
+* TODO Remote git for guest account :computer:nvim:git:
+
+Create bare repository on USB hard drive.
+

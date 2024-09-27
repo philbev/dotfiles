@@ -1,0 +1,61 @@
+* LUA QUICK START GUIDE
+
+** Working With Lua
+*** Variables
+A variable ia a label for the value stored in a memory location.
+
+*** Creating Variables
+For example assigning the string "bar' to the variable foo.
+    foo = "bar"
+     #+NAME: var
+     #+BEGIN_SRC lua :results output :exports both
+       local foo = "bar"
+       print(foo)
+       print("Foobar")
+     #+END_SRC
+
+     #+RESULTS: var
+     : bar
+     : Foobar
+
+*** Comments
+
+*** Basic Types
+
+*** String types
+
+*** Scope
+
+*** Functions
+
+** Operators
+
+** Control Structures
+
+** Loops
+
+** Tables and Objects
+
+*** Introduction
+
+*** Iterating
+
+*** Meta Tables
+
+*** Objects
+
+*** Inheritance
+
+** Lua Libraries
+*** The Global Table
+*** The Lua Math Library
+*** The Lua File IO Library
+*** Interfacing With the Operating System
+*** More Strings
+*** Creating and Loading Modules
+** Debugging Lua
+*** The Debug Library
+*** Error Handling
+*** Profiling
+*** Integrated Development Environments
+
