@@ -658,10 +658,11 @@ SCHEDULED: <2024-10-06 Sun ++2w>a
     - State "DONE"       from "BIRTHDAY"   [2022-08-22 Mon 08:08]
     - State "DONE"       from "REMINDER"   [2022-01-18 Tue 08:48]
 *** TODO - OKEachDay.
-SCHEDULED: <2024-09-28 Sat +1d>
+SCHEDULED: <2024-09-29 Sun +1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-09-27 Fri 09:49]
+:LAST_REPEAT: [2024-09-28 Sat 09:33]
 :END:
+- State "DONE"       from "TODO"       [2024-09-28 Sat 09:33]
 - State "DONE"       from "TODO"       [2024-09-27 Fri 09:49]
 - State "DONE"       from "TODO"       [2024-09-26 Thu 09:56]
 - State "DONE"       from "TODO"       [2024-09-25 Wed 09:39]
