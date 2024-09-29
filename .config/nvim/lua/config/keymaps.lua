@@ -21,7 +21,7 @@ map('n', '<F4>', '<cmd>set relativenumber!<cr>', {})
 map('n', '<M-Down>', '<cmd>m +1<cr>==', {})
 map('n', '<M-Up>', '<cmd>m -2<cr>==', {})
 map('n', '-', '<cmd>Oil<cr>', {})
-map('n', '<C-\\>', '<cmd>Neotree float<cr>', {})
+map('n', '<C-\\>', '<cmd>Neotree float toggle<cr>', {})
 map('n', '<leader>m', '<cmd>lua MiniFiles.open()<cr>', {})
 
 -------------------- VISUAL MODE MAPPINGS --------------------
