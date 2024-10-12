@@ -4,6 +4,8 @@
  ;; Your init file should contain only one such instance.
  ;; If there is more than one, they won't work right.
  '(custom-enabled-themes '(tango-dark))
+ '(custom-safe-themes
+   '("5a0ddbd75929d24f5ef34944d78789c6c3421aa943c15218bac791c199fc897d" default))
  '(org-agenda-files '("~/Documents/org_docs/mylife.org"))
  '(package-selected-packages
    '(which-key use-package org-superstar org-bullets markdown-mode lua-mode linum-relative gruvbox-theme evil atom-one-dark-theme atom-dark-theme)))
@@ -15,11 +17,7 @@
  '(default ((t (:family "JetBrainsMono Nerd Font Mono" :foundry "JB" :slant normal :weight normal :height 128 :width normal))))
  '(region ((t (:extend t :background "#CCCCCC")))))
 
-;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;;
-;; Emacs Elements
-;; URL: https://youtu.be/eRHLGWajcTk
-;; Last updated 19 February 2023
-;; Thanks to Tim Cross for some suggestions
+(load-theme 'gruvbox-dark-medium)
 
 ;; Save History
 (savehist-mode +1)

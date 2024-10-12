@@ -218,6 +218,7 @@ bindsym mod1+Ctrl+f exec --no-startup-id firefox
 bindsym mod1+Ctrl+l exec --no-startup-id libreoffice
 bindsym mod1+Ctrl+m exec --no-startup-id emacs ~/Documents/org_docs/mylife.org
 bindsym mod1+Ctrl+j exec --no-startup-id emacs ~/Documents/org_docs/journal.org
+bindsym mod1+Ctrl+e exec --no-startup-id emacs
 bindsym mod1+Ctrl+t exec --no-startup-id thunderbird
 bindsym $mod+Shift+v exec --no-startup-id virt-manager
 
