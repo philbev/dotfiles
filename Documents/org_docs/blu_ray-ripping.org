@@ -1,0 +1,10 @@
+* How to rip blu ray disks
+
+** Install makemkv from aur.
+1. For makemkv to detect blu-ray drive the 'sg' module has to be
+   loaded. This can be done by editing file
+   '/etc/modules-load.d/mymodules.conf' and iserting the module name
+   inside.
+2. makemkv is shareware and the registration needs to be refresshed
+   periodically. This can be found at:
+   https://cable.ayra.ch/makemkv/
