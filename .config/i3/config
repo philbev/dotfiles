@@ -214,6 +214,7 @@ exec_always --no-startup-id /usr/lib/polkit-kde-authentication-agent-1
 exec_always --no-startup-id xset s 9000 -dpms
 
 #################### KEY BINDINGS ####################
+bindsym mod1+Ctrl+c exec --no-startup-id chromium
 bindsym mod1+Ctrl+f exec --no-startup-id firefox
 bindsym mod1+Ctrl+l exec --no-startup-id libreoffice
 bindsym mod1+Ctrl+m exec --no-startup-id emacs ~/Documents/org_docs/mylife.org

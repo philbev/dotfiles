@@ -1,5 +1,9 @@
 -- ~/.config/nvim/init.lua
 
+-- TODO: Set up auto formatting (see teej's video on YouTube),
+-- TODO: Configure luasnips.
+-- TODO: Install/configure harpoon plugin.
+
 -- Bootstrap lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"
 if not (vim.uv or vim.loop).fs_stat(lazypath) then
@@ -8,7 +12,7 @@ if not (vim.uv or vim.loop).fs_stat(lazypath) then
   if vim.v.shell_error ~= 0 then
     vim.api.nvim_echo({
       { "Failed to clone lazy.nvim:\n", "ErrorMsg" },
-      { out, "WarningMsg" },
+      { out,                            "WarningMsg" },
       { "\nPress any key to exit..." },
     }, true, {})
     vim.fn.getchar()
@@ -24,8 +28,8 @@ vim.g.mapleader = "\\"
 vim.g.maplocalleader = "\\"
 
 
-require'config.options'
+require 'config.options'
 require("lazy").setup("plugins")
-require'config.colors'
-require'config.keymaps'
-require'config.autocmds'
+require 'config.colors'
+require 'config.keymaps'
+require 'config.autocmds'
