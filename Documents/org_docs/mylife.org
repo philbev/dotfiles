@@ -67,10 +67,11 @@ SCHEDULED: <2025-03-01 Sat ++6m> :PROPERTIES:
 *** DONE - Collect prescription from chemist. SCHEDULED: <2019-11-28 Thu> 
 *** CANCELLED - Dentist SCHEDULED: <2020-05-05 Tue 11:15> 
 *** TODO - Clean hearing aids 
-SCHEDULED: <2024-12-22 Sun +1w>
+SCHEDULED: <2024-12-29 Sun +1w>
 :PROPERTIES: 
-:LAST_REPEAT: [2024-12-15 Sun 09:28]
+:LAST_REPEAT: [2024-12-22 Sun 09:30]
 :END: 
+- State "DONE"       from "TODO"       [2024-12-22 Sun 09:30]
 - State "DONE"       from "TODO"       [2024-12-15 Sun 09:28]
 - State "DONE"       from "TODO"       [2024-12-08 Sun 10:20]
 - State "DONE"       from "TODO"       [2024-12-01 Sun 09:44]
@@ -535,10 +536,11 @@ SCHEDULED: <2024-12-23 Mon +1w>
 - State "DONE"       from "TODO"       [2023-02-20 Mon 09:57]
 - State "DONE"       from "TODO"       [2023-02-13 Mon 10:49]
 *** TODO - Grey bin collection tomorrow
-SCHEDULED: <2024-12-22 Sun ++2w>
+SCHEDULED: <2025-01-05 Sun ++2w>
                                                                                           :PROPERTIES:
-											  :LAST_REPEAT: [2024-12-08 Sun 10:20]
+											  :LAST_REPEAT: [2024-12-22 Sun 09:30]
                                                                                                  :END:
+											  - State "DONE"       from "TODO"       [2024-12-22 Sun 09:30]
 											  - State "DONE"       from "TODO"       [2024-12-08 Sun 10:20]
 											  - State "DONE"       from "TODO"       [2024-11-24 Sun 09:25]
 											  - State "DONE"       from "TODO"       [2024-11-10 Sun 09:42]
@@ -726,10 +728,15 @@ SCHEDULED: <2024-12-29 Sun ++2w>a
     - State "DONE"       from "BIRTHDAY"   [2022-08-22 Mon 08:08]
     - State "DONE"       from "REMINDER"   [2022-01-18 Tue 08:48]
 *** TODO - OKEachDay.
-SCHEDULED: <2024-12-18 Wed +1d>
+SCHEDULED: <2024-12-23 Mon +1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-12-17 Tue 09:38]
+:LAST_REPEAT: [2024-12-22 Sun 09:30]
 :END:
+- State "DONE"       from "TODO"       [2024-12-22 Sun 09:30]
+- State "DONE"       from "TODO"       [2024-12-21 Sat 09:53]
+- State "DONE"       from "TODO"       [2024-12-20 Fri 09:24]
+- State "DONE"       from "TODO"       [2024-12-19 Thu 10:01]
+- State "DONE"       from "TODO"       [2024-12-18 Wed 10:39]
 - State "DONE"       from "TODO"       [2024-12-17 Tue 09:38]
 - State "DONE"       from "TODO"       [2024-12-16 Mon 09:21]
 - State "DONE"       from "TODO"       [2024-12-15 Sun 09:28]
