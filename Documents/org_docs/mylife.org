@@ -67,10 +67,11 @@ SCHEDULED: <2025-03-01 Sat ++6m> :PROPERTIES:
 *** DONE - Collect prescription from chemist. SCHEDULED: <2019-11-28 Thu> 
 *** CANCELLED - Dentist SCHEDULED: <2020-05-05 Tue 11:15> 
 *** TODO - Clean hearing aids 
-SCHEDULED: <2024-12-29 Sun +1w>
+SCHEDULED: <2025-01-05 Sun +1w>
 :PROPERTIES: 
-:LAST_REPEAT: [2024-12-22 Sun 09:30]
+:LAST_REPEAT: [2024-12-29 Sun 10:25]
 :END: 
+- State "DONE"       from "TODO"       [2024-12-29 Sun 10:25]
 - State "DONE"       from "TODO"       [2024-12-22 Sun 09:30]
 - State "DONE"       from "TODO"       [2024-12-15 Sun 09:28]
 - State "DONE"       from "TODO"       [2024-12-08 Sun 10:20]
@@ -170,10 +171,11 @@ SCHEDULED: <2024-12-29 Sun +1w>
 - State "CANCELLED"  from "TODO"       [2023-02-19 Sun 17:31] 
 - State "CANCELLED"  from "TODO"       [2023-02-12 Sun 10:30] 
 *** TODO - Eye pad treatment. 
-SCHEDULED: <2024-12-24 Tue +1w>
+SCHEDULED: <2024-12-31 Tue +1w>
 :PROPERTIES: 
-:LAST_REPEAT: [2024-12-11 Wed 09:54]
+:LAST_REPEAT: [2024-12-24 Tue 10:06]
 :END: 
+- State "DONE"       from "TODO"       [2024-12-24 Tue 10:06]
 - State "DONE"       from "TODO"       [2024-12-11 Wed 09:54]
 - State "DONE"       from "TODO"       [2024-12-11 Wed 09:53]
 - State "DONE"       from "TODO"       [2024-12-03 Tue 09:22]
@@ -434,10 +436,11 @@ SCHEDULED: <2024-12-30 Mon +2w>
 - State "DONE"       from "TODO"       [2023-02-20 Mon 09:57]
 - State "DONE"       from "TODO"       [2023-02-13 Mon 10:49]
 *** TODO - Recharge toothbrush
-SCHEDULED: <2024-12-23 Mon +1w>
+SCHEDULED: <2024-12-30 Mon +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2024-12-16 Mon 09:21]
+:LAST_REPEAT: [2024-12-23 Mon 09:31]
 :END:
+- State "DONE"       from "TODO"       [2024-12-23 Mon 09:31]
 - State "DONE"       from "TODO"       [2024-12-16 Mon 09:21]
 - State "DONE"       from "TODO"       [2024-12-09 Mon 10:03]
 - State "DONE"       from "TODO"       [2024-12-02 Mon 10:07]
@@ -610,10 +613,11 @@ SCHEDULED: <2025-01-05 Sun ++2w>
                                                                                                  :END:
 
 *** TODO - Blue bin collection day tomorrow.
-SCHEDULED: <2024-12-29 Sun ++2w>a
+SCHEDULED: <2025-01-12 Sun ++2w>a
                                                                                           :PROPERTIES:
-											  :LAST_REPEAT: [2024-12-15 Sun 09:28]
+											  :LAST_REPEAT: [2024-12-29 Sun 09:24]
                                                                                                  :END:
+											  - State "DONE"       from "TODO"       [2024-12-29 Sun 09:24]
 											  - State "DONE"       from "TODO"       [2024-12-15 Sun 09:28]
 											  - State "DONE"       from "TODO"       [2024-12-01 Sun 09:32]
 											  - State "DONE"       from "TODO"       [2024-11-17 Sun 09:54]
@@ -728,10 +732,17 @@ SCHEDULED: <2024-12-29 Sun ++2w>a
     - State "DONE"       from "BIRTHDAY"   [2022-08-22 Mon 08:08]
     - State "DONE"       from "REMINDER"   [2022-01-18 Tue 08:48]
 *** TODO - OKEachDay.
-SCHEDULED: <2024-12-23 Mon +1d>
+SCHEDULED: <2024-12-30 Mon +1d>
 :PROPERTIES:
-:LAST_REPEAT: [2024-12-22 Sun 09:30]
+:LAST_REPEAT: [2024-12-29 Sun 09:24]
 :END:
+- State "DONE"       from "TODO"       [2024-12-29 Sun 09:24]
+- State "DONE"       from "TODO"       [2024-12-28 Sat 09:45]
+- State "DONE"       from "TODO"       [2024-12-27 Fri 09:29]
+- State "DONE"       from "TODO"       [2024-12-26 Thu 10:52]
+- State "DONE"       from "TODO"       [2024-12-25 Wed 10:12]
+- State "DONE"       from "TODO"       [2024-12-24 Tue 10:06]
+- State "DONE"       from "TODO"       [2024-12-23 Mon 09:31]
 - State "DONE"       from "TODO"       [2024-12-22 Sun 09:30]
 - State "DONE"       from "TODO"       [2024-12-21 Sat 09:53]
 - State "DONE"       from "TODO"       [2024-12-20 Fri 09:24]
