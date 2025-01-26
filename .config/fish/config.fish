@@ -9,6 +9,7 @@ if status is-interactive
     abbr dot source ~/.config/fish/config.fish
     abbr vi3 nvim ~/.config/i3/config ~/.config/polybar/config.ini
     abbr viw nvim ~/.config/wezterm/wezterm.lua
+    abbr vig nvim ~/.config/ghostty/config
     abbr sps sudo pacman -S
     abbr spr sudo pacman -R
     abbr spy sudo pacman -Syyu

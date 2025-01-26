@@ -1,0 +1,6 @@
+# ~/.config/ghostty/config
+
+font-family = JetBrainsMono NF
+font-size = 14
+shell-integration = fish
+command = fish

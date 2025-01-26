@@ -1,0 +1,3 @@
+To copy files and and clipboard:
+  Install spice-vdagent on guest machine.
+  Install virtio-win (Aur) for windows vm for windows vm
