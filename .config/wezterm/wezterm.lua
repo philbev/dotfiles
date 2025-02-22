@@ -10,7 +10,8 @@ local config = {
   window_background_opacity = 0.9,
   hide_tab_bar_if_only_one_tab = true,
   -- color_scheme = 'tokyonight_storm',
-  color_scheme = 'Gruvbox dark, hard (base16)',
+  -- color_scheme = 'Gruvbox dark, hard (base16)',
+  color_scheme = 'catppuccin-mocha',
   keys = {
     { key = 'UpArrow',   mods = 'SHIFT', action = act.ScrollByLine(-1) },
     { key = 'DownArrow', mods = 'SHIFT', action = act.ScrollByLine(1) },

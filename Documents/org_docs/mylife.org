@@ -67,10 +67,13 @@ SCHEDULED: <2025-03-01 Sat ++6m> :PROPERTIES:
 *** DONE - Collect prescription from chemist. SCHEDULED: <2019-11-28 Thu> 
 *** CANCELLED - Dentist SCHEDULED: <2020-05-05 Tue 11:15> 
 *** TODO - Clean hearing aids 
-SCHEDULED: <2025-02-02 Sun +1w>
+SCHEDULED: <2025-02-23 Sun +1w>
 :PROPERTIES: 
-:LAST_REPEAT: [2025-01-26 Sun 09:59]
+:LAST_REPEAT: [2025-02-16 Sun 11:15]
 :END: 
+- State "DONE"       from "TODO"       [2025-02-16 Sun 11:15]
+- State "DONE"       from "TODO"       [2025-02-09 Sun 09:58]
+- State "DONE"       from "TODO"       [2025-02-02 Sun 09:09]
 - State "DONE"       from "TODO"       [2025-01-26 Sun 09:59]
 - State "DONE"       from "TODO"       [2025-01-19 Sun 09:40]
 - State "DONE"       from "TODO"       [2025-01-12 Sun 09:44]
@@ -175,10 +178,14 @@ SCHEDULED: <2025-02-02 Sun +1w>
 - State "CANCELLED"  from "TODO"       [2023-02-19 Sun 17:31] 
 - State "CANCELLED"  from "TODO"       [2023-02-12 Sun 10:30] 
 *** TODO - Eye pad treatment. 
-SCHEDULED: <2025-01-28 Tue +1w>
+SCHEDULED: <2025-02-25 Tue +1w>
 :PROPERTIES: 
-:LAST_REPEAT: [2025-01-21 Tue 10:02]
+:LAST_REPEAT: [2025-02-18 Tue 09:51]
 :END: 
+- State "DONE"       from "TODO"       [2025-02-18 Tue 09:51]
+- State "DONE"       from "TODO"       [2025-02-11 Tue 10:25]
+- State "DONE"       from "TODO"       [2025-02-04 Tue 09:46]
+- State "DONE"       from "TODO"       [2025-01-28 Tue 09:42]
 - State "DONE"       from "TODO"       [2025-01-21 Tue 10:02]
 - State "DONE"       from "TODO"       [2025-01-14 Tue 10:13]
 - State "DONE"       from "TODO"       [2025-01-07 Tue 10:11]
@@ -303,10 +310,11 @@ SCHEDULED: <2023-08-22 Tue>
 - State "DONE"       from "TODO"       [2023-08-10 Thu 08:06]
 - State "DONE"       from "REMINDER"   [2023-08-09 Wed 06:55]
 *** TODO - Olive oil in ears
-SCHEDULED: <2025-02-01 Sat +1m>
+SCHEDULED: <2025-03-01 Sat +1m>
 :PROPERTIES:
-:LAST_REPEAT: [2025-01-02 Thu 09:52]
+:LAST_REPEAT: [2025-02-01 Sat 09:23]
 :END:
+- State "DONE"       from "TODO"       [2025-02-01 Sat 09:23]
 - State "CANCELLED"  from "TODO"       [2025-01-02 Thu 09:52]
 - State "DONE"       from "TODO"       [2024-12-03 Tue 09:32]
 - State "DONE"       from "TODO"       [2024-11-01 Fri 10:26]
@@ -370,10 +378,12 @@ SCHEDULED: <2024-12-16 Mon 10:45>
 * PERSONAL :PERSONAL                                            :personal:
 ** REPEAT EVENTS
 *** TODO - Water spider plant (Mr. Johnstone :-))
-SCHEDULED: <2025-01-27 Mon +2w>
+SCHEDULED: <2025-02-24 Mon +2w>
 :PROPERTIES:
-:LAST_REPEAT: [2025-01-13 Mon 10:29]
+:LAST_REPEAT: [2025-02-11 Tue 10:24]
 :END:
+- State "DONE"       from "TODO"       [2025-02-11 Tue 10:24]
+- State "DONE"       from "TODO"       [2025-01-27 Mon 10:18]
 - State "DONE"       from "TODO"       [2025-01-13 Mon 10:29]
 - State "DONE"       from "TODO"       [2024-12-30 Mon 09:20]
 - State "DONE"       from "TODO"       [2024-12-16 Mon 09:21]
@@ -447,10 +457,14 @@ SCHEDULED: <2025-01-27 Mon +2w>
 - State "DONE"       from "TODO"       [2023-02-20 Mon 09:57]
 - State "DONE"       from "TODO"       [2023-02-13 Mon 10:49]
 *** TODO - Recharge toothbrush
-SCHEDULED: <2025-01-27 Mon +1w>
+SCHEDULED: <2025-02-24 Mon +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2025-01-20 Mon 09:51]
+:LAST_REPEAT: [2025-02-17 Mon 10:19]
 :END:
+- State "DONE"       from "TODO"       [2025-02-17 Mon 10:19]
+- State "DONE"       from "TODO"       [2025-02-11 Tue 10:25]
+- State "DONE"       from "TODO"       [2025-02-03 Mon 06:52]
+- State "DONE"       from "TODO"       [2025-01-27 Mon 10:18]
 - State "DONE"       from "TODO"       [2025-01-20 Mon 09:51]
 - State "DONE"       from "TODO"       [2025-01-13 Mon 10:30]
 - State "DONE"       from "TODO"       [2025-01-06 Mon 09:49]
@@ -554,10 +568,12 @@ SCHEDULED: <2025-01-27 Mon +1w>
 - State "DONE"       from "TODO"       [2023-02-20 Mon 09:57]
 - State "DONE"       from "TODO"       [2023-02-13 Mon 10:49]
 *** TODO - Grey bin collection tomorrow
-SCHEDULED: <2025-02-02 Sun ++2w>
+SCHEDULED: <2025-03-02 Sun ++2w>
                                                                                           :PROPERTIES:
-											  :LAST_REPEAT: [2025-01-19 Sun 09:40]
+											  :LAST_REPEAT: [2025-02-16 Sun 11:15]
                                                                                                  :END:
+											  - State "DONE"       from "TODO"       [2025-02-16 Sun 11:15]
+											  - State "DONE"       from "TODO"       [2025-02-02 Sun 09:09]
 											  - State "DONE"       from "TODO"       [2025-01-19 Sun 09:40]
 											  - State "DONE"       from "TODO"       [2025-01-05 Sun 10:06]
 											  - State "DONE"       from "TODO"       [2024-12-22 Sun 09:30]
@@ -630,10 +646,11 @@ SCHEDULED: <2025-02-02 Sun ++2w>
                                                                                                  :END:
 
 *** TODO - Blue bin collection day tomorrow.
-SCHEDULED: <2025-02-09 Sun ++2w>a
+SCHEDULED: <2025-02-23 Sun ++2w>a
                                                                                           :PROPERTIES:
-											  :LAST_REPEAT: [2025-01-26 Sun 09:59]
+											  :LAST_REPEAT: [2025-02-09 Sun 09:58]
                                                                                                  :END:
+											  - State "DONE"       from "TODO"       [2025-02-09 Sun 09:58]
 											  - State "DONE"       from "TODO"       [2025-01-26 Sun 09:59]
 											  - State "DONE"       from "TODO"       [2025-01-12 Sun 09:44]
 											  - State "DONE"       from "TODO"       [2024-12-29 Sun 09:24]
@@ -751,10 +768,37 @@ SCHEDULED: <2025-02-09 Sun ++2w>a
     - State "DONE"       from "BIRTHDAY"   [2022-08-22 Mon 08:08]
     - State "DONE"       from "REMINDER"   [2022-01-18 Tue 08:48]
 *** TODO - OKEachDay.
-SCHEDULED: <2025-01-27 Mon +1d>
+SCHEDULED: <2025-02-23 Sun +1d>
 :PROPERTIES:
-:LAST_REPEAT: [2025-01-26 Sun 10:00]
+:LAST_REPEAT: [2025-02-22 Sat 09:48]
 :END:
+- State "DONE"       from "TODO"       [2025-02-22 Sat 09:48]
+- State "DONE"       from "TODO"       [2025-02-21 Fri 09:57]
+- State "DONE"       from "TODO"       [2025-02-20 Thu 10:11]
+- State "DONE"       from "TODO"       [2025-02-19 Wed 09:13]
+- State "DONE"       from "TODO"       [2025-02-18 Tue 09:51]
+- State "DONE"       from "TODO"       [2025-02-17 Mon 10:19]
+- State "DONE"       from "TODO"       [2025-02-16 Sun 11:15]
+- State "DONE"       from "TODO"       [2025-02-15 Sat 10:21]
+- State "DONE"       from "TODO"       [2025-02-14 Fri 09:39]
+- State "DONE"       from "TODO"       [2025-02-13 Thu 10:32]
+- State "DONE"       from "TODO"       [2025-02-12 Wed 10:05]
+- State "DONE"       from "TODO"       [2025-02-11 Tue 10:25]
+- State "DONE"       from "TODO"       [2025-02-11 Tue 10:25]
+- State "DONE"       from "TODO"       [2025-02-09 Sun 09:58]
+- State "DONE"       from "TODO"       [2025-02-08 Sat 09:40]
+- State "DONE"       from "TODO"       [2025-02-07 Fri 09:31]
+- State "DONE"       from "TODO"       [2025-02-06 Thu 09:54]
+- State "DONE"       from "TODO"       [2025-02-05 Wed 09:50]
+- State "DONE"       from "TODO"       [2025-02-04 Tue 09:46]
+- State "DONE"       from "TODO"       [2025-02-03 Mon 06:52]
+- State "DONE"       from "TODO"       [2025-02-02 Sun 09:09]
+- State "DONE"       from "TODO"       [2025-02-01 Sat 09:23]
+- State "DONE"       from "TODO"       [2025-01-31 Fri 09:25]
+- State "DONE"       from "TODO"       [2025-01-30 Thu 10:08]
+- State "DONE"       from "TODO"       [2025-01-29 Wed 08:49]
+- State "DONE"       from "TODO"       [2025-01-28 Tue 09:42]
+- State "DONE"       from "TODO"       [2025-01-27 Mon 10:18]
 - State "DONE"       from "TODO"       [2025-01-26 Sun 10:00]
 - State "DONE"       from "TODO"       [2025-01-25 Sat 09:32]
 - State "DONE"       from "TODO"       [2025-01-24 Fri 09:25]
@@ -1124,12 +1168,12 @@ SCHEDULED: <2024-09-24 Tue>
 *** DONE - Hearing test at ENT.
 *** DONE - ENT.
 SCHEDULED: <2024-11-24 Sun 14:00>
-*** EVENT - Steve Danter's wake.
+*** DONE - Steve Danter's wake.
 SCHEDULED: <2025-02-15 Sat 17:00>
 Upstairs in the Salutation Inn.
-*** REMINDER - Installation of Toob 1Gb internet.
+*** DONE - Installation of Toob 1Gb internet.
 SCHEDULED: <2025-02-03 Mon 18:00-13:00>
-*** REMINDER Residence meeting at Walcote Drive community centre.
+*** DONE Residence meeting at Walcote Drive community centre.
 SCHEDULED: <2025-01-28 Tue 10:30>
 * Boxley Drive Move                                             :Boxley:
 ** DONE Take documents to Emma Sheffield at the Community Centre.

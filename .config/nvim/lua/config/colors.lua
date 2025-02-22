@@ -1,7 +1,8 @@
 -- ~/.config/nvim/lua/config/colors.lua
 
 -- vim.cmd.colorscheme'tokyonight-storm'
-vim.cmd.colorscheme 'gruvbox-baby'
+-- vim.cmd.colorscheme 'gruvbox-baby'
+vim.cmd.colorscheme 'catppuccin-mocha'
 
 vim.cmd.highlight 'Comment guifg=#aaaaaa'
 vim.cmd.highlight '@comment guifg=#aaaaaa'

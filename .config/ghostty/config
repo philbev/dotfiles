@@ -4,3 +4,8 @@ font-family = JetBrainsMono NF
 font-size = 14
 shell-integration = fish
 command = fish
+gtk-titlebar = false
+theme = catppuccin-mocha
+keybind=shift+up=scroll_page_lines:-1
+keybind=shift+down=scroll_page_lines:1
+cursor-invert-fg-bg

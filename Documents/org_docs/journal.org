@@ -1873,8 +1873,14 @@ working. Shower replaced and working by 11:00. Well done Metropolitan!
     discount still applied :-) Telly to be delivered on Tuesday.
 * 2025
 ** January
-[2025-01-24 Fri] - Contacted Toob about installation of 1GB internet
+*** [2025-01-24 Fri] - Contacted Toob about installation of 1GB internet
 service. Went really smoothly and arranged for 3rd Feb in 2 weeks
 time. Was impressed how easy it was to switch to new ISP provider.
 Toob to do everything and Talltalk setvice will not be disconnected
 until new service up and running :-)
+
+*** [2025-01-30 Thu] - Toob router arrived.
+*** [2025-02-03 Mon] - City Fibre installed new 900mbs full fibre
+    broadband. Tom and Dale did an excellent job. Ethernet and
+    wireless working as expected. Need new ethernet cable to connect
+    Google Streamer to new Linsys router.

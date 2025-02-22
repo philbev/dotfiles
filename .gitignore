@@ -106,3 +106,4 @@ scummvm
 *.jpg
 .config/drkonqirc
 temp_videos/
+.var/
