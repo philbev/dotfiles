@@ -1,0 +1,29 @@
+{
+  "add a plugin dialog": "/home/phil/Downloads/dedrm",
+  "add books dialog dir": "/home/phil/Calibre Library/Baron Schwartz/bash-parameter-expansion-cheatsheet (110)",
+  "add books dialog dir-last-used-filter-spec-all-files": false,
+  "catalogs_to_be_synced": {
+    "__class__": "set",
+    "__value__": []
+  },
+  "sort_history": [
+    [
+      "series",
+      true
+    ],
+    [
+      "title",
+      true
+    ],
+    [
+      "timestamp",
+      false
+    ],
+    [
+      "timestamp",
+      false
+    ]
+  ],
+  "welcome_wizard_device": "kobo_vox",
+  "welcome_wizard_was_run": true
+}

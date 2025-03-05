@@ -1,0 +1,143 @@
+{
+  "geometry-of-main_window_geometry": {
+    "frame_geometry": {
+      "height": 1024,
+      "width": 948,
+      "x": 962,
+      "y": 46
+    },
+    "full_screened": false,
+    "geometry": {
+      "height": 1020,
+      "width": 944,
+      "x": 964,
+      "y": 48
+    },
+    "maximized": false,
+    "normal_geometry": {
+      "height": 1020,
+      "width": 944,
+      "x": 964,
+      "y": 48
+    },
+    "qt": {
+      "__class__": "bytearray",
+      "__value__": "AdnQywADAAAAAAPCAAAALgAAB3UAAAQtAAADxAAAADAAAAdzAAAEKwAAAAAAAAAAB4AAAAPEAAAAMAAAB3MAAAQr"
+    },
+    "screen": {
+      "depth": 24,
+      "device_pixel_ratio": 1.0,
+      "geometry_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920,
+        "x": 0,
+        "y": 0
+      },
+      "index_in_screens_list": 0,
+      "manufacturer": "Philips Consumer Electronics Company",
+      "model": "32M1C5500V",
+      "name": "DisplayPort-1",
+      "serial": "AU02307006696",
+      "size_in_logical_pixels": {
+        "height": 1080,
+        "width": 1920
+      },
+      "virtual_geometry": {
+        "height": 1080,
+        "width": 3840,
+        "x": 0,
+        "y": 0
+      }
+    }
+  },
+  "main_window_state": {
+    "__class__": "bytearray",
+    "__value__": "AAAA/wAAAAH9AAAAAgAAAAAAAAAAAAAAAPwCAAAAAvsAAAAQAHQAbwBjAC0AZABvAGMAawAAAAAA/////wAAAIoA////+wAAABYAcwBlAGEAcgBjAGgALQBkAG8AYwBrAAAAAAD/////AAAAmgD///8AAAABAAAAAAAAAAD8AgAAAAT7AAAAFgBsAG8AbwBrAHUAcAAtAGQAbwBjAGsAAAAAAP////8AAACDAP////sAAAAcAGIAbwBvAGsAbQBhAHIAawBzAC0AZABvAGMAawAAAAAA/////wAAAPIA////+wAAABwAaQBuAHMAcABlAGMAdABvAHIALQBkAG8AYwBrAAAAAAD/////AAAAFAD////7AAAAHgBoAGkAZwBoAGwAaQBnAGgAdABzAC0AZABvAGMAawAAAAAA/////wAAANcA////AAADsAAAA/wAAAAEAAAABAAAAAgAAAAI/AAAAAEAAAAAAAAAAQAAAB4AYQBjAHQAaQBvAG4AcwBfAHQAbwBvAGwAYgBhAHICAAAAAP////8AAAAAAAAAAA=="
+  },
+  "old_prefs_migrated": true,
+  "session_data": {
+    "book_scrollbar": true,
+    "controls_help_shown_count": 2,
+    "standalone_font_settings": {},
+    "standalone_misc_settings": {
+      "remember_last_read": true,
+      "remember_window_geometry": false,
+      "save_annotations_in_ebook": true,
+      "singleinstance": false
+    },
+    "standalone_recently_opened": [
+      {
+        "authors": [
+          "J.K. Rowling"
+        ],
+        "key": "/home/phil/Calibre Library/J.K. Rowling/Harry Potter and the Philosopher's Stone_ Illustrated [Kindle in Motion] (Illustrated Harry Pott (9)/Harry Potter and the Philosopher's Stone_ - J.K. Rowling.azw3",
+        "pathtoebook": "/home/phil/Calibre Library/J.K. Rowling/Harry Potter and the Philosopher's Stone_ Illustrated [Kindle in Motion] (Illustrated Harry Pott (9)/Harry Potter and the Philosopher's Stone_ - J.K. Rowling.azw3",
+        "timestamp": "2025-02-24T13:44:27.540Z",
+        "title": "Harry Potter and the Philosopher's Stone: Illustrated [Kindle in Motion] (Illustrated Harry Potter)"
+      },
+      {
+        "authors": [
+          "J.K. Rowling"
+        ],
+        "key": "/home/phil/Calibre Library/J.K. Rowling/Harry Potter and the Philosopher's Stone_ Illustrated [Kindle in Motion] (Illustrated Harry Pott (9)/Harry Potter and the Philosopher's Stone_ - J.K. Rowling.epub",
+        "pathtoebook": "/home/phil/Calibre Library/J.K. Rowling/Harry Potter and the Philosopher's Stone_ Illustrated [Kindle in Motion] (Illustrated Harry Pott (9)/Harry Potter and the Philosopher's Stone_ - J.K. Rowling.epub",
+        "timestamp": "2025-02-24T13:43:04.766Z",
+        "title": "Harry Potter and the Philosopher's Stone: Illustrated [Kindle in Motion] (Illustrated Harry Potter)"
+      },
+      {
+        "authors": [
+          "Jason Cannon"
+        ],
+        "key": "/home/phil/Calibre Library/Jason Cannon/Command Line Kung Fu_ Bash Scripting Tricks, Linux Shell Programming Tips, and Bash One-liners (7)/Command Line Kung Fu_ Bash Scripting Trick - Jason Cannon.azw3",
+        "pathtoebook": "/home/phil/Calibre Library/Jason Cannon/Command Line Kung Fu_ Bash Scripting Tricks, Linux Shell Programming Tips, and Bash One-liners (7)/Command Line Kung Fu_ Bash Scripting Trick - Jason Cannon.azw3",
+        "timestamp": "2025-02-24T13:37:01.251Z",
+        "title": "Command Line Kung Fu: Bash Scripting Tricks, Linux Shell Programming Tips, and Bash One-liners"
+      },
+      {
+        "authors": [
+          "Jason Cannon"
+        ],
+        "key": "/home/phil/Calibre Library/Jason Cannon/Command Line Kung Fu_ Bash Scripting Tricks, Linux Shell Programming Tips, and Bash One-liners (7)/Command Line Kung Fu_ Bash Scripting Trick - Jason Cannon.epub",
+        "pathtoebook": "/home/phil/Calibre Library/Jason Cannon/Command Line Kung Fu_ Bash Scripting Tricks, Linux Shell Programming Tips, and Bash One-liners (7)/Command Line Kung Fu_ Bash Scripting Trick - Jason Cannon.epub",
+        "timestamp": "2025-02-24T13:36:04.296Z",
+        "title": "Command Line Kung Fu: Bash Scripting Tricks, Linux Shell Programming Tips, and Bash One-liners"
+      },
+      {
+        "authors": [
+          "Baron Schwartz"
+        ],
+        "key": "/home/phil/Calibre Library/Baron Schwartz/bash-parameter-expansion-cheatsheet (2)/bash-parameter-expansion-cheatsheet - Baron Schwartz.epub",
+        "pathtoebook": "/home/phil/Calibre Library/Baron Schwartz/bash-parameter-expansion-cheatsheet (2)/bash-parameter-expansion-cheatsheet - Baron Schwartz.epub",
+        "timestamp": "2025-02-24T13:33:50.000Z",
+        "title": "bash-parameter-expansion-cheatsheet"
+      },
+      {
+        "authors": [
+          "Lewis Carroll"
+        ],
+        "key": "/home/phil/Calibre Library/Lewis Carroll/Alice's Adventures in Wonderland (4)/Alice's Adventures in Wonderland - Lewis Carroll.epub",
+        "pathtoebook": "/home/phil/Calibre Library/Lewis Carroll/Alice's Adventures in Wonderland (4)/Alice's Adventures in Wonderland - Lewis Carroll.epub",
+        "timestamp": "2025-02-23T16:26:58.783Z",
+        "title": "Alice's Adventures in Wonderland"
+      },
+      {
+        "authors": [
+          "Charles Dickens"
+        ],
+        "key": "/home/phil/Calibre Library/Charles Dickens/A Tale of Two Cities (Penguin Classics) (3)/A Tale of Two Cities (Penguin Classics) - Charles Dickens.epub",
+        "pathtoebook": "/home/phil/Calibre Library/Charles Dickens/A Tale of Two Cities (Penguin Classics) (3)/A Tale of Two Cities (Penguin Classics) - Charles Dickens.epub",
+        "timestamp": "2025-02-23T16:24:48.705Z",
+        "title": "A Tale of Two Cities (Penguin Classics)"
+      },
+      {
+        "authors": [
+          "John Schember"
+        ],
+        "key": "/home/phil/Calibre Library/John Schember/Quick Start Guide (1)/Quick Start Guide - John Schember.epub",
+        "pathtoebook": "/home/phil/Calibre Library/John Schember/Quick Start Guide (1)/Quick Start Guide - John Schember.epub",
+        "timestamp": "2025-02-23T11:03:22.576Z",
+        "title": "Quick Start Guide"
+      }
+    ]
+  }
+}

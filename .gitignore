@@ -107,3 +107,7 @@ scummvm
 .config/drkonqirc
 temp_videos/
 .var/
+.config/kate*
+.config/konq_history
+.emacs.d/eln-cache
+amazon/
