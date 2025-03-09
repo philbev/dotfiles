@@ -69,10 +69,11 @@ SCHEDULED: <2025-09-01 Mon ++6m> :PROPERTIES:
 *** DONE - Collect prescription from chemist. SCHEDULED: <2019-11-28 Thu> 
 *** CANCELLED - Dentist SCHEDULED: <2020-05-05 Tue 11:15> 
 *** TODO - Clean hearing aids 
-SCHEDULED: <2025-03-09 Sun +1w>
+SCHEDULED: <2025-03-16 Sun +1w>
 :PROPERTIES: 
-:LAST_REPEAT: [2025-03-02 Sun 10:07]
+:LAST_REPEAT: [2025-03-09 Sun 09:46]
 :END: 
+- State "DONE"       from "TODO"       [2025-03-09 Sun 09:46]
 - State "DONE"       from "TODO"       [2025-03-02 Sun 10:07]
 - State "DONE"       from "TODO"       [2025-02-23 Sun 09:43]
 - State "DONE"       from "TODO"       [2025-02-16 Sun 11:15]
@@ -661,10 +662,11 @@ SCHEDULED: <2025-03-16 Sun ++2w>
                                                                                                  :END:
 
 *** TODO - Blue bin collection day tomorrow.
-SCHEDULED: <2025-03-09 Sun ++2w>a
+SCHEDULED: <2025-03-23 Sun ++2w>a
                                                                                           :PROPERTIES:
-											  :LAST_REPEAT: [2025-02-23 Sun 09:43]
+											  :LAST_REPEAT: [2025-03-09 Sun 09:46]
                                                                                                  :END:
+											  - State "DONE"       from "TODO"       [2025-03-09 Sun 09:46]
 											  - State "DONE"       from "TODO"       [2025-02-23 Sun 09:43]
 											  - State "DONE"       from "TODO"       [2025-02-09 Sun 09:58]
 											  - State "DONE"       from "TODO"       [2025-01-26 Sun 09:59]
@@ -784,10 +786,14 @@ SCHEDULED: <2025-03-09 Sun ++2w>a
     - State "DONE"       from "BIRTHDAY"   [2022-08-22 Mon 08:08]
     - State "DONE"       from "REMINDER"   [2022-01-18 Tue 08:48]
 *** TODO - OKEachDay.
-SCHEDULED: <2025-03-06 Thu +1d>
+SCHEDULED: <2025-03-10 Mon +1d>
 :PROPERTIES:
-:LAST_REPEAT: [2025-03-05 Wed 09:40]
+:LAST_REPEAT: [2025-03-09 Sun 09:46]
 :END:
+- State "DONE"       from "TODO"       [2025-03-09 Sun 09:46]
+- State "DONE"       from "TODO"       [2025-03-08 Sat 09:43]
+- State "DONE"       from "TODO"       [2025-03-07 Fri 09:16]
+- State "DONE"       from "TODO"       [2025-03-06 Thu 10:09]
 - State "DONE"       from "TODO"       [2025-03-05 Wed 09:40]
 - State "DONE"       from "TODO"       [2025-03-04 Tue 10:23]
 - State "DONE"       from "TODO"       [2025-03-03 Mon 10:03]
