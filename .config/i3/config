@@ -210,7 +210,7 @@ exec_always --no-startup-id xrandr --output HDMI-1 --off --output DisplayPort-1 
 exec_always --no-startup-id autotiling
 exec_always --no-startup-id ~/.fehbg
 exec_always --no-startup-id ~/.config/polybar/launch.sh
-exec_always --no-startup-id picom -f
+exec_always --no-startup-id picom -b
 exec_always --no-startup-id /usr/lib/polkit-kde-authentication-agent-1
 exec_always --no-startup-id xset s 9000 -dpms
 

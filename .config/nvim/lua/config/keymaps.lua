@@ -25,6 +25,9 @@ map('n', '<leader>m', '<cmd>lua MiniFiles.open()<cr>', {})
 map('n', ']c', '<cmd>lua vim.lsp.buf.code_action()<cr>', { desc = 'code action' })
 map('n', ']f', '<cmd>lua vim.lsp.buf.format()<cr>', { desc = 'format code' })
 
+-------------------- INSERT MODE MAPPINGS --------------------
+map('i', '<M-4>', '£', {})
+
 -------------------- VISUAL MODE MAPPINGS --------------------
 map('v', '<M-Down>', ":m '>+1<cr>gv", {})
 map('v', '<M-Up>', ":m '<-2<cr>gv", {})

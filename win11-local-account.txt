@@ -1,0 +1,2 @@
+Ah men, that windows initial setup is a nightmare. I would recommend, to avoid using a MS account, to either disconnect the network from the VM until it's fully installed, using the  option when it will ask to connect to internet (shift + F10 then "oobe\bypassnro"). Alternatively, setup it for work and don't add any domain so it will create a local account instead of using the MS one.
+Thanks for the advises on the rest of content, great stuff.

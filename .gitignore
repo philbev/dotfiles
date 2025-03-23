@@ -111,3 +111,4 @@ temp_videos/
 .config/konq_history
 .emacs.d/eln-cache
 amazon/
+*.png
