@@ -3,6 +3,7 @@
 -- TODO: Set up auto formatting (see teej's video on YouTube),
 -- TODO: Configure luasnips.
 -- TODO: Install/configure harpoon plugin.
+-- TODO: Install/configure vimbegood plugin.
 
 -- Bootstrap lazy.nvim
 local lazypath = vim.fn.stdpath("data") .. "/lazy/lazy.nvim"

@@ -9,7 +9,7 @@ ag('daffy', {
 
 au({ 'TextYankPost' }, {
   group = 'daffy',
-  command = 'lua vim.highlight.on_yank({ timeout = 600 })'
+  command = 'lua vim.hl.on_yank({ timeout = 600 })'
 })
 
 au({ 'BufEnter', 'WinEnter' }, {

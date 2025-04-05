@@ -186,10 +186,11 @@ SCHEDULED: <2025-04-06 Sun +1w>
 - State "CANCELLED"  from "TODO"       [2023-02-19 Sun 17:31] 
 - State "CANCELLED"  from "TODO"       [2023-02-12 Sun 10:30] 
 *** TODO - Eye pad treatment. 
-SCHEDULED: <2025-04-01 Tue +1w>
+SCHEDULED: <2025-04-08 Tue +1w>
 :PROPERTIES: 
-:LAST_REPEAT: [2025-03-25 Tue 10:15]
+:LAST_REPEAT: [2025-04-01 Tue 09:25]
 :END: 
+- State "DONE"       from "TODO"       [2025-04-01 Tue 09:25]
 - State "DONE"       from "TODO"       [2025-03-25 Tue 10:15]
 - State "DONE"       from "TODO"       [2025-03-18 Tue 10:04]
 - State "DONE"       from "TODO"       [2025-03-11 Tue 09:08]
@@ -323,10 +324,11 @@ SCHEDULED: <2023-08-22 Tue>
 - State "DONE"       from "TODO"       [2023-08-10 Thu 08:06]
 - State "DONE"       from "REMINDER"   [2023-08-09 Wed 06:55]
 *** TODO - Olive oil in ears
-SCHEDULED: <2025-04-01 Tue +1m>
+SCHEDULED: <2025-05-01 Thu +1m>
 :PROPERTIES:
-:LAST_REPEAT: [2025-03-01 Sat 09:44]
+:LAST_REPEAT: [2025-04-01 Tue 09:25]
 :END:
+- State "DONE"       from "TODO"       [2025-04-01 Tue 09:25]
 - State "DONE"       from "TODO"       [2025-03-01 Sat 09:44]
 - State "DONE"       from "TODO"       [2025-02-01 Sat 09:23]
 - State "CANCELLED"  from "TODO"       [2025-01-02 Thu 09:52]
@@ -480,10 +482,11 @@ SCHEDULED: <2025-04-07 Mon +2w>
 - State "DONE"       from "TODO"       [2023-02-20 Mon 09:57]
 - State "DONE"       from "TODO"       [2023-02-13 Mon 10:49]
 *** TODO - Recharge toothbrush
-SCHEDULED: <2025-03-31 Mon +1w>
+SCHEDULED: <2025-04-07 Mon +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2025-03-24 Mon 10:02]
+:LAST_REPEAT: [2025-03-31 Mon 10:13]
 :END:
+- State "DONE"       from "TODO"       [2025-03-31 Mon 10:13]
 - State "DONE"       from "TODO"       [2025-03-24 Mon 10:02]
 - State "DONE"       from "TODO"       [2025-03-18 Tue 10:04]
 - State "DONE"       from "TODO"       [2025-03-10 Mon 10:12]
@@ -802,10 +805,16 @@ SCHEDULED: <2025-04-06 Sun ++2w>a
     - State "DONE"       from "BIRTHDAY"   [2022-08-22 Mon 08:08]
     - State "DONE"       from "REMINDER"   [2022-01-18 Tue 08:48]
 *** TODO - OKEachDay.
-SCHEDULED: <2025-03-31 Mon +1d>
+SCHEDULED: <2025-04-06 Sun +1d>
 :PROPERTIES:
-:LAST_REPEAT: [2025-03-30 Sun 10:03]
+:LAST_REPEAT: [2025-04-05 Sat 09:28]
 :END:
+- State "DONE"       from "TODO"       [2025-04-05 Sat 09:28]
+- State "DONE"       from "TODO"       [2025-04-04 Fri 09:57]
+- State "DONE"       from "TODO"       [2025-04-03 Thu 10:17]
+- State "DONE"       from "TODO"       [2025-04-02 Wed 10:04]
+- State "DONE"       from "TODO"       [2025-04-01 Tue 09:25]
+- State "DONE"       from "TODO"       [2025-03-31 Mon 10:13]
 - State "DONE"       from "TODO"       [2025-03-30 Sun 10:03]
 - State "DONE"       from "TODO"       [2025-03-29 Sat 09:30]
 - State "DONE"       from "TODO"       [2025-03-28 Fri 09:50]
@@ -1248,6 +1257,8 @@ SCHEDULED: <2025-01-28 Tue 10:30>
 *** CANCELLED - Bathroom Survey for Pilon.
 Pilon rang to say surveyor could not make it :-(
 SCHEDULED: <2025-03-27 Thu>
+*** REMINDER - Annual service for boiler.
+SCHEDULED: <2025-04-15 Tue 08:00-12:00>
 * Boxley Drive Move                                             :Boxley:
 ** DONE Take documents to Emma Sheffield at the Community Centre.
    SCHEDULED: <2017-08-16 Wed 11:00>
