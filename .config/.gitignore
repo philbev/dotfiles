@@ -75,3 +75,7 @@ kservicemenurc
 ktrashrc
 calibre/
 GIMP/
+akonadi*
+emaildefaults
+emailidentities
+specialmailcollectionsrc

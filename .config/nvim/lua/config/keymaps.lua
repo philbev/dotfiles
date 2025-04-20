@@ -52,8 +52,8 @@ wk.add({
     -- Nested mappings are allowed and can be added in any order
     -- Most attributes can be inherited or overridden on any level
     -- There's no limit to the depth of nesting
-    mode = { 'n', 'v' },                           -- NORMAL and VISUAL mode
-    { '<leader>q', '<cmd>qa<cr>', desc = 'Quit' }, -- no need to specify mode since it's inherited
-    { '<leader>w', '<cmd>wa<cr>', desc = 'Write' },
+    mode = { 'n', 'v' }, -- NORMAL and VISUAL mode
+    -- { '<leader>q', '<cmd>qa<cr>', desc = 'Quit' }, -- no need to specify mode since it's inherited
+    -- { '<leader>w', '<cmd>wa<cr>', desc = 'Write' },
   }
 })

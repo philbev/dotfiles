@@ -6,6 +6,12 @@
     "__class__": "set",
     "__value__": []
   },
+  "notified-version-updates": {
+    "__class__": "set",
+    "__value__": [
+      "8.2"
+    ]
+  },
   "sort_history": [
     [
       "series",
