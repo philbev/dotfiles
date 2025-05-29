@@ -21,6 +21,7 @@ set.timeout = true
 set.timeoutlen = 1500
 set.clipboard = 'unnamedplus'
 set.virtualedit = 'block'
+set.hlsearch = false
 
 -------------------- GLOBAL OPTIONS --------------------
 -- vim.g.gruvbox_baby_telescope_theme = 1

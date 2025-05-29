@@ -69,10 +69,11 @@ SCHEDULED: <2025-09-01 Mon ++6m> :PROPERTIES:
 *** DONE - Collect prescription from chemist. SCHEDULED: <2019-11-28 Thu> 
 *** CANCELLED - Dentist SCHEDULED: <2020-05-05 Tue 11:15> 
 *** TODO - Clean hearing aids 
-SCHEDULED: <2025-05-25 Sun +1w>
+SCHEDULED: <2025-06-01 Sun +1w>
 :PROPERTIES: 
-:LAST_REPEAT: [2025-05-18 Sun 09:55]
+:LAST_REPEAT: [2025-05-25 Sun 10:07]
 :END: 
+- State "DONE"       from "TODO"       [2025-05-25 Sun 10:07]
 - State "DONE"       from "TODO"       [2025-05-18 Sun 09:55]
 - State "DONE"       from "TODO"       [2025-05-11 Sun 09:49]
 - State "DONE"       from "TODO"       [2025-05-04 Sun 09:43]
@@ -193,10 +194,12 @@ SCHEDULED: <2025-05-25 Sun +1w>
 - State "CANCELLED"  from "TODO"       [2023-02-19 Sun 17:31] 
 - State "CANCELLED"  from "TODO"       [2023-02-12 Sun 10:30] 
 *** TODO - Eye pad treatment. 
-SCHEDULED: <2025-05-20 Tue +1w>
+SCHEDULED: <2025-06-03 Tue +1w>
 :PROPERTIES: 
-:LAST_REPEAT: [2025-05-13 Tue 09:05]
+:LAST_REPEAT: [2025-05-27 Tue 10:06]
 :END: 
+- State "DONE"       from "TODO"       [2025-05-27 Tue 10:06]
+- State "DONE"       from "TODO"       [2025-05-20 Tue 10:02]
 - State "DONE"       from "TODO"       [2025-05-13 Tue 09:05]
 - State "DONE"       from "TODO"       [2025-05-06 Tue 09:29]
 - State "DONE"       from "TODO"       [2025-04-29 Tue 10:05]
@@ -416,10 +419,11 @@ SCHEDULED: <2025-05-02 Fri 15:30>
 * PERSONAL :PERSONAL                                            :personal:
 ** REPEAT EVENTS
 *** TODO - Water spider plant (Mr. Johnstone :-))
-SCHEDULED: <2025-05-19 Mon +2w>
+SCHEDULED: <2025-06-02 Mon +2w>
 :PROPERTIES:
-:LAST_REPEAT: [2025-05-05 Mon 10:02]
+:LAST_REPEAT: [2025-05-19 Mon 09:50]
 :END:
+- State "DONE"       from "TODO"       [2025-05-19 Mon 09:50]
 - State "DONE"       from "TODO"       [2025-05-05 Mon 10:02]
 - State "DONE"       from "TODO"       [2025-04-21 Mon 10:10]
 - State "DONE"       from "TODO"       [2025-04-07 Mon 10:18]
@@ -501,10 +505,12 @@ SCHEDULED: <2025-05-19 Mon +2w>
 - State "DONE"       from "TODO"       [2023-02-20 Mon 09:57]
 - State "DONE"       from "TODO"       [2023-02-13 Mon 10:49]
 *** TODO - Recharge toothbrush
-SCHEDULED: <2025-05-19 Mon +1w>
+SCHEDULED: <2025-06-02 Mon +1w>
 :PROPERTIES:
-:LAST_REPEAT: [2025-05-12 Mon 09:42]
+:LAST_REPEAT: [2025-05-26 Mon 10:06]
 :END:
+- State "DONE"       from "TODO"       [2025-05-26 Mon 10:06]
+- State "DONE"       from "TODO"       [2025-05-19 Mon 09:50]
 - State "DONE"       from "TODO"       [2025-05-12 Mon 09:42]
 - State "DONE"       from "TODO"       [2025-05-05 Mon 10:02]
 - State "DONE"       from "TODO"       [2025-04-28 Mon 07:19]
@@ -624,10 +630,11 @@ SCHEDULED: <2025-05-19 Mon +1w>
 - State "DONE"       from "TODO"       [2023-02-20 Mon 09:57]
 - State "DONE"       from "TODO"       [2023-02-13 Mon 10:49]
 *** TODO - Grey bin collection tomorrow
-SCHEDULED: <2025-05-25 Sun ++2w>
+SCHEDULED: <2025-06-08 Sun ++2w>
                                                                                           :PROPERTIES:
-											  :LAST_REPEAT: [2025-05-11 Sun 09:49]
+											  :LAST_REPEAT: [2025-05-25 Sun 10:08]
                                                                                                  :END:
+											  - State "DONE"       from "TODO"       [2025-05-25 Sun 10:08]
 											  - State "DONE"       from "TODO"       [2025-05-11 Sun 09:49]
 											  - State "DONE"       from "TODO"       [2025-04-27 Sun 10:10]
 											  - State "DONE"       from "TODO"       [2025-04-13 Sun 09:23]
@@ -837,10 +844,21 @@ SCHEDULED: <2025-06-01 Sun ++2w>a
     - State "DONE"       from "BIRTHDAY"   [2022-08-22 Mon 08:08]
     - State "DONE"       from "REMINDER"   [2022-01-18 Tue 08:48]
 *** TODO - OKEachDay.
-SCHEDULED: <2025-05-19 Mon +1d>
+SCHEDULED: <2025-05-30 Fri +1d>
 :PROPERTIES:
-:LAST_REPEAT: [2025-05-18 Sun 09:55]
+:LAST_REPEAT: [2025-05-29 Thu 09:48]
 :END:
+- State "DONE"       from "TODO"       [2025-05-29 Thu 09:48]
+- State "DONE"       from "TODO"       [2025-05-28 Wed 09:16]
+- State "DONE"       from "TODO"       [2025-05-27 Tue 10:06]
+- State "DONE"       from "TODO"       [2025-05-26 Mon 10:06]
+- State "DONE"       from "TODO"       [2025-05-25 Sun 10:08]
+- State "DONE"       from "TODO"       [2025-05-24 Sat 09:50]
+- State "DONE"       from "TODO"       [2025-05-23 Fri 09:51]
+- State "DONE"       from "TODO"       [2025-05-22 Thu 10:00]
+- State "DONE"       from "TODO"       [2025-05-21 Wed 09:54]
+- State "DONE"       from "TODO"       [2025-05-20 Tue 10:02]
+- State "DONE"       from "TODO"       [2025-05-19 Mon 09:50]
 - State "DONE"       from "TODO"       [2025-05-18 Sun 09:55]
 - State "DONE"       from "TODO"       [2025-05-17 Sat 10:02]
 - State "DONE"       from "TODO"       [2025-05-16 Fri 10:16]
@@ -1344,9 +1362,9 @@ SCHEDULED: <2025-05-14 Wed 09:00-15:00>
 SCHEDULED: <2025-05-15 Thu>
 *** DONE - Paul back from Czwch Republic.
 SCHEDULED: <2025-05-16 Fri>
-*** REMINDER - Overnight maintenance for City Fibre.
+*** DONE - Overnight maintenance for City Fibre.
 SCHEDULED: <2025-05-28 Wed 00:01-06:00>
-* Boxley Drive Move                                             :Boxley:
+* METROPOLITAN                                                  :Metropolitan:
 ** DONE Take documents to Emma Sheffield at the Community Centre.
    SCHEDULED: <2017-08-16 Wed 11:00>
 
@@ -1380,3 +1398,6 @@ SCHEDULED: <2025-05-28 Wed 00:01-06:00>
    SCHEDULED: <2017-09-14 Thu>
 
    
+
+** REMINDER - Residents meeting at Community Centre.
+SCHEDULED: <2025-05-29 Thu 13:00-15:00>

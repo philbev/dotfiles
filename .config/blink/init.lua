@@ -27,3 +27,10 @@ require("lazy").setup("plugins")
 require'configs.keymaps'
 require'configs.autocmds'
 require'configs.colors'
+
+vim.lsp.enable({
+  'lua_ls',
+  'stylua',
+  'pyright',
+  'bashls'
+})

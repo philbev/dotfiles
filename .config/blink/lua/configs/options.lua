@@ -22,3 +22,4 @@ set.timeoutlen = 1200
 set.clipboard = 'unnamedplus'
 set.virtualedit = 'block'
 set.winborder = 'rounded'
+set.hlsearch = false
