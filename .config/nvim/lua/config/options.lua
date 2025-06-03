@@ -27,4 +27,4 @@ set.hlsearch = false
 -- vim.g.gruvbox_baby_telescope_theme = 1
 
 -------------------- DIAGNOSTICS --------------------
-vim.diagnostic.config({ virtual_text = true })
+vim.diagnostic.config({ virtual_lines = true })

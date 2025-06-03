@@ -28,9 +28,9 @@ require'configs.keymaps'
 require'configs.autocmds'
 require'configs.colors'
 
-vim.lsp.enable({
-  'lua_ls',
-  'stylua',
-  'pyright',
-  'bashls'
-})
+-- vim.lsp.enable({
+--   'lua_ls',
+--   'stylua',
+--   'pyright',
+--   'bashls'
+-- })

@@ -23,3 +23,5 @@ set.clipboard = 'unnamedplus'
 set.virtualedit = 'block'
 set.winborder = 'rounded'
 set.hlsearch = false
+
+vim.diagnostic.config({ virtual_lines = true })
