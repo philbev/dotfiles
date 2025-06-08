@@ -70,10 +70,11 @@ SCHEDULED: <2025-09-01 Mon ++6m> :PROPERTIES:
 *** DONE - Collect prescription from chemist. SCHEDULED: <2019-11-28 Thu> 
 *** CANCELLED - Dentist SCHEDULED: <2020-05-05 Tue 11:15> 
 *** TODO - Clean hearing aids 
-SCHEDULED: <2025-06-08 Sun +1w>
+SCHEDULED: <2025-06-15 Sun +1w>
 :PROPERTIES: 
-:LAST_REPEAT: [2025-06-01 Sun 10:27]
+:LAST_REPEAT: [2025-06-08 Sun 10:11]
 :END: 
+- State "DONE"       from "TODO"       [2025-06-08 Sun 10:11]
 - State "DONE"       from "TODO"       [2025-06-01 Sun 10:27]
 - State "DONE"       from "TODO"       [2025-05-25 Sun 10:07]
 - State "DONE"       from "TODO"       [2025-05-18 Sun 09:55]
@@ -636,10 +637,11 @@ SCHEDULED: <2025-06-09 Mon +1w>
 - State "DONE"       from "TODO"       [2023-02-20 Mon 09:57]
 - State "DONE"       from "TODO"       [2023-02-13 Mon 10:49]
 *** TODO - Grey bin collection tomorrow
-SCHEDULED: <2025-06-08 Sun ++2w>
+SCHEDULED: <2025-06-22 Sun ++2w>
                                                                                           :PROPERTIES:
-											  :LAST_REPEAT: [2025-05-25 Sun 10:08]
+											  :LAST_REPEAT: [2025-06-08 Sun 10:11]
                                                                                                  :END:
+											  - State "DONE"       from "TODO"       [2025-06-08 Sun 10:11]
 											  - State "DONE"       from "TODO"       [2025-05-25 Sun 10:08]
 											  - State "DONE"       from "TODO"       [2025-05-11 Sun 09:49]
 											  - State "DONE"       from "TODO"       [2025-04-27 Sun 10:10]
@@ -851,10 +853,15 @@ SCHEDULED: <2025-06-15 Sun ++2w>a
     - State "DONE"       from "BIRTHDAY"   [2022-08-22 Mon 08:08]
     - State "DONE"       from "REMINDER"   [2022-01-18 Tue 08:48]
 *** TODO - OKEachDay.
-SCHEDULED: <2025-06-04 Wed +1d>
+SCHEDULED: <2025-06-09 Mon +1d>
 :PROPERTIES:
-:LAST_REPEAT: [2025-06-03 Tue 09:47]
+:LAST_REPEAT: [2025-06-08 Sun 10:11]
 :END:
+- State "DONE"       from "TODO"       [2025-06-08 Sun 10:11]
+- State "DONE"       from "TODO"       [2025-06-07 Sat 09:45]
+- State "DONE"       from "TODO"       [2025-06-06 Fri 08:04]
+- State "DONE"       from "TODO"       [2025-06-05 Thu 09:49]
+- State "DONE"       from "TODO"       [2025-06-04 Wed 09:55]
 - State "DONE"       from "TODO"       [2025-06-03 Tue 09:47]
 - State "DONE"       from "TODO"       [2025-06-02 Mon 10:06]
 - State "DONE"       from "TODO"       [2025-06-01 Sun 10:27]
@@ -1414,5 +1421,5 @@ SCHEDULED: <2025-05-28 Wed 00:01-06:00>
 ** DONE - Residents meeting at Community Centre.
 SCHEDULED: <2025-05-29 Thu 13:00-15:00>
 
-** REMINDER - Auditor to inspect Aaron Services inspection.
+** DONE - Auditor to inspect Aaron Services inspection.
 SCHEDULED: <2025-06-06 Fri>
